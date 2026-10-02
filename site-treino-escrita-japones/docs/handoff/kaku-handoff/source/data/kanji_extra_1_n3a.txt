@@ -1,0 +1,96 @@
+# kanji|pt|en|on|kun|JLPT|série|traços|exemplos|frase|frase_pt|frase_en|radical|decomposição|formação
+的|alvo; -ico (sufixo)|target; -ic|テキ|まと|N4|4|8|目的:もくてき:objetivo:purpose¦具体的:ぐたいてき:concreto:concrete¦的:まと:alvo:target|日本に来た目的は何ですか。|Qual é o objetivo da sua vinda ao Japão?|What is the purpose of your coming to Japan?|白|白 勺|F;白=s,勺=f:シャク;
+切|cortar|cut|セツ,サイ|き.る,き.れる|N4|2|4|切る:きる:cortar:to cut¦大切:たいせつ:importante:important¦切手:きって:selo:stamp|ナイフでパンを切ります。|Corto o pão com a faca.|I cut the bread with a knife.|刀|七 刀|F;刀=s,七=f:シチ;
+身|corpo; si mesmo|body; oneself|シン|み|N4|3|7|身長:しんちょう:altura:height¦自身:じしん:si próprio:oneself¦中身:なかみ:conteúdo:contents|兄は身長が高いです。|Meu irmão mais velho é alto.|My older brother is tall.|身|-|P;;Desenho de uma pessoa com o ventre em destaque.
+可|possível; aprovar|possible; approve|カ|—|N4|5|5|可能:かのう:possível:possible¦許可:きょか:permissão:permission|ここで写真を撮ることは可能ですか。|É possível tirar fotos aqui?|Is it possible to take photos here?|口|丁 口|
+去|ir embora; passado|leave; past|キョ,コ|さ.る|N4|3|5|去年:きょねん:ano passado:last year¦過去:かこ:passado:the past|去年、日本に行きました。|No ano passado fui ao Japão.|I went to Japan last year.|厶|土 厶|
+部|parte; departamento|part; department|ブ|—|N3|3|11|部屋:へや:quarto:room¦部分:ぶぶん:parte:part¦全部:ぜんぶ:tudo:all|自分の部屋を掃除しました。|Limpei meu quarto.|I cleaned my room.|阝|立 口 阝|F;阝=s,咅=f:ホウ;
+合|juntar; combinar|fit; combine|ゴウ,ガッ,カッ|あ.う,あ.わせる|N3|2|6|試合:しあい:partida:match¦合う:あう:combinar:to fit¦場合:ばあい:caso:case|このシャツは私に合います。|Esta camisa combina comigo.|This shirt suits me.|口|𠆢 一 口|
+最|mais; o mais|most|サイ|もっと.も|N3|4|12|最近:さいきん:recentemente:recently¦最初:さいしょ:primeiro:first¦最後:さいご:último:last|最近、日本語の勉強を始めました。|Recentemente comecei a estudar japonês.|I recently started studying Japanese.|曰|日! 取|
+当|acertar; atual|hit; present|トウ|あ.たる,あ.てる|N3|2|6|本当:ほんとう:verdade:truth¦当日:とうじつ:no dia:on the day¦弁当:べんとう:marmita (bentô):boxed lunch|毎日お弁当を作ります。|Preparo marmita todos os dias.|I make a boxed lunch every day.|⺌|⺌ 彐|
+戦|guerra; lutar|war; fight|セン|たたか.う,いくさ|N3|4|13|戦争:せんそう:guerra:war¦戦う:たたかう:lutar:to fight|祖父は戦争の話をしてくれました。|Meu avô me contou histórias da guerra.|My grandfather told me about the war.|戈|単 戈|F;戈=s,単=f:セン;
+連|ligar; levar junto|connect; take along|レン|つ.れる,つら.なる|N3|4|10|連れる:つれる:levar (alguém):to take along¦連絡:れんらく:contato:contact|犬を連れて散歩します。|Passeio levando o cachorro.|I take the dog for a walk.|辶|辶 車|C;辶=s,車=s;
+対|oposto; contra|opposite; versus|タイ,ツイ|—|N3|3|7|反対:はんたい:oposição:opposition¦対応:たいおう:resposta; atendimento:response|私はその計画に反対です。|Sou contra esse plano.|I am against that plan.|寸|文! 寸|
+変|mudar; estranho|change; strange|ヘン|か.わる,か.える|N3|4|9|変わる:かわる:mudar:to change¦大変:たいへん:difícil; muito:tough; very¦変:へん:estranho:strange|この町は大きく変わりました。|Esta cidade mudou muito.|This town has changed a lot.|夊|亦! 夂|
+関|relação; barreira|connection; barrier|カン|せき|N3|4|14|関係:かんけい:relação:relationship¦玄関:げんかん:entrada da casa:entrance hall|玄関で靴を脱いでください。|Tire os sapatos na entrada.|Please take off your shoes at the entrance.|門|門 关|
+勝|vencer|win|ショウ|か.つ|N3|3|12|勝つ:かつ:vencer:to win¦勝負:しょうぶ:disputa:match; contest|私たちのチームが勝ちました。|Nosso time venceu.|Our team won.|力|月! 龹 力|
+解|resolver; desatar|solve; untie|カイ,ゲ|と.く,わか.る|N3|5|13|解く:とく:resolver:to solve¦理解:りかい:compreensão:understanding|この問題を解いてください。|Resolva esta questão.|Please solve this problem.|角|角 刀 牛|C;角=s,刀=s,牛=s;Uma faca (刀) separando o chifre (角) de um boi (牛).
+調|investigar; tom|investigate; tune|チョウ|しら.べる,ととの.える|N3|3|15|調べる:しらべる:pesquisar:to look up¦調子:ちょうし:condição:condition|分からない言葉を辞書で調べます。|Procuro no dicionário as palavras que não entendo.|I look up words I don't know in the dictionary.|言|言 周|F;言=s,周=f:シュウ;
+初|primeiro; início|first; beginning|ショ|はじ.め,はじ.めて,はつ|N3|4|7|初めて:はじめて:pela primeira vez:for the first time¦最初:さいしょ:primeiro:first|日本は初めてです。|É minha primeira vez no Japão.|It's my first time in Japan.|刀|衤 刀|C;衤=s,刀=s;Cortar (刀) o tecido (衤): o primeiro passo ao fazer uma roupa.
+法|lei; método|law; method|ホウ,ハッ|—|N3|4|8|方法:ほうほう:método:method¦法律:ほうりつ:lei:law¦文法:ぶんぽう:gramática:grammar|日本語の文法は難しいです。|A gramática japonesa é difícil.|Japanese grammar is difficult.|氵|氵 去|
+違|diferente; errar|differ; wrong|イ|ちが.う|N3|8|13|違う:ちがう:ser diferente; estar errado:to differ¦間違い:まちがい:erro:mistake|答えが違います。|A resposta está errada.|The answer is wrong.|辶|辶 韋|F;辶=s,韋=f:イ;
+現|aparecer; atual|appear; present|ゲン|あらわ.れる|N3|5|11|現在:げんざい:presente:the present¦現れる:あらわれる:aparecer:to appear|現在、東京に住んでいます。|Atualmente moro em Tóquio.|I currently live in Tokyo.|王|王~ 見|F;玉=s,見=f:ケン;
+夫|marido; homem|husband; man|フ,フウ|おっと|N3|4|4|夫:おっと:marido:husband¦夫婦:ふうふ:casal:married couple|夫は会社員です。|Meu marido é funcionário de empresa.|My husband is an office worker.|大|一 大|P;;Desenho de um homem adulto com um grampo no cabelo.
+選|escolher|choose|セン|えら.ぶ|N3|4|15|選ぶ:えらぶ:escolher:to choose¦選手:せんしゅ:atleta:athlete|好きな色を選んでください。|Escolha a cor de que gosta.|Please choose the color you like.|辶|辶 巽|F;辶=s,巽=f:セン;
+次|próximo|next|ジ,シ|つ.ぐ,つぎ|N3|3|6|次:つぎ:próximo:next¦目次:もくじ:sumário:table of contents|次の駅で降ります。|Desço na próxima estação.|I get off at the next station.|欠|冫! 欠|
+面|rosto; superfície|face; surface|メン|おもて,つら|N3|3|9|面白い:おもしろい:interessante:interesting¦画面:がめん:tela:screen|この本は面白いです。|Este livro é interessante.|This book is interesting.|面|-|P;;Desenho de um rosto com o contorno.
+成|tornar-se; realizar|become; accomplish|セイ,ジョウ|な.る,な.す|N3|4|6|成功:せいこう:sucesso:success¦成長:せいちょう:crescimento:growth|計画は成功しました。|O plano deu certo.|The plan succeeded.|戈|-|
+引|puxar|pull|イン|ひ.く|N3|2|4|引く:ひく:puxar:to pull¦引っ越す:ひっこす:mudar-se:to move (house)|ドアを引いてください。|Puxe a porta, por favor.|Please pull the door.|弓|弓 丨|C;弓=s,丨=s;Puxar a corda de um arco.
+確|certo; confirmar|certain; confirm|カク|たし.か,たし.かめる|N3|5|15|確か:たしか:certo; se não me engano:certain¦確認:かくにん:confirmação:confirmation|もう一度確認してください。|Confirme mais uma vez, por favor.|Please check once more.|石|石 隺|F;石=s,隺=f:カク;
+続|continuar|continue|ゾク|つづ.く,つづ.ける|N3|4|13|続く:つづく:continuar:to continue¦続ける:つづける:continuar (algo):to keep doing¦手続き:てつづき:procedimento:procedure|雨が三日も続いています。|Chove há três dias seguidos.|It has been raining for three days.|糹|糹 売|
+向|direção; voltar-se|direction; face|コウ|む.く,む.かう,む.こう|N3|3|6|向こう:むこう:do outro lado:over there¦方向:ほうこう:direção:direction|駅の向こうに公園があります。|Do outro lado da estação há um parque.|There is a park beyond the station.|口|丿 冂 口|P;;Desenho de uma casa com uma janela.
+約|promessa; aproximadamente|promise; approximately|ヤク|—|N3|4|9|約束:やくそく:promessa:promise¦予約:よやく:reserva:reservation|レストランを予約しました。|Fiz reserva no restaurante.|I made a restaurant reservation.|糹|糹 勺|F;糹=s,勺=f:シャク;
+報|informar; recompensa|report; reward|ホウ|むく.いる|N3|5|12|情報:じょうほう:informação:information¦天気予報:てんきよほう:previsão do tempo:weather forecast|天気予報を見ましたか。|Você viu a previsão do tempo?|Did you see the weather forecast?|土|幸 𠬝|
+平|plano; paz|flat; peace|ヘイ,ビョウ|たい.ら,ひら|N3|3|5|平和:へいわ:paz:peace¦平日:へいじつ:dia útil:weekday|平日は仕事で忙しいです。|Nos dias úteis estou ocupado com o trabalho.|I'm busy with work on weekdays.|干|-|
+番|número; vez; turno|number; turn|バン|—|N3|2|12|番号:ばんごう:número:number¦一番:いちばん:o mais; número um:number one¦順番:じゅんばん:ordem; vez:order; turn|電話番号を教えてください。|Me passe seu número de telefone.|Please tell me your phone number.|田|釆 田|
+神|deus; espírito|god; spirit|シン,ジン|かみ|N3|3|9|神社:じんじゃ:santuário xintoísta:Shinto shrine¦神様:かみさま:deus:god|お正月に神社へ行きます。|No Ano-Novo vou ao santuário.|I go to the shrine at New Year.|礻|礻 申|F;礻=s,申=f:シン;
+直|direto; consertar|straight; fix|チョク,ジキ|なお.す,なお.る,ただ.ちに|N3|2|8|直す:なおす:consertar:to fix¦正直:しょうじき:honesto:honest|父が自転車を直しました。|Meu pai consertou a bicicleta.|My father fixed the bicycle.|目|十 目|
+任|confiar; cargo|entrust; duty|ニン|まか.せる|N3|5|6|任せる:まかせる:confiar (a alguém):to entrust¦責任:せきにん:responsabilidade:responsibility|この仕事は私に任せてください。|Deixe este trabalho comigo.|Please leave this job to me.|亻|亻 壬|F;亻=s,壬=f:ジン;
+様|senhor(a); modo|Mr./Ms.; manner|ヨウ|さま|N3|3|14|様子:ようす:aparência; situação:appearance¦皆様:みなさま:todos (formal):everyone|皆様、こんにちは。|Olá a todos.|Hello, everyone.|木|木 羊! 永!|
+件|caso; assunto|matter; case|ケン|—|N3|5|6|事件:じけん:caso; incidente:incident¦条件:じょうけん:condição:condition|その事件はニュースになりました。|Esse caso virou notícia.|That incident made the news.|亻|亻 牛|C;亻=s,牛=s;
+助|ajudar|help|ジョ|たす.ける,たす.かる|N3|3|7|助ける:たすける:ajudar; salvar:to help¦助かる:たすかる:ser de grande ajuda:to be saved|手伝ってくれて助かりました。|Você me ajudou muito.|Your help saved me a lot.|力|且 力|F;力=s,且=f:ショ;
+供|oferecer; acompanhar|offer; accompany|キョウ,ク|そな.える,とも|N3|6|8|子供:こども:criança:child¦提供:ていきょう:oferta:offer|子供たちが公園で遊んでいます。|As crianças brincam no parque.|The children are playing in the park.|亻|亻 共|F;亻=s,共=f:キョウ;
+記|registrar|record|キ|しる.す|N3|2|10|日記:にっき:diário:diary¦記者:きしゃ:jornalista:reporter|毎晩日記を書いています。|Escrevo no diário todas as noites.|I write in my diary every night.|言|言 己|F;言=s,己=f:キ;
+配|distribuir; preocupar|distribute; worry|ハイ|くば.る|N3|3|10|心配:しんぱい:preocupação:worry¦配る:くばる:distribuir:to hand out|先生がプリントを配りました。|O professor distribuiu as folhas.|The teacher handed out the worksheets.|酉|酉 己!|
+務|dever; tarefa|duty; task|ム|つと.める|N3|5|11|事務所:じむしょ:escritório:office¦義務:ぎむ:obrigação:duty|父は事務所で働いています。|Meu pai trabalha num escritório.|My father works in an office.|力|矛 攵 力|F;力=s,敄=f:ブ;
+残|restar|remain|ザン|のこ.る,のこ.す|N3|4|10|残る:のこる:restar:to remain¦残念:ざんねん:que pena:regrettable|残念ですが、行けません。|Que pena, mas não posso ir.|Unfortunately, I can't go.|歹|歹 戋|F;歹=s,戋=f:セン;
+彼|ele; aquele|he; that|ヒ|かれ,かの|N3|8|8|彼:かれ:ele:he¦彼女:かのじょ:ela; namorada:she; girlfriend|彼は私の友達です。|Ele é meu amigo.|He is my friend.|彳|彳 皮|F;彳=s,皮=f:ヒ;
+得|obter; ganho|gain; obtain|トク|え.る,う.る|N3|5|11|得意:とくい:ponto forte:strong point¦説得:せっとく:persuasão:persuasion|私は料理が得意です。|Cozinhar é meu ponto forte.|I'm good at cooking.|彳|彳 旦! 寸|
+組|grupo; montar|group; assemble|ソ|く.む,くみ|N3|2|11|番組:ばんぐみ:programa (de TV):program¦組む:くむ:montar; juntar:to put together|好きなテレビ番組は何ですか。|Qual é seu programa de TV favorito?|What's your favorite TV program?|糹|糹 且|F;糹=s,且=f:ソ;
+警|advertir; vigiar|warn; guard|ケイ|—|N3|6|19|警察:けいさつ:polícia:police¦警官:けいかん:policial:police officer|財布を落として警察に行きました。|Perdi a carteira e fui à polícia.|I lost my wallet and went to the police.|言|敬 言|F;言=s,敬=f:ケイ;
+原|campo; origem|field; origin|ゲン|はら|N3|2|10|原因:げんいん:causa:cause¦野原:のはら:campo:field|事故の原因は何ですか。|Qual é a causa do acidente?|What is the cause of the accident?|厂|厂 白 小!|C;;Água que brota (泉) sob um penhasco (厂): a nascente.
+殺|matar|kill|サツ,セツ|ころ.す|N3|4|10|殺す:ころす:matar:to kill¦殺人:さつじん:homicídio:murder|虫を殺さないでください。|Não mate os insetos.|Please don't kill the bugs.|殳|㐅 木! 殳|
+失|perder|lose|シツ|うしな.う|N3|4|5|失礼:しつれい:falta de educação; com licença:rudeness; excuse me¦失敗:しっぱい:fracasso:failure|失礼します。|Com licença.|Excuse me.|大|-|
+能|capacidade|ability|ノウ|—|N3|5|10|能力:のうりょく:capacidade:ability¦可能:かのう:possível:possible|彼は能力が高いです。|Ele tem grande capacidade.|He is very capable.|月|厶 月! 匕 匕|
+進|avançar|advance|シン|すす.む,すす.める|N3|3|11|進む:すすむ:avançar:to advance¦進学:しんがく:seguir os estudos:going on to higher education|工事は予定通りに進んでいます。|A obra avança conforme o previsto.|The construction is proceeding as scheduled.|辶|辶 隹|
+経|passar; administrar|pass; manage|ケイ,キョウ|へ.る|N3|5|11|経験:けいけん:experiência:experience¦経済:けいざい:economia:economy|大学で経済を勉強しています。|Estudo economia na faculdade.|I study economics at university.|糹|糹 圣|F;糹=s,巠=f:ケイ;Forma simplificada de 經.
+美|belo|beautiful|ビ|うつく.しい|N3|3|9|美しい:うつくしい:belo:beautiful¦美術館:びじゅつかん:museu de arte:art museum|週末に美術館へ行きました。|No fim de semana fui a um museu de arte.|I went to an art museum on the weekend.|羊|羊! 大|C;羊=s,大=s;Uma ovelha (羊) grande (大): o que é bom e bonito.
+表|superfície; expressar|surface; express|ヒョウ|おもて,あらわ.す|N3|3|8|表:ひょう:tabela:table¦発表:はっぴょう:apresentação:presentation¦表す:あらわす:expressar:to express|明日、授業で発表します。|Amanhã faço uma apresentação na aula.|I'll give a presentation in class tomorrow.|衣|-|
+利|lucro; vantagem|profit; advantage|リ|き.く|N3|4|7|便利:べんり:conveniente:convenient¦利用:りよう:uso:use|この辺りはとても便利です。|Esta região é muito conveniente.|This area is very convenient.|刂|禾 刂|C;禾=s,刂=s;Uma lâmina (刂) colhendo cereal (禾).
+加|somar; participar|add; join|カ|くわ.える,くわ.わる|N3|4|5|参加:さんか:participação:participation¦加える:くわえる:acrescentar:to add|パーティーに参加しますか。|Você vai participar da festa?|Will you join the party?|力|力 口|C;力=s,口=s;
+反|contra; oposto|against; opposite|ハン,ホン,タン|そ.る,そ.らす|N3|3|4|反対:はんたい:oposição:opposition¦反省:はんせい:reflexão (autocrítica):reflection|母は私の留学に反対しました。|Minha mãe foi contra meu intercâmbio.|My mother was against my studying abroad.|又|厂 又|
+過|passar; excesso|pass; excess|カ|す.ぎる,す.ごす|N3|5|12|過ぎる:すぎる:passar; exceder:to pass¦過去:かこ:passado:the past¦過ごす:すごす:passar (o tempo):to spend (time)|楽しい休みを過ごしました。|Passei férias divertidas.|I spent a fun vacation.|辶|辶 咼|F;辶=s,咼=f:カ;
+然|natureza; assim|nature; so|ゼン,ネン|—|N3|4|12|自然:しぜん:natureza:nature¦全然:ぜんぜん:nem um pouco:not at all¦突然:とつぜん:de repente:suddenly|この町は自然が豊かです。|Esta cidade tem natureza abundante.|This town is rich in nature.|灬|月! 犬 灬|C;;Carne (月, aqui 肉) de cão (犬) sobre o fogo (灬); o sentido “assim” é emprestado.
+置|colocar|put|チ|お.く|N3|4|13|置く:おく:colocar:to put¦位置:いち:posição:position|かばんはここに置いてください。|Deixe a bolsa aqui, por favor.|Please put your bag here.|罒|罒 直|F;罒=s,直=f:チ;
+官|oficial; governo|official|カン|—|N3|4|8|警官:けいかん:policial:police officer¦官庁:かんちょう:órgão público:government office|警官に道を聞きました。|Perguntei o caminho a um policial.|I asked a police officer for directions.|宀|宀 㠯|
+命|vida; ordem|life; command|メイ,ミョウ|いのち|N3|3|8|命:いのち:vida:life¦生命:せいめい:vida:life¦一生懸命:いっしょうけんめい:com todo o empenho:with all one's might|毎日一生懸命働いています。|Trabalho com todo o empenho todos os dias.|I work as hard as I can every day.|口|𠆢 一 口 卩|C;令=s,口=s;
+由|razão; origem|reason; origin|ユ,ユウ,ユイ|よし|N3|3|5|理由:りゆう:motivo:reason¦自由:じゆう:liberdade:freedom|遅れた理由を教えてください。|Diga o motivo do atraso.|Please tell me why you were late.|田|-|
+認|reconhecer|recognize|ニン|みと.める|N3|6|14|認める:みとめる:reconhecer; admitir:to admit¦確認:かくにん:confirmação:confirmation|彼は自分の間違いを認めました。|Ele admitiu o próprio erro.|He admitted his mistake.|言|言 忍|F;言=s,忍=f:ニン;
+点|ponto; nota|point; score|テン|—|N3|2|9|点:てん:ponto; nota:point¦点数:てんすう:pontuação:score|テストで百点を取りました。|Tirei cem na prova.|I got 100 points on the test.|灬|占 灬|F;黒=s,占=f:テン;Forma simplificada de 點 (黒 + 占).
+放|soltar; liberar|release|ホウ|はな.す,はな.つ|N3|3|8|放送:ほうそう:transmissão:broadcast¦放す:はなす:soltar:to let go|手を放さないでください。|Não solte a mão.|Please don't let go of my hand.|攵|方 攵|F;攵=s,方=f:ホウ;
+期|período; esperar|period; expect|キ,ゴ|—|N3|3|12|期間:きかん:período:period¦期待:きたい:expectativa:expectation|試験期間は忙しいです。|No período de provas fico ocupado.|I'm busy during exam period.|月|其 月|F;月=s,其=f:キ;
+優|gentil; excelente|gentle; excel|ユウ|やさ.しい,すぐ.れる|N3|6|17|優しい:やさしい:gentil:kind¦優勝:ゆうしょう:vitória (campeonato):championship|姉はとても優しいです。|Minha irmã mais velha é muito gentil.|My older sister is very kind.|亻|亻 憂|F;亻=s,憂=f:ユウ;
+告|anunciar|announce|コク|つ.げる|N3|5|7|広告:こうこく:anúncio:advertisement¦報告:ほうこく:relatório:report|会議の結果を報告します。|Vou relatar o resultado da reunião.|I'll report the results of the meeting.|口|牛! 口|
+民|povo|people|ミン|たみ|N3|4|5|国民:こくみん:cidadãos (de um país):citizens¦民族:みんぞく:etnia:ethnic group|日本には多くの民話があります。|O Japão tem muitos contos populares.|Japan has many folk tales.|氏|-|
+議|debater|deliberate|ギ|—|N3|4|20|会議:かいぎ:reunião:meeting¦議論:ぎろん:debate:discussion|午後に会議があります。|À tarde há uma reunião.|There is a meeting in the afternoon.|言|言 義|F;言=s,義=f:ギ;
+治|governar; curar|govern; cure|ジ,チ|おさ.める,なお.る,なお.す|N3|4|8|政治:せいじ:política:politics¦治る:なおる:sarar:to heal|風邪はもう治りました。|O resfriado já sarou.|My cold has already gone.|氵|氵 台|F;氵=s,台=f:チ;
+状|situação; carta|condition; letter|ジョウ|—|N3|5|7|状況:じょうきょう:situação:situation¦年賀状:ねんがじょう:cartão de Ano-Novo:New Year's card|年賀状を書きました。|Escrevi cartões de Ano-Novo.|I wrote New Year's cards.|犬|丬 犬|F;犬=s,爿=f:ショウ;
+達|alcançar; plural|reach; plural|タツ|—|N3|4|12|友達:ともだち:amigo:friend¦発達:はったつ:desenvolvimento:development|友達と映画に行きました。|Fui ao cinema com amigos.|I went to a movie with friends.|辶|辶 幸!|
+予|antecipadamente|beforehand|ヨ|—|N3|3|4|予定:よてい:plano:plan¦予約:よやく:reserva:reservation|明日の予定はありますか。|Tem planos para amanhã?|Do you have plans for tomorrow?|亅|-|
+果|fruto; resultado|fruit; result|カ|は.たす,は.てる|N3|4|8|果物:くだもの:fruta:fruit¦結果:けっか:resultado:result|果物が大好きです。|Adoro frutas.|I love fruit.|木|田! 木|P;;Desenho de frutos numa árvore.
+備|preparar|prepare|ビ|そな.える|N3|5|12|準備:じゅんび:preparação:preparation¦設備:せつび:equipamento:equipment|旅行の準備をしています。|Estou me preparando para a viagem.|I'm getting ready for the trip.|亻|亻 𤰇|
+守|proteger; cumprir|protect; keep|シュ,ス|まも.る|N3|3|6|守る:まもる:proteger; cumprir:to protect; to keep¦留守:るす:ausência (de casa):being away|約束を守ってください。|Cumpra a promessa.|Please keep your promise.|宀|宀 寸|C;宀=s,寸=s;
+愛|amor|love|アイ|—|N3|4|13|愛:あい:amor:love¦愛情:あいじょう:afeição:affection|母の愛情に感謝しています。|Sou grato pelo carinho da minha mãe.|I'm grateful for my mother's love.|心|爫 冖 心 夂|
+呼|chamar|call|コ|よ.ぶ|N3|6|8|呼ぶ:よぶ:chamar:to call¦呼吸:こきゅう:respiração:breathing|名前を呼ばれました。|Chamaram meu nome.|My name was called.|口|口 乎|F;口=s,乎=f:コ;
+歳|idade; ano|age; year|サイ,セイ|とし|N3|8|13|何歳:なんさい:quantos anos:how old¦二十歳:はたち:vinte anos:twenty years old|弟は十歳です。|Meu irmão mais novo tem dez anos.|My younger brother is ten years old.|止|-|
+判|julgar; carimbo|judge; seal|ハン,バン|わか.る|N3|5|7|判断:はんだん:julgamento; decisão:judgment¦評判:ひょうばん:reputação:reputation|この店は評判がいいです。|Esta loja tem boa reputação.|This shop has a good reputation.|刂|半 刂|F;刂=s,半=f:ハン;
+断|cortar; recusar|cut off; refuse|ダン|た.つ,ことわ.る|N3|5|11|断る:ことわる:recusar:to refuse¦横断歩道:おうだんほどう:faixa de pedestres:crosswalk|誘いを断りました。|Recusei o convite.|I declined the invitation.|斤|米 斤|
+説|explicar; teoria|explain; theory|セツ,ゼイ|と.く|N3|4|14|説明:せつめい:explicação:explanation¦小説:しょうせつ:romance:novel|使い方を説明してください。|Explique como usar, por favor.|Please explain how to use it.|言|言 兑|F;言=s,兌=f:エツ;
+役|papel; função|role; service|ヤク,エキ|—|N3|3|7|役に立つ:やくにたつ:ser útil:to be useful¦役者:やくしゃ:ator:actor|この本は役に立ちます。|Este livro é útil.|This book is useful.|彳|彳 殳|C;彳=s,殳=s;
+負|perder; carregar|lose; bear|フ|ま.ける,お.う|N3|3|9|負ける:まける:perder:to lose¦勝負:しょうぶ:disputa:contest|試合に負けました。|Perdemos a partida.|We lost the match.|貝|⺈ 貝|
+追|perseguir|chase|ツイ|お.う|N3|3|9|追う:おう:perseguir:to chase¦追加:ついか:adição:addition|犬が猫を追っています。|O cachorro está perseguindo o gato.|The dog is chasing the cat.|辶|辶 𠂤|F;辶=s,𠂤=f:タイ;
+在|existir; estar|exist|ザイ|あ.る|N3|5|6|現在:げんざい:atualmente:present¦存在:そんざい:existência:existence|父は現在、大阪にいます。|Meu pai está atualmente em Osaka.|My father is currently in Osaka.|土|𠂇 丨 土|F;土=s,才=f:サイ;
+他|outro|other|タ|ほか|N3|3|5|他:ほか:outro:other¦他人:たにん:estranho; outra pessoa:stranger|他に質問はありますか。|Há outras perguntas?|Are there any other questions?|亻|亻 也|F;亻=s,也=f:タ;
+太|grosso; gordo|fat; thick|タイ,タ|ふと.い,ふと.る|N3|2|4|太い:ふとい:grosso:thick¦太陽:たいよう:sol:sun¦太る:ふとる:engordar:to gain weight|最近、少し太りました。|Recentemente engordei um pouco.|I've gained a little weight recently.|大|大 丶|
+政|política; governo|politics|セイ,ショウ|まつりごと|N3|5|9|政治:せいじ:política:politics¦政府:せいふ:governo:government|政府は新しい法律を作りました。|O governo criou uma nova lei.|The government made a new law.|攵|正 攵|F;攵=s,正=f:セイ;
+君|você (informal); senhor|you; lord|クン|きみ|N3|3|7|君:きみ:você:you¦田中君:たなかくん:Tanaka (tratamento para rapazes):Tanaka (for boys)|君の名前は何？|Qual é o seu nome?|What's your name?|口|尹 口|F;口=s,尹=f:イン;

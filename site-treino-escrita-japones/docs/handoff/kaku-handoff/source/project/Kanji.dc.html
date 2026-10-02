@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Kaku — Kanji</title>
+<script src="./support.js"></script>
+<script src="./data/kaku-data.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Shippori+Mincho:wght@500;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#f5f5f4;color:#1c1917;font-family:'Zen Kaku Gothic New',ui-sans-serif,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#dc2626}a:hover{color:#b91c1c}
+button,input,select,textarea{font-family:inherit}
+.jp{font-family:'Klee One','Hiragino Mincho ProN','Yu Mincho',serif}
+.disp{font-family:'Shippori Mincho','Hiragino Mincho ProN','Yu Mincho',ui-serif,serif}
+/* estados — Design System Kaku (Tailwind) */
+.nl{transition:background-color .15s ease,color .15s ease}.nl:hover{background-color:#e7e5e4!important;color:#1c1917!important}
+.card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}.card:hover{transform:translateY(-2px);box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05)}
+.btn{transition:transform .15s ease,filter .15s ease,background-color .15s ease,border-color .15s ease}.btn:hover{filter:brightness(.92)}.btn:active{transform:scale(.98);filter:brightness(.85)}
+.soft:hover{background-color:#f5f5f4!important;filter:none}.soft:active{background-color:#e7e5e4!important}
+button:disabled,.btn[aria-disabled="true"]{opacity:.5;cursor:not-allowed!important;filter:none!important;transform:none!important}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #dc2626;outline-offset:2px}
+input,select,textarea{transition:border-color .15s ease,box-shadow .15s ease}
+input:hover,select:hover,textarea:hover{border-color:#d6d3d1}
+input:focus,select:focus,textarea:focus{border-color:#dc2626!important;box-shadow:0 0 0 4px #fee2e2;outline:none}
+input[aria-invalid="true"]{border-color:#dc2626!important;background-color:#fef2f2!important}
+input:disabled,select:disabled,textarea:disabled{background-color:#f5f5f4!important;color:#a8a29e!important;cursor:not-allowed}
+input::placeholder,textarea::placeholder{color:#78716c}
+[data-tip]{position:relative}
+[data-tip]:hover::after,[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;left:50%;bottom:calc(100% + 8px);transform:translateX(-50%);width:max-content;max-width:240px;padding:8px 8px;border-radius:6px;background:#1c1917;color:#ffffff;font-size:12px;line-height:16px;font-weight:500;white-space:normal;text-align:center;z-index:50;pointer-events:none;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05)}
+[data-page-scroll="flow"] main,[data-page-scroll="flow"] footer{flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{animation:spin .8s linear infinite}
+@keyframes draw{to{stroke-dashoffset:0}}
+.stk{animation:draw .6s cubic-bezier(.45,0,.25,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.rise{animation:rise .4s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pop{0%{transform:scale(.7);opacity:0}70%{transform:scale(1.05);opacity:1}100%{transform:scale(1)}}
+.pop{animation:pop .45s ease both}
+@keyframes shakeA{0%,100%{transform:none}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+@keyframes shakeB{0%,100%{transform:none}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+.shakeA{animation:shakeA .4s ease}.shakeB{animation:shakeB .4s ease}
+@keyframes sheet{from{transform:translateY(100%)}to{transform:none}}
+.sheet{animation:sheet .38s cubic-bezier(.2,.8,.2,1) both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.fade{animation:fade .3s ease both}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0s!important;transition:none!important}}
+</style>
+</helmet>
+<div style="width:1920px;height:1080px;overflow:hidden;background:#f5f5f4;">
+<div style="width:1440px;height:810px;transform:scale(1.3333333);transform-origin:0 0;box-sizing:border-box;background:#f5f5f4;display:flex;flex-direction:column;overflow:hidden;">
+<header style="height:64px;flex-shrink:0;position:relative;z-index:30;display:flex;align-items:center;justify-content:space-between;padding:0 64px;border-bottom:1px solid #e7e5e4;background:#f5f5f4;box-sizing:border-box;">
+<a href="Main.dc.html" aria-label="Kaku, página inicial" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#1c1917;">
+<span class="jp" style="width:36px;height:36px;border-radius:8px;background-color:{{accent}};color:#ffffff;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:600;">書</span>
+<span class="disp" style="font-size:20px;font-weight:700;letter-spacing:0.025em;">Kaku</span>
+</a>
+<nav aria-label="Principal" style="display:flex;gap:4px;padding:4px;border-radius:9999px;background:#e7e5e4;">
+<a href="Main.dc.html" class="nl" style="display:flex;align-items:center;height:36px;padding:0 16px;border-radius:9999px;text-decoration:none;font-size:16px;font-weight:500;color:#44403c;">Início</a>
+<a href="Caracteres.dc.html" aria-current="page" class="nl" style="display:flex;align-items:center;height:36px;padding:0 16px;border-radius:9999px;text-decoration:none;font-size:16px;font-weight:700;color:{{accent}};background-color:#ffffff;box-shadow:inset 0 0 0 1px #e7e5e4;">Caracteres</a>
+<a href="Praticar.dc.html" class="nl" style="display:flex;align-items:center;height:36px;padding:0 16px;border-radius:9999px;text-decoration:none;font-size:16px;font-weight:500;color:#44403c;">Praticar</a>
+<a href="Progresso.dc.html" class="nl" style="display:flex;align-items:center;height:36px;padding:0 16px;border-radius:9999px;text-decoration:none;font-size:16px;font-weight:500;color:#44403c;">Progresso</a>
+</nav>
+<div style="display:flex;align-items:center;gap:12px;position:relative;"><sc-if value="{{acct.in}}" hint-placeholder-val="{{false}}">
+<sc-if value="{{acct.hasStreak}}" hint-placeholder-val="{{false}}"><span title="Dias seguidos com prática" style="display:flex;align-items:center;gap:8px;height:40px;padding:0 12px;border-radius:9999px;background:#ffffff;border:1px solid #e7e5e4;font-size:14px;font-weight:700;color:#1c1917;"><span style="display:flex;color:{{accent}};"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-3.9 0-6.5-2.6-6.5-6.2 0-3.3 2.4-5.4 3.8-8.3.5 1.8 1.6 3 2.7 3.4.3-2.6 1.6-5 3.8-6.9.3 2.6 2.7 4.8 2.7 9 0 5.9-2.6 9-6.5 9z"></path></svg></span>{{acct.streakLabel}}</span></sc-if>
+<button class="btn soft" onClick="{{acct.toggle}}" aria-haspopup="menu" aria-expanded="{{acct.openAttr}}" style="height:44px;padding:0 12px 0 4px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;display:flex;align-items:center;gap:8px;cursor:pointer;font-size:14px;font-weight:500;">
+<span aria-hidden="true" style="width:36px;height:36px;border-radius:9999px;background-color:{{accent}};color:#ffffff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;">{{acct.initials}}</span>{{acct.name}}<span style="display:flex;color:#57534e;"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg></span></button>
+<sc-if value="{{acct.open}}" hint-placeholder-val="{{false}}">
+<div class="rise" role="menu" aria-label="Conta" style="position:absolute;right:0;top:52px;width:256px;box-sizing:border-box;padding:8px;background:#ffffff;border:1px solid #e7e5e4;border-radius:12px;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);display:flex;flex-direction:column;gap:2px;z-index:40;">
+<div style="padding:12px 12px 12px;border-bottom:1px solid #e7e5e4;margin-bottom:4px;display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;">{{acct.full}}</strong><span style="font-size:14px;color:#57534e;overflow:hidden;text-overflow:ellipsis;">{{acct.email}}</span></div>
+<a role="menuitem" href="Perfil.dc.html" onClick="{{acct.close}}" class="soft" style="display:flex;align-items:center;gap:12px;height:44px;padding:0 12px;border-radius:8px;text-decoration:none;color:#1c1917;font-size:16px;font-weight:500;"><span style="display:flex;color:#57534e;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"></circle><path d="M4.5 20c1.2-3.6 4-5.5 7.5-5.5s6.3 1.9 7.5 5.5"></path></svg></span>Perfil</a>
+<a role="menuitem" href="Listas.dc.html" onClick="{{acct.close}}" class="soft" style="display:flex;align-items:center;gap:12px;height:44px;padding:0 12px;border-radius:8px;text-decoration:none;color:#1c1917;font-size:16px;font-weight:500;"><span style="display:flex;color:#57534e;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11"></path><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01"></path></svg></span>Minhas listas</a>
+<a role="menuitem" href="Progresso.dc.html" onClick="{{acct.close}}" class="soft" style="display:flex;align-items:center;gap:12px;height:44px;padding:0 12px;border-radius:8px;text-decoration:none;color:#1c1917;font-size:16px;font-weight:500;"><span style="display:flex;color:#57534e;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4"></path><path d="M4.5 4v4.5H9"></path><path d="M12 8v4l3 2"></path></svg></span>Histórico</a>
+<a role="menuitem" href="Main.dc.html" onClick="{{acct.logout}}" class="soft" style="display:flex;align-items:center;gap:12px;height:44px;padding:0 12px;border-radius:8px;text-decoration:none;color:#1c1917;font-size:16px;font-weight:500;border-top:1px solid #e7e5e4;border-radius:0 0 8px 8px;margin-top:4px;color:#b91c1c;"><span style="display:flex;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4.5h3.5a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5H15"></path><path d="M10 16.5 5.5 12 10 7.5"></path><path d="M5.5 12H15"></path></svg></span>Sair</a>
+</div>
+</sc-if>
+</sc-if>
+<sc-if value="{{acct.out}}" hint-placeholder-val="{{true}}">
+<a href="Login.dc.html" onClick="{{acct.toLogin}}" class="btn soft" style="height:44px;padding:0 16px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;display:flex;align-items:center;gap:8px;text-decoration:none;font-size:14px;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"></circle><path d="M4.5 20c1.2-3.6 4-5.5 7.5-5.5s6.3 1.9 7.5 5.5"></path></svg>Entrar</a>
+<a href="Cadastro.dc.html" class="btn" style="height:44px;padding:0 16px;border-radius:8px;background-color:{{accent}};color:#ffffff;display:flex;align-items:center;text-decoration:none;font-size:14px;font-weight:700;">Criar conta</a>
+</sc-if>
+</div>
+</header>
+<div data-page-scroll="fill" style="flex:1 1 0;min-height:0;overflow-y:auto;scrollbar-width:thin;display:flex;flex-direction:column;">
+<main style="display:flex;flex-direction:column;min-height:0;flex-grow:1;">
+<section style="padding:24px 80px 16px;display:flex;flex-direction:column;gap:16px;">
+<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;">
+<div style="display:flex;flex-direction:column;gap:8px;">
+<nav aria-label="Trilha" style="font-size:14px;color:#57534e;display:flex;gap:8px;align-items:center;"><a href="Caracteres.dc.html" style="text-decoration:none;">Caracteres</a><span aria-hidden="true">/</span><span>Kanji</span></nav>
+<h1 class="disp" style="margin:0;font-size:48px;font-weight:700;">Kanji</h1>
+<p style="margin:0;font-size:16px;color:#44403c;">Veja como cada kanji é formado e navegue entre caracteres que compartilham componentes.</p>
+</div>
+<p role="status" style="margin:0;font-size:14px;color:#57534e;">Mostrando <strong style="color:#1c1917;">{{shown}}</strong> de {{total}} kanji</p>
+</div>
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+<label style="position:relative;display:flex;align-items:center;width:380px;height:44px;">
+<span style="position:absolute;left:14px;display:flex;color:#57534e;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m20 20-4.2-4.2"></path></svg></span>
+<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Pesquisar kanji</span>
+<input type="search" value="{{query}}" onChange="{{onQuery}}" placeholder="{{placeholder}}" style="width:100%;height:44px;box-sizing:border-box;padding:0 12px 0 40px;border:1px solid #e7e5e4;border-radius:8px;background:#ffffff;font-size:16px;color:#1c1917;outline:none;">
+</label>
+<div role="group" aria-label="Tipo de busca" style="display:flex;gap:4px;padding:4px;background:#e7e5e4;border-radius:9999px;"><sc-for list="{{modes}}" as="f" hint-placeholder-count="3"><button onClick="{{f.pick}}" aria-pressed="{{f.pressed}}" style="height:36px;padding:0 16px;border:none;border-radius:9999px;background-color:{{f.bg}};color:{{f.fg}};font-weight:{{f.fw}};box-shadow:{{f.sh}};font-size:14px;cursor:pointer;transition:background-color .2s ease;">{{f.label}}</button></sc-for></div>
+<span aria-hidden="true" style="width:1px;height:24px;background:#d6d3d1;"></span>
+<div role="group" aria-label="Nível JLPT" style="display:flex;gap:4px;padding:4px;background:#e7e5e4;border-radius:9999px;"><sc-for list="{{jlpts}}" as="f" hint-placeholder-count="3"><button onClick="{{f.pick}}" aria-pressed="{{f.pressed}}" style="height:36px;padding:0 16px;border:none;border-radius:9999px;background-color:{{f.bg}};color:{{f.fg}};font-weight:{{f.fw}};box-shadow:{{f.sh}};font-size:14px;cursor:pointer;transition:background-color .2s ease;">{{f.label}}</button></sc-for></div>
+</div>
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+<label style="display:flex;align-items:center;gap:8px;font-size:14px;color:#44403c;font-weight:700;">Radical
+<select value="{{rad}}" onChange="{{onRad}}" style="height:44px;padding:0 32px 0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;font-size:16px;color:#1c1917;cursor:pointer;"><sc-for list="{{radOpts}}" as="o" hint-placeholder-count="5"><option value="{{o.v}}">{{o.label}}</option></sc-for></select></label>
+<label style="display:flex;align-items:center;gap:8px;font-size:14px;color:#44403c;font-weight:700;">Traços
+<select value="{{strokes}}" onChange="{{onStrokes}}" style="height:44px;padding:0 32px 0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;font-size:16px;color:#1c1917;cursor:pointer;"><sc-for list="{{strokeOpts}}" as="o" hint-placeholder-count="5"><option value="{{o.v}}">{{o.label}}</option></sc-for></select></label>
+<sc-if value="{{hasComp}}" hint-placeholder-val="{{false}}"><span style="display:flex;align-items:center;gap:8px;height:40px;padding:0 8px 0 12px;border-radius:9999px;background:#1c1917;color:#ffffff;font-size:14px;">Componente <span class="jp" style="font-size:18px;">{{comp}}</span><button onClick="{{clearComp}}" aria-label="Remover filtro de componente" style="width:28px;height:28px;border-radius:9999px;border:none;background:rgb(255 255 255 / 0.15);color:#ffffff;cursor:pointer;display:flex;align-items:center;justify-content:center;"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></button></span></sc-if>
+<sc-if value="{{anyFilter}}" hint-placeholder-val="{{false}}"><button class="btn soft" onClick="{{clearFilters}}" style="height:36px;padding:0 12px;border:none;border-radius:8px;background:transparent;color:{{accent}};font-size:14px;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:8px;"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg>Limpar filtros</button></sc-if>
+</div>
+<sc-if value="{{hasBanner}}" hint-placeholder-val="{{false}}">
+<div class="rise" style="display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:12px;background:#ffffff;border:1px solid #e7e5e4;">
+<span class="jp" style="width:44px;height:44px;flex-shrink:0;border-radius:8px;background:#fef2f2;display:flex;align-items:center;justify-content:center;font-size:30px;">{{banner.c}}</span>
+<div style="display:flex;flex-direction:column;gap:2px;flex-grow:1;"><span style="font-size:16px;font-weight:700;">{{banner.title}}</span><span style="font-size:14px;color:#44403c;">{{banner.sub}}</span></div>
+</div>
+</sc-if>
+</section>
+<div style="display:flex;gap:24px;padding:0 64px 24px;min-height:0;flex-grow:1;">
+<div style="width:520px;flex-shrink:0;overflow-y:auto;scrollbar-width:thin;padding:4px 8px 24px 2px;">
+<sc-if value="{{loading}}" hint-placeholder-val="{{false}}"><p style="margin:40px 0;text-align:center;color:#57534e;">Carregando kanji…</p></sc-if>
+<sc-if value="{{empty}}" hint-placeholder-val="{{false}}"><div style="padding:48px 20px;border:1px dashed #d6d3d1;border-radius:12px;text-align:center;display:flex;flex-direction:column;gap:8px;"><p style="margin:0;font-size:16px;font-weight:500;">Nenhum kanji encontrado</p><p style="margin:0;font-size:14px;color:#57534e;">Tente outro componente, significado ou limpe os filtros.</p></div></sc-if>
+<sc-for list="{{groups}}" as="g" hint-placeholder-count="2">
+<div style="display:flex;flex-direction:column;gap:12px;margin-bottom:20px;">
+<h2 style="margin:0;font-size:14px;font-weight:700;letter-spacing:0.05em;color:#44403c;display:flex;align-items:center;gap:8px;"><span style="padding:4px 8px;border-radius:9999px;background:#1c1917;color:#ffffff;">{{g.level}}</span>{{g.count}} kanji</h2>
+<div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;">
+<sc-for list="{{g.items}}" as="it" hint-placeholder-count="10">
+<button class="card" onClick="{{it.pick}}" aria-pressed="{{it.cur}}" aria-label="{{it.c}}, {{it.pt}}" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px 8px 8px;border-radius:8px;border:1px solid {{it.bd}};box-shadow:{{it.sh}};background:#ffffff;cursor:pointer;color:#1c1917;min-width:0;">
+<span class="jp" style="font-size:36px;line-height:1;">{{it.c}}</span>
+<span style="font-size:12px;color:#44403c;width:100%;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{it.pt}}</span>
+</button>
+</sc-for>
+</div>
+<sc-if value="{{g.hasMore}}" hint-placeholder-val="{{false}}"><button class="btn soft" onClick="{{g.more}}" style="align-self:center;height:44px;padding:0 16px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;font-weight:500;cursor:pointer;">{{g.moreLabel}}</button></sc-if>
+</div>
+</sc-for>
+</div>
+<div style="flex-grow:1;min-width:0;overflow-y:auto;scrollbar-width:thin;">
+<sc-if value="{{ready}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-direction:column;gap:20px;padding:4px 4px 40px;">
+<div style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:24px;display:flex;gap:24px;align-items:flex-start;">
+<div style="width:236px;flex-shrink:0;"><div style="display:flex;justify-content:center;padding:16px 0;background:#fafaf9;border-radius:12px;border:1px solid #e7e5e4;">
+<sc-if value="{{hasOrder}}" hint-placeholder-val="{{true}}"><sc-if value="{{animA}}" hint-placeholder-val="{{true}}"><div style="position:relative;width:200px;height:200px;"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:200px;height:200px;"><line x1="50" y1="0" x2="50" y2="100" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="50" x2="100" y2="50" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="0" x2="100" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line><line x1="100" y1="0" x2="0" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line></svg><sc-for list="{{strokes}}" as="g" hint-placeholder-count="3"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:200px;height:200px;"><path d="{{g.d}}" fill="none" stroke="#e7e5e4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></svg></sc-for><sc-for list="{{strokes}}" as="s" hint-placeholder-count="3"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:200px;height:200px;"><path class="stk" d="{{s.d}}" fill="none" stroke="#1c1917" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" style="stroke-dasharray:{{s.len}};stroke-dashoffset:{{s.len}};animation-delay:{{s.delay}};"></path></svg></sc-for></div></sc-if><sc-if value="{{animB}}" hint-placeholder-val="{{false}}"><div style="position:relative;width:200px;height:200px;"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:200px;height:200px;"><line x1="50" y1="0" x2="50" y2="100" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="50" x2="100" y2="50" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="0" x2="100" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line><line x1="100" y1="0" x2="0" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line></svg><sc-for list="{{strokes}}" as="g" hint-placeholder-count="3"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:200px;height:200px;"><path d="{{g.d}}" fill="none" stroke="#e7e5e4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></svg></sc-for><sc-for list="{{strokes}}" as="s" hint-placeholder-count="3"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:200px;height:200px;"><path class="stk" d="{{s.d}}" fill="none" stroke="#1c1917" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" style="stroke-dasharray:{{s.len}};stroke-dashoffset:{{s.len}};animation-delay:{{s.delay}};"></path></svg></sc-for></div></sc-if></sc-if>
+<sc-if value="{{noOrder}}" hint-placeholder-val="{{false}}"><div style="position:relative;width:200px;height:200px;display:flex;align-items:center;justify-content:center;"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:200px;height:200px;"><line x1="50" y1="0" x2="50" y2="100" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="50" x2="100" y2="50" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="0" x2="100" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line><line x1="100" y1="0" x2="0" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line></svg><span class="jp fade" style="position:relative;font-size:{{d.gs}};line-height:1;">{{d.c}}</span></div></sc-if>
+</div></div>
+<div style="display:flex;flex-direction:column;gap:12px;flex-grow:1;min-width:0;">
+<sc-if value="{{hasHist}}" hint-placeholder-val="{{false}}"><button class="btn soft" onClick="{{back}}" style="align-self:flex-start;height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:8px;"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg>Voltar</button></sc-if>
+<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+<span style="font-size:12px;font-weight:700;border-radius:6px;background:#1c1917;color:#ffffff;display:inline-flex;align-items:center;height:24px;padding:0 8px;line-height:16px;flex-shrink:0;">{{d.jlpt}}</span>
+<span style="font-size:14px;color:#44403c;">{{metaLine}}</span>
+<sc-if value="{{d.essential}}" hint-placeholder-val="{{false}}"><span title="Significados, leituras, radical, componentes e 1 exemplo. Frases e mais exemplos em expansão." style="font-size:12px;font-weight:700;border-radius:6px;background:#fef3c7;color:#92400e;display:inline-flex;align-items:center;height:24px;padding:0 8px;line-height:16px;flex-shrink:0;">Ficha essencial</span></sc-if>
+</div>
+<div style="display:flex;flex-direction:column;gap:2px;">
+<span class="disp" style="font-size:30px;font-weight:700;line-height:1.25;">{{d.pt}}</span>
+<span style="font-size:16px;color:#44403c;">{{d.en}}</span>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;">
+<sc-if value="{{hasOn}}" hint-placeholder-val="{{true}}"><div style="display:flex;align-items:flex-start;gap:12px;"><span style="width:80px;flex-shrink:0;font-size:14px;color:#44403c;padding-top:8px;">On'yomi</span><div style="display:flex;flex-wrap:wrap;gap:8px;"><sc-for list="{{onR}}" as="o" hint-placeholder-count="2"><span style="display:flex;align-items:baseline;gap:8px;padding:4px 12px;border-radius:8px;border:1px solid #e7e5e4;"><span class="jp" style="font-size:16px;">{{o.k}}</span><span style="font-size:14px;color:#57534e;">{{o.r}}</span></span></sc-for></div></div></sc-if>
+<sc-if value="{{hasKun}}" hint-placeholder-val="{{true}}"><div style="display:flex;align-items:flex-start;gap:12px;"><span style="width:80px;flex-shrink:0;font-size:14px;color:#44403c;padding-top:8px;">Kun'yomi</span><div style="display:flex;flex-wrap:wrap;gap:8px;"><sc-for list="{{kunR}}" as="o" hint-placeholder-count="2"><span style="display:flex;align-items:baseline;gap:8px;padding:4px 12px;border-radius:8px;border:1px solid #e7e5e4;"><span class="jp" style="font-size:16px;">{{o.k}}</span><span style="font-size:14px;color:#57534e;">{{o.r}}</span></span></sc-for></div></div></sc-if>
+</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;">
+<button class="btn soft" onClick="{{speak}}" style="height:44px;padding:0 16px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:8px;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"></path><path d="M15.5 9a4 4 0 0 1 0 6"></path><path d="M18 6.5a7.5 7.5 0 0 1 0 11"></path></svg>Ouvir</button>
+<sc-if value="{{hasOrder}}" hint-placeholder-val="{{true}}"><button class="btn soft" onClick="{{replay}}" style="height:44px;padding:0 16px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:8px;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4"></path><path d="M4.5 4v4.5H9"></path></svg>Ver traços</button></sc-if>
+<a href="Praticar.dc.html" onClick="{{practiceThis}}" class="btn" style="height:44px;padding:0 16px;border-radius:8px;background-color:{{accent}};color:#ffffff;font-size:14px;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:8px;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5l5 5L10 19l-5.5 1 1-5.5z"></path><path d="M12.5 6.5l5 5"></path></svg>Praticar</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;">
+<div style="display:flex;gap:8px;">
+<button class="btn soft" onClick="{{al.toggle}}" aria-expanded="{{al.openAttr}}" style="flex-grow:1;min-width:0;overflow:hidden;height:44px;padding:0 16px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11"></path><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01"></path></svg>{{al.short}}</button>
+</div>
+<sc-if value="{{al.open}}" hint-placeholder-val="{{false}}">
+<div class="rise" role="group" aria-label="Adicionar à lista de prática" style="display:flex;flex-direction:column;gap:12px;padding:16px;border-radius:12px;border:1px solid #e7e5e4;background:#fafaf9;">
+<sc-if value="{{al.out}}" hint-placeholder-val="{{false}}">
+<p style="margin:0;font-size:14px;line-height:1.5;color:#292524;">Entre na sua conta para criar listas de prática e guardar este caractere.</p>
+<div style="display:flex;gap:8px;"><a href="Login.dc.html" onClick="{{al.toLogin}}" class="btn" style="height:44px;padding:0 16px;border-radius:8px;background-color:{{accent}};color:#ffffff;display:flex;align-items:center;text-decoration:none;font-size:14px;font-weight:700;">Entrar</a><a href="Cadastro.dc.html" class="btn soft" style="height:44px;padding:0 16px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;display:flex;align-items:center;text-decoration:none;font-size:14px;font-weight:500;">Criar conta</a></div>
+</sc-if>
+<sc-if value="{{al.in}}" hint-placeholder-val="{{true}}">
+<sc-if value="{{al.hasLists}}" hint-placeholder-val="{{true}}"><span style="font-size:12px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#57534e;">Suas listas</span>
+<div style="display:flex;flex-direction:column;gap:8px;max-height:190px;overflow-y:auto;scrollbar-width:thin;">
+<sc-for list="{{al.lists}}" as="l" hint-placeholder-count="2"><button role="checkbox" aria-checked="{{l.pressed}}" onClick="{{l.pick}}" style="display:flex;align-items:center;gap:12px;padding:12px 12px;border-radius:8px;border:1px solid {{l.bd}};background-color:{{l.bg}};cursor:pointer;text-align:left;color:#1c1917;">
+<span aria-hidden="true" style="width:20px;height:20px;flex-shrink:0;border-radius:6px;border:2px solid {{l.bd}};background-color:{{l.bd}};color:#ffffff;display:flex;align-items:center;justify-content:center;box-sizing:border-box;"><sc-if value="{{l.has}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></sc-if></span>
+<span style="flex-grow:1;min-width:0;display:flex;flex-direction:column;"><span style="font-size:14px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{l.name}}</span><span style="font-size:12px;color:#57534e;">{{l.count}}</span></span></button></sc-for>
+</div></sc-if>
+<form onKeyDown="{{al.createKey}}" style="display:flex;flex-direction:column;gap:8px;margin:0;">
+<label for="al-nova" style="font-size:14px;font-weight:700;color:#44403c;">Nova lista</label>
+<div style="display:flex;gap:8px;"><input id="al-nova" type="text" value="{{al.name}}" onChange="{{al.onName}}" placeholder="Ex.: Kanji N5 — Semana 1" maxlength="60" style="flex-grow:1;min-width:0;height:44px;box-sizing:border-box;padding:0 16px;border:1px solid #d6d3d1;border-radius:8px;background:#ffffff;font-size:16px;color:#1c1917;outline:none;">
+<button type="button" onClick="{{al.create}}" class="btn" style="height:44px;padding:0 16px;border-radius:8px;border:none;background-color:#1c1917;color:#ffffff;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;">Criar e adicionar</button></div>
+<sc-if value="{{al.hasErr}}" hint-placeholder-val="{{false}}"><span role="alert" style="font-size:14px;color:#b91c1c;">{{al.err}}</span></sc-if>
+</form>
+<sc-if value="{{al.hasMsg}}" hint-placeholder-val="{{false}}"><span role="status" style="font-size:14px;font-weight:700;color:#15803d;">{{al.msg}}</span></sc-if>
+<a href="Listas.dc.html" style="font-size:14px;font-weight:700;text-decoration:none;">Gerenciar minhas listas</a>
+</sc-if>
+</div>
+</sc-if>
+</div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:8px;">
+<h2 class="disp" style="margin:0;font-size:30px;font-weight:700;">Componentes do Kanji</h2>
+<p style="margin:0;font-size:14px;color:#44403c;">Primeiro o que se vê (decomposição gráfica); depois, quando há informação confiável, como o kanji foi formado historicamente.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;padding:16px;border-radius:12px;background:#fafaf9;border:1px solid #e7e5e4;">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;"><h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Decomposição gráfica</h3><span style="font-size:12px;color:#57534e;">visual</span></div>
+<sc-if value="{{cx.hasDecomp}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-direction:column;gap:12px;"><div style="display:flex;align-items:flex-start;flex-wrap:wrap;gap:8px;">
+<sc-for list="{{cx.eqItems}}" as="t" hint-placeholder-count="2">
+<sc-if value="{{t.plus}}" hint-placeholder-val="{{false}}"><span aria-hidden="true" style="font-size:20px;color:#a8a29e;height:80px;display:flex;align-items:center;">+</span></sc-if>
+<button onClick="{{t.pick}}" title="{{t.hint}}" aria-label="{{t.c}}: {{t.badge}}, {{t.meaning}}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:0;border:none;background:transparent;cursor:{{t.cursor}};font-family:inherit;">
+<span class="jp card" style="width:80px;height:80px;box-sizing:border-box;border-radius:8px;border:2px solid {{t.fg}};background:#ffffff;display:flex;align-items:center;justify-content:center;font-size:36px;color:#1c1917;">{{t.c}}</span>
+<span style="font-size:12px;font-weight:700;border-radius:6px;background-color:{{t.bg}};color:{{t.fg}};display:inline-flex;align-items:center;height:24px;padding:0 8px;line-height:16px;flex-shrink:0;">{{t.short}}</span>
+</button>
+</sc-for>
+<span aria-hidden="true" style="font-size:20px;color:#a8a29e;height:80px;display:flex;align-items:center;">→</span>
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px;"><span class="jp pop" style="width:80px;height:80px;box-sizing:border-box;border-radius:8px;background:#fef2f2;border:2px solid {{accent}};display:flex;align-items:center;justify-content:center;font-size:36px;color:#1c1917;">{{cx.self}}</span><span style="font-size:12px;font-weight:700;color:{{accent}};">Resultado</span></div>
+</div><div style="display:flex;flex-wrap:wrap;gap:8px 12px;font-size:12px;color:#44403c;"><span style="display:flex;align-items:center;gap:8px;"><span style="width:10px;height:10px;border-radius:4px;background:#fee2e2;border:1.5px solid #b91c1c;"></span>Kanji independente</span><span style="display:flex;align-items:center;gap:8px;"><span style="width:10px;height:10px;border-radius:4px;background:#dbeafe;border:1.5px solid #1e40af;"></span>Radical</span><span style="display:flex;align-items:center;gap:8px;"><span style="width:10px;height:10px;border-radius:4px;background:#e7e5e4;border:1.5px solid #44403c;"></span>Componente gráfico</span></div><div style="display:flex;flex-direction:column;">
+<sc-for list="{{cx.compRows}}" as="t" hint-placeholder-count="2">
+<div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid #e7e5e4;">
+<span class="jp" style="width:40px;height:40px;flex-shrink:0;border-radius:8px;background-color:{{t.bg}};color:#1c1917;display:flex;align-items:center;justify-content:center;font-size:24px;">{{t.c}}</span>
+<div style="display:flex;flex-direction:column;gap:4px;flex-grow:1;min-width:0;">
+<span style="font-size:16px;font-weight:500;">{{t.meaning}}</span>
+<span style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;"><span style="font-size:12px;font-weight:700;border-radius:6px;background-color:{{t.bg}};color:{{t.fg}};display:inline-flex;align-items:center;height:24px;padding:0 8px;line-height:16px;flex-shrink:0;">{{t.badge}}</span><sc-if value="{{t.mainRad}}" hint-placeholder-val="{{false}}"><span style="font-size:12px;font-weight:700;border-radius:6px;border:1px solid #1e40af;color:#1e40af;display:inline-flex;align-items:center;height:24px;padding:0 8px;line-height:16px;flex-shrink:0;">Radical principal</span></sc-if></span>
+</div>
+<sc-if value="{{t.isLink}}" hint-placeholder-val="{{true}}"><button class="btn soft" onClick="{{t.pick}}" style="flex-shrink:0;height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:4px;font-weight:500;">Abrir<svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button></sc-if>
+<sc-if value="{{t.isFilter}}" hint-placeholder-val="{{false}}"><button class="btn soft" onClick="{{t.pick}}" style="flex-shrink:0;height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;font-weight:500;">Ver kanji com {{t.c}}</button></sc-if>
+</div>
+</sc-for>
+</div></div></sc-if>
+<sc-if value="{{cx.noDecomp}}" hint-placeholder-val="{{false}}"><div style="display:flex;align-items:center;gap:12px;"><span class="jp" style="width:80px;height:80px;flex-shrink:0;border-radius:8px;background:#ffffff;border:2px solid #1c1917;display:flex;align-items:center;justify-content:center;font-size:36px;">{{cx.self}}</span><p style="margin:0;font-size:14px;line-height:1.5;color:#44403c;">Caractere básico: não se divide em partes com significado próprio. Ele mesmo funciona como componente de outros kanji.</p></div></sc-if>
+<div style="display:flex;align-items:center;gap:12px;padding:12px 12px;border-radius:8px;background:#eff6ff;">
+<button onClick="{{cx.rad.pick}}" aria-label="Radical {{cx.rad.c}}" class="jp" style="width:44px;height:44px;flex-shrink:0;border-radius:8px;border:2px solid #1e40af;background:#ffffff;color:#1c1917;font-size:14px;cursor:{{cx.rad.cursor}};padding:0;font-weight:500;">{{cx.rad.c}}</button>
+<div style="display:flex;flex-direction:column;gap:2px;">
+<span style="font-size:12px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#1e40af;">Radical principal · nº {{cx.rad.num}}</span>
+<span style="font-size:16px;font-weight:500;">{{cx.rad.pt}}<sc-if value="{{cx.radVariant}}" hint-placeholder-val="{{false}}"><span style="color:#44403c;font-weight:400;"> — forma de <span class="jp">{{cx.rad.std}}</span> ({{cx.rad.name}})</span></sc-if></span>
+</div>
+</div>
+</div><div style="display:flex;flex-direction:column;gap:12px;padding:16px;border-radius:12px;border:1px solid #e7e5e4;background:#ffffff;">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;"><h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Origem / formação do kanji</h3><span style="font-size:12px;color:#57534e;">histórico</span></div>
+<sc-if value="{{cx.hasFormation}}" hint-placeholder-val="{{true}}">
+<div style="display:flex;flex-direction:column;gap:12px;">
+<div style="display:flex;flex-direction:column;gap:4px;"><span style="font-size:16px;font-weight:700;">{{cx.fLabel}}</span><span style="font-size:14px;color:#44403c;">{{cx.fDesc}}</span></div>
+<sc-if value="{{cx.hasFParts}}" hint-placeholder-val="{{true}}"><div style="display:flex;align-items:flex-start;flex-wrap:wrap;gap:8px;">
+<sc-for list="{{cx.fParts}}" as="p" hint-placeholder-count="2">
+<sc-if value="{{p.plus}}" hint-placeholder-val="{{false}}"><span aria-hidden="true" style="font-size:20px;color:#a8a29e;height:48px;display:flex;align-items:center;">+</span></sc-if>
+<button onClick="{{p.pick}}" aria-label="{{p.c}}: {{p.role}}, {{p.meaning}}" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:0;border:none;background:transparent;cursor:{{p.cursor}};font-family:inherit;max-width:112px;">
+<span class="jp" style="width:48px;height:48px;box-sizing:border-box;border-radius:8px;border:2px solid {{p.fg}};background:#ffffff;display:flex;align-items:center;justify-content:center;font-size:30px;color:#1c1917;">{{p.c}}</span>
+<span style="font-size:12px;font-weight:700;border-radius:6px;background-color:{{p.bg}};color:{{p.fg}};display:inline-flex;align-items:center;height:24px;padding:0 8px;line-height:16px;flex-shrink:0;">{{p.role}}<sc-if value="{{p.hasReading}}" hint-placeholder-val="{{false}}"> · <span class="jp">{{p.reading}}</span></sc-if></span>
+<span style="font-size:12px;color:#44403c;text-align:center;line-height:1.25;">{{p.meaning}}</span>
+</button>
+</sc-for>
+</div></sc-if>
+<sc-if value="{{cx.hasFNote}}" hint-placeholder-val="{{true}}"><p style="margin:0;font-size:14px;line-height:1.5;">{{cx.fNote}}</p></sc-if>
+</div>
+</sc-if>
+<sc-if value="{{cx.noFormation}}" hint-placeholder-val="{{false}}"><p style="margin:0;font-size:14px;line-height:1.5;color:#44403c;">Ainda não temos uma explicação histórica confiável para este kanji. A decomposição acima é apenas visual — ela não indica a origem.</p></sc-if>
+<p style="margin:0;font-size:12px;line-height:1.5;color:#57534e;">Segue a classificação tradicional (象形, 指事, 会意, 形声). Não usamos mnemônicos modernos como origem.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start;">
+<div style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;display:flex;flex-direction:column;gap:12px;"><div style="display:flex;flex-direction:column;gap:12px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Kanji que utilizam este componente <span style="color:#1c1917;">({{cx.usedCount}})</span></h3>
+<sc-if value="{{cx.hasUsed}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-wrap:wrap;gap:8px;"><sc-for list="{{cx.usedTiles}}" as="k" hint-placeholder-count="6"><button class="btn soft" onClick="{{k.pick}}" aria-label="Abrir {{k.c}} ({{k.pt}})" title="{{k.pt}}" style="min-width:48px;height:48px;padding:4px 8px;box-sizing:border-box;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;"><span class="jp" style="font-size:24px;line-height:1;">{{k.c}}</span><span style="font-size:12px;color:#57534e;max-width:56px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{k.pt}}</span></button></sc-for></div></sc-if>
+<sc-if value="{{cx.noUsed}}" hint-placeholder-val="{{false}}"><p style="margin:0;font-size:14px;color:#44403c;">Nenhum kanji da base usa este caractere como componente (ainda).</p></sc-if>
+</div>
+<sc-if value="{{cx.usedMore}}" hint-placeholder-val="{{false}}"><button class="btn soft" onClick="{{showAllUsed}}" style="align-self:flex-start;height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;font-size:14px;cursor:pointer;font-weight:500;">Ver todos na lista</button></sc-if>
+<sc-if value="{{cx.hasUsed}}" hint-placeholder-val="{{true}}"><button class="btn soft" onClick="{{filterBySelf}}" style="align-self:flex-start;height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:8px;font-weight:500;"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m20 20-4.2-4.2"></path></svg>Filtrar a lista por <span class="jp">{{d.c}}</span></button></sc-if>
+</div>
+<div style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;display:flex;flex-direction:column;gap:16px;"><sc-if value="{{cx.hasRel}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-direction:column;gap:12px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Kanji relacionados</h3>
+<div style="display:flex;flex-wrap:wrap;gap:8px;"><sc-for list="{{cx.relTiles}}" as="k" hint-placeholder-count="6"><button class="btn soft" onClick="{{k.pick}}" aria-label="Abrir {{k.c}} ({{k.pt}})" title="{{k.pt}}" style="min-width:48px;height:48px;padding:4px 8px;box-sizing:border-box;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;"><span class="jp" style="font-size:24px;line-height:1;">{{k.c}}</span><span style="font-size:12px;color:#57534e;max-width:56px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{k.pt}}</span></button></sc-for></div>
+</div></sc-if><sc-if value="{{cx.hasSameRad}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-direction:column;gap:12px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Mesmo radical <span class="jp" style="color:#1c1917;">{{cx.rad.c}}</span></h3>
+<div style="display:flex;flex-wrap:wrap;gap:8px;"><sc-for list="{{cx.sameRad}}" as="k" hint-placeholder-count="6"><button class="btn soft" onClick="{{k.pick}}" aria-label="Abrir {{k.c}} ({{k.pt}})" title="{{k.pt}}" style="min-width:44px;height:44px;padding:4px 8px;box-sizing:border-box;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;"><span class="jp" style="font-size:24px;line-height:1;">{{k.c}}</span></button></sc-for></div>
+</div></sc-if></div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start;"><div style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;display:flex;flex-direction:column;gap:4px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin-bottom:8px;">Exemplos de palavras</h3>
+<sc-for list="{{examples}}" as="x" hint-placeholder-count="3">
+<div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid #e7e5e4;">
+<span class="jp" style="font-size:20px;min-width:64px;">{{x.w}}</span>
+<div style="display:flex;flex-direction:column;gap:2px;min-width:0;"><span style="font-size:14px;color:#44403c;"><span class="jp">{{x.r}}</span> · {{x.ro}}</span><span style="font-size:14px;font-weight:500;">{{x.pt}} <span style="color:#57534e;font-weight:400;">· {{x.en}}</span></span></div>
+</div>
+</sc-for>
+</div><div style="display:flex;flex-direction:column;gap:16px;">
+<div style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;display:flex;flex-direction:column;gap:8px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Frase de exemplo</h3>
+<sc-if value="{{hasSentence}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-direction:column;gap:8px;"><span class="jp" style="font-size:18px;line-height:1.5;">{{d.sja}}</span>
+<span style="font-size:14px;line-height:1.5;">{{d.spt}}</span>
+<span style="font-size:14px;line-height:1.5;color:#57534e;">{{d.sen}}</span></div></sc-if>
+<sc-if value="{{noSentence}}" hint-placeholder-val="{{false}}"><p style="margin:0;font-size:14px;line-height:1.5;color:#44403c;">Ficha essencial: a frase de exemplo deste kanji ainda será adicionada.</p></sc-if>
+</div>
+<div style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;display:flex;flex-direction:column;gap:12px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Ordem dos traços · {{d.n}}</h3>
+<sc-if value="{{hasOrder}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-wrap:wrap;gap:12px;"><sc-for list="{{frames}}" as="fr" hint-placeholder-count="3"><div style="display:flex;flex-direction:column;align-items:center;gap:4px;"><div style="position:relative;width:48px;height:48px;border:1px solid #e7e5e4;border-radius:8px;background:#ffffff;box-sizing:border-box;"><sc-for list="{{fr.layers}}" as="ly" hint-placeholder-count="3"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:3px;top:3px;width:44px;height:44px;"><path d="{{ly.d}}" fill="none" stroke="{{ly.c}}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path></svg></sc-for><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:3px;top:3px;width:44px;height:44px;"><circle cx="{{fr.sx}}" cy="{{fr.sy}}" r="7" fill="{{accent}}"></circle></svg></div><span style="font-size:12px;color:#57534e;">{{fr.n}}</span></div></sc-for></div></sc-if>
+<sc-if value="{{noOrder}}" hint-placeholder-val="{{false}}"><p style="margin:0;font-size:14px;line-height:1.5;color:#44403c;">Animação ainda não disponível para este kanji.</p></sc-if>
+</div>
+</div></div>
+</div></sc-if>
+</div>
+</div>
+</main>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#dc2626","options":["#dc2626","#b91c1c","#ef4444","#1c1917"]},"$preview":{"width":1920,"height":1080}}'>
+function nums(d) { return (d.match(/-?\d+(\.\d+)?/g) || []).map(Number); }
+function plen(d) { const n = nums(d); let L = 0; for (let i = 2; i + 1 < n.length; i += 2) L += Math.hypot(n[i] - n[i - 2], n[i + 1] - n[i - 1]); return Math.ceil(L) + 6; }
+function startPt(d) { const n = nums(d); return { x: n[0], y: n[1] }; }
+function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+function strokesOf(d, gap) { return d.p.map((p, i) => ({ d: p, len: plen(p), delay: (i * (gap || 0.7)).toFixed(2) + 's' })); }
+function framesOf(d, accent) { return d.p.map((_, i) => { const s = startPt(d.p[i]); return { n: i + 1, sx: s.x, sy: s.y, layers: d.p.map((p, j) => ({ d: p, c: j < i ? '#1c1917' : (j === i ? accent : '#e7e5e4') })) }; }); }
+function decorate(d) { const T = TYPES[d.t]; return Object.assign({}, d, { tl: T.label, tf: T.fg, tb: T.bg, n: d.p.length }); }
+function speakText(d) { return d.t === 'j' ? d.r.replace(/[()]/g, '') : d.c; }
+function say(text) { try { const u = new SpeechSynthesisUtterance(text); u.lang = 'ja-JP'; u.rate = 0.85; window.speechSynthesis.cancel(); window.speechSynthesis.speak(u); } catch (e) {} }
+
+const KTYPES = { hiragana: { label: 'Hiragana', fg: '#1e40af', bg: '#dbeafe' }, katakana: { label: 'Katakana', fg: '#92400e', bg: '#fef3c7' }, kanji: { label: 'Kanji', fg: '#b91c1c', bg: '#fee2e2' } };
+const GROUP_LABEL = { basico: 'Básico', dakuten: 'Dakuten', handakuten: 'Handakuten', pequeno: 'Pequeno', combinacao: 'Combinação', estrangeiro: 'Som estrangeiro', joyo: 'Jōyō' };
+const DIFF_LABEL = { iniciante: 'Iniciante', intermediario: 'Intermediário', avancado: 'Avançado' };
+function hydrate(D) {
+  if (!D.compact || D._hydrated) return;
+  const USAGE = { N5: [5, 'muito alto'], N4: [4, 'alto'], N3: [3, 'médio'], N2: [2, 'moderado'], N1: [1, 'baixo'] };
+  const DIFF = { N5: 'iniciante', N4: 'iniciante', N3: 'intermediario', N2: 'avancado', N1: 'avancado' };
+  const comp = (k) => {
+    const i = k.lastIndexOf('|'); const c = k.slice(0, i), f = k.slice(i + 1);
+    if (f === '!') return { c, form: 'grafico', lookalike: true, meaning: 'forma parecida com ' + c + ', mas com outra origem', ref: null };
+    const v = D.comps[k] || [f, '', null, null]; const o = { c, form: v[0], meaning: v[1], ref: v[2] };
+    if (v[3]) o.standard = v[3];
+    return o;
+  };
+  D.characters = D.characters.map((z) => {
+    if (z.char) { z.examples = z.examples || []; z.jlpt = z.jlpt || null; z.strokeOrder = z.strokeOrder || null; return z; }
+    const on = z.on.map((k, i) => ({ kana: k, romaji: z.rj[i] }));
+    const kun = z.kun.map((k, i) => { const p = k.split('.'); const st = p[0], ok = p[1] || ''; return { kana: st + ok, display: st + (ok ? '(' + ok + ')' : ''), okurigana: ok || null, romaji: z.rj[z.on.length + i] }; });
+    const prim = kun[0]; const rad = D.rads[z.r[1]] || [0, '', ''];
+    const f = z.f ? { type: z.f[0], label: D.ftypes[z.f[0]][0], description: D.ftypes[z.f[0]][1], note: z.f[1] || null,
+      parts: z.f[2].map((q) => { const cc = comp(q[0]); const p = { c: cc.c, role: q[1] === 's' ? 'semantico' : 'fonetico', meaning: cc.meaning, ref: cc.ref, form: cc.form }; if (q[2]) p.reading = q[2]; return p; }) } : null;
+    return {
+      id: 'kanji:' + z.c, char: z.c, category: 'kanji', group: 'joyo', romaji: prim ? prim.romaji : on[0].romaji, reading: prim ? prim.display : on[0].kana,
+      meaning: { pt: z.pt, en: z.en }, jlpt: z.j, difficulty: DIFF[z.j], strokes: z.n,
+      strokeOrder: z.so ? { source: 'kaku-simplificado', viewBox: '0 0 100 100', paths: z.so } : null,
+      examples: z.ex.map((x) => ({ word: x[0], reading: x[1], romaji: x[2], pt: x[3], en: x[4] })),
+      readings: { on, kun }, readingsRomaji: z.rj, grade: z.g || 0,
+      gradeLabel: z.g ? (z.g <= 6 ? z.g + 'º ano (primário)' : 'ensino secundário') : '',
+      usage: { level: USAGE[z.j][0], label: USAGE[z.j][1] }, sentence: z.s ? { ja: z.s[0], pt: z.s[1], en: z.s[2] } : null,
+      detail: z.s ? 'completo' : 'essencial',
+      radical: { char: z.r[0], standard: z.r[1], number: rad[0], meaning: { pt: rad[1], en: rad[2] }, name: z.r[2] || null, ref: null },
+      decomposition: z.d.map(comp), formation: f, containsComponents: z.cc, usedIn: z.u, related: z.rel
+    };
+  });
+  D._hydrated = true;
+}
+function kdb() {
+  const D = window.KAKU_DATA;
+  if (!D) return null;
+  hydrate(D);
+  if (!D._idx) {
+    D._idx = {};
+    D.characters.forEach((e) => {
+      D._idx[e.id] = e;
+      const r = e.readings ? e.readings.on.map((o) => o.kana).concat(e.readings.kun.map((k) => k.kana)).join(' ') : '';
+      e._hay = norm([e.char, e.reading, e.romaji, (e.readingsRomaji || []).join(' '), r, e.meaning.pt.join(' '), e.meaning.en.join(' ')].join(' '));
+    });
+    D.characters.forEach((e) => { if (e.radical && !e.radical.ref && D._idx['kanji:' + e.radical.standard]) e.radical.ref = 'kanji:' + e.radical.standard; });
+  }
+  return D;
+}
+function waitForData(self) { if (kdb()) return; let n = 0; const t = setInterval(() => { n++; if (kdb() || n > 60) { clearInterval(t); self.forceUpdate(); } }, 150); }
+function cardOf(e, accent, selId, pick) {
+  const T = KTYPES[e.category], on = e.id === selId, two = Array.from(e.char).length > 1;
+  return {
+    id: e.id, c: e.char, tl: T.label, tf: T.fg, tb: T.bg, n: e.strokes, jlpt: e.jlpt || '', hasJlpt: !!e.jlpt,
+    sub: e.category === 'kanji' ? e.reading + ' · ' + e.romaji : e.romaji, subJp: e.category === 'kanji',
+    pt: e.meaning.pt.join('; '), en: e.meaning.en.join('; '), gs: two ? '46px' : '64px',
+    cur: on ? 'true' : 'false', bd: on ? accent : '#e7e5e4', sh: on ? '0 0 0 2px ' + accent + '2E' : 'none', pick
+  };
+}
+function detailOf(self, e, accent) {
+  const T = KTYPES[e.category], isKanji = e.category === 'kanji', two = Array.from(e.char).length > 1;
+  const order = e.strokeOrder ? e.strokeOrder.paths : null;
+  return {
+    d: {
+      c: e.char, tl: T.label, tf: T.fg, tb: T.bg, n: e.strokes, jlpt: e.jlpt || '—', group: GROUP_LABEL[e.group] || e.group,
+      diff: DIFF_LABEL[e.difficulty], r: e.reading, ro: e.romaji, pt: e.meaning.pt.join('; '), en: e.meaning.en.join('; '),
+      note: e.note || '', grade: e.gradeLabel || '—', essential: e.detail === 'essencial', usage: e.usage ? e.usage.label : '', gs: two ? '104px' : '150px',
+      sja: e.sentence ? e.sentence.ja : '', spt: e.sentence ? e.sentence.pt : '', sen: e.sentence ? e.sentence.en : ''
+    },
+    hasJlpt: !!e.jlpt, hasOrder: !!order, noOrder: !order, isKanji, isKana: !isKanji,
+    hasNote: !!e.note, hasExamples: e.examples.length > 0, hasSentence: !!e.sentence,
+    strokes: order ? order.map((p, i) => ({ d: p, len: plen(p), delay: (i * 0.7).toFixed(2) + 's' })) : [],
+    frames: order ? order.map((_, i) => { const s = startPt(order[i]); return { n: i + 1, sx: s.x, sy: s.y, layers: order.map((p, j) => ({ d: p, c: j < i ? '#1c1917' : (j === i ? accent : '#e7e5e4') })) }; }) : [],
+    animA: self.state.anim % 2 === 0, animB: self.state.anim % 2 === 1,
+    onR: isKanji ? e.readings.on.map((o) => ({ k: o.kana, r: o.romaji })) : [],
+    kunR: isKanji ? e.readings.kun.map((k) => ({ k: k.display, r: k.romaji })) : [],
+    hasOn: isKanji && e.readings.on.length > 0, hasKun: isKanji && e.readings.kun.length > 0,
+    examples: e.examples.map((x) => ({ w: x.word, r: x.reading === x.word ? '' : x.reading, ro: x.romaji, pt: x.pt, en: x.en })),
+    cx: isKanji && e.radical ? compOf(self, e, null) : EMPTY_CX, hasHist: (self.state.hist || []).length > 0, back: () => goBack(self),
+    replay: () => self.setState({ anim: self.state.anim + 1 }),
+    speak: () => say(isKanji ? (e.readings.kun[0] ? e.readings.kun[0].kana : e.readings.on[0].kana) : e.char)
+  };
+}
+
+const FORM_STYLE = {
+  kanji: { full: 'Kanji independente', short: 'Kanji', bg: '#fee2e2', fg: '#b91c1c' },
+  radical: { full: 'Radical', short: 'Radical', bg: '#dbeafe', fg: '#1e40af' },
+  grafico: { full: 'Componente gráfico', short: 'Gráfico', bg: '#e7e5e4', fg: '#44403c' }
+};
+function goTo(self, id) {
+  if (!id || id === self.state.sel) return;
+  self.setState({ sel: id, anim: self.state.anim + 1, hist: (self.state.hist || []).concat([self.state.sel]).slice(-30) });
+}
+function goBack(self) {
+  const h = (self.state.hist || []).slice(); const prev = h.pop();
+  if (prev) self.setState({ sel: prev, anim: self.state.anim + 1, hist: h });
+}
+const EMPTY_CX = { hasDecomp: false, noDecomp: false, eqItems: [], compRows: [], rad: {}, radVariant: false, hasFormation: false, noFormation: false, fParts: [], hasFParts: false, hasFNote: false, usedTiles: [], hasUsed: false, noUsed: false, relTiles: [], hasRel: false, sameRad: [], hasSameRad: false, usedMore: false };
+function compOf(self, e, onComp) {
+  const D = kdb(); const idx = D._idx;
+  const act = (c, ref) => ref ? () => goTo(self, ref) : (onComp ? () => onComp(c) : null);
+  const dec = e.decomposition || [];
+  const eqItems = dec.map((d, i) => {
+    const st = FORM_STYLE[d.form] || FORM_STYLE.grafico; const a = act(d.c, d.ref);
+    return {
+      c: d.c, badge: d.lookalike ? 'Parecido com ' + d.c : st.full, short: d.lookalike ? 'Parecido' : st.short, bg: st.bg, fg: st.fg,
+      meaning: d.meaning || '—', plus: i > 0, pick: a || (() => {}), cursor: a ? 'pointer' : 'default', isLink: !!d.ref, isFilter: !d.ref && !!a,
+      mainRad: d.c === e.radical.char, hint: d.ref ? 'Abrir ' + (d.standard || d.c) : (a ? 'Ver kanji com ' + d.c : '')
+    };
+  });
+  const f = e.formation;
+  const fParts = f ? f.parts.map((p, i) => {
+    const a = act(p.c, p.ref); const sem = p.role === 'semantico';
+    return { c: p.c, role: sem ? 'Semântico' : 'Fonético', reading: p.reading || '', hasReading: !!p.reading, bg: sem ? '#dcfce7' : '#fef3c7', fg: sem ? '#15803d' : '#92400e', meaning: p.meaning || '—', plus: i > 0, pick: a || (() => {}), cursor: a ? 'pointer' : 'default' };
+  }) : [];
+  const toTile = (ch) => { const o = idx['kanji:' + ch]; return { c: ch, pt: o ? o.meaning.pt[0] : '', jlpt: o ? o.jlpt : '', pick: () => goTo(self, 'kanji:' + ch) }; };
+  const r = e.radical;
+  const sameRad = D.characters.filter((o) => o.category === 'kanji' && o.id !== e.id && o.radical && o.radical.standard === r.standard).slice(0, 12).map((o) => toTile(o.char));
+  const used = e.usedIn || [];
+  return {
+    hasDecomp: dec.length > 0, noDecomp: dec.length === 0, eqItems, compRows: eqItems, self: e.char,
+    rad: { c: r.char, std: r.standard, num: r.number, pt: r.meaning.pt, name: r.name || '', pick: r.ref ? () => goTo(self, r.ref) : (() => {}), cursor: r.ref && r.ref !== e.id ? 'pointer' : 'default' },
+    radVariant: r.char !== r.standard,
+    hasFormation: !!f, noFormation: !f, fLabel: f ? f.label : '', fDesc: f ? f.description : '', fParts, hasFParts: fParts.length > 0,
+    fNote: f && f.note ? f.note : '', hasFNote: !!(f && f.note),
+    usedTiles: used.slice(0, 24).map(toTile), usedCount: used.length, hasUsed: used.length > 0, noUsed: used.length === 0, usedMore: used.length > 24,
+    relTiles: (e.related || []).map(toTile), hasRel: (e.related || []).length > 0,
+    sameRad, hasSameRad: sameRad.length > 0
+  };
+}
+// ================= Kaku · conta, dados do usuário e estatísticas =================
+// Protótipo: tudo fica no armazenamento local do navegador (localStorage), separado por usuário.
+// Em produção, Auth/UD/Sess devem ser trocados por chamadas a um servidor.
+const KS = (() => {
+  const P = 'kaku.v1.';
+  const mem = (window.__kakuMem = window.__kakuMem || {});
+  let ok = false;
+  try { localStorage.setItem(P + '__t', '1'); localStorage.removeItem(P + '__t'); ok = true; } catch (e) {}
+  const emit = () => { try { window.dispatchEvent(new CustomEvent('kaku:change')); } catch (e) {} };
+  return {
+    persistent: ok,
+    get(k, d) { try { const v = ok ? localStorage.getItem(P + k) : mem[k]; return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { const s = JSON.stringify(v); let saved = false; if (ok) { try { localStorage.setItem(P + k, s); saved = true; } catch (e) {} } if (!saved) mem[k] = s; emit(); },
+    del(k) { try { if (ok) localStorage.removeItem(P + k); } catch (e) {} delete mem[k]; emit(); }
+  };
+})();
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+function normEmail(e) { return String(e || '').trim().toLowerCase(); }
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 8); }
+function b64(buf) { let s = ''; new Uint8Array(buf).forEach((b) => { s += String.fromCharCode(b); }); return btoa(s); }
+function weakHash(s) { let h1 = 0x811c9dc5, h2 = 0x01000193; for (let r = 0; r < 3000; r++) for (let i = 0; i < s.length; i++) { const c = s.charCodeAt(i); h1 = Math.imul(h1 ^ c, 16777619) >>> 0; h2 = Math.imul(h2 ^ (c + r), 2246822519) >>> 0; } return h1.toString(16) + h2.toString(16); }
+async function hashPw(pw, salt, algo) {
+  if (algo !== 'weak') {
+    try {
+      const enc = new TextEncoder();
+      const key = await crypto.subtle.importKey('raw', enc.encode(pw), 'PBKDF2', false, ['deriveBits']);
+      const bits = await crypto.subtle.deriveBits({ name: 'PBKDF2', salt: enc.encode(salt), iterations: 100000, hash: 'SHA-256' }, key, 256);
+      return 'pbkdf2$' + b64(bits);
+    } catch (e) { if (algo === 'pbkdf2') return null; }
+  }
+  return 'weak$' + weakHash(salt + '|' + pw);
+}
+function newSalt() { const a = new Uint8Array(16); try { crypto.getRandomValues(a); } catch (e) { a.forEach((_, i) => { a[i] = Math.random() * 256 | 0; }); } return b64(a); }
+
+const Auth = {
+  users() { return KS.get('users', {}); },
+  current() { const s = KS.get('session', null); if (!s) return null; const u = Auth.users()[s.email]; return u && u.id === s.uid ? u : null; },
+  checkLogin(f) {
+    const e = {}; const email = normEmail(f.email);
+    if (!email) e.email = 'Informe seu email.'; else if (!EMAIL_RE.test(email)) e.email = 'Digite um email válido, como nome@exemplo.com.';
+    if (!f.pw) e.pw = 'Informe sua senha.';
+    return e;
+  },
+  checkRegister(f) {
+    const e = {}; const email = normEmail(f.email); const age = String(f.age == null ? '' : f.age).trim();
+    if (!String(f.name || '').trim()) e.name = 'Informe seu nome.';
+    if (!email) e.email = 'Informe seu email.'; else if (!EMAIL_RE.test(email)) e.email = 'Digite um email válido, como nome@exemplo.com.';
+    else if (Auth.users()[email]) e.email = 'Este email já está cadastrado. Entre com ele ou use outro email.';
+    if (!age) e.age = 'Informe sua idade.'; else if (!/^\d{1,3}$/.test(age) || +age < 1 || +age > 120) e.age = 'Digite uma idade entre 1 e 120.';
+    if (!f.pw) e.pw = 'Crie uma senha.'; else if (f.pw.length < 6) e.pw = 'A senha precisa ter pelo menos 6 caracteres.';
+    if (!f.pw2) e.pw2 = 'Confirme sua senha.'; else if (f.pw && f.pw !== f.pw2) e.pw2 = 'As senhas não coincidem.';
+    return e;
+  },
+  async register(f) {
+    const errors = Auth.checkRegister(f);
+    if (Object.keys(errors).length) return { ok: false, errors };
+    const email = normEmail(f.email), salt = newSalt(), hash = await hashPw(f.pw, salt);
+    const users = Auth.users();
+    if (users[email]) return { ok: false, errors: { email: 'Este email já está cadastrado. Entre com ele ou use outro email.' } };
+    const user = { id: 'u' + uid(), name: String(f.name).trim(), email, age: +String(f.age).trim(), salt, hash, created: Date.now() };
+    users[email] = user; KS.set('users', users); KS.set('lastEmail', email);
+    return { ok: true, user };
+  },
+  async login(f) {
+    const errors = Auth.checkLogin(f);
+    if (Object.keys(errors).length) return { ok: false, errors };
+    const email = normEmail(f.email); const u = Auth.users()[email];
+    if (!u) return { ok: false, errors: { email: 'Não encontramos uma conta com este email. Confira o endereço ou crie uma conta.' } };
+    const algo = u.hash.split('$')[0];
+    const h = await hashPw(f.pw, u.salt, algo);
+    if (h !== u.hash) return { ok: false, errors: { pw: 'Senha incorreta. Tente novamente.' } };
+    KS.set('session', { uid: u.id, email, at: Date.now() }); KS.set('lastEmail', email);
+    return { ok: true, user: u };
+  },
+  logout() { KS.del('session'); }
+};
+
+// ---------- dados por usuário ----------
+const UD = {
+  load(u) { const d = KS.get('user.' + u.id, null) || {}; d.lists = d.lists || []; d.sessions = d.sessions || []; return d; },
+  save(u, d) { KS.set('user.' + u.id, d); },
+  mut(fn) { const u = Auth.current(); if (!u) return null; const d = UD.load(u); const r = fn(d, u); UD.save(u, d); return r; },
+  data() { const u = Auth.current(); return u ? UD.load(u) : null; }
+};
+function uniq(a) { return Array.from(new Set(a)); }
+const Lists = {
+  all() { const d = UD.data(); return d ? d.lists : []; },
+  get(id) { return Lists.all().find((l) => l.id === id) || null; },
+  nameError(name, exceptId) {
+    const n = String(name || '').trim();
+    if (!n) return 'Dê um nome para a lista.';
+    if (n.length > 60) return 'Use no máximo 60 caracteres.';
+    if (Lists.all().some((l) => l.id !== exceptId && l.name.toLowerCase() === n.toLowerCase())) return 'Você já tem uma lista com esse nome.';
+    return '';
+  },
+  create(name, chars) {
+    const err = Lists.nameError(name); if (err) return { error: err };
+    return UD.mut((d) => { const l = { id: 'l' + uid(), name: String(name).trim(), chars: uniq(chars || []), created: Date.now(), updated: Date.now() }; d.lists.unshift(l); return l; }) || { error: 'Entre na sua conta para criar listas.' };
+  },
+  rename(id, name) { const err = Lists.nameError(name, id); if (err) return { error: err }; UD.mut((d) => { const l = d.lists.find((x) => x.id === id); if (l) { l.name = String(name).trim(); l.updated = Date.now(); } }); return { ok: true }; },
+  remove(id) { UD.mut((d) => { d.lists = d.lists.filter((l) => l.id !== id); }); },
+  add(id, charIds) { UD.mut((d) => { const l = d.lists.find((x) => x.id === id); if (l) { l.chars = uniq(l.chars.concat(charIds)); l.updated = Date.now(); } }); },
+  removeChar(id, cid) { UD.mut((d) => { const l = d.lists.find((x) => x.id === id); if (l) { l.chars = l.chars.filter((c) => c !== cid); l.updated = Date.now(); } }); },
+  toggle(id, cid) { const l = Lists.get(id); if (!l) return; if (l.chars.includes(cid)) Lists.removeChar(id, cid); else Lists.add(id, [cid]); }
+};
+
+// ---------- sessões de prática ----------
+const Sess = {
+  start(meta) {
+    return UD.mut((d) => {
+      d.sessions = d.sessions.filter((s) => s.items.length);
+      const s = { id: 's' + uid(), start: Date.now(), end: Date.now(), ms: 0, label: meta.label, src: meta.src || null, planned: meta.n, items: [] };
+      d.sessions.push(s); return s.id;
+    });
+  },
+  record(sid, item) { UD.mut((d) => { const s = d.sessions.find((x) => x.id === sid); if (!s) return; s.items.push(item); s.end = item.t; s.ms += item.ms; }); }
+};
+function charHistory(d) {
+  const m = {};
+  (d ? d.sessions : []).forEach((s) => s.items.forEach((i) => {
+    const h = m[i.c] || (m[i.c] = { n: 0, ok: 0, fail: 0, last: 0, lastOk: true });
+    h.n++; if (i.ok) h.ok++; else h.fail++;
+    if (i.t >= h.last) { h.last = i.t; h.lastOk = !!i.ok; }
+  }));
+  return m;
+}
+// Sorteio ponderado: caracteres com mais erros (e errados na última vez) aparecem com mais frequência.
+function charWeight(h) { if (!h) return 1; const err = (h.fail + 0.5) / (h.n + 1); return 0.35 + 3 * err + (h.lastOk ? 0 : 1.2); }
+function shuffle(a) { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; const t = b[i]; b[i] = b[j]; b[j] = t; } return b; }
+function pickChars(ids, n, hist, prioritize) {
+  if (!prioritize || !hist) return shuffle(ids).slice(0, n);
+  const keyed = ids.map((id) => ({ id, k: Math.pow(Math.random(), 1 / charWeight(hist[id])) }));
+  keyed.sort((a, b) => b.k - a.k);
+  return shuffle(keyed.slice(0, n).map((x) => x.id));
+}
+
+// ---------- estatísticas por período ----------
+const PERIODS = [['hoje', 'Hoje'], ['semana', 'Esta semana'], ['mes', 'Este mês'], ['tudo', 'Todo o período']];
+function dayStart(t) { const d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); }
+function periodStart(p, now) {
+  const d = new Date(dayStart(now));
+  if (p === 'hoje') return d.getTime();
+  if (p === 'semana') { d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getTime(); }
+  if (p === 'mes') { d.setDate(1); return d.getTime(); }
+  return 0;
+}
+const MONTHS = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+const WDAYS = ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'];
+function catOf(id) { return String(id).split(':')[0]; }
+function fmtDur(ms) { const m = Math.round(ms / 60000); if (m < 1) return ms > 0 ? '< 1 min' : '0 min'; const h = Math.floor(m / 60); return h ? h + 'h ' + String(m % 60).padStart(2, '0') + 'min' : m + ' min'; }
+function fmtInt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); }
+function pct(x) { return x == null ? '—' : Math.round(x * 100) + '%'; }
+function fmtDate(t, withTime) { const d = new Date(t); const s = d.getDate() + ' ' + MONTHS[d.getMonth()] + (d.getFullYear() !== new Date().getFullYear() ? ' ' + d.getFullYear() : ''); return withTime ? s + ', ' + String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0') : s; }
+function buckets(period, now, firstT) {
+  const out = [];
+  if (period === 'hoje') { const t0 = dayStart(now); for (let h = 0; h < 24; h++) out.push({ a: t0 + h * 3600e3, b: t0 + (h + 1) * 3600e3, label: h % 6 === 0 ? h + 'h' : '', full: h + 'h–' + (h + 1) + 'h', cur: new Date(now).getHours() === h }); return out; }
+  if (period === 'semana') { const t0 = periodStart('semana', now); for (let i = 0; i < 7; i++) { const a = new Date(t0); a.setDate(a.getDate() + i); const b = new Date(a); b.setDate(b.getDate() + 1); out.push({ a: a.getTime(), b: b.getTime(), label: WDAYS[i], full: WDAYS[i] + ', ' + fmtDate(a.getTime()), cur: a.getTime() === dayStart(now) }); } return out; }
+  if (period === 'mes') { const t0 = new Date(periodStart('mes', now)); const m = t0.getMonth(); for (let i = 1; i <= 31; i++) { const a = new Date(t0); a.setDate(i); if (a.getMonth() !== m) break; const b = new Date(a); b.setDate(i + 1); out.push({ a: a.getTime(), b: b.getTime(), label: (i === 1 || i % 5 === 0) ? String(i) : '', full: fmtDate(a.getTime()), cur: a.getTime() === dayStart(now) }); } return out; }
+  const end = new Date(periodStart('mes', now)); let start = new Date(firstT ? dayStart(firstT) : now); start.setDate(1);
+  const minStart = new Date(end); minStart.setMonth(minStart.getMonth() - 5); if (start > minStart) start = minStart;
+  for (let a = new Date(start); a <= end; a.setMonth(a.getMonth() + 1)) { const b = new Date(a); b.setMonth(b.getMonth() + 1); out.push({ a: a.getTime(), b: b.getTime(), label: MONTHS[a.getMonth()], full: MONTHS[a.getMonth()] + ' ' + a.getFullYear(), cur: a.getTime() === end.getTime() }); }
+  return out.slice(-18);
+}
+function computeStats(d, period, now) {
+  now = now || Date.now();
+  const t0 = periodStart(period, now);
+  const items = [], sess = [];
+  let firstT = 0;
+  (d ? d.sessions : []).forEach((s) => {
+    const its = s.items.filter((i) => i.t >= t0 && i.t <= now);
+    s.items.forEach((i) => { if (!firstT || i.t < firstT) firstT = i.t; });
+    if (its.length) { sess.push({ s, items: its }); its.forEach((i) => items.push(i)); }
+  });
+  const n = items.length, ok = items.filter((i) => i.ok).length, fail = n - ok;
+  const ms = items.reduce((a, i) => a + (i.ms || 0), 0);
+  const per = {};
+  items.forEach((i) => { const p = per[i.c] || (per[i.c] = { id: i.c, n: 0, ok: 0, fail: 0 }); p.n++; if (i.ok) p.ok++; else p.fail++; });
+  const chars = Object.values(per);
+  const byCat = { hiragana: { seen: 0, ok: 0 }, katakana: { seen: 0, ok: 0 }, kanji: { seen: 0, ok: 0 } };
+  chars.forEach((p) => { const c = byCat[catOf(p.id)]; if (c) { c.seen++; if (p.ok) c.ok++; } });
+  const top = chars.slice().sort((a, b) => b.n - a.n || b.ok - a.ok).slice(0, 8);
+  const hard = chars.filter((p) => p.fail > 0).sort((a, b) => b.fail - a.fail || a.ok / a.n - b.ok / b.n).slice(0, 8);
+  const series = buckets(period, now, firstT).map((B) => { const its = items.filter((i) => i.t >= B.a && i.t < B.b); const k = its.filter((i) => i.ok).length; return Object.assign({}, B, { n: its.length, ok: k, fail: its.length - k, acc: its.length ? k / its.length : null }); });
+  const sessions = sess.sort((a, b) => b.s.start - a.s.start).map(({ s, items: its }) => { const k = its.filter((i) => i.ok).length; return { id: s.id, start: s.start, label: s.label, n: its.length, ok: k, fail: its.length - k, acc: k / its.length, ms: its.reduce((a, i) => a + (i.ms || 0), 0), demo: !!s.demo }; });
+  return { period, n, ok, fail, rate: n ? ok / n : null, ms, sessions, chars, unique: chars.length, byCat, top, hard, series };
+}
+function streakOf(d, now) {
+  now = now || Date.now();
+  const days = new Set();
+  (d ? d.sessions : []).forEach((s) => s.items.forEach((i) => days.add(dayStart(i.t))));
+  let t = dayStart(now); if (!days.has(t)) { const y = new Date(t); y.setDate(y.getDate() - 1); t = y.getTime(); }
+  let n = 0;
+  while (days.has(t)) { n++; const y = new Date(t); y.setDate(y.getDate() - 1); t = y.getTime(); }
+  return n;
+}
+
+// ---------- dados de exemplo (para testar filtros e gráficos) ----------
+function demoHistory(D, now) {
+  now = now || Date.now();
+  const pool = D.characters.filter((e) => e.category !== 'kanji' ? e.group === 'basico' : (e.jlpt === 'N5' || e.jlpt === 'N4')).map((e) => e.id);
+  const skill = {}; pool.forEach((id) => { skill[id] = 0.45 + Math.random() * 0.5; });
+  const sessions = []; const today = dayStart(now);
+  const mk = (t, n) => {
+    const chars = shuffle(pool).slice(0, n); const items = []; let tt = t;
+    chars.forEach((c) => { const ms = 12000 + Math.random() * 30000; tt += ms; const age = (now - t) / 864e5; const p = Math.min(0.97, skill[c] + (120 - age) / 600); items.push({ c, ok: Math.random() < p ? 1 : 0, v: '', s: 0, t: tt, ms: Math.round(ms), rd: '', mn: '' }); });
+    sessions.push({ id: 's' + uid(), start: t, end: tt, ms: items.reduce((a, i) => a + i.ms, 0), label: 'Sessão de exemplo', src: null, planned: n, items, demo: true });
+  };
+  for (let k = 120; k >= 1; k--) {
+    if (Math.random() < 0.28) continue;
+    const day = new Date(today); day.setDate(day.getDate() - k);
+    const t = day.getTime() + (8 + Math.random() * 13) * 3600e3;
+    mk(t, 6 + (Math.random() * 18 | 0));
+  }
+  mk(Math.max(today + 60e3, now - 20 * 60e3), 12);
+  return sessions;
+}
+
+// ---------- intenção entre telas (ex.: "Praticar este caractere") ----------
+const Intent = {
+  set(v) { KS.set('intent', Object.assign({ at: Date.now() }, v)); },
+  take() { const v = KS.get('intent', null); if (!v) return null; KS.del('intent'); return Date.now() - v.at < 15 * 60e3 ? v : null; }
+};
+
+// ---------- cabeçalho: área do usuário ----------
+function acctBind(self) {
+  if (self._acctBound) return;
+  self._acctBound = true;
+  const f = () => { try { self.forceUpdate(); } catch (e) {} };
+  window.addEventListener('storage', (e) => { if (!e.key || e.key.indexOf('kaku.') === 0) f(); });
+  window.addEventListener('kaku:change', f);
+  window.addEventListener('focus', f);
+}
+function acctVals(self) {
+  acctBind(self);
+  const u = Auth.current();
+  const open = !!self._acctOpen && !!u;
+  const d = u ? UD.load(u) : null;
+  const streak = d ? streakOf(d) : 0;
+  const first = u ? u.name.split(/\s+/)[0] : '';
+  const initials = u ? u.name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0].toUpperCase()).join('') : '';
+  const here = self._page || 'Main.dc.html';
+  return {
+    acct: {
+      in: !!u, out: !u, name: first, full: u ? u.name : '', email: u ? u.email : '', initials,
+      open, openAttr: open ? 'true' : 'false', streak, hasStreak: streak > 0, streakLabel: streak + (streak === 1 ? ' dia' : ' dias'),
+      toggle: () => { self._acctOpen = !open; self.forceUpdate(); },
+      close: () => { self._acctOpen = false; self.forceUpdate(); },
+      logout: () => { self._acctOpen = false; Auth.logout(); },
+      toLogin: () => { KS.set('returnTo', here); },
+      persistent: KS.persistent, volatile: !KS.persistent
+    }
+  };
+}
+// Os quadros rodam num iframe sem permissão de enviar formulários: o Enter e o botão de envio
+// chamam o handler diretamente. Para cada função `x` devolvida, cria `xKey` (Enter num campo -> x).
+function enterTo(fn) {
+  return (ev) => {
+    if (!ev || ev.key !== 'Enter' || ev.shiftKey || ev.isComposing || ev.keyCode === 229) return;
+    const tag = ev.target && ev.target.tagName;
+    if (tag !== 'INPUT') return;
+    ev.preventDefault();
+    fn(ev);
+  };
+}
+function addEnterKeys(o) {
+  if (!o || typeof o !== 'object' || Array.isArray(o)) return;
+  Object.keys(o).forEach((k) => { if (typeof o[k] === 'function' && !k.endsWith('Key')) o[k + 'Key'] = enterTo(o[k]); });
+}
+function withAcct(self, vals) {
+  const v = Object.assign(vals || {}, acctVals(self));
+  addEnterKeys(v);
+  Object.keys(v).forEach((k) => { const x = v[k]; if (x && typeof x === 'object' && !Array.isArray(x)) addEnterKeys(x); });
+  return v;
+}
+
+// ---------- "Adicionar à lista de prática" (páginas de detalhe) ----------
+function listPickerVals(self, charId, accent) {
+  const u = Auth.current();
+  const open = self._alOpen === charId;
+  const lists = u ? UD.load(u).lists : [];
+  const msg = self._alMsgFor === charId ? self._alMsg || '' : '';
+  const err = self._alErrFor === charId ? self._alErr || '' : '';
+  const create = (ev) => {
+    if (ev && ev.preventDefault) ev.preventDefault();
+    const name = self._alName || '';
+    const r = Lists.create(name, [charId]);
+    if (r.error) { self._alErr = r.error; self._alErrFor = charId; } else { self._alErr = ''; self._alName = ''; self._alMsg = 'Lista “' + r.name + '” criada com este caractere.'; self._alMsgFor = charId; }
+    self.forceUpdate();
+  };
+  const inCount = lists.filter((l) => l.chars.includes(charId)).length;
+  return {
+    al: {
+      open, closed: !open, openAttr: open ? 'true' : 'false', in: !!u, out: !u,
+      label: inCount ? 'Em ' + inCount + (inCount === 1 ? ' lista' : ' listas') : 'Adicionar à lista de prática',
+      short: inCount ? 'Em ' + inCount + (inCount === 1 ? ' lista' : ' listas') : 'Adicionar à lista',
+      toggle: () => { self._alOpen = open ? null : charId; self._alMsg = ''; self._alErr = ''; self.forceUpdate(); },
+      lists: lists.map((l) => {
+        const has = l.chars.includes(charId);
+        return { name: l.name, count: l.chars.length + (l.chars.length === 1 ? ' caractere' : ' caracteres'), has, not: !has, pressed: has ? 'true' : 'false', bg: has ? '#fef2f2' : '#ffffff', bd: has ? accent : '#e7e5e4',
+          pick: () => { Lists.toggle(l.id, charId); self._alMsg = (has ? 'Removido de “' : 'Adicionado a “') + l.name + '”.'; self._alMsgFor = charId; self._alErr = ''; self.forceUpdate(); } };
+      }),
+      hasLists: lists.length > 0, noLists: lists.length === 0,
+      name: self._alName || '', onName: (ev) => { self._alName = ev.target.value; self._alErr = ''; self.forceUpdate(); },
+      create, err, hasErr: !!err, msg, hasMsg: !!msg,
+      toLogin: () => { KS.set('returnTo', self._page || 'Caracteres.dc.html'); }
+    },
+    practiceThis: () => Intent.set({ kind: 'chars', chars: [charId], label: 'Caractere ' + charId.split(':')[1] })
+  };
+}
+
+const RANGES = { '': null, a: [1, 4], b: [5, 8], c: [9, 12], d: [13, 16], e: [17, 99] };
+function cjkChar(q) { const a = Array.from(q); return a.length === 1 && /[⺀-鿿豈-﫿]|[\uD840-\uD87F][\uDC00-\uDFFF]/.test(q); }
+function compMaps(D) {
+  if (D._cm) return D._cm;
+  const toStd = {}, toVar = {}, meaning = new Map(), search = new Map();
+  D.characters.forEach((e) => {
+    if (e.category !== 'kanji') return;
+    meaning.set(e.char, e.meaning.pt.join(' / ')); search.set(e.char, e.meaning.pt.join(' ') + ' ' + e.meaning.en.join(' '));
+    (e.decomposition || []).forEach((d) => {
+      if (d.lookalike) return;
+      if (!meaning.has(d.c)) { meaning.set(d.c, d.meaning || ''); search.set(d.c, d.meaning || ''); }
+      if (d.standard) { toStd[d.c] = d.standard; (toVar[d.standard] = toVar[d.standard] || new Set()).add(d.c); }
+    });
+  });
+  D._cm = { toStd, toVar, meaning, search };
+  return D._cm;
+}
+function compSet(D, q) {
+  const set = new Set(); q = (q || '').trim(); if (!q) return set;
+  const M = compMaps(D);
+  if (cjkChar(q)) { set.add(q); (M.toVar[q] || []).forEach((v) => set.add(v)); if (M.toStd[q]) set.add(M.toStd[q]); return set; }
+  const nq = norm(q);
+  M.search.forEach((m, c) => { if (norm(m).split(/[^a-z0-9]+/).some((w) => w && w.startsWith(nq))) set.add(c); });
+  return set;
+}
+function hasComp(e, set) { return set.has(e.char) || e.containsComponents.some((c) => set.has(c)); }
+function kanjiList(D, st) {
+  let L = D.characters.filter((e) => e.category === 'kanji');
+  if (st.jlpt) L = L.filter((e) => e.jlpt === st.jlpt);
+  if (st.rad) L = L.filter((e) => e.radical.standard === st.rad);
+  const R = RANGES[st.strokes || '']; if (R) L = L.filter((e) => e.strokes >= R[0] && e.strokes <= R[1]);
+  if (st.comp) { const cs = compSet(D, st.comp); L = L.filter((e) => hasComp(e, cs)); }
+  const q = norm(st.query).trim();
+  if (q) {
+    if (st.mode === 'meaning') L = L.filter((e) => norm(e.meaning.pt.join(' ') + ' ' + e.meaning.en.join(' ')).includes(q));
+    else if (st.mode === 'comp') { const cs = compSet(D, st.query); L = L.filter((e) => hasComp(e, cs)); }
+    else L = L.filter((e) => e._hay.includes(q) || e.char === st.query.trim());
+  }
+  return L;
+}
+class Component extends DCLogic {
+  constructor(...a) {
+    super(...a);
+    this._page = 'Kanji.dc.html';
+    this.state = { mode: 'all', query: '', jlpt: null, rad: '', strokes: '', comp: null, sel: 'kanji:明', anim: 0, hist: [] };
+  }
+  componentDidMount() { waitForData(this); }
+  renderVals() { return withAcct(this, this._rv()); }
+  _rv() {
+    const accent = this.props.accent ?? '#dc2626';
+    const st = this.state;
+    const D = kdb();
+    const seg = (key, items) => items.map(([id, label]) => { const on = st[key] === id; return { label, pressed: on ? 'true' : 'false', bg: on ? '#ffffff' : 'transparent', fg: on ? '#1c1917' : '#44403c', fw: on ? '700' : '500', sh: on ? '0 1px 2px 0 rgb(0 0 0 / 0.05)' : 'none', pick: () => this.setState({ [key]: id }) }; });
+    const base = { accent, loading: !D, ready: false, groups: [], shown: 0, total: 0, radOpts: [], strokeOpts: [], query: st.query, rad: st.rad, strokes: st.strokes };
+    if (!D) return Object.assign(base, { modes: [], jlpts: [], cx: EMPTY_CX });
+    const K = D.characters.filter((e) => e.category === 'kanji');
+    const list = kanjiList(D, st);
+    const levels = ['N5', 'N4', 'N3', 'N2', 'N1'];
+    const gkey = JSON.stringify([st.mode, st.query, st.jlpt, st.rad, st.strokes, st.comp]);
+    if (!this._glim || this._glim.key !== gkey) this._glim = { key: gkey, n: {} };
+    const groups = levels.map((lv) => {
+      const all = list.filter((e) => e.jlpt === lv); const lim = this._glim.n[lv] || 60;
+      const items = all.slice(0, lim).map((e) => {
+        const on = e.id === st.sel;
+        return { c: e.char, pt: e.meaning.pt[0], cur: on ? 'true' : 'false', bd: on ? accent : '#e7e5e4', sh: on ? '0 0 0 2px ' + accent + '2E' : 'none', pick: () => { if (e.id !== st.sel) this.setState({ sel: e.id, anim: st.anim + 1, mdetail: true, hist: (st.hist || []).concat([st.sel]).slice(-30) }); else this.setState({ mdetail: true }); } };
+      });
+      return { level: 'JLPT ' + lv, count: all.length, items, hasMore: all.length > lim, moreLabel: 'Mostrar mais ' + lv + ' (' + (all.length - lim) + ' restantes)', more: () => { this._glim.n[lv] = lim + 120; this.forceUpdate(); } };
+    }).filter((g) => g.count > 0);
+    const radCount = {};
+    K.forEach((e) => { const r = e.radical; radCount[r.standard] = radCount[r.standard] || { n: 0, num: r.number, pt: r.meaning.pt }; radCount[r.standard].n++; });
+    const radOpts = [{ v: '', label: 'Todos os radicais' }].concat(Object.keys(radCount).sort((a, b) => radCount[a].num - radCount[b].num).map((k) => ({ v: k, label: k + '  ' + radCount[k].pt + ' (' + radCount[k].n + ')' })));
+    const strokeOpts = [['', 'Todos'], ['a', '1–4 traços'], ['b', '5–8 traços'], ['c', '9–12 traços'], ['d', '13–16 traços'], ['e', '17 ou mais']].map(([v, label]) => ({ v, label }));
+    const e = D._idx[st.sel] || K[0];
+    const onComp = (c) => this.setState({ comp: c, mode: 'all', query: '', mdetail: false });
+    const det = Object.assign(detailOf(this, e, accent), listPickerVals(this, e.id, accent));
+    det.cx = compOf(this, e, onComp);
+    det.noSentence = !det.hasSentence;
+    det.metaLine = [e.strokes + ' traços', DIFF_LABEL[e.difficulty], e.gradeLabel].filter(Boolean).join(' · ');
+    // banner for component search
+    const compQ = st.comp || (st.mode === 'comp' && st.query.trim()) || '';
+    let banner = null;
+    if (compQ) {
+      const cs = compSet(D, compQ); const M = compMaps(D);
+      const main = cjkChar(compQ) ? compQ : Array.from(cs)[0];
+      const n = list.length;
+      banner = cs.size ? { c: main || '？', title: cjkChar(compQ) ? 'Componente ' + compQ + (M.meaning.get(compQ) ? ' — ' + M.meaning.get(compQ) : '') : 'Componentes com “' + compQ + '”: ' + Array.from(cs).slice(0, 8).join(' '), sub: n + (n === 1 ? ' kanji contém' : ' kanji contêm') + ' este componente (incluindo formas de radical, como 亻 para 人 e 氵 para 水).' } : { c: '？', title: 'Nenhum componente encontrado', sub: 'Digite um caractere (ex.: 木) ou um significado (ex.: água).' };
+    }
+    return Object.assign(base, det, {
+      ready: true, groups, shown: list.length, total: K.length, empty: list.length === 0, radOpts, strokeOpts,
+      modes: seg('mode', [['all', 'Tudo'], ['meaning', 'Significado'], ['comp', 'Componente']]),
+      jlpts: seg('jlpt', [[null, 'Todos'], ['N5', 'N5'], ['N4', 'N4'], ['N3', 'N3'], ['N2', 'N2'], ['N1', 'N1']]),
+      placeholder: st.mode === 'comp' ? 'Componente: 木, 氵, água, pessoa…' : (st.mode === 'meaning' ? 'Significado: árvore, water, falar…' : 'Kanji, leitura, romaji ou significado'),
+      onQuery: (ev) => this.setState({ query: ev.target.value }),
+      onRad: (ev) => this.setState({ rad: ev.target.value }),
+      onStrokes: (ev) => this.setState({ strokes: ev.target.value }),
+      comp: st.comp || '', hasComp: !!st.comp, clearComp: () => this.setState({ comp: null }),
+      filterBySelf: () => this.setState({ mdetail: false, comp: e.char, mode: 'all', query: '', jlpt: null, rad: '', strokes: '' }),
+      showAllUsed: () => this.setState({ mdetail: false, comp: e.char, mode: 'all', query: '', jlpt: null, rad: '', strokes: '' }),
+      anyFilter: !!(st.jlpt || st.rad || st.strokes || st.comp || st.query),
+      clearFilters: () => this.setState({ mode: 'all', query: '', jlpt: null, rad: '', strokes: '', comp: null }),
+      hasBanner: !!banner, banner: banner || { c: '', title: '', sub: '' },
+      mOpen: !!st.mdetail, mList: !st.mdetail, mClose: () => this.setState({ mdetail: false })
+    });
+  }
+}
+</script>
+</body>
+</html>

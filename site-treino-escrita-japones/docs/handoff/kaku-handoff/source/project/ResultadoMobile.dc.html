@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Kaku — Resultado (celular)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Shippori+Mincho:wght@500;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#f5f5f4;color:#1c1917;font-family:'Zen Kaku Gothic New',ui-sans-serif,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#dc2626}a:hover{color:#b91c1c}
+button,input,select,textarea{font-family:inherit}
+.jp{font-family:'Klee One','Hiragino Mincho ProN','Yu Mincho',serif}
+.disp{font-family:'Shippori Mincho','Hiragino Mincho ProN','Yu Mincho',ui-serif,serif}
+/* estados — Design System Kaku (Tailwind) */
+.nl{transition:background-color .15s ease,color .15s ease}.nl:hover{background-color:#e7e5e4!important;color:#1c1917!important}
+.card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}.card:hover{transform:translateY(-2px);box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05)}
+.btn{transition:transform .15s ease,filter .15s ease,background-color .15s ease,border-color .15s ease}.btn:hover{filter:brightness(.92)}.btn:active{transform:scale(.98);filter:brightness(.85)}
+.soft:hover{background-color:#f5f5f4!important;filter:none}.soft:active{background-color:#e7e5e4!important}
+button:disabled,.btn[aria-disabled="true"]{opacity:.5;cursor:not-allowed!important;filter:none!important;transform:none!important}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #dc2626;outline-offset:2px}
+input,select,textarea{transition:border-color .15s ease,box-shadow .15s ease}
+input:hover,select:hover,textarea:hover{border-color:#d6d3d1}
+input:focus,select:focus,textarea:focus{border-color:#dc2626!important;box-shadow:0 0 0 4px #fee2e2;outline:none}
+input[aria-invalid="true"]{border-color:#dc2626!important;background-color:#fef2f2!important}
+input:disabled,select:disabled,textarea:disabled{background-color:#f5f5f4!important;color:#a8a29e!important;cursor:not-allowed}
+input::placeholder,textarea::placeholder{color:#78716c}
+[data-tip]{position:relative}
+[data-tip]:hover::after,[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;left:50%;bottom:calc(100% + 8px);transform:translateX(-50%);width:max-content;max-width:240px;padding:8px 8px;border-radius:6px;background:#1c1917;color:#ffffff;font-size:12px;line-height:16px;font-weight:500;white-space:normal;text-align:center;z-index:50;pointer-events:none;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05)}
+[data-page-scroll="flow"] main,[data-page-scroll="flow"] footer{flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{animation:spin .8s linear infinite}
+@keyframes draw{to{stroke-dashoffset:0}}
+.stk{animation:draw .6s cubic-bezier(.45,0,.25,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.rise{animation:rise .4s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pop{0%{transform:scale(.7);opacity:0}70%{transform:scale(1.05);opacity:1}100%{transform:scale(1)}}
+.pop{animation:pop .45s ease both}
+@keyframes shakeA{0%,100%{transform:none}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+@keyframes shakeB{0%,100%{transform:none}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+.shakeA{animation:shakeA .4s ease}.shakeB{animation:shakeB .4s ease}
+@keyframes sheet{from{transform:translateY(100%)}to{transform:none}}
+.sheet{animation:sheet .38s cubic-bezier(.2,.8,.2,1) both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.fade{animation:fade .3s ease both}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0s!important;transition:none!important}}
+</style>
+</helmet>
+<div style="width:390px;height:844px;box-sizing:border-box;background:#f5f5f4;position:relative;overflow:hidden;">
+<header style="display:flex;align-items:center;justify-content:space-between;padding:20px 20px 12px;"><h1 class="disp" style="margin:0;font-size:30px;font-weight:700;">Praticar</h1><span style="display:flex;align-items:center;gap:8px;height:36px;padding:0 12px;border-radius:9999px;background:#ffffff;border:1px solid #e7e5e4;font-size:14px;font-weight:700;"><span style="display:flex;color:{{accent}};"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-3.9 0-6.5-2.6-6.5-6.2 0-3.3 2.4-5.4 3.8-8.3.5 1.8 1.6 3 2.7 3.4.3-2.6 1.6-5 3.8-6.9.3 2.6 2.7 4.8 2.7 9 0 5.9-2.6 9-6.5 9z"></path></svg></span>7 dias</span></header>
+<main style="display:flex;flex-direction:column;gap:12px;padding:0 24px;">
+<div role="group" aria-label="Escolher conjunto" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:4px;background:#e7e5e4;border-radius:8px;">
+<sc-for list="{{sets}}" as="s" hint-placeholder-count="3"><button onClick="{{s.pick}}" aria-pressed="{{s.pressed}}" style="height:36px;border:none;border-radius:8px;background-color:{{s.bg}};color:{{s.fg}};font-weight:{{s.fw}};box-shadow:{{s.sh}};font-size:14px;cursor:pointer;">{{s.label}}</button></sc-for>
+</div><div style="display:flex;gap:12px;align-items:center;padding:12px;border-radius:12px;background:#ffffff;border:1px solid #e7e5e4;">
+<div style="position:relative;width:64px;height:64px;flex-shrink:0;border-radius:8px;background:#f5f5f4;display:flex;align-items:center;justify-content:center;">
+<sc-if value="{{showRef}}" hint-placeholder-val="{{true}}"><span class="jp fade" style="font-size:48px;line-height:1;">{{t.c}}</span></sc-if>
+<sc-if value="{{hideRef}}" hint-placeholder-val="{{false}}"><span class="disp" style="font-size:30px;color:#a8a29e;">?</span></sc-if>
+</div>
+<div style="display:flex;flex-direction:column;gap:2px;flex-grow:1;min-width:0;">
+<span style="font-size:14px;color:#44403c;">{{lead}}</span>
+<span class="disp" style="font-size:20px;font-weight:700;line-height:1.25;">{{main}}</span>
+<span style="font-size:14px;color:#57534e;">{{sub}}</span>
+</div>
+<button class="btn soft" onClick="{{toggleRef}}" aria-pressed="{{refPressed}}" aria-label="Mostrar ou ocultar referência" style="width:44px;height:36px;flex-shrink:0;border-radius:9999px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:14px;padding:0 12px;">
+<sc-if value="{{showRef}}" hint-placeholder-val="{{true}}"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"></path><path d="M4 4l16 16"></path></svg></sc-if><sc-if value="{{hideRef}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"></path><circle cx="12" cy="12" r="3"></circle></svg></sc-if></button>
+</div>
+<section aria-label="Área de escrita" style="display:flex;flex-direction:column;gap:12px;">
+<div style="display:flex;justify-content:space-between;align-items:center;"><span style="font-size:14px;color:#44403c;">Traços: 3 / 3</span></div>
+<div style="position:relative;width:342px;height:342px;border-radius:12px;background:#ffffff;box-shadow:inset 0 0 0 1px #e7e5e4;overflow:hidden;"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:342px;height:342px;"><line x1="50" y1="0" x2="50" y2="100" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="50" x2="100" y2="50" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="0" x2="100" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line><line x1="100" y1="0" x2="0" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line></svg><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:342px;height:342px;"><path d="M49 13 Q51 46 50 79" fill="none" stroke="#1c1917" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path></svg><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:342px;height:342px;"><path d="M21 37 Q19 60 21 80 Q50 82 79 79" fill="none" stroke="#1c1917" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path></svg><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:342px;height:342px;"><path d="M79 35 Q81 62 80 88" fill="none" stroke="#1c1917" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+</section>
+</main>
+<nav aria-label="Principal" style="position:absolute;left:0;bottom:0;width:390px;height:80px;box-sizing:border-box;padding:8px 8px 16px;background:#ffffff;border-top:1px solid #e7e5e4;display:flex;">
+<a href="MainMobile.dc.html" style="flex-grow:1;flex-basis:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-decoration:none;color:#57534e;font-size:12px;font-weight:500;"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10.5 12 3.5l8.5 7"></path><path d="M5.5 9v11h13V9"></path><path d="M10 20v-5h4v5"></path></svg>Início</a>
+<a href="CaracteresMobile.dc.html" style="flex-grow:1;flex-basis:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-decoration:none;color:#57534e;font-size:12px;font-weight:500;"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="7" height="7" rx="1.8"></rect><rect x="13.5" y="3.5" width="7" height="7" rx="1.8"></rect><rect x="3.5" y="13.5" width="7" height="7" rx="1.8"></rect><rect x="13.5" y="13.5" width="7" height="7" rx="1.8"></rect></svg>Caracteres</a>
+<a href="PraticarMobile.dc.html" aria-current="page" style="flex-grow:1;flex-basis:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-decoration:none;color:{{accent}};font-size:12px;font-weight:700;"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5l5 5L10 19l-5.5 1 1-5.5z"></path><path d="M12.5 6.5l5 5"></path></svg>Praticar</a>
+<a href="ProgressoMobile.dc.html" style="flex-grow:1;flex-basis:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-decoration:none;color:#57534e;font-size:12px;font-weight:500;"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20h17"></path><path d="M6.5 16v-5"></path><path d="M11.5 16V6"></path><path d="M16.5 16v-8"></path></svg>Progresso</a>
+</nav>
+<div aria-hidden="true" style="position:absolute;left:0;top:0;width:390px;height:844px;background:rgb(12 10 9 / 0.4);"></div>
+<section aria-label="Resultado" class="sheet" style="position:absolute;left:0;bottom:0;width:390px;box-sizing:border-box;padding:12px 20px 24px;background:#ffffff;border-radius:12px 12px 0 0;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);display:flex;flex-direction:column;gap:16px;">
+<div aria-hidden="true" style="width:40px;height:4px;border-radius:9999px;background:#d6d3d1;align-self:center;"></div>
+<div class="pop" role="status" style="display:flex;gap:12px;align-items:center;padding:12px 16px;border-radius:12px;background-color:{{v.bg}};">
+<span style="width:36px;height:36px;flex-shrink:0;border-radius:9999px;background-color:{{v.fg}};color:#ffffff;display:flex;align-items:center;justify-content:center;">
+<sc-if value="{{v.ok}}" hint-placeholder-val="{{true}}"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></sc-if>
+<sc-if value="{{v.al}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.5v5.5"></path><path d="M12 16.5v.5"></path></svg></sc-if>
+<sc-if value="{{v.no}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></sc-if>
+</span>
+<span style="display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;color:{{v.fg}};">{{v.label}}</strong><span style="font-size:14px;line-height:1.5;color:#292524;">{{v.sub}}</span></span>
+</div>
+<div style="display:flex;gap:12px;align-items:center;">
+<span class="jp" style="width:80px;height:80px;flex-shrink:0;border-radius:8px;border:1px solid #e7e5e4;background:#fafaf9;display:flex;align-items:center;justify-content:center;font-size:60px;line-height:1;">{{rid.c}}</span>
+<div style="display:flex;flex-direction:column;gap:4px;min-width:0;">
+<span style="margin:0;font-size:12px;color:#57534e;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;font-size:12px;">Caractere identificado</span>
+<span style="display:flex;align-items:baseline;gap:8px;"><span class="jp" style="font-size:20px;font-weight:600;">{{rid.r}}</span><span style="font-size:16px;color:#44403c;">{{rid.ro}}</span></span>
+<span style="font-size:14px;">{{rid.pt}} <span style="color:#57534e;">· {{rid.en}}</span></span>
+</div>
+</div>
+<div style="display:flex;gap:12px;align-items:center;padding:12px;border-radius:12px;background:#f5f5f4;">
+<div style="position:relative;width:64px;height:64px;flex-shrink:0;border-radius:8px;background:#ffffff;border:1px solid #e7e5e4;overflow:hidden;"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:64px;height:64px;"><path d="M49 13 Q51 46 50 79" fill="none" stroke="#1c1917" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></svg><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:64px;height:64px;"><path d="M21 37 Q19 60 21 80 Q50 82 79 79" fill="none" stroke="#1c1917" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></svg><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:64px;height:64px;"><path d="M79 35 Q81 62 80 88" fill="none" stroke="#1c1917" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+<div style="display:flex;flex-direction:column;gap:8px;flex-grow:1;">
+<div style="display:flex;justify-content:space-between;font-size:14px;"><span style="color:#44403c;">Semelhança</span><strong>{{r.sim}}%</strong></div>
+<div style="height:6px;border-radius:9999px;background:#e7e5e4;overflow:hidden;"><div style="height:6px;border-radius:9999px;width:{{simW}};background-color:{{v.fg}};"></div></div>
+<div style="display:flex;justify-content:space-between;font-size:14px;"><span style="color:#44403c;">Traços</span><strong>{{r.user}} / {{r.exp}}</strong></div>
+</div>
+</div>
+<div style="display:flex;gap:12px;">
+<a href="PraticarMobile.dc.html" class="btn soft" style="flex-grow:1;height:48px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:16px;font-weight:500;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4"></path><path d="M4.5 4v4.5H9"></path></svg>Tentar de novo</a>
+<a href="PraticarMobile.dc.html" class="btn" style="flex-grow:1;height:48px;border-radius:8px;border:none;background-color:{{accent}};color:#ffffff;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;">Próximo<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+</section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#dc2626","options":["#dc2626","#b91c1c","#ef4444","#1c1917"]},"$preview":{"width":390,"height":844}}'>
+
+const TYPES = { h: { label: 'Hiragana', fg: '#1e40af', bg: '#dbeafe' }, k: { label: 'Katakana', fg: '#92400e', bg: '#fef3c7' }, j: { label: 'Kanji', fg: '#b91c1c', bg: '#fee2e2' } };
+const DATA = [
+  { c: 'い', t: 'h', r: 'い', ro: 'i', pt: 'sílaba “i”', en: 'syllable “i”', ex: 'いぬ', exk: '', exr: 'inu', expt: 'cão', exen: 'dog', orig: '以', p: ['M26 26 Q20 60 30 74 Q34 78 38 68', 'M68 34 Q80 50 78 66'] },
+  { c: 'う', t: 'h', r: 'う', ro: 'u', pt: 'sílaba “u”', en: 'syllable “u”', ex: 'うみ', exk: '', exr: 'umi', expt: 'mar', exen: 'sea', orig: '宇', p: ['M40 14 Q52 18 60 22', 'M30 44 Q50 32 66 42 Q76 56 62 72 Q52 82 40 88'] },
+  { c: 'く', t: 'h', r: 'く', ro: 'ku', pt: 'sílaba “ku”', en: 'syllable “ku”', ex: 'くも', exk: '', exr: 'kumo', expt: 'nuvem', exen: 'cloud', orig: '久', p: ['M64 14 Q40 36 30 50 Q42 64 64 86'] },
+  { c: 'こ', t: 'h', r: 'こ', ro: 'ko', pt: 'sílaba “ko”', en: 'syllable “ko”', ex: 'こども', exk: '', exr: 'kodomo', expt: 'criança', exen: 'child', orig: '己', p: ['M30 30 Q52 26 68 30 Q64 34 60 38', 'M26 66 Q30 76 50 76 Q66 76 76 72'] },
+  { c: 'し', t: 'h', r: 'し', ro: 'shi', pt: 'sílaba “shi”', en: 'syllable “shi”', ex: 'しお', exk: '', exr: 'shio', expt: 'sal', exen: 'salt', orig: '之', p: ['M36 14 L36 66 Q38 84 56 82 Q70 78 78 64'] },
+  { c: 'つ', t: 'h', r: 'つ', ro: 'tsu', pt: 'sílaba “tsu”', en: 'syllable “tsu”', ex: 'つき', exk: '', exr: 'tsuki', expt: 'lua', exen: 'moon', orig: '川', p: ['M16 44 Q52 26 76 36 Q88 48 72 64 Q60 74 42 78'] },
+  { c: 'て', t: 'h', r: 'て', ro: 'te', pt: 'sílaba “te”', en: 'syllable “te”', ex: 'て', exk: '', exr: 'te', expt: 'mão', exen: 'hand', orig: '天', p: ['M16 30 Q50 26 84 22 Q56 34 46 52 Q42 70 56 84 Q62 88 68 86'] },
+  { c: 'へ', t: 'h', r: 'へ', ro: 'he', pt: 'sílaba “he”', en: 'syllable “he”', ex: 'へや', exk: '', exr: 'heya', expt: 'quarto', exen: 'room', orig: '部', p: ['M12 60 Q24 40 34 36 Q42 36 52 48 Q70 68 88 76'] },
+  { c: 'り', t: 'h', r: 'り', ro: 'ri', pt: 'sílaba “ri”', en: 'syllable “ri”', ex: 'りんご', exk: '', exr: 'ringo', expt: 'maçã', exen: 'apple', orig: '利', p: ['M34 20 Q30 44 34 58 Q36 62 40 52', 'M64 18 Q72 40 68 62 Q62 80 44 90'] },
+  { c: 'イ', t: 'k', r: 'イ', ro: 'i', pt: 'sílaba “i”', en: 'syllable “i”', ex: 'イルカ', exk: '', exr: 'iruka', expt: 'golfinho', exen: 'dolphin', orig: '伊', p: ['M64 12 Q50 40 16 62', 'M44 40 L44 90'] },
+  { c: 'エ', t: 'k', r: 'エ', ro: 'e', pt: 'sílaba “e”', en: 'syllable “e”', ex: 'エレベーター', exk: '', exr: 'erebētā', expt: 'elevador', exen: 'elevator', orig: '江', p: ['M24 26 L76 26', 'M50 26 L50 78', 'M14 80 L86 80'] },
+  { c: 'カ', t: 'k', r: 'カ', ro: 'ka', pt: 'sílaba “ka”', en: 'syllable “ka”', ex: 'カメラ', exk: '', exr: 'kamera', expt: 'câmera', exen: 'camera', orig: '加', p: ['M20 34 L76 34 Q76 70 66 84 Q62 88 56 84', 'M48 12 Q46 58 20 88'] },
+  { c: 'コ', t: 'k', r: 'コ', ro: 'ko', pt: 'sílaba “ko”', en: 'syllable “ko”', ex: 'コーヒー', exk: '', exr: 'kōhī', expt: 'café', exen: 'coffee', orig: '己', p: ['M22 26 L76 26 L76 76', 'M22 76 L76 76'] },
+  { c: 'ニ', t: 'k', r: 'ニ', ro: 'ni', pt: 'sílaba “ni”', en: 'syllable “ni”', ex: 'ニュース', exk: '', exr: 'nyūsu', expt: 'notícias', exen: 'news', orig: '二', p: ['M28 32 L72 32', 'M14 72 L86 72'] },
+  { c: 'ト', t: 'k', r: 'ト', ro: 'to', pt: 'sílaba “to”', en: 'syllable “to”', ex: 'トマト', exk: '', exr: 'tomato', expt: 'tomate', exen: 'tomato', orig: '止', p: ['M40 12 L40 90', 'M42 44 Q60 50 72 60'] },
+  { c: 'ハ', t: 'k', r: 'ハ', ro: 'ha', pt: 'sílaba “ha”', en: 'syllable “ha”', ex: 'ハンバーガー', exk: '', exr: 'hanbāgā', expt: 'hambúrguer', exen: 'hamburger', orig: '八', p: ['M38 28 Q34 58 14 78', 'M60 26 Q74 50 88 76'] },
+  { c: 'ロ', t: 'k', r: 'ロ', ro: 'ro', pt: 'sílaba “ro”', en: 'syllable “ro”', ex: 'ロボット', exk: '', exr: 'robotto', expt: 'robô', exen: 'robot', orig: '呂', p: ['M26 24 L26 80', 'M26 24 L76 24 L76 80', 'M26 78 L76 78'] },
+  { c: 'ミ', t: 'k', r: 'ミ', ro: 'mi', pt: 'sílaba “mi”', en: 'syllable “mi”', ex: 'ミルク', exk: '', exr: 'miruku', expt: 'leite', exen: 'milk', orig: '三', p: ['M28 18 Q50 22 68 32', 'M32 44 Q52 48 66 56', 'M22 68 Q50 74 74 86'] },
+  { c: '一', t: 'j', r: 'ひと(つ)', ro: 'hito(tsu)', pt: 'um', en: 'one', on: [['イチ', 'ichi'], ['イツ', 'itsu']], kun: [['ひと(つ)', 'hito(tsu)']], ex: '一月', exk: 'いちがつ', exr: 'ichigatsu', expt: 'janeiro', exen: 'January', tip: 'Um único traço horizontal representa o número um.', p: ['M14 51 Q50 48 86 50'] },
+  { c: '二', t: 'j', r: 'ふた(つ)', ro: 'futa(tsu)', pt: 'dois', en: 'two', on: [['ニ', 'ni']], kun: [['ふた(つ)', 'futa(tsu)']], ex: '二月', exk: 'にがつ', exr: 'nigatsu', expt: 'fevereiro', exen: 'February', tip: 'Dois traços horizontais; o de baixo é mais longo.', p: ['M28 32 L72 31', 'M14 70 L86 68'] },
+  { c: '三', t: 'j', r: 'み(っつ)', ro: 'mi(ttsu)', pt: 'três', en: 'three', on: [['サン', 'san']], kun: [['み(っつ)', 'mi(ttsu)']], ex: '三月', exk: 'さんがつ', exr: 'sangatsu', expt: 'março', exen: 'March', tip: 'Três traços; o do meio é o mais curto.', p: ['M24 24 L76 23', 'M30 50 L70 49', 'M14 78 L86 77'] },
+  { c: '十', t: 'j', r: 'とお', ro: 'tō', pt: 'dez', en: 'ten', on: [['ジュウ', 'jū']], kun: [['とお', 'tō']], ex: '十月', exk: 'じゅうがつ', exr: 'jūgatsu', expt: 'outubro', exen: 'October', tip: 'Uma cruz: o traço horizontal vem primeiro.', p: ['M14 48 L86 47', 'M50 12 L50 90'] },
+  { c: '人', t: 'j', r: 'ひと', ro: 'hito', pt: 'pessoa', en: 'person', on: [['ジン', 'jin'], ['ニン', 'nin']], kun: [['ひと', 'hito']], ex: '日本人', exk: 'にほんじん', exr: 'nihonjin', expt: 'japonês (pessoa)', exen: 'Japanese person', tip: 'Uma pessoa de pé, vista de lado.', p: ['M52 12 Q50 55 14 86', 'M50 44 Q62 72 88 86'] },
+  { c: '大', t: 'j', r: 'おお(きい)', ro: 'ō(kii)', pt: 'grande', en: 'big', on: [['ダイ', 'dai'], ['タイ', 'tai']], kun: [['おお(きい)', 'ō(kii)']], ex: '大人', exk: 'おとな', exr: 'otona', expt: 'adulto', exen: 'adult', tip: 'Uma pessoa de braços abertos: “grande”.', p: ['M16 38 L84 37', 'M50 10 Q50 60 16 88', 'M52 50 Q64 74 88 88'] },
+  { c: '口', t: 'j', r: 'くち', ro: 'kuchi', pt: 'boca', en: 'mouth', on: [['コウ', 'kō'], ['ク', 'ku']], kun: [['くち', 'kuchi']], ex: '出口', exk: 'でぐち', exr: 'deguchi', expt: 'saída', exen: 'exit', tip: 'Uma boca aberta, em forma de quadrado.', p: ['M24 26 L26 80', 'M24 26 L76 25 L74 80', 'M26 76 L74 76'] },
+  { c: '日', t: 'j', r: 'ひ', ro: 'hi', pt: 'sol, dia', en: 'sun, day', on: [['ニチ', 'nichi'], ['ジツ', 'jitsu']], kun: [['ひ', 'hi'], ['か', 'ka']], ex: '日本', exk: 'にほん', exr: 'nihon', expt: 'Japão', exen: 'Japan', tip: 'Originalmente, um desenho do sol.', p: ['M28 14 L29 88', 'M28 14 L72 13 L71 88', 'M29 50 L71 50', 'M29 84 L71 84'] },
+  { c: '中', t: 'j', r: 'なか', ro: 'naka', pt: 'meio, dentro', en: 'middle, inside', on: [['チュウ', 'chū']], kun: [['なか', 'naka']], ex: '中国', exk: 'ちゅうごく', exr: 'chūgoku', expt: 'China', exen: 'China', tip: 'Uma linha que atravessa o centro de uma caixa.', p: ['M20 32 L22 66', 'M20 32 L80 31 L78 66', 'M22 62 L78 62', 'M50 10 L50 92'] },
+  { c: '山', t: 'j', r: 'やま', ro: 'yama', pt: 'montanha', en: 'mountain', on: [['サン', 'san']], kun: [['やま', 'yama']], ex: '富士山', exk: 'ふじさん', exr: 'fujisan', expt: 'Monte Fuji', exen: 'Mount Fuji', tip: 'Três picos de uma montanha.', p: ['M50 12 L50 80', 'M20 36 L20 80 L80 80', 'M80 34 L80 88'] },
+  { c: '川', t: 'j', r: 'かわ', ro: 'kawa', pt: 'rio', en: 'river', on: [['セン', 'sen']], kun: [['かわ', 'kawa']], ex: '小川', exk: 'おがわ', exr: 'ogawa', expt: 'riacho', exen: 'stream', tip: 'Água correndo entre duas margens.', p: ['M28 16 Q28 60 16 88', 'M50 22 L50 72', 'M78 12 L78 90'] },
+  { c: '木', t: 'j', r: 'き', ro: 'ki', pt: 'árvore, madeira', en: 'tree, wood', on: [['モク', 'moku'], ['ボク', 'boku']], kun: [['き', 'ki']], ex: '木曜日', exk: 'もくようび', exr: 'mokuyōbi', expt: 'quinta-feira', exen: 'Thursday', tip: 'Uma árvore com galhos e raízes.', p: ['M14 36 L86 35', 'M50 10 L50 92', 'M48 38 Q36 64 14 80', 'M52 38 Q66 62 88 78'] }
+];
+function nums(d) { return (d.match(/-?\d+(\.\d+)?/g) || []).map(Number); }
+function plen(d) { const n = nums(d); let L = 0; for (let i = 2; i + 1 < n.length; i += 2) L += Math.hypot(n[i] - n[i - 2], n[i + 1] - n[i - 1]); return Math.ceil(L) + 6; }
+function startPt(d) { const n = nums(d); return { x: n[0], y: n[1] }; }
+function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+function strokesOf(d, gap) { return d.p.map((p, i) => ({ d: p, len: plen(p), delay: (i * (gap || 0.7)).toFixed(2) + 's' })); }
+function framesOf(d, accent) { return d.p.map((_, i) => { const s = startPt(d.p[i]); return { n: i + 1, sx: s.x, sy: s.y, layers: d.p.map((p, j) => ({ d: p, c: j < i ? '#1c1917' : (j === i ? accent : '#e7e5e4') })) }; }); }
+function decorate(d) { const T = TYPES[d.t]; return Object.assign({}, d, { tl: T.label, tf: T.fg, tb: T.bg, n: d.p.length }); }
+function speakText(d) { return d.t === 'j' ? d.r.replace(/[()]/g, '') : d.c; }
+function say(text) { try { const u = new SpeechSynthesisUtterance(text); u.lang = 'ja-JP'; u.rate = 0.85; window.speechSynthesis.cancel(); window.speechSynthesis.speak(u); } catch (e) {} }
+
+class Component extends DCLogic {
+  renderVals() {
+    const accent = this.props.accent ?? '#dc2626';
+    const t = decorate(DATA.find((x) => x.c === '山'));
+    const pill = { bg: '#ffffff', fg: '#1c1917', fw: '500', sh: 'none', pressed: 'false', pick: () => {} };
+    return {
+      accent, t, rid: t,
+      sets: [Object.assign({}, pill, { label: 'Hiragana', bg: 'transparent', fg: '#44403c' }), Object.assign({}, pill, { label: 'Katakana', bg: 'transparent', fg: '#44403c' }), Object.assign({}, pill, { label: 'Kanji', fw: '700', pressed: 'true', sh: '0 1px 2px 0 rgb(0 0 0 / 0.05)' })],
+      lead: 'Escreva o kanji que significa', main: 'montanha', sub: 'やま · yama · mountain',
+      showRef: true, hideRef: false, refPressed: 'true', toggleRef: () => {},
+      v: { label: 'Correto!', sub: 'Seu desenho corresponde ao caractere pedido.', fg: '#15803d', bg: '#dcfce7', ok: true, al: false, no: false },
+      r: { sim: 88, user: 3, exp: 3 }, simW: '88%'
+    };
+  }
+}
+</script>
+</body>
+</html>

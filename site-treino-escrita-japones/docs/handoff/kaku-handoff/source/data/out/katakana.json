@@ -1,0 +1,4270 @@
+{
+  "meta": {
+    "name": "Kaku — base de caracteres japoneses",
+    "schemaVersion": 2,
+    "generatedAt": "2026-09-27T01:25:52Z",
+    "romanization": "Hepburn em estilo wāpuro (vogais longas escritas por extenso: kyou, koohii)",
+    "categories": [
+      "hiragana",
+      "katakana",
+      "kanji"
+    ],
+    "groups": {
+      "basico": "Básicos",
+      "dakuten": "Dakuten (゛)",
+      "handakuten": "Handakuten (゜)",
+      "pequeno": "Pequenos",
+      "combinacao": "Combinações (yōon)",
+      "estrangeiro": "Sons estrangeiros",
+      "joyo": "Jōyō kanji"
+    },
+    "difficulty": {
+      "iniciante": "Iniciante",
+      "intermediario": "Intermediário",
+      "avancado": "Avançado"
+    },
+    "jlpt": [
+      "N5",
+      "N4",
+      "N3",
+      "N2",
+      "N1"
+    ],
+    "counts": {
+      "hiragana": 115,
+      "katakana": 139,
+      "kanji": 2136,
+      "total": 2390
+    },
+    "caveats": [
+      "Níveis JLPT são aproximados: desde 2010 o exame não publica listas oficiais de kanji; seguimos a classificação usual das listas de estudo.",
+      "“usage” (nível de uso) é derivado do nível JLPT, não de uma contagem de frequência em corpus.",
+      "formation (origem histórica) só é preenchida quando a classificação tradicional é consolidada; decomposition é apenas a análise visual e não implica origem.",
+      "strokeOrder só está preenchido para os caracteres com traçado simplificado do protótipo; o campo foi pensado para receber dados do KanjiVG."
+    ]
+  },
+  "characters": [
+    {
+      "id": "katakana:ア",
+      "char": "ア",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "a",
+      "reading": "あ",
+      "meaning": {
+        "pt": [
+          "sílaba “a”"
+        ],
+        "en": [
+          "syllable “a”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "アイス",
+          "reading": "アイス",
+          "romaji": "aisu",
+          "pt": "sorvete",
+          "en": "ice cream"
+        }
+      ]
+    },
+    {
+      "id": "katakana:イ",
+      "char": "イ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "i",
+      "reading": "い",
+      "meaning": {
+        "pt": [
+          "sílaba “i”"
+        ],
+        "en": [
+          "syllable “i”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M64 12 Q50 40 16 62",
+          "M44 40 L44 90"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "イルカ",
+          "reading": "イルカ",
+          "romaji": "iruka",
+          "pt": "golfinho",
+          "en": "dolphin"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ウ",
+      "char": "ウ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "u",
+      "reading": "う",
+      "meaning": {
+        "pt": [
+          "sílaba “u”"
+        ],
+        "en": [
+          "syllable “u”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ウイルス",
+          "reading": "ウイルス",
+          "romaji": "uirusu",
+          "pt": "vírus",
+          "en": "virus"
+        }
+      ]
+    },
+    {
+      "id": "katakana:エ",
+      "char": "エ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "e",
+      "reading": "え",
+      "meaning": {
+        "pt": [
+          "sílaba “e”"
+        ],
+        "en": [
+          "syllable “e”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M24 26 L76 26",
+          "M50 26 L50 78",
+          "M14 80 L86 80"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "エレベーター",
+          "reading": "エレベーター",
+          "romaji": "erebeetaa",
+          "pt": "elevador",
+          "en": "elevator"
+        }
+      ]
+    },
+    {
+      "id": "katakana:オ",
+      "char": "オ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "o",
+      "reading": "お",
+      "meaning": {
+        "pt": [
+          "sílaba “o”"
+        ],
+        "en": [
+          "syllable “o”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "オレンジ",
+          "reading": "オレンジ",
+          "romaji": "orenji",
+          "pt": "laranja",
+          "en": "orange"
+        }
+      ]
+    },
+    {
+      "id": "katakana:カ",
+      "char": "カ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ka",
+      "reading": "か",
+      "meaning": {
+        "pt": [
+          "sílaba “ka”"
+        ],
+        "en": [
+          "syllable “ka”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M20 34 L76 34 Q76 70 66 84 Q62 88 56 84",
+          "M48 12 Q46 58 20 88"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "カメラ",
+          "reading": "カメラ",
+          "romaji": "kamera",
+          "pt": "câmera",
+          "en": "camera"
+        }
+      ]
+    },
+    {
+      "id": "katakana:キ",
+      "char": "キ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ki",
+      "reading": "き",
+      "meaning": {
+        "pt": [
+          "sílaba “ki”"
+        ],
+        "en": [
+          "syllable “ki”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "キロ",
+          "reading": "キロ",
+          "romaji": "kiro",
+          "pt": "quilo",
+          "en": "kilo"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ク",
+      "char": "ク",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ku",
+      "reading": "く",
+      "meaning": {
+        "pt": [
+          "sílaba “ku”"
+        ],
+        "en": [
+          "syllable “ku”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "クラス",
+          "reading": "クラス",
+          "romaji": "kurasu",
+          "pt": "turma",
+          "en": "class"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ケ",
+      "char": "ケ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ke",
+      "reading": "け",
+      "meaning": {
+        "pt": [
+          "sílaba “ke”"
+        ],
+        "en": [
+          "syllable “ke”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ケーキ",
+          "reading": "ケーキ",
+          "romaji": "keeki",
+          "pt": "bolo",
+          "en": "cake"
+        }
+      ]
+    },
+    {
+      "id": "katakana:コ",
+      "char": "コ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ko",
+      "reading": "こ",
+      "meaning": {
+        "pt": [
+          "sílaba “ko”"
+        ],
+        "en": [
+          "syllable “ko”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M22 26 L76 26 L76 76",
+          "M22 76 L76 76"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "コーヒー",
+          "reading": "コーヒー",
+          "romaji": "koohii",
+          "pt": "café",
+          "en": "coffee"
+        }
+      ]
+    },
+    {
+      "id": "katakana:サ",
+      "char": "サ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "sa",
+      "reading": "さ",
+      "meaning": {
+        "pt": [
+          "sílaba “sa”"
+        ],
+        "en": [
+          "syllable “sa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "サラダ",
+          "reading": "サラダ",
+          "romaji": "sarada",
+          "pt": "salada",
+          "en": "salad"
+        }
+      ]
+    },
+    {
+      "id": "katakana:シ",
+      "char": "シ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "shi",
+      "reading": "し",
+      "meaning": {
+        "pt": [
+          "sílaba “shi”"
+        ],
+        "en": [
+          "syllable “shi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "シーツ",
+          "reading": "シーツ",
+          "romaji": "shiitsu",
+          "pt": "lençol",
+          "en": "bed sheet"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ス",
+      "char": "ス",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "su",
+      "reading": "す",
+      "meaning": {
+        "pt": [
+          "sílaba “su”"
+        ],
+        "en": [
+          "syllable “su”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "スープ",
+          "reading": "スープ",
+          "romaji": "suupu",
+          "pt": "sopa",
+          "en": "soup"
+        }
+      ]
+    },
+    {
+      "id": "katakana:セ",
+      "char": "セ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "se",
+      "reading": "せ",
+      "meaning": {
+        "pt": [
+          "sílaba “se”"
+        ],
+        "en": [
+          "syllable “se”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "セーター",
+          "reading": "セーター",
+          "romaji": "seetaa",
+          "pt": "suéter",
+          "en": "sweater"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ソ",
+      "char": "ソ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "so",
+      "reading": "そ",
+      "meaning": {
+        "pt": [
+          "sílaba “so”"
+        ],
+        "en": [
+          "syllable “so”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ソース",
+          "reading": "ソース",
+          "romaji": "soosu",
+          "pt": "molho",
+          "en": "sauce"
+        }
+      ]
+    },
+    {
+      "id": "katakana:タ",
+      "char": "タ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ta",
+      "reading": "た",
+      "meaning": {
+        "pt": [
+          "sílaba “ta”"
+        ],
+        "en": [
+          "syllable “ta”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "タクシー",
+          "reading": "タクシー",
+          "romaji": "takushii",
+          "pt": "táxi",
+          "en": "taxi"
+        }
+      ]
+    },
+    {
+      "id": "katakana:チ",
+      "char": "チ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "chi",
+      "reading": "ち",
+      "meaning": {
+        "pt": [
+          "sílaba “chi”"
+        ],
+        "en": [
+          "syllable “chi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "チーズ",
+          "reading": "チーズ",
+          "romaji": "chiizu",
+          "pt": "queijo",
+          "en": "cheese"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ツ",
+      "char": "ツ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "tsu",
+      "reading": "つ",
+      "meaning": {
+        "pt": [
+          "sílaba “tsu”"
+        ],
+        "en": [
+          "syllable “tsu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ツアー",
+          "reading": "ツアー",
+          "romaji": "tsuaa",
+          "pt": "excursão",
+          "en": "tour"
+        }
+      ]
+    },
+    {
+      "id": "katakana:テ",
+      "char": "テ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "te",
+      "reading": "て",
+      "meaning": {
+        "pt": [
+          "sílaba “te”"
+        ],
+        "en": [
+          "syllable “te”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "テレビ",
+          "reading": "テレビ",
+          "romaji": "terebi",
+          "pt": "televisão",
+          "en": "TV"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ト",
+      "char": "ト",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "to",
+      "reading": "と",
+      "meaning": {
+        "pt": [
+          "sílaba “to”"
+        ],
+        "en": [
+          "syllable “to”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M40 12 L40 90",
+          "M42 44 Q60 50 72 60"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "トマト",
+          "reading": "トマト",
+          "romaji": "tomato",
+          "pt": "tomate",
+          "en": "tomato"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ナ",
+      "char": "ナ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "na",
+      "reading": "な",
+      "meaning": {
+        "pt": [
+          "sílaba “na”"
+        ],
+        "en": [
+          "syllable “na”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ナイフ",
+          "reading": "ナイフ",
+          "romaji": "naifu",
+          "pt": "faca",
+          "en": "knife"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ニ",
+      "char": "ニ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ni",
+      "reading": "に",
+      "meaning": {
+        "pt": [
+          "sílaba “ni”"
+        ],
+        "en": [
+          "syllable “ni”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M28 32 L72 32",
+          "M14 72 L86 72"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "ニュース",
+          "reading": "ニュース",
+          "romaji": "nyuusu",
+          "pt": "notícias",
+          "en": "news"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ヌ",
+      "char": "ヌ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "nu",
+      "reading": "ぬ",
+      "meaning": {
+        "pt": [
+          "sílaba “nu”"
+        ],
+        "en": [
+          "syllable “nu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヌードル",
+          "reading": "ヌードル",
+          "romaji": "nuudoru",
+          "pt": "macarrão",
+          "en": "noodles"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ネ",
+      "char": "ネ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ne",
+      "reading": "ね",
+      "meaning": {
+        "pt": [
+          "sílaba “ne”"
+        ],
+        "en": [
+          "syllable “ne”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ネクタイ",
+          "reading": "ネクタイ",
+          "romaji": "nekutai",
+          "pt": "gravata",
+          "en": "necktie"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ノ",
+      "char": "ノ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "no",
+      "reading": "の",
+      "meaning": {
+        "pt": [
+          "sílaba “no”"
+        ],
+        "en": [
+          "syllable “no”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ノート",
+          "reading": "ノート",
+          "romaji": "nooto",
+          "pt": "caderno",
+          "en": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ハ",
+      "char": "ハ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ha",
+      "reading": "は",
+      "meaning": {
+        "pt": [
+          "sílaba “ha”"
+        ],
+        "en": [
+          "syllable “ha”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M38 28 Q34 58 14 78",
+          "M60 26 Q74 50 88 76"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "ハンバーガー",
+          "reading": "ハンバーガー",
+          "romaji": "hanbaagaa",
+          "pt": "hambúrguer",
+          "en": "hamburger"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ヒ",
+      "char": "ヒ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "hi",
+      "reading": "ひ",
+      "meaning": {
+        "pt": [
+          "sílaba “hi”"
+        ],
+        "en": [
+          "syllable “hi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヒーター",
+          "reading": "ヒーター",
+          "romaji": "hiitaa",
+          "pt": "aquecedor",
+          "en": "heater"
+        }
+      ]
+    },
+    {
+      "id": "katakana:フ",
+      "char": "フ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "fu",
+      "reading": "ふ",
+      "meaning": {
+        "pt": [
+          "sílaba “fu”"
+        ],
+        "en": [
+          "syllable “fu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "フランス",
+          "reading": "フランス",
+          "romaji": "furansu",
+          "pt": "França",
+          "en": "France"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ヘ",
+      "char": "ヘ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "he",
+      "reading": "へ",
+      "meaning": {
+        "pt": [
+          "sílaba “he”"
+        ],
+        "en": [
+          "syllable “he”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヘリコプター",
+          "reading": "ヘリコプター",
+          "romaji": "herikoputaa",
+          "pt": "helicóptero",
+          "en": "helicopter"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ホ",
+      "char": "ホ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ho",
+      "reading": "ほ",
+      "meaning": {
+        "pt": [
+          "sílaba “ho”"
+        ],
+        "en": [
+          "syllable “ho”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ホテル",
+          "reading": "ホテル",
+          "romaji": "hoteru",
+          "pt": "hotel",
+          "en": "hotel"
+        }
+      ]
+    },
+    {
+      "id": "katakana:マ",
+      "char": "マ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ma",
+      "reading": "ま",
+      "meaning": {
+        "pt": [
+          "sílaba “ma”"
+        ],
+        "en": [
+          "syllable “ma”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "マスク",
+          "reading": "マスク",
+          "romaji": "masuku",
+          "pt": "máscara",
+          "en": "mask"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ミ",
+      "char": "ミ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "mi",
+      "reading": "み",
+      "meaning": {
+        "pt": [
+          "sílaba “mi”"
+        ],
+        "en": [
+          "syllable “mi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M28 18 Q50 22 68 32",
+          "M32 44 Q52 48 66 56",
+          "M22 68 Q50 74 74 86"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "ミルク",
+          "reading": "ミルク",
+          "romaji": "miruku",
+          "pt": "leite",
+          "en": "milk"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ム",
+      "char": "ム",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "mu",
+      "reading": "む",
+      "meaning": {
+        "pt": [
+          "sílaba “mu”"
+        ],
+        "en": [
+          "syllable “mu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ゲーム",
+          "reading": "ゲーム",
+          "romaji": "geemu",
+          "pt": "jogo",
+          "en": "game"
+        }
+      ]
+    },
+    {
+      "id": "katakana:メ",
+      "char": "メ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "me",
+      "reading": "め",
+      "meaning": {
+        "pt": [
+          "sílaba “me”"
+        ],
+        "en": [
+          "syllable “me”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "メール",
+          "reading": "メール",
+          "romaji": "meeru",
+          "pt": "e-mail",
+          "en": "e-mail"
+        }
+      ]
+    },
+    {
+      "id": "katakana:モ",
+      "char": "モ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "mo",
+      "reading": "も",
+      "meaning": {
+        "pt": [
+          "sílaba “mo”"
+        ],
+        "en": [
+          "syllable “mo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "モデル",
+          "reading": "モデル",
+          "romaji": "moderu",
+          "pt": "modelo",
+          "en": "model"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ヤ",
+      "char": "ヤ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ya",
+      "reading": "や",
+      "meaning": {
+        "pt": [
+          "sílaba “ya”"
+        ],
+        "en": [
+          "syllable “ya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "タイヤ",
+          "reading": "タイヤ",
+          "romaji": "taiya",
+          "pt": "pneu",
+          "en": "tire"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ユ",
+      "char": "ユ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "yu",
+      "reading": "ゆ",
+      "meaning": {
+        "pt": [
+          "sílaba “yu”"
+        ],
+        "en": [
+          "syllable “yu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ユーモア",
+          "reading": "ユーモア",
+          "romaji": "yuumoa",
+          "pt": "humor",
+          "en": "humor"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ヨ",
+      "char": "ヨ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "yo",
+      "reading": "よ",
+      "meaning": {
+        "pt": [
+          "sílaba “yo”"
+        ],
+        "en": [
+          "syllable “yo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヨーグルト",
+          "reading": "ヨーグルト",
+          "romaji": "yooguruto",
+          "pt": "iogurte",
+          "en": "yogurt"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ラ",
+      "char": "ラ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ra",
+      "reading": "ら",
+      "meaning": {
+        "pt": [
+          "sílaba “ra”"
+        ],
+        "en": [
+          "syllable “ra”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ラジオ",
+          "reading": "ラジオ",
+          "romaji": "rajio",
+          "pt": "rádio",
+          "en": "radio"
+        }
+      ]
+    },
+    {
+      "id": "katakana:リ",
+      "char": "リ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ri",
+      "reading": "り",
+      "meaning": {
+        "pt": [
+          "sílaba “ri”"
+        ],
+        "en": [
+          "syllable “ri”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "リボン",
+          "reading": "リボン",
+          "romaji": "ribon",
+          "pt": "fita",
+          "en": "ribbon"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ル",
+      "char": "ル",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ru",
+      "reading": "る",
+      "meaning": {
+        "pt": [
+          "sílaba “ru”"
+        ],
+        "en": [
+          "syllable “ru”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ルール",
+          "reading": "ルール",
+          "romaji": "ruuru",
+          "pt": "regra",
+          "en": "rule"
+        }
+      ]
+    },
+    {
+      "id": "katakana:レ",
+      "char": "レ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "re",
+      "reading": "れ",
+      "meaning": {
+        "pt": [
+          "sílaba “re”"
+        ],
+        "en": [
+          "syllable “re”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "レストラン",
+          "reading": "レストラン",
+          "romaji": "resutoran",
+          "pt": "restaurante",
+          "en": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ロ",
+      "char": "ロ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "ro",
+      "reading": "ろ",
+      "meaning": {
+        "pt": [
+          "sílaba “ro”"
+        ],
+        "en": [
+          "syllable “ro”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M26 24 L26 80",
+          "M26 24 L76 24 L76 80",
+          "M26 78 L76 78"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "ロボット",
+          "reading": "ロボット",
+          "romaji": "robotto",
+          "pt": "robô",
+          "en": "robot"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ワ",
+      "char": "ワ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "wa",
+      "reading": "わ",
+      "meaning": {
+        "pt": [
+          "sílaba “wa”"
+        ],
+        "en": [
+          "syllable “wa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ワイン",
+          "reading": "ワイン",
+          "romaji": "wain",
+          "pt": "vinho",
+          "en": "wine"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ヲ",
+      "char": "ヲ",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "wo",
+      "reading": "を",
+      "meaning": {
+        "pt": [
+          "partícula de objeto “o”"
+        ],
+        "en": [
+          "object particle “o”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [],
+      "note": "Rara; aparece em textos escritos só em katakana."
+    },
+    {
+      "id": "katakana:ン",
+      "char": "ン",
+      "category": "katakana",
+      "group": "basico",
+      "romaji": "n",
+      "reading": "ん",
+      "meaning": {
+        "pt": [
+          "som nasal “n”"
+        ],
+        "en": [
+          "nasal sound “n”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "パン",
+          "reading": "パン",
+          "romaji": "pan",
+          "pt": "pão",
+          "en": "bread"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ガ",
+      "char": "ガ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "ga",
+      "reading": "が",
+      "meaning": {
+        "pt": [
+          "sílaba “ga”"
+        ],
+        "en": [
+          "syllable “ga”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ガラス",
+          "reading": "ガラス",
+          "romaji": "garasu",
+          "pt": "vidro",
+          "en": "glass"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ギ",
+      "char": "ギ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "gi",
+      "reading": "ぎ",
+      "meaning": {
+        "pt": [
+          "sílaba “gi”"
+        ],
+        "en": [
+          "syllable “gi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ギター",
+          "reading": "ギター",
+          "romaji": "gitaa",
+          "pt": "violão",
+          "en": "guitar"
+        }
+      ]
+    },
+    {
+      "id": "katakana:グ",
+      "char": "グ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "gu",
+      "reading": "ぐ",
+      "meaning": {
+        "pt": [
+          "sílaba “gu”"
+        ],
+        "en": [
+          "syllable “gu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "グラス",
+          "reading": "グラス",
+          "romaji": "gurasu",
+          "pt": "copo",
+          "en": "glass (cup)"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ゲ",
+      "char": "ゲ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "ge",
+      "reading": "げ",
+      "meaning": {
+        "pt": [
+          "sílaba “ge”"
+        ],
+        "en": [
+          "syllable “ge”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ゲーム",
+          "reading": "ゲーム",
+          "romaji": "geemu",
+          "pt": "jogo",
+          "en": "game"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ゴ",
+      "char": "ゴ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "go",
+      "reading": "ご",
+      "meaning": {
+        "pt": [
+          "sílaba “go”"
+        ],
+        "en": [
+          "syllable “go”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ゴルフ",
+          "reading": "ゴルフ",
+          "romaji": "gorufu",
+          "pt": "golfe",
+          "en": "golf"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ザ",
+      "char": "ザ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "za",
+      "reading": "ざ",
+      "meaning": {
+        "pt": [
+          "sílaba “za”"
+        ],
+        "en": [
+          "syllable “za”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ピザ",
+          "reading": "ピザ",
+          "romaji": "piza",
+          "pt": "pizza",
+          "en": "pizza"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ジ",
+      "char": "ジ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "ji",
+      "reading": "じ",
+      "meaning": {
+        "pt": [
+          "sílaba “ji”"
+        ],
+        "en": [
+          "syllable “ji”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ジーンズ",
+          "reading": "ジーンズ",
+          "romaji": "jiinzu",
+          "pt": "jeans",
+          "en": "jeans"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ズ",
+      "char": "ズ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "zu",
+      "reading": "ず",
+      "meaning": {
+        "pt": [
+          "sílaba “zu”"
+        ],
+        "en": [
+          "syllable “zu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ズボン",
+          "reading": "ズボン",
+          "romaji": "zubon",
+          "pt": "calça",
+          "en": "trousers"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ゼ",
+      "char": "ゼ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "ze",
+      "reading": "ぜ",
+      "meaning": {
+        "pt": [
+          "sílaba “ze”"
+        ],
+        "en": [
+          "syllable “ze”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ゼロ",
+          "reading": "ゼロ",
+          "romaji": "zero",
+          "pt": "zero",
+          "en": "zero"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ゾ",
+      "char": "ゾ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "zo",
+      "reading": "ぞ",
+      "meaning": {
+        "pt": [
+          "sílaba “zo”"
+        ],
+        "en": [
+          "syllable “zo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ゾーン",
+          "reading": "ゾーン",
+          "romaji": "zoon",
+          "pt": "zona",
+          "en": "zone"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ダ",
+      "char": "ダ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "da",
+      "reading": "だ",
+      "meaning": {
+        "pt": [
+          "sílaba “da”"
+        ],
+        "en": [
+          "syllable “da”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ダンス",
+          "reading": "ダンス",
+          "romaji": "dansu",
+          "pt": "dança",
+          "en": "dance"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ヂ",
+      "char": "ヂ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "ji",
+      "reading": "ぢ",
+      "meaning": {
+        "pt": [
+          "sílaba “ji”"
+        ],
+        "en": [
+          "syllable “ji”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [],
+      "note": "Rara: soa igual a ジ."
+    },
+    {
+      "id": "katakana:ヅ",
+      "char": "ヅ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "zu",
+      "reading": "づ",
+      "meaning": {
+        "pt": [
+          "sílaba “zu”"
+        ],
+        "en": [
+          "syllable “zu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [],
+      "note": "Rara: soa igual a ズ."
+    },
+    {
+      "id": "katakana:デ",
+      "char": "デ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "de",
+      "reading": "で",
+      "meaning": {
+        "pt": [
+          "sílaba “de”"
+        ],
+        "en": [
+          "syllable “de”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "デパート",
+          "reading": "デパート",
+          "romaji": "depaato",
+          "pt": "loja de departamentos",
+          "en": "department store"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ド",
+      "char": "ド",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "do",
+      "reading": "ど",
+      "meaning": {
+        "pt": [
+          "sílaba “do”"
+        ],
+        "en": [
+          "syllable “do”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ドア",
+          "reading": "ドア",
+          "romaji": "doa",
+          "pt": "porta",
+          "en": "door"
+        }
+      ]
+    },
+    {
+      "id": "katakana:バ",
+      "char": "バ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "ba",
+      "reading": "ば",
+      "meaning": {
+        "pt": [
+          "sílaba “ba”"
+        ],
+        "en": [
+          "syllable “ba”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "バス",
+          "reading": "バス",
+          "romaji": "basu",
+          "pt": "ônibus",
+          "en": "bus"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ビ",
+      "char": "ビ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "bi",
+      "reading": "び",
+      "meaning": {
+        "pt": [
+          "sílaba “bi”"
+        ],
+        "en": [
+          "syllable “bi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ビル",
+          "reading": "ビル",
+          "romaji": "biru",
+          "pt": "prédio",
+          "en": "building"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ブ",
+      "char": "ブ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "bu",
+      "reading": "ぶ",
+      "meaning": {
+        "pt": [
+          "sílaba “bu”"
+        ],
+        "en": [
+          "syllable “bu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ブラシ",
+          "reading": "ブラシ",
+          "romaji": "burashi",
+          "pt": "escova",
+          "en": "brush"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ベ",
+      "char": "ベ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "be",
+      "reading": "べ",
+      "meaning": {
+        "pt": [
+          "sílaba “be”"
+        ],
+        "en": [
+          "syllable “be”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ベッド",
+          "reading": "ベッド",
+          "romaji": "beddo",
+          "pt": "cama",
+          "en": "bed"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ボ",
+      "char": "ボ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "bo",
+      "reading": "ぼ",
+      "meaning": {
+        "pt": [
+          "sílaba “bo”"
+        ],
+        "en": [
+          "syllable “bo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ボール",
+          "reading": "ボール",
+          "romaji": "booru",
+          "pt": "bola",
+          "en": "ball"
+        }
+      ]
+    },
+    {
+      "id": "katakana:パ",
+      "char": "パ",
+      "category": "katakana",
+      "group": "handakuten",
+      "romaji": "pa",
+      "reading": "ぱ",
+      "meaning": {
+        "pt": [
+          "sílaba “pa”"
+        ],
+        "en": [
+          "syllable “pa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "パン",
+          "reading": "パン",
+          "romaji": "pan",
+          "pt": "pão",
+          "en": "bread"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ピ",
+      "char": "ピ",
+      "category": "katakana",
+      "group": "handakuten",
+      "romaji": "pi",
+      "reading": "ぴ",
+      "meaning": {
+        "pt": [
+          "sílaba “pi”"
+        ],
+        "en": [
+          "syllable “pi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ピアノ",
+          "reading": "ピアノ",
+          "romaji": "piano",
+          "pt": "piano",
+          "en": "piano"
+        }
+      ]
+    },
+    {
+      "id": "katakana:プ",
+      "char": "プ",
+      "category": "katakana",
+      "group": "handakuten",
+      "romaji": "pu",
+      "reading": "ぷ",
+      "meaning": {
+        "pt": [
+          "sílaba “pu”"
+        ],
+        "en": [
+          "syllable “pu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "プール",
+          "reading": "プール",
+          "romaji": "puuru",
+          "pt": "piscina",
+          "en": "pool"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ペ",
+      "char": "ペ",
+      "category": "katakana",
+      "group": "handakuten",
+      "romaji": "pe",
+      "reading": "ぺ",
+      "meaning": {
+        "pt": [
+          "sílaba “pe”"
+        ],
+        "en": [
+          "syllable “pe”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ペン",
+          "reading": "ペン",
+          "romaji": "pen",
+          "pt": "caneta",
+          "en": "pen"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ポ",
+      "char": "ポ",
+      "category": "katakana",
+      "group": "handakuten",
+      "romaji": "po",
+      "reading": "ぽ",
+      "meaning": {
+        "pt": [
+          "sílaba “po”"
+        ],
+        "en": [
+          "syllable “po”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ポスト",
+          "reading": "ポスト",
+          "romaji": "posuto",
+          "pt": "caixa de correio",
+          "en": "mailbox"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ヴ",
+      "char": "ヴ",
+      "category": "katakana",
+      "group": "dakuten",
+      "romaji": "vu",
+      "reading": "ゔ",
+      "meaning": {
+        "pt": [
+          "sílaba “vu”"
+        ],
+        "en": [
+          "syllable “vu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヴァイオリン",
+          "reading": "ヴァイオリン",
+          "romaji": "vaiorin",
+          "pt": "violino",
+          "en": "violin"
+        }
+      ],
+      "note": "Representa o som “v” de palavras estrangeiras."
+    },
+    {
+      "id": "katakana:ァ",
+      "char": "ァ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "a",
+      "reading": "ぁ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “a”"
+        ],
+        "en": [
+          "small vowel “a”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ファン",
+          "reading": "ファン",
+          "romaji": "fan",
+          "pt": "fã",
+          "en": "fan"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ィ",
+      "char": "ィ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "i",
+      "reading": "ぃ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “i”"
+        ],
+        "en": [
+          "small vowel “i”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "パーティー",
+          "reading": "パーティー",
+          "romaji": "paatii",
+          "pt": "festa",
+          "en": "party"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ゥ",
+      "char": "ゥ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "u",
+      "reading": "ぅ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “u”"
+        ],
+        "en": [
+          "small vowel “u”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "タトゥー",
+          "reading": "タトゥー",
+          "romaji": "tatuu",
+          "pt": "tatuagem",
+          "en": "tattoo"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ェ",
+      "char": "ェ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "e",
+      "reading": "ぇ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “e”"
+        ],
+        "en": [
+          "small vowel “e”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "カフェ",
+          "reading": "カフェ",
+          "romaji": "kafe",
+          "pt": "café (lugar)",
+          "en": "café"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ォ",
+      "char": "ォ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "o",
+      "reading": "ぉ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “o”"
+        ],
+        "en": [
+          "small vowel “o”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "フォーク",
+          "reading": "フォーク",
+          "romaji": "fooku",
+          "pt": "garfo",
+          "en": "fork"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ャ",
+      "char": "ャ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "ya",
+      "reading": "ゃ",
+      "meaning": {
+        "pt": [
+          "“ya” pequeno (forma sílabas combinadas)"
+        ],
+        "en": [
+          "small “ya” (forms combined syllables)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "シャツ",
+          "reading": "シャツ",
+          "romaji": "shatsu",
+          "pt": "camisa",
+          "en": "shirt"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ュ",
+      "char": "ュ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "yu",
+      "reading": "ゅ",
+      "meaning": {
+        "pt": [
+          "“yu” pequeno (forma sílabas combinadas)"
+        ],
+        "en": [
+          "small “yu” (forms combined syllables)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ジュース",
+          "reading": "ジュース",
+          "romaji": "juusu",
+          "pt": "suco",
+          "en": "juice"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ョ",
+      "char": "ョ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "yo",
+      "reading": "ょ",
+      "meaning": {
+        "pt": [
+          "“yo” pequeno (forma sílabas combinadas)"
+        ],
+        "en": [
+          "small “yo” (forms combined syllables)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ショッピング",
+          "reading": "ショッピング",
+          "romaji": "shoppingu",
+          "pt": "compras",
+          "en": "shopping"
+        }
+      ]
+    },
+    {
+      "id": "katakana:ッ",
+      "char": "ッ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "(dobra a consoante)",
+      "reading": "っ",
+      "meaning": {
+        "pt": [
+          "tsu pequeno (consoante dobrada)"
+        ],
+        "en": [
+          "small tsu (doubled consonant)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ベッド",
+          "reading": "ベッド",
+          "romaji": "beddo",
+          "pt": "cama",
+          "en": "bed"
+        }
+      ],
+      "note": "Não tem som próprio: dobra a consoante seguinte (ベッド = beddo)."
+    },
+    {
+      "id": "katakana:ヮ",
+      "char": "ヮ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "wa",
+      "reading": "ゎ",
+      "meaning": {
+        "pt": [
+          "“wa” pequeno"
+        ],
+        "en": [
+          "small “wa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [],
+      "note": "Rara, usada em algumas transcrições."
+    },
+    {
+      "id": "katakana:ヵ",
+      "char": "ヵ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "ka",
+      "reading": "ゕ",
+      "meaning": {
+        "pt": [
+          "“ka” pequeno (contadores)"
+        ],
+        "en": [
+          "small “ka” (counters)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "一ヵ月",
+          "reading": "いっかげつ",
+          "romaji": "ikkagetsu",
+          "pt": "um mês",
+          "en": "one month"
+        }
+      ],
+      "note": "Usado em contadores, como em 一ヵ月 (um mês). Lê-se “ka”."
+    },
+    {
+      "id": "katakana:ヶ",
+      "char": "ヶ",
+      "category": "katakana",
+      "group": "pequeno",
+      "romaji": "ke",
+      "reading": "ゖ",
+      "meaning": {
+        "pt": [
+          "“ke” pequeno (contadores)"
+        ],
+        "en": [
+          "small “ke” (counters)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "三ヶ月",
+          "reading": "さんかげつ",
+          "romaji": "sankagetsu",
+          "pt": "três meses",
+          "en": "three months"
+        }
+      ],
+      "note": "Usado em contadores e nomes de lugares (三ヶ月, 霞ヶ関). Lê-se “ka” ou “ga”, apesar da forma de ケ."
+    },
+    {
+      "id": "katakana:キャ",
+      "char": "キャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "kya",
+      "reading": "きゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “kya”"
+        ],
+        "en": [
+          "syllable “kya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "キャンプ",
+          "reading": "キャンプ",
+          "romaji": "kyanpu",
+          "pt": "acampamento",
+          "en": "camping"
+        }
+      ],
+      "components": [
+        "キ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:キュ",
+      "char": "キュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "kyu",
+      "reading": "きゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “kyu”"
+        ],
+        "en": [
+          "syllable “kyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "バーベキュー",
+          "reading": "バーベキュー",
+          "romaji": "baabekyuu",
+          "pt": "churrasco",
+          "en": "barbecue"
+        }
+      ],
+      "components": [
+        "キ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:キョ",
+      "char": "キョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "kyo",
+      "reading": "きょ",
+      "meaning": {
+        "pt": [
+          "sílaba “kyo”"
+        ],
+        "en": [
+          "syllable “kyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "キョロキョロ",
+          "reading": "キョロキョロ",
+          "romaji": "kyorokyoro",
+          "pt": "olhar em volta",
+          "en": "looking around"
+        }
+      ],
+      "components": [
+        "キ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:ギャ",
+      "char": "ギャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "gya",
+      "reading": "ぎゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “gya”"
+        ],
+        "en": [
+          "syllable “gya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ギャラリー",
+          "reading": "ギャラリー",
+          "romaji": "gyararii",
+          "pt": "galeria",
+          "en": "gallery"
+        }
+      ],
+      "components": [
+        "ギ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:ギュ",
+      "char": "ギュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "gyu",
+      "reading": "ぎゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “gyu”"
+        ],
+        "en": [
+          "syllable “gyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "レギュラー",
+          "reading": "レギュラー",
+          "romaji": "regyuraa",
+          "pt": "regular; titular",
+          "en": "regular"
+        }
+      ],
+      "components": [
+        "ギ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:ギョ",
+      "char": "ギョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "gyo",
+      "reading": "ぎょ",
+      "meaning": {
+        "pt": [
+          "sílaba “gyo”"
+        ],
+        "en": [
+          "syllable “gyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 8,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ギョーザ",
+          "reading": "ギョーザ",
+          "romaji": "gyooza",
+          "pt": "guioza",
+          "en": "gyoza"
+        }
+      ],
+      "components": [
+        "ギ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:シャ",
+      "char": "シャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "sha",
+      "reading": "しゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “sha”"
+        ],
+        "en": [
+          "syllable “sha”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "シャツ",
+          "reading": "シャツ",
+          "romaji": "shatsu",
+          "pt": "camisa",
+          "en": "shirt"
+        }
+      ],
+      "components": [
+        "シ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:シュ",
+      "char": "シュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "shu",
+      "reading": "しゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “shu”"
+        ],
+        "en": [
+          "syllable “shu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "シューズ",
+          "reading": "シューズ",
+          "romaji": "shuuzu",
+          "pt": "tênis; sapatos",
+          "en": "shoes"
+        }
+      ],
+      "components": [
+        "シ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:ショ",
+      "char": "ショ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "sho",
+      "reading": "しょ",
+      "meaning": {
+        "pt": [
+          "sílaba “sho”"
+        ],
+        "en": [
+          "syllable “sho”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ショッピング",
+          "reading": "ショッピング",
+          "romaji": "shoppingu",
+          "pt": "compras",
+          "en": "shopping"
+        }
+      ],
+      "components": [
+        "シ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:ジャ",
+      "char": "ジャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "ja",
+      "reading": "じゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “ja”"
+        ],
+        "en": [
+          "syllable “ja”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ジャム",
+          "reading": "ジャム",
+          "romaji": "jamu",
+          "pt": "geleia",
+          "en": "jam"
+        }
+      ],
+      "components": [
+        "ジ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:ジュ",
+      "char": "ジュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "ju",
+      "reading": "じゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “ju”"
+        ],
+        "en": [
+          "syllable “ju”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ジュース",
+          "reading": "ジュース",
+          "romaji": "juusu",
+          "pt": "suco",
+          "en": "juice"
+        }
+      ],
+      "components": [
+        "ジ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:ジョ",
+      "char": "ジョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "jo",
+      "reading": "じょ",
+      "meaning": {
+        "pt": [
+          "sílaba “jo”"
+        ],
+        "en": [
+          "syllable “jo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 8,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ジョギング",
+          "reading": "ジョギング",
+          "romaji": "jogingu",
+          "pt": "corrida (jogging)",
+          "en": "jogging"
+        }
+      ],
+      "components": [
+        "ジ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:チャ",
+      "char": "チャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "cha",
+      "reading": "ちゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “cha”"
+        ],
+        "en": [
+          "syllable “cha”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "チャンス",
+          "reading": "チャンス",
+          "romaji": "chansu",
+          "pt": "chance",
+          "en": "chance"
+        }
+      ],
+      "components": [
+        "チ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:チュ",
+      "char": "チュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "chu",
+      "reading": "ちゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “chu”"
+        ],
+        "en": [
+          "syllable “chu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "チューリップ",
+          "reading": "チューリップ",
+          "romaji": "chuurippu",
+          "pt": "tulipa",
+          "en": "tulip"
+        }
+      ],
+      "components": [
+        "チ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:チョ",
+      "char": "チョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "cho",
+      "reading": "ちょ",
+      "meaning": {
+        "pt": [
+          "sílaba “cho”"
+        ],
+        "en": [
+          "syllable “cho”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "チョコレート",
+          "reading": "チョコレート",
+          "romaji": "chokoreeto",
+          "pt": "chocolate",
+          "en": "chocolate"
+        }
+      ],
+      "components": [
+        "チ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:ニャ",
+      "char": "ニャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "nya",
+      "reading": "にゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “nya”"
+        ],
+        "en": [
+          "syllable “nya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ニャー",
+          "reading": "ニャー",
+          "romaji": "nyaa",
+          "pt": "miau",
+          "en": "meow"
+        }
+      ],
+      "components": [
+        "ニ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:ニュ",
+      "char": "ニュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "nyu",
+      "reading": "にゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “nyu”"
+        ],
+        "en": [
+          "syllable “nyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ニュース",
+          "reading": "ニュース",
+          "romaji": "nyuusu",
+          "pt": "notícias",
+          "en": "news"
+        }
+      ],
+      "components": [
+        "ニ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:ニョ",
+      "char": "ニョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "nyo",
+      "reading": "にょ",
+      "meaning": {
+        "pt": [
+          "sílaba “nyo”"
+        ],
+        "en": [
+          "syllable “nyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ニョッキ",
+          "reading": "ニョッキ",
+          "romaji": "nyokki",
+          "pt": "nhoque",
+          "en": "gnocchi"
+        }
+      ],
+      "components": [
+        "ニ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:ヒャ",
+      "char": "ヒャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "hya",
+      "reading": "ひゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “hya”"
+        ],
+        "en": [
+          "syllable “hya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ヒ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:ヒュ",
+      "char": "ヒュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "hyu",
+      "reading": "ひゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “hyu”"
+        ],
+        "en": [
+          "syllable “hyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヒューズ",
+          "reading": "ヒューズ",
+          "romaji": "hyuuzu",
+          "pt": "fusível",
+          "en": "fuse"
+        }
+      ],
+      "components": [
+        "ヒ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:ヒョ",
+      "char": "ヒョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "hyo",
+      "reading": "ひょ",
+      "meaning": {
+        "pt": [
+          "sílaba “hyo”"
+        ],
+        "en": [
+          "syllable “hyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヒョウ",
+          "reading": "ヒョウ",
+          "romaji": "hyou",
+          "pt": "leopardo",
+          "en": "leopard"
+        }
+      ],
+      "components": [
+        "ヒ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:ビャ",
+      "char": "ビャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "bya",
+      "reading": "びゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “bya”"
+        ],
+        "en": [
+          "syllable “bya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ビ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:ビュ",
+      "char": "ビュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "byu",
+      "reading": "びゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “byu”"
+        ],
+        "en": [
+          "syllable “byu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "インタビュー",
+          "reading": "インタビュー",
+          "romaji": "intabyuu",
+          "pt": "entrevista",
+          "en": "interview"
+        }
+      ],
+      "components": [
+        "ビ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:ビョ",
+      "char": "ビョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "byo",
+      "reading": "びょ",
+      "meaning": {
+        "pt": [
+          "sílaba “byo”"
+        ],
+        "en": [
+          "syllable “byo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ビ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:ピャ",
+      "char": "ピャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "pya",
+      "reading": "ぴゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “pya”"
+        ],
+        "en": [
+          "syllable “pya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ピ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:ピュ",
+      "char": "ピュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "pyu",
+      "reading": "ぴゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “pyu”"
+        ],
+        "en": [
+          "syllable “pyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "コンピューター",
+          "reading": "コンピューター",
+          "romaji": "konpyuutaa",
+          "pt": "computador",
+          "en": "computer"
+        }
+      ],
+      "components": [
+        "ピ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:ピョ",
+      "char": "ピョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "pyo",
+      "reading": "ぴょ",
+      "meaning": {
+        "pt": [
+          "sílaba “pyo”"
+        ],
+        "en": [
+          "syllable “pyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ピョンピョン",
+          "reading": "ピョンピョン",
+          "romaji": "pyonpyon",
+          "pt": "saltitando",
+          "en": "hopping"
+        }
+      ],
+      "components": [
+        "ピ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:ミャ",
+      "char": "ミャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "mya",
+      "reading": "みゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “mya”"
+        ],
+        "en": [
+          "syllable “mya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ミャンマー",
+          "reading": "ミャンマー",
+          "romaji": "myanmaa",
+          "pt": "Mianmar",
+          "en": "Myanmar"
+        }
+      ],
+      "components": [
+        "ミ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:ミュ",
+      "char": "ミュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "myu",
+      "reading": "みゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “myu”"
+        ],
+        "en": [
+          "syllable “myu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ミュージック",
+          "reading": "ミュージック",
+          "romaji": "myuujikku",
+          "pt": "música",
+          "en": "music"
+        }
+      ],
+      "components": [
+        "ミ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:ミョ",
+      "char": "ミョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "myo",
+      "reading": "みょ",
+      "meaning": {
+        "pt": [
+          "sílaba “myo”"
+        ],
+        "en": [
+          "syllable “myo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ミ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:リャ",
+      "char": "リャ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "rya",
+      "reading": "りゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “rya”"
+        ],
+        "en": [
+          "syllable “rya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "リ",
+        "ャ"
+      ]
+    },
+    {
+      "id": "katakana:リュ",
+      "char": "リュ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "ryu",
+      "reading": "りゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “ryu”"
+        ],
+        "en": [
+          "syllable “ryu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "リュック",
+          "reading": "リュック",
+          "romaji": "ryukku",
+          "pt": "mochila",
+          "en": "backpack"
+        }
+      ],
+      "components": [
+        "リ",
+        "ュ"
+      ]
+    },
+    {
+      "id": "katakana:リョ",
+      "char": "リョ",
+      "category": "katakana",
+      "group": "combinacao",
+      "romaji": "ryo",
+      "reading": "りょ",
+      "meaning": {
+        "pt": [
+          "sílaba “ryo”"
+        ],
+        "en": [
+          "syllable “ryo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "リ",
+        "ョ"
+      ]
+    },
+    {
+      "id": "katakana:ファ",
+      "char": "ファ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "fa",
+      "reading": "ふぁ",
+      "meaning": {
+        "pt": [
+          "sílaba “fa”"
+        ],
+        "en": [
+          "syllable “fa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ファン",
+          "reading": "ファン",
+          "romaji": "fan",
+          "pt": "fã",
+          "en": "fan"
+        }
+      ],
+      "components": [
+        "フ",
+        "ァ"
+      ]
+    },
+    {
+      "id": "katakana:フィ",
+      "char": "フィ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "fi",
+      "reading": "ふぃ",
+      "meaning": {
+        "pt": [
+          "sílaba “fi”"
+        ],
+        "en": [
+          "syllable “fi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "フィルム",
+          "reading": "フィルム",
+          "romaji": "firumu",
+          "pt": "filme (fotográfico)",
+          "en": "film"
+        }
+      ],
+      "components": [
+        "フ",
+        "ィ"
+      ]
+    },
+    {
+      "id": "katakana:フェ",
+      "char": "フェ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "fe",
+      "reading": "ふぇ",
+      "meaning": {
+        "pt": [
+          "sílaba “fe”"
+        ],
+        "en": [
+          "syllable “fe”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "カフェ",
+          "reading": "カフェ",
+          "romaji": "kafe",
+          "pt": "café (lugar)",
+          "en": "café"
+        }
+      ],
+      "components": [
+        "フ",
+        "ェ"
+      ]
+    },
+    {
+      "id": "katakana:フォ",
+      "char": "フォ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "fo",
+      "reading": "ふぉ",
+      "meaning": {
+        "pt": [
+          "sílaba “fo”"
+        ],
+        "en": [
+          "syllable “fo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "フォーク",
+          "reading": "フォーク",
+          "romaji": "fooku",
+          "pt": "garfo",
+          "en": "fork"
+        }
+      ],
+      "components": [
+        "フ",
+        "ォ"
+      ]
+    },
+    {
+      "id": "katakana:ティ",
+      "char": "ティ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "ti",
+      "reading": "てぃ",
+      "meaning": {
+        "pt": [
+          "sílaba “ti”"
+        ],
+        "en": [
+          "syllable “ti”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "パーティー",
+          "reading": "パーティー",
+          "romaji": "paatii",
+          "pt": "festa",
+          "en": "party"
+        }
+      ],
+      "components": [
+        "テ",
+        "ィ"
+      ]
+    },
+    {
+      "id": "katakana:ディ",
+      "char": "ディ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "di",
+      "reading": "でぃ",
+      "meaning": {
+        "pt": [
+          "sílaba “di”"
+        ],
+        "en": [
+          "syllable “di”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ディナー",
+          "reading": "ディナー",
+          "romaji": "dinaa",
+          "pt": "jantar",
+          "en": "dinner"
+        }
+      ],
+      "components": [
+        "デ",
+        "ィ"
+      ]
+    },
+    {
+      "id": "katakana:トゥ",
+      "char": "トゥ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "tu",
+      "reading": "とぅ",
+      "meaning": {
+        "pt": [
+          "sílaba “tu”"
+        ],
+        "en": [
+          "syllable “tu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "タトゥー",
+          "reading": "タトゥー",
+          "romaji": "tatuu",
+          "pt": "tatuagem",
+          "en": "tattoo"
+        }
+      ],
+      "components": [
+        "ト",
+        "ゥ"
+      ]
+    },
+    {
+      "id": "katakana:ドゥ",
+      "char": "ドゥ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "du",
+      "reading": "どぅ",
+      "meaning": {
+        "pt": [
+          "sílaba “du”"
+        ],
+        "en": [
+          "syllable “du”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ド",
+        "ゥ"
+      ]
+    },
+    {
+      "id": "katakana:チェ",
+      "char": "チェ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "che",
+      "reading": "ちぇ",
+      "meaning": {
+        "pt": [
+          "sílaba “che”"
+        ],
+        "en": [
+          "syllable “che”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "チェック",
+          "reading": "チェック",
+          "romaji": "chekku",
+          "pt": "verificação",
+          "en": "check"
+        }
+      ],
+      "components": [
+        "チ",
+        "ェ"
+      ]
+    },
+    {
+      "id": "katakana:シェ",
+      "char": "シェ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "she",
+      "reading": "しぇ",
+      "meaning": {
+        "pt": [
+          "sílaba “she”"
+        ],
+        "en": [
+          "syllable “she”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "シェフ",
+          "reading": "シェフ",
+          "romaji": "shefu",
+          "pt": "chef",
+          "en": "chef"
+        }
+      ],
+      "components": [
+        "シ",
+        "ェ"
+      ]
+    },
+    {
+      "id": "katakana:ジェ",
+      "char": "ジェ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "je",
+      "reading": "じぇ",
+      "meaning": {
+        "pt": [
+          "sílaba “je”"
+        ],
+        "en": [
+          "syllable “je”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 8,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ジェット",
+          "reading": "ジェット",
+          "romaji": "jetto",
+          "pt": "jato",
+          "en": "jet"
+        }
+      ],
+      "components": [
+        "ジ",
+        "ェ"
+      ]
+    },
+    {
+      "id": "katakana:ウィ",
+      "char": "ウィ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "wi",
+      "reading": "うぃ",
+      "meaning": {
+        "pt": [
+          "sílaba “wi”"
+        ],
+        "en": [
+          "syllable “wi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ウィンドウ",
+          "reading": "ウィンドウ",
+          "romaji": "windou",
+          "pt": "janela (de computador)",
+          "en": "window"
+        }
+      ],
+      "components": [
+        "ウ",
+        "ィ"
+      ]
+    },
+    {
+      "id": "katakana:ウェ",
+      "char": "ウェ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "we",
+      "reading": "うぇ",
+      "meaning": {
+        "pt": [
+          "sílaba “we”"
+        ],
+        "en": [
+          "syllable “we”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ウェブ",
+          "reading": "ウェブ",
+          "romaji": "webu",
+          "pt": "web",
+          "en": "web"
+        }
+      ],
+      "components": [
+        "ウ",
+        "ェ"
+      ]
+    },
+    {
+      "id": "katakana:ウォ",
+      "char": "ウォ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "wo",
+      "reading": "うぉ",
+      "meaning": {
+        "pt": [
+          "sílaba “wo”"
+        ],
+        "en": [
+          "syllable “wo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ウォッカ",
+          "reading": "ウォッカ",
+          "romaji": "wokka",
+          "pt": "vodca",
+          "en": "vodka"
+        }
+      ],
+      "components": [
+        "ウ",
+        "ォ"
+      ]
+    },
+    {
+      "id": "katakana:ヴァ",
+      "char": "ヴァ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "va",
+      "reading": "ゔぁ",
+      "meaning": {
+        "pt": [
+          "sílaba “va”"
+        ],
+        "en": [
+          "syllable “va”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヴァイオリン",
+          "reading": "ヴァイオリン",
+          "romaji": "vaiorin",
+          "pt": "violino",
+          "en": "violin"
+        }
+      ],
+      "components": [
+        "ヴ",
+        "ァ"
+      ]
+    },
+    {
+      "id": "katakana:ヴィ",
+      "char": "ヴィ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "vi",
+      "reading": "ゔぃ",
+      "meaning": {
+        "pt": [
+          "sílaba “vi”"
+        ],
+        "en": [
+          "syllable “vi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヴィーナス",
+          "reading": "ヴィーナス",
+          "romaji": "viinasu",
+          "pt": "Vênus",
+          "en": "Venus"
+        }
+      ],
+      "components": [
+        "ヴ",
+        "ィ"
+      ]
+    },
+    {
+      "id": "katakana:ヴェ",
+      "char": "ヴェ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "ve",
+      "reading": "ゔぇ",
+      "meaning": {
+        "pt": [
+          "sílaba “ve”"
+        ],
+        "en": [
+          "syllable “ve”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 8,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヴェネツィア",
+          "reading": "ヴェネツィア",
+          "romaji": "venetsuia",
+          "pt": "Veneza",
+          "en": "Venice"
+        }
+      ],
+      "components": [
+        "ヴ",
+        "ェ"
+      ]
+    },
+    {
+      "id": "katakana:ヴォ",
+      "char": "ヴォ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "vo",
+      "reading": "ゔぉ",
+      "meaning": {
+        "pt": [
+          "sílaba “vo”"
+        ],
+        "en": [
+          "syllable “vo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 8,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ヴォーカル",
+          "reading": "ヴォーカル",
+          "romaji": "vookaru",
+          "pt": "vocal",
+          "en": "vocals"
+        }
+      ],
+      "components": [
+        "ヴ",
+        "ォ"
+      ]
+    },
+    {
+      "id": "katakana:クァ",
+      "char": "クァ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "kwa",
+      "reading": "くぁ",
+      "meaning": {
+        "pt": [
+          "sílaba “kwa”"
+        ],
+        "en": [
+          "syllable “kwa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "クァルテット",
+          "reading": "クァルテット",
+          "romaji": "kwarutetto",
+          "pt": "quarteto",
+          "en": "quartet"
+        }
+      ],
+      "components": [
+        "ク",
+        "ァ"
+      ]
+    },
+    {
+      "id": "katakana:クィ",
+      "char": "クィ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "kwi",
+      "reading": "くぃ",
+      "meaning": {
+        "pt": [
+          "sílaba “kwi”"
+        ],
+        "en": [
+          "syllable “kwi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ク",
+        "ィ"
+      ]
+    },
+    {
+      "id": "katakana:クェ",
+      "char": "クェ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "kwe",
+      "reading": "くぇ",
+      "meaning": {
+        "pt": [
+          "sílaba “kwe”"
+        ],
+        "en": [
+          "syllable “kwe”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ク",
+        "ェ"
+      ]
+    },
+    {
+      "id": "katakana:クォ",
+      "char": "クォ",
+      "category": "katakana",
+      "group": "estrangeiro",
+      "romaji": "kwo",
+      "reading": "くぉ",
+      "meaning": {
+        "pt": [
+          "sílaba “kwo”"
+        ],
+        "en": [
+          "syllable “kwo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "クォーター",
+          "reading": "クォーター",
+          "romaji": "kwootaa",
+          "pt": "um quarto (1/4)",
+          "en": "quarter"
+        }
+      ],
+      "components": [
+        "ク",
+        "ォ"
+      ]
+    }
+  ]
+}

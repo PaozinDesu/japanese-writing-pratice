@@ -1,0 +1,1233 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Kaku — Praticar</title>
+<script src="./support.js"></script>
+<script src="./data/kaku-data.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Shippori+Mincho:wght@500;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#f5f5f4;color:#1c1917;font-family:'Zen Kaku Gothic New',ui-sans-serif,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#dc2626}a:hover{color:#b91c1c}
+button,input,select,textarea{font-family:inherit}
+.jp{font-family:'Klee One','Hiragino Mincho ProN','Yu Mincho',serif}
+.disp{font-family:'Shippori Mincho','Hiragino Mincho ProN','Yu Mincho',ui-serif,serif}
+/* estados — Design System Kaku (Tailwind) */
+.nl{transition:background-color .15s ease,color .15s ease}.nl:hover{background-color:#e7e5e4!important;color:#1c1917!important}
+.card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}.card:hover{transform:translateY(-2px);box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05)}
+.btn{transition:transform .15s ease,filter .15s ease,background-color .15s ease,border-color .15s ease}.btn:hover{filter:brightness(.92)}.btn:active{transform:scale(.98);filter:brightness(.85)}
+.soft:hover{background-color:#f5f5f4!important;filter:none}.soft:active{background-color:#e7e5e4!important}
+button:disabled,.btn[aria-disabled="true"]{opacity:.5;cursor:not-allowed!important;filter:none!important;transform:none!important}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #dc2626;outline-offset:2px}
+input,select,textarea{transition:border-color .15s ease,box-shadow .15s ease}
+input:hover,select:hover,textarea:hover{border-color:#d6d3d1}
+input:focus,select:focus,textarea:focus{border-color:#dc2626!important;box-shadow:0 0 0 4px #fee2e2;outline:none}
+input[aria-invalid="true"]{border-color:#dc2626!important;background-color:#fef2f2!important}
+input:disabled,select:disabled,textarea:disabled{background-color:#f5f5f4!important;color:#a8a29e!important;cursor:not-allowed}
+input::placeholder,textarea::placeholder{color:#78716c}
+[data-tip]{position:relative}
+[data-tip]:hover::after,[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;left:50%;bottom:calc(100% + 8px);transform:translateX(-50%);width:max-content;max-width:240px;padding:8px 8px;border-radius:6px;background:#1c1917;color:#ffffff;font-size:12px;line-height:16px;font-weight:500;white-space:normal;text-align:center;z-index:50;pointer-events:none;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05)}
+[data-page-scroll="flow"] main,[data-page-scroll="flow"] footer{flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{animation:spin .8s linear infinite}
+@keyframes draw{to{stroke-dashoffset:0}}
+.stk{animation:draw .6s cubic-bezier(.45,0,.25,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.rise{animation:rise .4s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pop{0%{transform:scale(.7);opacity:0}70%{transform:scale(1.05);opacity:1}100%{transform:scale(1)}}
+.pop{animation:pop .45s ease both}
+@keyframes shakeA{0%,100%{transform:none}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+@keyframes shakeB{0%,100%{transform:none}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+.shakeA{animation:shakeA .4s ease}.shakeB{animation:shakeB .4s ease}
+@keyframes sheet{from{transform:translateY(100%)}to{transform:none}}
+.sheet{animation:sheet .38s cubic-bezier(.2,.8,.2,1) both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.fade{animation:fade .3s ease both}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0s!important;transition:none!important}}
+</style>
+</helmet>
+<div style="width:1920px;height:1080px;overflow:hidden;background:#f5f5f4;">
+<div style="width:1440px;height:810px;transform:scale(1.3333333);transform-origin:0 0;box-sizing:border-box;background:#f5f5f4;display:flex;flex-direction:column;overflow:hidden;">
+<header style="height:64px;flex-shrink:0;position:relative;z-index:30;display:flex;align-items:center;justify-content:space-between;padding:0 64px;border-bottom:1px solid #e7e5e4;background:#f5f5f4;box-sizing:border-box;">
+<a href="Main.dc.html" aria-label="Kaku, página inicial" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#1c1917;">
+<span class="jp" style="width:36px;height:36px;border-radius:8px;background-color:{{accent}};color:#ffffff;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:600;">書</span>
+<span class="disp" style="font-size:20px;font-weight:700;letter-spacing:0.025em;">Kaku</span>
+</a>
+<nav aria-label="Principal" style="display:flex;gap:4px;padding:4px;border-radius:9999px;background:#e7e5e4;">
+<a href="Main.dc.html" class="nl" style="display:flex;align-items:center;height:36px;padding:0 16px;border-radius:9999px;text-decoration:none;font-size:16px;font-weight:500;color:#44403c;">Início</a>
+<a href="Caracteres.dc.html" class="nl" style="display:flex;align-items:center;height:36px;padding:0 16px;border-radius:9999px;text-decoration:none;font-size:16px;font-weight:500;color:#44403c;">Caracteres</a>
+<a href="Praticar.dc.html" aria-current="page" class="nl" style="display:flex;align-items:center;height:36px;padding:0 16px;border-radius:9999px;text-decoration:none;font-size:16px;font-weight:700;color:{{accent}};background-color:#ffffff;box-shadow:inset 0 0 0 1px #e7e5e4;">Praticar</a>
+<a href="Progresso.dc.html" class="nl" style="display:flex;align-items:center;height:36px;padding:0 16px;border-radius:9999px;text-decoration:none;font-size:16px;font-weight:500;color:#44403c;">Progresso</a>
+</nav>
+<div style="display:flex;align-items:center;gap:12px;position:relative;"><sc-if value="{{acct.in}}" hint-placeholder-val="{{false}}">
+<sc-if value="{{acct.hasStreak}}" hint-placeholder-val="{{false}}"><span title="Dias seguidos com prática" style="display:flex;align-items:center;gap:8px;height:40px;padding:0 12px;border-radius:9999px;background:#ffffff;border:1px solid #e7e5e4;font-size:14px;font-weight:700;color:#1c1917;"><span style="display:flex;color:{{accent}};"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-3.9 0-6.5-2.6-6.5-6.2 0-3.3 2.4-5.4 3.8-8.3.5 1.8 1.6 3 2.7 3.4.3-2.6 1.6-5 3.8-6.9.3 2.6 2.7 4.8 2.7 9 0 5.9-2.6 9-6.5 9z"></path></svg></span>{{acct.streakLabel}}</span></sc-if>
+<button class="btn soft" onClick="{{acct.toggle}}" aria-haspopup="menu" aria-expanded="{{acct.openAttr}}" style="height:44px;padding:0 12px 0 4px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;display:flex;align-items:center;gap:8px;cursor:pointer;font-size:14px;font-weight:500;">
+<span aria-hidden="true" style="width:36px;height:36px;border-radius:9999px;background-color:{{accent}};color:#ffffff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;">{{acct.initials}}</span>{{acct.name}}<span style="display:flex;color:#57534e;"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg></span></button>
+<sc-if value="{{acct.open}}" hint-placeholder-val="{{false}}">
+<div class="rise" role="menu" aria-label="Conta" style="position:absolute;right:0;top:52px;width:256px;box-sizing:border-box;padding:8px;background:#ffffff;border:1px solid #e7e5e4;border-radius:12px;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);display:flex;flex-direction:column;gap:2px;z-index:40;">
+<div style="padding:12px 12px 12px;border-bottom:1px solid #e7e5e4;margin-bottom:4px;display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;">{{acct.full}}</strong><span style="font-size:14px;color:#57534e;overflow:hidden;text-overflow:ellipsis;">{{acct.email}}</span></div>
+<a role="menuitem" href="Perfil.dc.html" onClick="{{acct.close}}" class="soft" style="display:flex;align-items:center;gap:12px;height:44px;padding:0 12px;border-radius:8px;text-decoration:none;color:#1c1917;font-size:16px;font-weight:500;"><span style="display:flex;color:#57534e;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"></circle><path d="M4.5 20c1.2-3.6 4-5.5 7.5-5.5s6.3 1.9 7.5 5.5"></path></svg></span>Perfil</a>
+<a role="menuitem" href="Listas.dc.html" onClick="{{acct.close}}" class="soft" style="display:flex;align-items:center;gap:12px;height:44px;padding:0 12px;border-radius:8px;text-decoration:none;color:#1c1917;font-size:16px;font-weight:500;"><span style="display:flex;color:#57534e;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11"></path><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01"></path></svg></span>Minhas listas</a>
+<a role="menuitem" href="Progresso.dc.html" onClick="{{acct.close}}" class="soft" style="display:flex;align-items:center;gap:12px;height:44px;padding:0 12px;border-radius:8px;text-decoration:none;color:#1c1917;font-size:16px;font-weight:500;"><span style="display:flex;color:#57534e;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4"></path><path d="M4.5 4v4.5H9"></path><path d="M12 8v4l3 2"></path></svg></span>Histórico</a>
+<a role="menuitem" href="Main.dc.html" onClick="{{acct.logout}}" class="soft" style="display:flex;align-items:center;gap:12px;height:44px;padding:0 12px;border-radius:8px;text-decoration:none;color:#1c1917;font-size:16px;font-weight:500;border-top:1px solid #e7e5e4;border-radius:0 0 8px 8px;margin-top:4px;color:#b91c1c;"><span style="display:flex;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4.5h3.5a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5H15"></path><path d="M10 16.5 5.5 12 10 7.5"></path><path d="M5.5 12H15"></path></svg></span>Sair</a>
+</div>
+</sc-if>
+</sc-if>
+<sc-if value="{{acct.out}}" hint-placeholder-val="{{true}}">
+<a href="Login.dc.html" onClick="{{acct.toLogin}}" class="btn soft" style="height:44px;padding:0 16px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;display:flex;align-items:center;gap:8px;text-decoration:none;font-size:14px;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"></circle><path d="M4.5 20c1.2-3.6 4-5.5 7.5-5.5s6.3 1.9 7.5 5.5"></path></svg>Entrar</a>
+<a href="Cadastro.dc.html" class="btn" style="height:44px;padding:0 16px;border-radius:8px;background-color:{{accent}};color:#ffffff;display:flex;align-items:center;text-decoration:none;font-size:14px;font-weight:700;">Criar conta</a>
+</sc-if>
+</div>
+</header>
+<div data-page-scroll="flow" style="flex:1 1 0;min-height:0;overflow-y:auto;scrollbar-width:thin;display:flex;flex-direction:column;">
+<sc-if value="{{loading}}" hint-placeholder-val="{{false}}"><p style="margin:80px 0;text-align:center;color:#57534e;">Carregando caracteres…</p></sc-if>
+<sc-if value="{{vSetup}}" hint-placeholder-val="{{true}}">
+<main class="rise" style="display:flex;flex-direction:column;gap:24px;padding:40px 80px 48px;">
+<nav aria-label="Modo de prática" style="display:flex;gap:4px;padding:4px;background:#e7e5e4;border-radius:9999px;align-self:flex-start;"><a href="Praticar.dc.html" aria-current="page" style="height:36px;padding:0 16px;border-radius:9999px;display:flex;align-items:center;gap:8px;text-decoration:none;font-size:14px;background:#ffffff;color:#1c1917;font-weight:700;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5l5 5L10 19l-5.5 1 1-5.5z"></path><path d="M12.5 6.5l5 5"></path></svg>Escrita</a><a href="Leitura.dc.html" style="height:36px;padding:0 16px;border-radius:9999px;display:flex;align-items:center;gap:8px;text-decoration:none;font-size:14px;color:#44403c;font-weight:500;"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2 2 0 0 1 6 3.5h13v15H6a2 2 0 0 0-2 2z"></path><path d="M4 20.5V5.5"></path><path d="M8.5 8h6"></path></svg>Leitura</a></nav>
+<div style="display:flex;flex-direction:column;gap:8px;">
+<h1 class="disp" style="margin:0;font-size:48px;font-weight:700;">Pratica - Escrita</h1>
+<p style="margin:0;font-size:16px;color:#44403c;">Escolha o que praticar. Todo caractere do Kaku — hiragana, katakana e os 2.136 kanji — pode entrar numa sessão.</p>
+</div>
+<div style="display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:24px;align-items:start;">
+<section aria-labelledby="nova" style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:24px;display:flex;flex-direction:column;gap:24px;">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:16px;">
+<h2 id="nova" style="margin:0;font-size:20px;font-weight:700;">Nova sessão</h2>
+<div role="group" style="display:flex;gap:4px;padding:4px;background:#e7e5e4;border-radius:9999px;align-self:flex-start;"><sc-for list="{{srcs}}" as="s" hint-placeholder-count="2"><button onClick="{{s.pick}}" aria-pressed="{{s.pressed}}" style="height:36px;padding:0 16px;border:none;border-radius:9999px;background-color:{{s.bg}};color:{{s.fg}};font-weight:{{s.fw}};box-shadow:{{s.sh}};font-size:14px;cursor:pointer;">{{s.label}}</button></sc-for></div>
+</div>
+<sc-if value="{{srcFilters}}" hint-placeholder-val="{{true}}">
+<div style="display:flex;flex-direction:column;gap:20px;">
+<div style="display:flex;flex-direction:column;gap:12px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Sistema de escrita</h3>
+<div role="group" aria-label="Sistema de escrita" style="display:flex;gap:8px;flex-wrap:wrap;">
+<button class="btn" onClick="{{pickAll}}" aria-pressed="{{allChip.pressed}}" style="height:36px;padding:0 12px;border-radius:9999px;border:1px solid {{allChip.bd}};background-color:{{allChip.bg}};color:{{allChip.fg}};font-size:14px;font-weight:500;cursor:pointer;">Todos</button>
+<sc-for list="{{cats}}" as="o" hint-placeholder-count="3"><button class="btn" onClick="{{o.pick}}" aria-pressed="{{o.pressed}}" style="height:36px;padding:0 12px;border-radius:9999px;border:1px solid {{o.bd}};background-color:{{o.bg}};color:{{o.fg}};font-size:14px;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:8px;">{{o.label}}<span style="font-size:12px;opacity:.7;">{{o.count}}</span></button></sc-for>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Nível JLPT <span style="text-transform:none;letter-spacing:0;font-weight:500;">· vale para os kanji</span></h3>
+<div role="group" aria-label="Nível JLPT" style="display:flex;gap:8px;flex-wrap:wrap;"><sc-for list="{{jlpts}}" as="o" hint-placeholder-count="3"><button class="btn" onClick="{{o.pick}}" aria-pressed="{{o.pressed}}" style="height:36px;padding:0 12px;border-radius:9999px;border:1px solid {{o.bd}};background-color:{{o.bg}};color:{{o.fg}};font-size:14px;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:8px;">{{o.label}}<span style="font-size:12px;opacity:.7;">{{o.count}}</span></button></sc-for></div>
+</div>
+<sc-if value="{{jlptNote}}" hint-placeholder-val="{{false}}"><p role="note" style="margin:0;font-size:14px;color:#92400e;background:#fffbeb;padding:12px 16px;border-radius:8px;border:1px solid #fde68a;line-height:20px;">O nível JLPT só se aplica a kanji. Marque também “Kanji” para incluí-los.</p></sc-if>
+</div>
+</sc-if>
+<sc-if value="{{srcList}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;flex-direction:column;gap:12px;">
+<sc-if value="{{guest}}" hint-placeholder-val="{{false}}"><div style="display:flex;gap:12px;align-items:flex-start;padding:16px;border-radius:12px;background:#f5f5f4;">
+<span style="width:40px;height:40px;flex-shrink:0;border-radius:8px;background:#ffffff;color:{{accent}};display:flex;align-items:center;justify-content:center;"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2"></rect><path d="M8.5 10.5V7.5a3.5 3.5 0 0 1 7 0v3"></path></svg></span>
+<div style="display:flex;flex-direction:column;gap:12px;min-width:0;">
+<div style="display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;">Entre para usar suas listas</strong><span style="font-size:14px;line-height:1.5;color:#44403c;">As listas de estudo ficam salvas na sua conta. Com elas você pratica exatamente os caracteres que escolheu.</span></div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;">
+<a href="Login.dc.html" onClick="{{toLogin}}" class="btn" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:none;background-color:{{accent}};color:#ffffff;font-weight:700;">Entrar</a>
+<a href="Cadastro.dc.html" class="btn soft" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;">Criar conta</a>
+</div></div></div></sc-if>
+<sc-if value="{{noListsU}}" hint-placeholder-val="{{false}}"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px;border-radius:12px;background:#f5f5f4;"><span style="font-size:16px;color:#292524;">Você ainda não tem listas de prática.</span><a href="Listas.dc.html" class="btn" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:none;background-color:{{accent}};color:#ffffff;font-weight:700;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"></path></svg>Criar lista</a></div></sc-if>
+<sc-if value="{{hasListsU}}" hint-placeholder-val="{{false}}">
+<div role="radiogroup" aria-label="Escolher lista" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+<sc-for list="{{lists}}" as="l" hint-placeholder-count="2"><button class="card" role="radio" aria-checked="{{l.pressed}}" onClick="{{l.pick}}" style="display:flex;flex-direction:column;gap:8px;align-items:flex-start;text-align:left;padding:12px 16px;border-radius:12px;border:1px solid {{l.bd}};background-color:{{l.bg}};cursor:pointer;color:#1c1917;min-width:0;">
+<strong style="font-size:16px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{l.name}}</strong><span style="font-size:14px;color:#57534e;">{{l.count}}</span><span class="jp" style="font-size:16px;color:#292524;max-width:100%;overflow:hidden;white-space:nowrap;">{{l.preview}}</span></button></sc-for>
+</div>
+<a href="Listas.dc.html" style="align-self:flex-start;font-size:14px;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:8px;">Gerenciar listas<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</sc-if>
+</div>
+</sc-if>
+<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-radius:12px;background:#f5f5f4;">
+<span style="display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;">{{poolLabel}}</strong><span style="font-size:14px;color:#44403c;">{{poolCount}} {{poolWord}}</span></span>
+<sc-if value="{{poolEmpty}}" hint-placeholder-val="{{false}}"><span style="font-size:14px;color:#b91c1c;font-weight:700;">Nada para praticar com esta combinação</span></sc-if>
+</div>
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;">
+<div style="display:flex;flex-direction:column;gap:12px;"><h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Quantidade</h3><div role="group" style="display:flex;gap:4px;padding:4px;background:#e7e5e4;border-radius:9999px;align-self:flex-start;"><sc-for list="{{sizes}}" as="s" hint-placeholder-count="2"><button onClick="{{s.pick}}" aria-pressed="{{s.pressed}}" style="height:36px;padding:0 16px;border:none;border-radius:9999px;background-color:{{s.bg}};color:{{s.fg}};font-weight:{{s.fw}};box-shadow:{{s.sh}};font-size:14px;cursor:pointer;">{{s.label}}</button></sc-for></div></div>
+<div style="display:flex;flex-direction:column;gap:12px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Dificuldades</h3>
+<button role="switch" aria-checked="{{prioAttr}}" onClick="{{togglePrio}}" style="display:flex;align-items:center;gap:12px;padding:0;border:none;background:transparent;cursor:pointer;text-align:left;color:#1c1917;">
+<span aria-hidden="true" style="position:relative;width:44px;height:24px;flex-shrink:0;border-radius:9999px;background-color:{{prioBg}};transition:background-color .2s ease;"><span style="position:absolute;top:2px;left:{{prioX}};width:20px;height:20px;border-radius:9999px;background:#ffffff;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);transition:left .2s ease;"></span></span>
+<span style="display:flex;flex-direction:column;gap:2px;"><span style="font-size:14px;font-weight:500;">Priorizar os que mais errei</span><sc-if value="{{guest}}" hint-placeholder-val="{{false}}"><span style="font-size:12px;color:#57534e;">Disponível ao entrar na conta</span></sc-if></span>
+</button>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Como praticar</h3>
+<div role="radiogroup" aria-label="Como praticar" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+<sc-for list="{{modes}}" as="m" hint-placeholder-count="2"><button role="radio" aria-checked="{{m.pressed}}" onClick="{{m.pick}}" style="display:flex;gap:12px;align-items:flex-start;text-align:left;padding:12px 16px;border-radius:12px;border:1px solid {{m.ring}};background-color:{{m.rbg}};cursor:pointer;color:#1c1917;">
+<span aria-hidden="true" style="width:16px;height:16px;flex-shrink:0;margin-top:2px;border-radius:9999px;border:2px solid {{m.dotBd}};box-sizing:border-box;display:flex;align-items:center;justify-content:center;"><span style="width:8px;height:8px;border-radius:9999px;background-color:{{m.dot}};"></span></span>
+<span style="display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;">{{m.label}}</strong><span style="font-size:14px;color:#44403c;">{{m.sub}}</span></span></button></sc-for>
+</div>
+</div>
+<sc-if value="{{canStart}}" hint-placeholder-val="{{true}}"><button class="btn" onClick="{{start}}" style="height:48px;font-size:16px;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05){{accent}};border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:none;background-color:{{accent}};color:#ffffff;font-weight:700;"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5l5 5L10 19l-5.5 1 1-5.5z"></path><path d="M12.5 6.5l5 5"></path></svg>{{startLabel}}</button></sc-if>
+<sc-if value="{{poolEmpty}}" hint-placeholder-val="{{false}}"><button disabled style="height:48px;font-size:16px;border-radius:8px;border:none;background:#e7e5e4;color:#57534e;font-weight:500;">Escolha o que praticar</button></sc-if>
+</section>
+
+<div style="display:flex;flex-direction:column;gap:20px;">
+<sc-if value="{{guest}}" hint-placeholder-val="{{false}}"><section style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;"><div style="display:flex;gap:12px;align-items:flex-start;padding:16px;border-radius:12px;background:#f5f5f4;">
+<span style="width:40px;height:40px;flex-shrink:0;border-radius:8px;background:#ffffff;color:{{accent}};display:flex;align-items:center;justify-content:center;"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2"></rect><path d="M8.5 10.5V7.5a3.5 3.5 0 0 1 7 0v3"></path></svg></span>
+<div style="display:flex;flex-direction:column;gap:12px;min-width:0;">
+<div style="display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;">Salve seu progresso</strong><span style="font-size:14px;line-height:1.5;color:#44403c;">Você pode praticar sem conta, mas o histórico, as estatísticas e as listas só ficam salvos quando você entra.</span></div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;">
+<a href="Login.dc.html" onClick="{{toLogin}}" class="btn" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:none;background-color:{{accent}};color:#ffffff;font-weight:700;">Entrar</a>
+<a href="Cadastro.dc.html" class="btn soft" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;">Criar conta</a>
+</div></div></div></section></sc-if>
+<sc-if value="{{logged}}" hint-placeholder-val="{{true}}">
+<section aria-labelledby="minhas" style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;display:flex;flex-direction:column;gap:12px;">
+<div style="display:flex;justify-content:space-between;align-items:center;"><h2 id="minhas" style="margin:0;font-size:16px;font-weight:700;">Minhas listas</h2><a href="Listas.dc.html" style="font-size:14px;font-weight:700;text-decoration:none;">Gerenciar</a></div>
+<sc-if value="{{noListsU}}" hint-placeholder-val="{{false}}"><p style="margin:0;font-size:14px;color:#44403c;line-height:1.5;">Monte listas como “Kanji N5 — Semana 1” e pratique só esses caracteres.</p><a href="Listas.dc.html" class="btn soft" style="align-self:flex-start;height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"></path></svg>Nova lista</a></sc-if>
+<sc-for list="{{lists}}" as="l" hint-placeholder-count="2">
+<div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid #e7e5e4;">
+<div style="flex-grow:1;min-width:0;display:flex;flex-direction:column;gap:2px;"><span style="font-size:16px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{l.name}}</span><span style="font-size:14px;color:#57534e;">{{l.count}}</span></div>
+<sc-if value="{{l.has}}" hint-placeholder-val="{{true}}"><button class="btn soft" onClick="{{l.play}}" style="height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:8px;"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5l5 5L10 19l-5.5 1 1-5.5z"></path><path d="M12.5 6.5l5 5"></path></svg>Praticar</button></sc-if>
+<sc-if value="{{l.empty}}" hint-placeholder-val="{{false}}"><span style="font-size:14px;color:#57534e;">vazia</span></sc-if>
+</div>
+</sc-for>
+</section>
+</sc-if>
+<section aria-labelledby="revisar" style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;display:flex;flex-direction:column;gap:12px;">
+<div style="display:flex;justify-content:space-between;align-items:center;"><h2 id="revisar" style="margin:0;font-size:16px;font-weight:700;">Para revisar</h2><span style="font-size:14px;color:#57534e;">mais erros</span></div>
+<sc-if value="{{noHard}}" hint-placeholder-val="{{false}}"><p style="margin:0;font-size:14px;color:#44403c;line-height:1.5;">Os caracteres em que você errar aparecem aqui — e ganham prioridade nas próximas sessões.</p></sc-if>
+<sc-if value="{{hasHard}}" hint-placeholder-val="{{true}}">
+<div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;">
+<sc-for list="{{hard}}" as="h" hint-placeholder-count="5"><span data-tip="{{h.sub}}" tabindex="0" style="display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 4px;border-radius:8px;background:#f5f5f4;"><span class="jp" style="font-size:24px;line-height:1;">{{h.c}}</span><span style="font-size:12px;color:#57534e;white-space:nowrap;">{{h.sub}}</span></span></sc-for>
+</div>
+<button class="btn soft" onClick="{{reviewHard}}" style="height:44px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><circle cx="12" cy="12" r="4.5"></circle><circle cx="12" cy="12" r="1"></circle></svg>Revisar estes caracteres</button>
+</sc-if>
+</section>
+<sc-if value="{{hasLast}}" hint-placeholder-val="{{false}}">
+<section style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px 20px;display:flex;align-items:center;gap:12px;">
+<span style="width:40px;height:40px;flex-shrink:0;border-radius:8px;background:#fef2f2;color:{{accent}};display:flex;align-items:center;justify-content:center;"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4"></path><path d="M4.5 4v4.5H9"></path><path d="M12 8v4l3 2"></path></svg></span>
+<div style="flex-grow:1;min-width:0;display:flex;flex-direction:column;gap:2px;"><span style="font-size:14px;color:#57534e;">Última sessão · {{last.when}}</span><span style="font-size:16px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{last.label}}</span></div>
+<span style="display:flex;flex-direction:column;align-items:flex-end;gap:2px;"><strong style="font-size:16px;">{{last.acc}}</strong><span style="font-size:12px;color:#57534e;">{{last.n}} caract.</span></span>
+</section>
+</sc-if>
+</div>
+</div>
+</main>
+</sc-if><sc-if value="{{vSession}}" hint-placeholder-val="{{false}}">
+<main style="display:flex;flex-direction:column;gap:20px;padding:24px 80px 40px;">
+<div style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:16px 20px;display:flex;align-items:center;gap:24px;">
+<div style="display:flex;flex-direction:column;gap:2px;min-width:240px;max-width:320px;"><span style="font-size:14px;color:#57534e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{label}}</span><strong style="font-size:18px;">{{numLabel}}</strong></div>
+<div role="progressbar" aria-label="Progresso da sessão" aria-valuetext="{{numLabel}}" style="flex-grow:1;height:10px;border-radius:9999px;background:#e7e5e4;overflow:hidden;"><div style="height:10px;border-radius:9999px;width:{{progW}};background-color:{{accent}};transition:width .4s ease;"></div></div>
+<span style="display:flex;align-items:center;gap:8px;height:32px;padding:0 12px;border-radius:9999px;background:#dcfce7;color:#15803d;font-size:14px;font-weight:700;"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg>{{okN}}<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">acertos</span></span>
+<span style="display:flex;align-items:center;gap:8px;height:32px;padding:0 12px;border-radius:9999px;background:#fee2e2;color:#b91c1c;font-size:14px;font-weight:700;"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg>{{failN}}<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">erros</span></span>
+<button class="btn soft" onClick="{{endSession}}" style="height:44px;padding:0 16px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;font-weight:500;">Encerrar sessão</button>
+</div>
+<div style="display:grid;grid-template-columns:320px minmax(0,1fr) 384px;gap:20px;align-items:start;">
+<section aria-label="Caractere" style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;padding:20px;display:flex;flex-direction:column;gap:16px;">
+<div style="display:flex;gap:8px;align-items:center;">
+<span style="font-size:12px;font-weight:700;border-radius:6px;background-color:{{t.tb}};color:{{t.tf}};display:inline-flex;align-items:center;height:24px;padding:0 8px;line-height:16px;flex-shrink:0;">{{t.tl}}</span>
+<sc-if value="{{t.hasJlpt}}" hint-placeholder-val="{{false}}"><span style="font-size:12px;font-weight:700;border-radius:6px;border:1px solid #e7e5e4;display:inline-flex;align-items:center;height:24px;padding:0 8px;line-height:16px;flex-shrink:0;">{{t.jlpt}}</span></sc-if>
+<span style="flex-grow:1;"></span>
+<button class="btn soft" onClick="{{speak}}" aria-label="Ouvir pronúncia" style="width:36px;height:36px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;display:flex;align-items:center;justify-content:center;cursor:pointer;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"></path><path d="M15.5 9a4 4 0 0 1 0 6"></path><path d="M18 6.5a7.5 7.5 0 0 1 0 11"></path></svg></button>
+</div>
+<sc-if value="{{memPrompt}}" hint-placeholder-val="{{false}}"><div style="display:flex;flex-direction:column;gap:4px;"><span style="font-size:14px;color:#44403c;">{{lead}}</span><span class="disp" style="font-size:30px;font-weight:700;line-height:1.25;">{{main}}</span><span style="font-size:14px;color:#57534e;">{{mainSub}}</span></div></sc-if>
+<sc-if value="{{copyPrompt}}" hint-placeholder-val="{{true}}"><span style="font-size:14px;color:#44403c;">Escreva este caractere no quadro:</span></sc-if>
+<div style="position:relative;height:210px;border-radius:12px;background:#fafaf9;border:1px solid #e7e5e4;display:flex;align-items:center;justify-content:center;">
+<sc-if value="{{showChar}}" hint-placeholder-val="{{true}}"><span class="jp fade" style="font-size:{{t.gs}};line-height:1;">{{t.c}}</span></sc-if>
+<sc-if value="{{hideChar}}" hint-placeholder-val="{{false}}"><span class="disp" style="font-size:60px;color:#d6d3d1;">?</span></sc-if>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;">
+<span style="font-size:14px;color:#57534e;">{{t.n}} traços</span>
+<button class="btn soft" onClick="{{toggleChar}}" style="height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:8px;font-weight:500;"><sc-if value="{{showChar}}" hint-placeholder-val="{{true}}"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"></path><path d="M4 4l16 16"></path></svg></sc-if><sc-if value="{{hideChar}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"></path><circle cx="12" cy="12" r="3"></circle></svg></sc-if>{{charBtn}}</button>
+</div>
+<sc-if value="{{askRd}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-direction:column;gap:12px;padding-top:12px;border-top:1px solid #e7e5e4;">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">{{rdTitle}}</h3>
+<sc-if value="{{rdHide}}" hint-placeholder-val="{{true}}"><button class="btn soft" onClick="{{showRd}}" style="height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:8px;font-weight:500;"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"></path><circle cx="12" cy="12" r="3"></circle></svg>Mostrar</button></sc-if>
+</div>
+<sc-if value="{{rdShow}}" hint-placeholder-val="{{false}}"><div class="fade"><span style="display:flex;flex-direction:column;gap:2px;"><span class="jp" style="font-size:18px;font-weight:600;">{{t.r}}</span><span style="font-size:14px;color:#44403c;">{{t.ro}}</span></span></div></sc-if>
+<form onKeyDown="{{checkRdKey}}" style="display:flex;gap:8px;margin:0;">
+<label style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);" for="ans-rd">Romaji ou kana</label>
+<input id="ans-rd" type="text" autocomplete="off" value="{{rdAns}}" onChange="{{onRd}}" placeholder="Romaji ou kana" style="flex-grow:1;height:44px;box-sizing:border-box;padding:0 16px;border:1px solid #d6d3d1;border-radius:8px;background:#ffffff;font-size:16px;color:#1c1917;outline:none;min-width:0;">
+<button type="button" onClick="{{checkRd}}" class="btn soft" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;">Verificar</button>
+</form>
+<sc-if value="{{rdChip.on}}" hint-placeholder-val="{{false}}"><span role="status" class="pop" style="align-self:flex-start;display:flex;align-items:center;gap:8px;height:28px;padding:0 12px;border-radius:9999px;background-color:{{rdChip.bg}};color:{{rdChip.fg}};font-size:14px;font-weight:700;"><sc-if value="{{rdChip.ok}}" hint-placeholder-val="{{true}}"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></sc-if><sc-if value="{{rdChip.no}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></sc-if>{{rdChip.label}}</span></sc-if>
+</div></sc-if>
+<sc-if value="{{askMn}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-direction:column;gap:12px;padding-top:12px;border-top:1px solid #e7e5e4;">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Significado</h3>
+<sc-if value="{{mnHide}}" hint-placeholder-val="{{true}}"><button class="btn soft" onClick="{{showMn}}" style="height:36px;padding:0 12px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:8px;font-weight:500;"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"></path><circle cx="12" cy="12" r="3"></circle></svg>Mostrar</button></sc-if>
+</div>
+<sc-if value="{{mnShow}}" hint-placeholder-val="{{false}}"><div class="fade"><span style="display:flex;flex-direction:column;gap:2px;"><span style="font-size:16px;font-weight:500;">{{t.pt}}</span><span style="font-size:14px;color:#57534e;">{{t.en}}</span></span></div></sc-if>
+<form onKeyDown="{{checkMnKey}}" style="display:flex;gap:8px;margin:0;">
+<label style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);" for="ans-mn">Em português ou inglês</label>
+<input id="ans-mn" type="text" autocomplete="off" value="{{mnAns}}" onChange="{{onMn}}" placeholder="Em português ou inglês" style="flex-grow:1;height:44px;box-sizing:border-box;padding:0 16px;border:1px solid #d6d3d1;border-radius:8px;background:#ffffff;font-size:16px;color:#1c1917;outline:none;min-width:0;">
+<button type="button" onClick="{{checkMn}}" class="btn soft" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;">Verificar</button>
+</form>
+<sc-if value="{{mnChip.on}}" hint-placeholder-val="{{false}}"><span role="status" class="pop" style="align-self:flex-start;display:flex;align-items:center;gap:8px;height:28px;padding:0 12px;border-radius:9999px;background-color:{{mnChip.bg}};color:{{mnChip.fg}};font-size:14px;font-weight:700;"><sc-if value="{{mnChip.ok}}" hint-placeholder-val="{{true}}"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></sc-if><sc-if value="{{mnChip.no}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></sc-if>{{mnChip.label}}</span></sc-if>
+</div></sc-if>
+</section>
+
+<section aria-label="Área de escrita" class="{{shakeCls}}" style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;border-radius:12px;padding:20px 20px 20px;display:flex;flex-direction:column;gap:16px;align-items:center;">
+<div style="display:flex;justify-content:space-between;align-items:center;width:100%;">
+<div style="display:flex;align-items:center;gap:12px;"><h2 style="margin:0;font-size:16px;font-weight:700;">Área de escrita</h2><span style="font-size:14px;color:#44403c;background:#f5f5f4;padding:4px 12px;border-radius:9999px;">Traços: {{count}} / {{t.n}}</span></div>
+<div style="display:flex;gap:8px;">
+<button class="btn" onClick="{{toggleGuide}}" aria-pressed="{{guideP}}" style="height:36px;padding:0 12px;border-radius:9999px;border:1px solid {{guideBd}};background-color:{{guideBg}};color:{{guideFg}};font-size:14px;font-weight:500;cursor:pointer;">Grade</button>
+<button class="btn" onClick="{{toggleGhost}}" aria-pressed="{{ghostP}}" style="height:36px;padding:0 12px;border-radius:9999px;border:1px solid {{ghostBd}};background-color:{{ghostBg}};color:{{ghostFg}};font-size:14px;font-weight:500;cursor:pointer;">Contorno</button>
+</div>
+</div>
+<div style="position:relative;width:540px;height:540px;border-radius:12px;background:#ffffff;box-shadow:inset 0 0 0 1px #e7e5e4;overflow:hidden;flex-shrink:0;">
+<sc-if value="{{guide}}" hint-placeholder-val="{{true}}"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:540px;height:540px;"><line x1="50" y1="0" x2="50" y2="100" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="50" x2="100" y2="50" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="0" x2="100" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line><line x1="100" y1="0" x2="0" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line></svg></sc-if>
+<sc-if value="{{ghost}}" hint-placeholder-val="{{false}}"><span aria-hidden="true" class="jp fade" style="position:absolute;left:0;top:0;width:540px;height:540px;display:flex;align-items:center;justify-content:center;font-size:{{t.gsG}};line-height:1;color:#fee2e2;pointer-events:none;">{{t.c}}</span></sc-if>
+<canvas ref="{{setCanvas}}" onPointerDown="{{onDown}}" onPointerMove="{{onMove}}" onPointerUp="{{onUp}}" onPointerCancel="{{onUp}}" onPointerLeave="{{onUp}}" aria-label="Quadro de desenho: escreva o caractere com o mouse ou o dedo" style="position:absolute;left:0;top:0;width:540px;height:540px;touch-action:none;cursor:crosshair;"></canvas>
+<sc-if value="{{emptyHint}}" hint-placeholder-val="{{true}}"><span aria-hidden="true" style="position:absolute;left:0;right:0;bottom:16px;text-align:center;font-size:14px;color:#78716c;pointer-events:none;">Escreva aqui com o mouse ou o dedo</span></sc-if>
+<sc-if value="{{busy}}" hint-placeholder-val="{{false}}"><div class="fade" role="status" style="position:absolute;left:0;top:0;width:540px;height:540px;background:rgb(255 255 255 / 0.75);display:flex;align-items:center;justify-content:center;gap:8px;font-size:16px;font-weight:700;color:#44403c;"><svg class="spin" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-opacity=".25" stroke-width="3"></circle><path d="M21 12a9 9 0 0 0-9-9" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path></svg>Analisando o desenho…</div></sc-if>
+</div>
+<sc-if value="{{warnOn}}" hint-placeholder-val="{{false}}"><p role="alert" style="margin:0;width:100%;font-size:14px;color:{{accent}};">Escreva o caractere antes de clicar em Pronto.</p></sc-if>
+<div style="display:flex;align-items:center;gap:12px;width:100%;">
+<button class="btn soft" onClick="{{undo}}" aria-label="Desfazer último traço" style="width:48px;height:48px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"></path><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"></path></svg></button>
+<button class="btn soft" onClick="{{clear}}" style="height:48px;padding:0 24px;font-size:16px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 20h12"></path><path d="m4.6 15.4 8.8-8.8a2 2 0 0 1 2.8 0l2.2 2.2a2 2 0 0 1 0 2.8L11.5 18.5H7.7z"></path></svg>Limpar</button>
+<span style="flex-grow:1;"></span>
+<sc-if value="{{noResult}}" hint-placeholder-val="{{true}}"><button class="btn" onClick="{{done}}" style="height:48px;padding:0 24px;font-size:16px;box-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05){{accent}};border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:none;background-color:{{accent}};color:#ffffff;font-weight:700;"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg>Pronto</button></sc-if>
+<sc-if value="{{hasResult}}" hint-placeholder-val="{{false}}"><button class="btn" onClick="{{next}}" style="height:48px;padding:0 24px;font-size:16px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:none;background-color:{{accent}};color:#ffffff;font-weight:700;">{{nextLabel}}<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button></sc-if>
+</div>
+</section>
+
+<aside aria-label="Resultado" style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:16px;min-height:700px;">
+<sc-if value="{{noResult}}" hint-placeholder-val="{{true}}">
+<div style="display:flex;flex-direction:column;gap:16px;">
+<h2 style="margin:0;font-size:16px;font-weight:700;">Resultado</h2>
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding:24px 8px 16px;">
+<span style="width:80px;height:80px;border-radius:9999px;background:#f5f5f4;color:{{accent}};display:flex;align-items:center;justify-content:center;"><svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5l5 5L10 19l-5.5 1 1-5.5z"></path><path d="M12.5 6.5l5 5"></path></svg></span>
+<p style="margin:0;font-size:16px;font-weight:500;line-height:1.375;">Escreva o caractere e clique em <strong>Pronto</strong></p>
+<p style="margin:0;font-size:14px;color:#57534e;line-height:1.5;">O Kaku compara seu desenho com o caractere e mostra o que reconheceu.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;padding:16px;border-radius:12px;background:#f5f5f4;">
+<h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Dicas</h3>
+<p style="margin:0;display:flex;gap:12px;font-size:14px;line-height:1.5;"><span style="color:{{accent}};font-weight:700;">1</span>De cima para baixo, da esquerda para a direita.</p>
+<p style="margin:0;display:flex;gap:12px;font-size:14px;line-height:1.5;"><span style="color:{{accent}};font-weight:700;">2</span>Use o número de traços indicado.</p>
+<p style="margin:0;display:flex;gap:12px;font-size:14px;line-height:1.5;"><span style="color:{{accent}};font-weight:700;">3</span>“Contorno” mostra o caractere por baixo do quadro.</p>
+</div>
+<sc-if value="{{hasUpcoming}}" hint-placeholder-val="{{true}}"><div style="display:flex;flex-direction:column;gap:12px;"><h3 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">A seguir</h3><div style="display:flex;gap:8px;flex-wrap:wrap;"><sc-for list="{{upcoming}}" as="q" hint-placeholder-count="5"><span class="jp" style="width:44px;height:44px;border-radius:8px;border:1px solid #e7e5e4;display:flex;align-items:center;justify-content:center;font-size:20px;color:#44403c;">{{q.c}}</span></sc-for></div></div></sc-if>
+<sc-if value="{{unsaved}}" hint-placeholder-val="{{false}}"><p style="margin:0;font-size:14px;color:#92400e;background:#fffbeb;padding:12px 16px;border-radius:8px;line-height:20px;border:1px solid #fde68a;">Você está praticando sem conta: o resultado não será salvo no seu histórico.</p></sc-if>
+</div>
+</sc-if>
+<sc-if value="{{hasResult}}" hint-placeholder-val="{{false}}">
+<div class="rise" style="display:flex;flex-direction:column;gap:16px;">
+<div class="pop" role="status" style="display:flex;gap:12px;align-items:center;padding:12px 16px;border-radius:12px;background-color:{{v.bg}};">
+<span style="width:36px;height:36px;flex-shrink:0;border-radius:9999px;background-color:{{v.fg}};color:#ffffff;display:flex;align-items:center;justify-content:center;">
+<sc-if value="{{vOk}}" hint-placeholder-val="{{true}}"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></sc-if>
+<sc-if value="{{vAl}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.5v5.5"></path><path d="M12 16.5v.5"></path></svg></sc-if>
+<sc-if value="{{vNo}}" hint-placeholder-val="{{false}}"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></sc-if>
+</span>
+<span style="display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;color:{{v.fg}};">{{v.label}}</strong><span style="font-size:14px;line-height:1.5;color:#292524;">{{v.sub}}</span></span>
+</div>
+<div style="display:flex;gap:12px;align-items:center;">
+<span class="jp pop" style="width:80px;height:80px;flex-shrink:0;border-radius:12px;border:1px solid #e7e5e4;background:#fafaf9;display:flex;align-items:center;justify-content:center;font-size:{{rid.gsS}};line-height:1;">{{rid.c}}</span>
+<div style="display:flex;flex-direction:column;gap:4px;min-width:0;">
+<span style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;font-size:12px;">Caractere identificado</span>
+<sc-if value="{{hasRid}}" hint-placeholder-val="{{true}}"><span class="jp" style="font-size:16px;font-weight:600;">{{rid.r}}</span><span style="font-size:14px;color:#44403c;">{{rid.ro}}</span><span style="font-size:14px;">{{rid.pt}}</span></sc-if>
+<sc-if value="{{noRid}}" hint-placeholder-val="{{false}}"><span style="font-size:14px;color:#44403c;line-height:1.5;">Não reconhecemos o desenho como nenhum caractere.</span></sc-if>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+<figure style="margin:0;display:flex;flex-direction:column;gap:8px;">
+<div style="position:relative;width:144px;height:144px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;overflow:hidden;"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:144px;height:144px;"><line x1="50" y1="0" x2="50" y2="100" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="50" x2="100" y2="50" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="0" x2="100" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line><line x1="100" y1="0" x2="0" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line></svg><img src="{{r.img}}" alt="Seu desenho" style="position:absolute;left:0;top:0;width:144px;height:144px;"></div>
+<figcaption style="font-size:12px;color:#57534e;">Seu desenho</figcaption>
+</figure>
+<figure style="margin:0;display:flex;flex-direction:column;gap:8px;">
+<div style="position:relative;width:144px;height:144px;border-radius:8px;border:1px solid #e7e5e4;background:#ffffff;overflow:hidden;display:flex;align-items:center;justify-content:center;"><svg aria-hidden="true" viewBox="0 0 100 100" style="position:absolute;left:0;top:0;width:144px;height:144px;"><line x1="50" y1="0" x2="50" y2="100" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="50" x2="100" y2="50" stroke="#e7e5e4" stroke-width="0.5" stroke-dasharray="2 2"></line><line x1="0" y1="0" x2="100" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line><line x1="100" y1="0" x2="0" y2="100" stroke="#f5f5f4" stroke-width="0.4" stroke-dasharray="1.5 2.5"></line></svg><span class="jp" style="position:relative;font-size:{{t.gsM}};line-height:1;">{{t.c}}</span></div>
+<figcaption style="font-size:12px;color:#57534e;">Modelo · {{t.c}}</figcaption>
+</figure>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;">
+<div style="display:flex;justify-content:space-between;font-size:14px;"><span style="color:#44403c;">Semelhança da forma</span><strong>{{r.sim}}%</strong></div>
+<div style="height:8px;border-radius:9999px;background:#e7e5e4;overflow:hidden;"><div style="height:8px;border-radius:9999px;width:{{simW}};background-color:{{v.fg}};transition:width .6s ease;"></div></div>
+<div style="display:flex;justify-content:space-between;font-size:14px;"><span style="color:#44403c;">Número de traços</span><strong>{{r.user}} / {{r.exp}}</strong></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;padding:12px 16px;border-radius:12px;border:1px solid #e7e5e4;">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+<span style="font-size:14px;font-weight:700;">Resultado deste caractere</span>
+<span style="height:28px;padding:0 12px;border-radius:9999px;display:flex;align-items:center;font-size:14px;font-weight:700;background-color:{{finBg}};color:{{finFg}};">{{finLabel}}</span>
+</div>
+<span style="font-size:14px;color:#44403c;line-height:1.5;">{{finWhy}}</span>
+<div style="display:flex;align-items:center;gap:12px;"><span style="font-size:14px;color:#57534e;">Contar como</span><div role="group" style="display:flex;gap:4px;padding:4px;background:#e7e5e4;border-radius:9999px;align-self:flex-start;"><sc-for list="{{overs}}" as="s" hint-placeholder-count="2"><button onClick="{{s.pick}}" aria-pressed="{{s.pressed}}" style="height:36px;padding:0 16px;border:none;border-radius:9999px;background-color:{{s.bg}};color:{{s.fg}};font-weight:{{s.fw}};box-shadow:{{s.sh}};font-size:14px;cursor:pointer;">{{s.label}}</button></sc-for></div></div>
+</div>
+<button class="btn soft" onClick="{{clear}}" style="height:44px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4"></path><path d="M4.5 4v4.5H9"></path></svg>Tentar de novo</button>
+</div>
+</sc-if>
+</aside>
+</div>
+</main>
+</sc-if><sc-if value="{{vSummary}}" hint-placeholder-val="{{false}}">
+<main class="rise" style="display:flex;justify-content:center;padding:40px 80px 48px;">
+<section aria-labelledby="resumo" style="background:#ffffff;border:1px solid #e7e5e4;border-radius:8px;box-sizing:border-box;width:980px;border-radius:12px;padding:32px;display:flex;flex-direction:column;gap:24px;">
+<div style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;">
+<div style="display:flex;flex-direction:column;gap:8px;"><span style="font-size:14px;color:#57534e;">Resumo da sessão · {{sLabel}}</span><h1 id="resumo" class="disp" style="margin:0;font-size:48px;font-weight:700;">{{sHead}}</h1></div>
+<span class="disp" style="font-size:60px;font-weight:700;color:{{accent}};line-height:1;">{{sRate}}</span>
+</div>
+<div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;">
+<div style="padding:16px;border-radius:12px;background:#f5f5f4;display:flex;flex-direction:column;gap:4px;"><span style="font-size:14px;color:#44403c;">Praticados</span><strong class="disp" style="font-size:30px;">{{sN}}</strong></div>
+<div style="padding:16px;border-radius:12px;background:#dcfce7;display:flex;flex-direction:column;gap:4px;"><span style="font-size:14px;color:#15803d;">Acertos</span><strong class="disp" style="font-size:30px;color:#166534;">{{sOk}}</strong></div>
+<div style="padding:16px;border-radius:12px;background:#fee2e2;display:flex;flex-direction:column;gap:4px;"><span style="font-size:14px;color:#b91c1c;">Erros</span><strong class="disp" style="font-size:30px;color:#991b1b;">{{sFail}}</strong></div>
+<div style="padding:16px;border-radius:12px;background:#f5f5f4;display:flex;flex-direction:column;gap:4px;"><span style="font-size:14px;color:#44403c;">Taxa de acerto</span><strong class="disp" style="font-size:30px;">{{sRate}}</strong></div>
+<div style="padding:16px;border-radius:12px;background:#f5f5f4;display:flex;flex-direction:column;gap:4px;"><span style="font-size:14px;color:#44403c;">Tempo</span><strong class="disp" style="font-size:30px;">{{sTime}}</strong></div>
+</div>
+<div style="height:12px;border-radius:9999px;background:#fecaca;overflow:hidden;" aria-hidden="true"><div style="height:12px;width:{{barOk}};background:#16a34a;border-radius:9999px;"></div></div>
+<div style="display:flex;flex-direction:column;gap:12px;">
+<h2 style="margin:0;font-size:12px;line-height:16px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;">Caracteres desta sessão</h2>
+<div style="display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:8px;">
+<sc-for list="{{results}}" as="x" hint-placeholder-count="10"><div style="position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;padding:12px 4px 8px;border-radius:8px;border:1px solid {{x.bd}};background-color:{{x.bg}};min-width:0;">
+<span class="jp" style="font-size:30px;line-height:1;">{{x.c}}</span><span style="font-size:12px;color:#44403c;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{x.sub}}</span>
+<sc-if value="{{x.ok}}" hint-placeholder-val="{{true}}"><span aria-label="acerto" style="position:absolute;top:4px;right:4px;display:flex;color:#15803d;"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></span></sc-if>
+<sc-if value="{{x.no}}" hint-placeholder-val="{{false}}"><span aria-label="erro" style="position:absolute;top:4px;right:4px;display:flex;color:#b91c1c;"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"></path></svg></span></sc-if>
+</div></sc-for>
+</div>
+</div>
+<sc-if value="{{unsaved}}" hint-placeholder-val="{{false}}"><div style="display:flex;gap:12px;align-items:flex-start;padding:16px;border-radius:12px;background:#f5f5f4;">
+<span style="width:40px;height:40px;flex-shrink:0;border-radius:8px;background:#ffffff;color:{{accent}};display:flex;align-items:center;justify-content:center;"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2"></rect><path d="M8.5 10.5V7.5a3.5 3.5 0 0 1 7 0v3"></path></svg></span>
+<div style="display:flex;flex-direction:column;gap:12px;min-width:0;">
+<div style="display:flex;flex-direction:column;gap:2px;"><strong style="font-size:16px;">Esta sessão não foi salva</strong><span style="font-size:14px;line-height:1.5;color:#44403c;">Entre ou crie uma conta para guardar o histórico e ver sua evolução no Progresso.</span></div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;">
+<a href="Login.dc.html" onClick="{{toLogin}}" class="btn" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:none;background-color:{{accent}};color:#ffffff;font-weight:700;">Entrar</a>
+<a href="Cadastro.dc.html" class="btn soft" style="height:44px;padding:0 16px;font-size:14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;">Criar conta</a>
+</div></div></div></sc-if>
+<div style="display:flex;gap:12px;flex-wrap:wrap;">
+<sc-if value="{{hasWrong}}" hint-placeholder-val="{{true}}"><button class="btn" onClick="{{retryWrong}}" style="height:48px;padding:0 24px;font-size:16px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:none;background-color:{{accent}};color:#ffffff;font-weight:700;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><circle cx="12" cy="12" r="4.5"></circle><circle cx="12" cy="12" r="1"></circle></svg>{{wrongLabel}}</button></sc-if>
+<button class="btn soft" onClick="{{again}}" style="height:48px;padding:0 24px;font-size:16px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4"></path><path d="M4.5 4v4.5H9"></path></svg>Repetir sessão</button>
+<button class="btn soft" onClick="{{newSession}}" style="height:48px;padding:0 24px;font-size:16px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;white-space:nowrap;border:1px solid #e7e5e4;background:#ffffff;color:#1c1917;font-weight:500;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"></path></svg>Nova sessão</button>
+<span style="flex-grow:1;"></span>
+<sc-if value="{{saved}}" hint-placeholder-val="{{true}}"><a href="Progresso.dc.html" style="align-self:center;font-size:16px;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:8px;">Ver progresso<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></sc-if>
+</div>
+</section>
+</main>
+</sc-if>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#dc2626","options":["#dc2626","#b91c1c","#ef4444","#1c1917"]},"$preview":{"width":1920,"height":1080}}'>
+function nums(d) { return (d.match(/-?\d+(\.\d+)?/g) || []).map(Number); }
+function plen(d) { const n = nums(d); let L = 0; for (let i = 2; i + 1 < n.length; i += 2) L += Math.hypot(n[i] - n[i - 2], n[i + 1] - n[i - 1]); return Math.ceil(L) + 6; }
+function startPt(d) { const n = nums(d); return { x: n[0], y: n[1] }; }
+function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+function strokesOf(d, gap) { return d.p.map((p, i) => ({ d: p, len: plen(p), delay: (i * (gap || 0.7)).toFixed(2) + 's' })); }
+function framesOf(d, accent) { return d.p.map((_, i) => { const s = startPt(d.p[i]); return { n: i + 1, sx: s.x, sy: s.y, layers: d.p.map((p, j) => ({ d: p, c: j < i ? '#1c1917' : (j === i ? accent : '#e7e5e4') })) }; }); }
+function decorate(d) { const T = TYPES[d.t]; return Object.assign({}, d, { tl: T.label, tf: T.fg, tb: T.bg, n: d.p.length }); }
+function speakText(d) { return d.t === 'j' ? d.r.replace(/[()]/g, '') : d.c; }
+function say(text) { try { const u = new SpeechSynthesisUtterance(text); u.lang = 'ja-JP'; u.rate = 0.85; window.speechSynthesis.cancel(); window.speechSynthesis.speak(u); } catch (e) {} }
+
+const KTYPES = { hiragana: { label: 'Hiragana', fg: '#1e40af', bg: '#dbeafe' }, katakana: { label: 'Katakana', fg: '#92400e', bg: '#fef3c7' }, kanji: { label: 'Kanji', fg: '#b91c1c', bg: '#fee2e2' } };
+const GROUP_LABEL = { basico: 'Básico', dakuten: 'Dakuten', handakuten: 'Handakuten', pequeno: 'Pequeno', combinacao: 'Combinação', estrangeiro: 'Som estrangeiro', joyo: 'Jōyō' };
+const DIFF_LABEL = { iniciante: 'Iniciante', intermediario: 'Intermediário', avancado: 'Avançado' };
+function hydrate(D) {
+  if (!D.compact || D._hydrated) return;
+  const USAGE = { N5: [5, 'muito alto'], N4: [4, 'alto'], N3: [3, 'médio'], N2: [2, 'moderado'], N1: [1, 'baixo'] };
+  const DIFF = { N5: 'iniciante', N4: 'iniciante', N3: 'intermediario', N2: 'avancado', N1: 'avancado' };
+  const comp = (k) => {
+    const i = k.lastIndexOf('|'); const c = k.slice(0, i), f = k.slice(i + 1);
+    if (f === '!') return { c, form: 'grafico', lookalike: true, meaning: 'forma parecida com ' + c + ', mas com outra origem', ref: null };
+    const v = D.comps[k] || [f, '', null, null]; const o = { c, form: v[0], meaning: v[1], ref: v[2] };
+    if (v[3]) o.standard = v[3];
+    return o;
+  };
+  D.characters = D.characters.map((z) => {
+    if (z.char) { z.examples = z.examples || []; z.jlpt = z.jlpt || null; z.strokeOrder = z.strokeOrder || null; return z; }
+    const on = z.on.map((k, i) => ({ kana: k, romaji: z.rj[i] }));
+    const kun = z.kun.map((k, i) => { const p = k.split('.'); const st = p[0], ok = p[1] || ''; return { kana: st + ok, display: st + (ok ? '(' + ok + ')' : ''), okurigana: ok || null, romaji: z.rj[z.on.length + i] }; });
+    const prim = kun[0]; const rad = D.rads[z.r[1]] || [0, '', ''];
+    const f = z.f ? { type: z.f[0], label: D.ftypes[z.f[0]][0], description: D.ftypes[z.f[0]][1], note: z.f[1] || null,
+      parts: z.f[2].map((q) => { const cc = comp(q[0]); const p = { c: cc.c, role: q[1] === 's' ? 'semantico' : 'fonetico', meaning: cc.meaning, ref: cc.ref, form: cc.form }; if (q[2]) p.reading = q[2]; return p; }) } : null;
+    return {
+      id: 'kanji:' + z.c, char: z.c, category: 'kanji', group: 'joyo', romaji: prim ? prim.romaji : on[0].romaji, reading: prim ? prim.display : on[0].kana,
+      meaning: { pt: z.pt, en: z.en }, jlpt: z.j, difficulty: DIFF[z.j], strokes: z.n,
+      strokeOrder: z.so ? { source: 'kaku-simplificado', viewBox: '0 0 100 100', paths: z.so } : null,
+      examples: z.ex.map((x) => ({ word: x[0], reading: x[1], romaji: x[2], pt: x[3], en: x[4] })),
+      readings: { on, kun }, readingsRomaji: z.rj, grade: z.g || 0,
+      gradeLabel: z.g ? (z.g <= 6 ? z.g + 'º ano (primário)' : 'ensino secundário') : '',
+      usage: { level: USAGE[z.j][0], label: USAGE[z.j][1] }, sentence: z.s ? { ja: z.s[0], pt: z.s[1], en: z.s[2] } : null,
+      detail: z.s ? 'completo' : 'essencial',
+      radical: { char: z.r[0], standard: z.r[1], number: rad[0], meaning: { pt: rad[1], en: rad[2] }, name: z.r[2] || null, ref: null },
+      decomposition: z.d.map(comp), formation: f, containsComponents: z.cc, usedIn: z.u, related: z.rel
+    };
+  });
+  D._hydrated = true;
+}
+function kdb() {
+  const D = window.KAKU_DATA;
+  if (!D) return null;
+  hydrate(D);
+  if (!D._idx) {
+    D._idx = {};
+    D.characters.forEach((e) => {
+      D._idx[e.id] = e;
+      const r = e.readings ? e.readings.on.map((o) => o.kana).concat(e.readings.kun.map((k) => k.kana)).join(' ') : '';
+      e._hay = norm([e.char, e.reading, e.romaji, (e.readingsRomaji || []).join(' '), r, e.meaning.pt.join(' '), e.meaning.en.join(' ')].join(' '));
+    });
+    D.characters.forEach((e) => { if (e.radical && !e.radical.ref && D._idx['kanji:' + e.radical.standard]) e.radical.ref = 'kanji:' + e.radical.standard; });
+  }
+  return D;
+}
+function waitForData(self) { if (kdb()) return; let n = 0; const t = setInterval(() => { n++; if (kdb() || n > 60) { clearInterval(t); self.forceUpdate(); } }, 150); }
+function cardOf(e, accent, selId, pick) {
+  const T = KTYPES[e.category], on = e.id === selId, two = Array.from(e.char).length > 1;
+  return {
+    id: e.id, c: e.char, tl: T.label, tf: T.fg, tb: T.bg, n: e.strokes, jlpt: e.jlpt || '', hasJlpt: !!e.jlpt,
+    sub: e.category === 'kanji' ? e.reading + ' · ' + e.romaji : e.romaji, subJp: e.category === 'kanji',
+    pt: e.meaning.pt.join('; '), en: e.meaning.en.join('; '), gs: two ? '46px' : '64px',
+    cur: on ? 'true' : 'false', bd: on ? accent : '#e7e5e4', sh: on ? '0 0 0 2px ' + accent + '2E' : 'none', pick
+  };
+}
+function detailOf(self, e, accent) {
+  const T = KTYPES[e.category], isKanji = e.category === 'kanji', two = Array.from(e.char).length > 1;
+  const order = e.strokeOrder ? e.strokeOrder.paths : null;
+  return {
+    d: {
+      c: e.char, tl: T.label, tf: T.fg, tb: T.bg, n: e.strokes, jlpt: e.jlpt || '—', group: GROUP_LABEL[e.group] || e.group,
+      diff: DIFF_LABEL[e.difficulty], r: e.reading, ro: e.romaji, pt: e.meaning.pt.join('; '), en: e.meaning.en.join('; '),
+      note: e.note || '', grade: e.gradeLabel || '—', essential: e.detail === 'essencial', usage: e.usage ? e.usage.label : '', gs: two ? '104px' : '150px',
+      sja: e.sentence ? e.sentence.ja : '', spt: e.sentence ? e.sentence.pt : '', sen: e.sentence ? e.sentence.en : ''
+    },
+    hasJlpt: !!e.jlpt, hasOrder: !!order, noOrder: !order, isKanji, isKana: !isKanji,
+    hasNote: !!e.note, hasExamples: e.examples.length > 0, hasSentence: !!e.sentence,
+    strokes: order ? order.map((p, i) => ({ d: p, len: plen(p), delay: (i * 0.7).toFixed(2) + 's' })) : [],
+    frames: order ? order.map((_, i) => { const s = startPt(order[i]); return { n: i + 1, sx: s.x, sy: s.y, layers: order.map((p, j) => ({ d: p, c: j < i ? '#1c1917' : (j === i ? accent : '#e7e5e4') })) }; }) : [],
+    animA: self.state.anim % 2 === 0, animB: self.state.anim % 2 === 1,
+    onR: isKanji ? e.readings.on.map((o) => ({ k: o.kana, r: o.romaji })) : [],
+    kunR: isKanji ? e.readings.kun.map((k) => ({ k: k.display, r: k.romaji })) : [],
+    hasOn: isKanji && e.readings.on.length > 0, hasKun: isKanji && e.readings.kun.length > 0,
+    examples: e.examples.map((x) => ({ w: x.word, r: x.reading === x.word ? '' : x.reading, ro: x.romaji, pt: x.pt, en: x.en })),
+    cx: isKanji && e.radical ? compOf(self, e, null) : EMPTY_CX, hasHist: (self.state.hist || []).length > 0, back: () => goBack(self),
+    replay: () => self.setState({ anim: self.state.anim + 1 }),
+    speak: () => say(isKanji ? (e.readings.kun[0] ? e.readings.kun[0].kana : e.readings.on[0].kana) : e.char)
+  };
+}
+
+const FORM_STYLE = {
+  kanji: { full: 'Kanji independente', short: 'Kanji', bg: '#fee2e2', fg: '#b91c1c' },
+  radical: { full: 'Radical', short: 'Radical', bg: '#dbeafe', fg: '#1e40af' },
+  grafico: { full: 'Componente gráfico', short: 'Gráfico', bg: '#e7e5e4', fg: '#44403c' }
+};
+function goTo(self, id) {
+  if (!id || id === self.state.sel) return;
+  self.setState({ sel: id, anim: self.state.anim + 1, hist: (self.state.hist || []).concat([self.state.sel]).slice(-30) });
+}
+function goBack(self) {
+  const h = (self.state.hist || []).slice(); const prev = h.pop();
+  if (prev) self.setState({ sel: prev, anim: self.state.anim + 1, hist: h });
+}
+const EMPTY_CX = { hasDecomp: false, noDecomp: false, eqItems: [], compRows: [], rad: {}, radVariant: false, hasFormation: false, noFormation: false, fParts: [], hasFParts: false, hasFNote: false, usedTiles: [], hasUsed: false, noUsed: false, relTiles: [], hasRel: false, sameRad: [], hasSameRad: false, usedMore: false };
+function compOf(self, e, onComp) {
+  const D = kdb(); const idx = D._idx;
+  const act = (c, ref) => ref ? () => goTo(self, ref) : (onComp ? () => onComp(c) : null);
+  const dec = e.decomposition || [];
+  const eqItems = dec.map((d, i) => {
+    const st = FORM_STYLE[d.form] || FORM_STYLE.grafico; const a = act(d.c, d.ref);
+    return {
+      c: d.c, badge: d.lookalike ? 'Parecido com ' + d.c : st.full, short: d.lookalike ? 'Parecido' : st.short, bg: st.bg, fg: st.fg,
+      meaning: d.meaning || '—', plus: i > 0, pick: a || (() => {}), cursor: a ? 'pointer' : 'default', isLink: !!d.ref, isFilter: !d.ref && !!a,
+      mainRad: d.c === e.radical.char, hint: d.ref ? 'Abrir ' + (d.standard || d.c) : (a ? 'Ver kanji com ' + d.c : '')
+    };
+  });
+  const f = e.formation;
+  const fParts = f ? f.parts.map((p, i) => {
+    const a = act(p.c, p.ref); const sem = p.role === 'semantico';
+    return { c: p.c, role: sem ? 'Semântico' : 'Fonético', reading: p.reading || '', hasReading: !!p.reading, bg: sem ? '#dcfce7' : '#fef3c7', fg: sem ? '#15803d' : '#92400e', meaning: p.meaning || '—', plus: i > 0, pick: a || (() => {}), cursor: a ? 'pointer' : 'default' };
+  }) : [];
+  const toTile = (ch) => { const o = idx['kanji:' + ch]; return { c: ch, pt: o ? o.meaning.pt[0] : '', jlpt: o ? o.jlpt : '', pick: () => goTo(self, 'kanji:' + ch) }; };
+  const r = e.radical;
+  const sameRad = D.characters.filter((o) => o.category === 'kanji' && o.id !== e.id && o.radical && o.radical.standard === r.standard).slice(0, 12).map((o) => toTile(o.char));
+  const used = e.usedIn || [];
+  return {
+    hasDecomp: dec.length > 0, noDecomp: dec.length === 0, eqItems, compRows: eqItems, self: e.char,
+    rad: { c: r.char, std: r.standard, num: r.number, pt: r.meaning.pt, name: r.name || '', pick: r.ref ? () => goTo(self, r.ref) : (() => {}), cursor: r.ref && r.ref !== e.id ? 'pointer' : 'default' },
+    radVariant: r.char !== r.standard,
+    hasFormation: !!f, noFormation: !f, fLabel: f ? f.label : '', fDesc: f ? f.description : '', fParts, hasFParts: fParts.length > 0,
+    fNote: f && f.note ? f.note : '', hasFNote: !!(f && f.note),
+    usedTiles: used.slice(0, 24).map(toTile), usedCount: used.length, hasUsed: used.length > 0, noUsed: used.length === 0, usedMore: used.length > 24,
+    relTiles: (e.related || []).map(toTile), hasRel: (e.related || []).length > 0,
+    sameRad, hasSameRad: sameRad.length > 0
+  };
+}
+// ================= Kaku · conta, dados do usuário e estatísticas =================
+// Protótipo: tudo fica no armazenamento local do navegador (localStorage), separado por usuário.
+// Em produção, Auth/UD/Sess devem ser trocados por chamadas a um servidor.
+const KS = (() => {
+  const P = 'kaku.v1.';
+  const mem = (window.__kakuMem = window.__kakuMem || {});
+  let ok = false;
+  try { localStorage.setItem(P + '__t', '1'); localStorage.removeItem(P + '__t'); ok = true; } catch (e) {}
+  const emit = () => { try { window.dispatchEvent(new CustomEvent('kaku:change')); } catch (e) {} };
+  return {
+    persistent: ok,
+    get(k, d) { try { const v = ok ? localStorage.getItem(P + k) : mem[k]; return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { const s = JSON.stringify(v); let saved = false; if (ok) { try { localStorage.setItem(P + k, s); saved = true; } catch (e) {} } if (!saved) mem[k] = s; emit(); },
+    del(k) { try { if (ok) localStorage.removeItem(P + k); } catch (e) {} delete mem[k]; emit(); }
+  };
+})();
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+function normEmail(e) { return String(e || '').trim().toLowerCase(); }
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 8); }
+function b64(buf) { let s = ''; new Uint8Array(buf).forEach((b) => { s += String.fromCharCode(b); }); return btoa(s); }
+function weakHash(s) { let h1 = 0x811c9dc5, h2 = 0x01000193; for (let r = 0; r < 3000; r++) for (let i = 0; i < s.length; i++) { const c = s.charCodeAt(i); h1 = Math.imul(h1 ^ c, 16777619) >>> 0; h2 = Math.imul(h2 ^ (c + r), 2246822519) >>> 0; } return h1.toString(16) + h2.toString(16); }
+async function hashPw(pw, salt, algo) {
+  if (algo !== 'weak') {
+    try {
+      const enc = new TextEncoder();
+      const key = await crypto.subtle.importKey('raw', enc.encode(pw), 'PBKDF2', false, ['deriveBits']);
+      const bits = await crypto.subtle.deriveBits({ name: 'PBKDF2', salt: enc.encode(salt), iterations: 100000, hash: 'SHA-256' }, key, 256);
+      return 'pbkdf2$' + b64(bits);
+    } catch (e) { if (algo === 'pbkdf2') return null; }
+  }
+  return 'weak$' + weakHash(salt + '|' + pw);
+}
+function newSalt() { const a = new Uint8Array(16); try { crypto.getRandomValues(a); } catch (e) { a.forEach((_, i) => { a[i] = Math.random() * 256 | 0; }); } return b64(a); }
+
+const Auth = {
+  users() { return KS.get('users', {}); },
+  current() { const s = KS.get('session', null); if (!s) return null; const u = Auth.users()[s.email]; return u && u.id === s.uid ? u : null; },
+  checkLogin(f) {
+    const e = {}; const email = normEmail(f.email);
+    if (!email) e.email = 'Informe seu email.'; else if (!EMAIL_RE.test(email)) e.email = 'Digite um email válido, como nome@exemplo.com.';
+    if (!f.pw) e.pw = 'Informe sua senha.';
+    return e;
+  },
+  checkRegister(f) {
+    const e = {}; const email = normEmail(f.email); const age = String(f.age == null ? '' : f.age).trim();
+    if (!String(f.name || '').trim()) e.name = 'Informe seu nome.';
+    if (!email) e.email = 'Informe seu email.'; else if (!EMAIL_RE.test(email)) e.email = 'Digite um email válido, como nome@exemplo.com.';
+    else if (Auth.users()[email]) e.email = 'Este email já está cadastrado. Entre com ele ou use outro email.';
+    if (!age) e.age = 'Informe sua idade.'; else if (!/^\d{1,3}$/.test(age) || +age < 1 || +age > 120) e.age = 'Digite uma idade entre 1 e 120.';
+    if (!f.pw) e.pw = 'Crie uma senha.'; else if (f.pw.length < 6) e.pw = 'A senha precisa ter pelo menos 6 caracteres.';
+    if (!f.pw2) e.pw2 = 'Confirme sua senha.'; else if (f.pw && f.pw !== f.pw2) e.pw2 = 'As senhas não coincidem.';
+    return e;
+  },
+  async register(f) {
+    const errors = Auth.checkRegister(f);
+    if (Object.keys(errors).length) return { ok: false, errors };
+    const email = normEmail(f.email), salt = newSalt(), hash = await hashPw(f.pw, salt);
+    const users = Auth.users();
+    if (users[email]) return { ok: false, errors: { email: 'Este email já está cadastrado. Entre com ele ou use outro email.' } };
+    const user = { id: 'u' + uid(), name: String(f.name).trim(), email, age: +String(f.age).trim(), salt, hash, created: Date.now() };
+    users[email] = user; KS.set('users', users); KS.set('lastEmail', email);
+    return { ok: true, user };
+  },
+  async login(f) {
+    const errors = Auth.checkLogin(f);
+    if (Object.keys(errors).length) return { ok: false, errors };
+    const email = normEmail(f.email); const u = Auth.users()[email];
+    if (!u) return { ok: false, errors: { email: 'Não encontramos uma conta com este email. Confira o endereço ou crie uma conta.' } };
+    const algo = u.hash.split('$')[0];
+    const h = await hashPw(f.pw, u.salt, algo);
+    if (h !== u.hash) return { ok: false, errors: { pw: 'Senha incorreta. Tente novamente.' } };
+    KS.set('session', { uid: u.id, email, at: Date.now() }); KS.set('lastEmail', email);
+    return { ok: true, user: u };
+  },
+  logout() { KS.del('session'); }
+};
+
+// ---------- dados por usuário ----------
+const UD = {
+  load(u) { const d = KS.get('user.' + u.id, null) || {}; d.lists = d.lists || []; d.sessions = d.sessions || []; return d; },
+  save(u, d) { KS.set('user.' + u.id, d); },
+  mut(fn) { const u = Auth.current(); if (!u) return null; const d = UD.load(u); const r = fn(d, u); UD.save(u, d); return r; },
+  data() { const u = Auth.current(); return u ? UD.load(u) : null; }
+};
+function uniq(a) { return Array.from(new Set(a)); }
+const Lists = {
+  all() { const d = UD.data(); return d ? d.lists : []; },
+  get(id) { return Lists.all().find((l) => l.id === id) || null; },
+  nameError(name, exceptId) {
+    const n = String(name || '').trim();
+    if (!n) return 'Dê um nome para a lista.';
+    if (n.length > 60) return 'Use no máximo 60 caracteres.';
+    if (Lists.all().some((l) => l.id !== exceptId && l.name.toLowerCase() === n.toLowerCase())) return 'Você já tem uma lista com esse nome.';
+    return '';
+  },
+  create(name, chars) {
+    const err = Lists.nameError(name); if (err) return { error: err };
+    return UD.mut((d) => { const l = { id: 'l' + uid(), name: String(name).trim(), chars: uniq(chars || []), created: Date.now(), updated: Date.now() }; d.lists.unshift(l); return l; }) || { error: 'Entre na sua conta para criar listas.' };
+  },
+  rename(id, name) { const err = Lists.nameError(name, id); if (err) return { error: err }; UD.mut((d) => { const l = d.lists.find((x) => x.id === id); if (l) { l.name = String(name).trim(); l.updated = Date.now(); } }); return { ok: true }; },
+  remove(id) { UD.mut((d) => { d.lists = d.lists.filter((l) => l.id !== id); }); },
+  add(id, charIds) { UD.mut((d) => { const l = d.lists.find((x) => x.id === id); if (l) { l.chars = uniq(l.chars.concat(charIds)); l.updated = Date.now(); } }); },
+  removeChar(id, cid) { UD.mut((d) => { const l = d.lists.find((x) => x.id === id); if (l) { l.chars = l.chars.filter((c) => c !== cid); l.updated = Date.now(); } }); },
+  toggle(id, cid) { const l = Lists.get(id); if (!l) return; if (l.chars.includes(cid)) Lists.removeChar(id, cid); else Lists.add(id, [cid]); }
+};
+
+// ---------- sessões de prática ----------
+const Sess = {
+  start(meta) {
+    return UD.mut((d) => {
+      d.sessions = d.sessions.filter((s) => s.items.length);
+      const s = { id: 's' + uid(), start: Date.now(), end: Date.now(), ms: 0, label: meta.label, src: meta.src || null, planned: meta.n, items: [] };
+      d.sessions.push(s); return s.id;
+    });
+  },
+  record(sid, item) { UD.mut((d) => { const s = d.sessions.find((x) => x.id === sid); if (!s) return; s.items.push(item); s.end = item.t; s.ms += item.ms; }); }
+};
+function charHistory(d) {
+  const m = {};
+  (d ? d.sessions : []).forEach((s) => s.items.forEach((i) => {
+    const h = m[i.c] || (m[i.c] = { n: 0, ok: 0, fail: 0, last: 0, lastOk: true });
+    h.n++; if (i.ok) h.ok++; else h.fail++;
+    if (i.t >= h.last) { h.last = i.t; h.lastOk = !!i.ok; }
+  }));
+  return m;
+}
+// Sorteio ponderado: caracteres com mais erros (e errados na última vez) aparecem com mais frequência.
+function charWeight(h) { if (!h) return 1; const err = (h.fail + 0.5) / (h.n + 1); return 0.35 + 3 * err + (h.lastOk ? 0 : 1.2); }
+function shuffle(a) { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; const t = b[i]; b[i] = b[j]; b[j] = t; } return b; }
+function pickChars(ids, n, hist, prioritize) {
+  if (!prioritize || !hist) return shuffle(ids).slice(0, n);
+  const keyed = ids.map((id) => ({ id, k: Math.pow(Math.random(), 1 / charWeight(hist[id])) }));
+  keyed.sort((a, b) => b.k - a.k);
+  return shuffle(keyed.slice(0, n).map((x) => x.id));
+}
+
+// ---------- estatísticas por período ----------
+const PERIODS = [['hoje', 'Hoje'], ['semana', 'Esta semana'], ['mes', 'Este mês'], ['tudo', 'Todo o período']];
+function dayStart(t) { const d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); }
+function periodStart(p, now) {
+  const d = new Date(dayStart(now));
+  if (p === 'hoje') return d.getTime();
+  if (p === 'semana') { d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getTime(); }
+  if (p === 'mes') { d.setDate(1); return d.getTime(); }
+  return 0;
+}
+const MONTHS = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+const WDAYS = ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'];
+function catOf(id) { return String(id).split(':')[0]; }
+function fmtDur(ms) { const m = Math.round(ms / 60000); if (m < 1) return ms > 0 ? '< 1 min' : '0 min'; const h = Math.floor(m / 60); return h ? h + 'h ' + String(m % 60).padStart(2, '0') + 'min' : m + ' min'; }
+function fmtInt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); }
+function pct(x) { return x == null ? '—' : Math.round(x * 100) + '%'; }
+function fmtDate(t, withTime) { const d = new Date(t); const s = d.getDate() + ' ' + MONTHS[d.getMonth()] + (d.getFullYear() !== new Date().getFullYear() ? ' ' + d.getFullYear() : ''); return withTime ? s + ', ' + String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0') : s; }
+function buckets(period, now, firstT) {
+  const out = [];
+  if (period === 'hoje') { const t0 = dayStart(now); for (let h = 0; h < 24; h++) out.push({ a: t0 + h * 3600e3, b: t0 + (h + 1) * 3600e3, label: h % 6 === 0 ? h + 'h' : '', full: h + 'h–' + (h + 1) + 'h', cur: new Date(now).getHours() === h }); return out; }
+  if (period === 'semana') { const t0 = periodStart('semana', now); for (let i = 0; i < 7; i++) { const a = new Date(t0); a.setDate(a.getDate() + i); const b = new Date(a); b.setDate(b.getDate() + 1); out.push({ a: a.getTime(), b: b.getTime(), label: WDAYS[i], full: WDAYS[i] + ', ' + fmtDate(a.getTime()), cur: a.getTime() === dayStart(now) }); } return out; }
+  if (period === 'mes') { const t0 = new Date(periodStart('mes', now)); const m = t0.getMonth(); for (let i = 1; i <= 31; i++) { const a = new Date(t0); a.setDate(i); if (a.getMonth() !== m) break; const b = new Date(a); b.setDate(i + 1); out.push({ a: a.getTime(), b: b.getTime(), label: (i === 1 || i % 5 === 0) ? String(i) : '', full: fmtDate(a.getTime()), cur: a.getTime() === dayStart(now) }); } return out; }
+  const end = new Date(periodStart('mes', now)); let start = new Date(firstT ? dayStart(firstT) : now); start.setDate(1);
+  const minStart = new Date(end); minStart.setMonth(minStart.getMonth() - 5); if (start > minStart) start = minStart;
+  for (let a = new Date(start); a <= end; a.setMonth(a.getMonth() + 1)) { const b = new Date(a); b.setMonth(b.getMonth() + 1); out.push({ a: a.getTime(), b: b.getTime(), label: MONTHS[a.getMonth()], full: MONTHS[a.getMonth()] + ' ' + a.getFullYear(), cur: a.getTime() === end.getTime() }); }
+  return out.slice(-18);
+}
+function computeStats(d, period, now) {
+  now = now || Date.now();
+  const t0 = periodStart(period, now);
+  const items = [], sess = [];
+  let firstT = 0;
+  (d ? d.sessions : []).forEach((s) => {
+    const its = s.items.filter((i) => i.t >= t0 && i.t <= now);
+    s.items.forEach((i) => { if (!firstT || i.t < firstT) firstT = i.t; });
+    if (its.length) { sess.push({ s, items: its }); its.forEach((i) => items.push(i)); }
+  });
+  const n = items.length, ok = items.filter((i) => i.ok).length, fail = n - ok;
+  const ms = items.reduce((a, i) => a + (i.ms || 0), 0);
+  const per = {};
+  items.forEach((i) => { const p = per[i.c] || (per[i.c] = { id: i.c, n: 0, ok: 0, fail: 0 }); p.n++; if (i.ok) p.ok++; else p.fail++; });
+  const chars = Object.values(per);
+  const byCat = { hiragana: { seen: 0, ok: 0 }, katakana: { seen: 0, ok: 0 }, kanji: { seen: 0, ok: 0 } };
+  chars.forEach((p) => { const c = byCat[catOf(p.id)]; if (c) { c.seen++; if (p.ok) c.ok++; } });
+  const top = chars.slice().sort((a, b) => b.n - a.n || b.ok - a.ok).slice(0, 8);
+  const hard = chars.filter((p) => p.fail > 0).sort((a, b) => b.fail - a.fail || a.ok / a.n - b.ok / b.n).slice(0, 8);
+  const series = buckets(period, now, firstT).map((B) => { const its = items.filter((i) => i.t >= B.a && i.t < B.b); const k = its.filter((i) => i.ok).length; return Object.assign({}, B, { n: its.length, ok: k, fail: its.length - k, acc: its.length ? k / its.length : null }); });
+  const sessions = sess.sort((a, b) => b.s.start - a.s.start).map(({ s, items: its }) => { const k = its.filter((i) => i.ok).length; return { id: s.id, start: s.start, label: s.label, n: its.length, ok: k, fail: its.length - k, acc: k / its.length, ms: its.reduce((a, i) => a + (i.ms || 0), 0), demo: !!s.demo }; });
+  return { period, n, ok, fail, rate: n ? ok / n : null, ms, sessions, chars, unique: chars.length, byCat, top, hard, series };
+}
+function streakOf(d, now) {
+  now = now || Date.now();
+  const days = new Set();
+  (d ? d.sessions : []).forEach((s) => s.items.forEach((i) => days.add(dayStart(i.t))));
+  let t = dayStart(now); if (!days.has(t)) { const y = new Date(t); y.setDate(y.getDate() - 1); t = y.getTime(); }
+  let n = 0;
+  while (days.has(t)) { n++; const y = new Date(t); y.setDate(y.getDate() - 1); t = y.getTime(); }
+  return n;
+}
+
+// ---------- dados de exemplo (para testar filtros e gráficos) ----------
+function demoHistory(D, now) {
+  now = now || Date.now();
+  const pool = D.characters.filter((e) => e.category !== 'kanji' ? e.group === 'basico' : (e.jlpt === 'N5' || e.jlpt === 'N4')).map((e) => e.id);
+  const skill = {}; pool.forEach((id) => { skill[id] = 0.45 + Math.random() * 0.5; });
+  const sessions = []; const today = dayStart(now);
+  const mk = (t, n) => {
+    const chars = shuffle(pool).slice(0, n); const items = []; let tt = t;
+    chars.forEach((c) => { const ms = 12000 + Math.random() * 30000; tt += ms; const age = (now - t) / 864e5; const p = Math.min(0.97, skill[c] + (120 - age) / 600); items.push({ c, ok: Math.random() < p ? 1 : 0, v: '', s: 0, t: tt, ms: Math.round(ms), rd: '', mn: '' }); });
+    sessions.push({ id: 's' + uid(), start: t, end: tt, ms: items.reduce((a, i) => a + i.ms, 0), label: 'Sessão de exemplo', src: null, planned: n, items, demo: true });
+  };
+  for (let k = 120; k >= 1; k--) {
+    if (Math.random() < 0.28) continue;
+    const day = new Date(today); day.setDate(day.getDate() - k);
+    const t = day.getTime() + (8 + Math.random() * 13) * 3600e3;
+    mk(t, 6 + (Math.random() * 18 | 0));
+  }
+  mk(Math.max(today + 60e3, now - 20 * 60e3), 12);
+  return sessions;
+}
+
+// ---------- intenção entre telas (ex.: "Praticar este caractere") ----------
+const Intent = {
+  set(v) { KS.set('intent', Object.assign({ at: Date.now() }, v)); },
+  take() { const v = KS.get('intent', null); if (!v) return null; KS.del('intent'); return Date.now() - v.at < 15 * 60e3 ? v : null; }
+};
+
+// ---------- cabeçalho: área do usuário ----------
+function acctBind(self) {
+  if (self._acctBound) return;
+  self._acctBound = true;
+  const f = () => { try { self.forceUpdate(); } catch (e) {} };
+  window.addEventListener('storage', (e) => { if (!e.key || e.key.indexOf('kaku.') === 0) f(); });
+  window.addEventListener('kaku:change', f);
+  window.addEventListener('focus', f);
+}
+function acctVals(self) {
+  acctBind(self);
+  const u = Auth.current();
+  const open = !!self._acctOpen && !!u;
+  const d = u ? UD.load(u) : null;
+  const streak = d ? streakOf(d) : 0;
+  const first = u ? u.name.split(/\s+/)[0] : '';
+  const initials = u ? u.name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0].toUpperCase()).join('') : '';
+  const here = self._page || 'Main.dc.html';
+  return {
+    acct: {
+      in: !!u, out: !u, name: first, full: u ? u.name : '', email: u ? u.email : '', initials,
+      open, openAttr: open ? 'true' : 'false', streak, hasStreak: streak > 0, streakLabel: streak + (streak === 1 ? ' dia' : ' dias'),
+      toggle: () => { self._acctOpen = !open; self.forceUpdate(); },
+      close: () => { self._acctOpen = false; self.forceUpdate(); },
+      logout: () => { self._acctOpen = false; Auth.logout(); },
+      toLogin: () => { KS.set('returnTo', here); },
+      persistent: KS.persistent, volatile: !KS.persistent
+    }
+  };
+}
+// Os quadros rodam num iframe sem permissão de enviar formulários: o Enter e o botão de envio
+// chamam o handler diretamente. Para cada função `x` devolvida, cria `xKey` (Enter num campo -> x).
+function enterTo(fn) {
+  return (ev) => {
+    if (!ev || ev.key !== 'Enter' || ev.shiftKey || ev.isComposing || ev.keyCode === 229) return;
+    const tag = ev.target && ev.target.tagName;
+    if (tag !== 'INPUT') return;
+    ev.preventDefault();
+    fn(ev);
+  };
+}
+function addEnterKeys(o) {
+  if (!o || typeof o !== 'object' || Array.isArray(o)) return;
+  Object.keys(o).forEach((k) => { if (typeof o[k] === 'function' && !k.endsWith('Key')) o[k + 'Key'] = enterTo(o[k]); });
+}
+function withAcct(self, vals) {
+  const v = Object.assign(vals || {}, acctVals(self));
+  addEnterKeys(v);
+  Object.keys(v).forEach((k) => { const x = v[k]; if (x && typeof x === 'object' && !Array.isArray(x)) addEnterKeys(x); });
+  return v;
+}
+
+// ---------- "Adicionar à lista de prática" (páginas de detalhe) ----------
+function listPickerVals(self, charId, accent) {
+  const u = Auth.current();
+  const open = self._alOpen === charId;
+  const lists = u ? UD.load(u).lists : [];
+  const msg = self._alMsgFor === charId ? self._alMsg || '' : '';
+  const err = self._alErrFor === charId ? self._alErr || '' : '';
+  const create = (ev) => {
+    if (ev && ev.preventDefault) ev.preventDefault();
+    const name = self._alName || '';
+    const r = Lists.create(name, [charId]);
+    if (r.error) { self._alErr = r.error; self._alErrFor = charId; } else { self._alErr = ''; self._alName = ''; self._alMsg = 'Lista “' + r.name + '” criada com este caractere.'; self._alMsgFor = charId; }
+    self.forceUpdate();
+  };
+  const inCount = lists.filter((l) => l.chars.includes(charId)).length;
+  return {
+    al: {
+      open, closed: !open, openAttr: open ? 'true' : 'false', in: !!u, out: !u,
+      label: inCount ? 'Em ' + inCount + (inCount === 1 ? ' lista' : ' listas') : 'Adicionar à lista de prática',
+      short: inCount ? 'Em ' + inCount + (inCount === 1 ? ' lista' : ' listas') : 'Adicionar à lista',
+      toggle: () => { self._alOpen = open ? null : charId; self._alMsg = ''; self._alErr = ''; self.forceUpdate(); },
+      lists: lists.map((l) => {
+        const has = l.chars.includes(charId);
+        return { name: l.name, count: l.chars.length + (l.chars.length === 1 ? ' caractere' : ' caracteres'), has, not: !has, pressed: has ? 'true' : 'false', bg: has ? '#fef2f2' : '#ffffff', bd: has ? accent : '#e7e5e4',
+          pick: () => { Lists.toggle(l.id, charId); self._alMsg = (has ? 'Removido de “' : 'Adicionado a “') + l.name + '”.'; self._alMsgFor = charId; self._alErr = ''; self.forceUpdate(); } };
+      }),
+      hasLists: lists.length > 0, noLists: lists.length === 0,
+      name: self._alName || '', onName: (ev) => { self._alName = ev.target.value; self._alErr = ''; self.forceUpdate(); },
+      create, err, hasErr: !!err, msg, hasMsg: !!msg,
+      toLogin: () => { KS.set('returnTo', self._page || 'Caracteres.dc.html'); }
+    },
+    practiceThis: () => Intent.set({ kind: 'chars', chars: [charId], label: 'Caractere ' + charId.split(':')[1] })
+  };
+}
+const CS = 540;
+const PAGE = 'Praticar.dc.html';
+// ================= Kaku · desenho e reconhecimento (qualquer caractere da base) =================
+// A referência é o próprio caractere renderizado com a fonte manuscrita do site.
+// Assim, qualquer caractere que entrar na base passa a ter exercício, sem traçado cadastrado à mão.
+const RES = 2;
+const GLYPH_FONT = '"Klee One","Hiragino Mincho ProN","Yu Mincho","Noto Serif CJK JP","Noto Sans CJK JP",serif';
+const Ink = {
+  init(self) {
+    self.strokes = []; self.cur = null; self.cv = null; self.ctx = null;
+    self.setCanvas = (el) => { if (!el || el === self.cv) return; self.cv = el; el.width = CS * RES; el.height = CS * RES; self.ctx = el.getContext('2d'); Ink.redraw(self); };
+    self.onDown = (e) => { if (self.state.res || self.state.busy || !self.ctx) return; e.preventDefault(); try { self.cv.setPointerCapture(e.pointerId); } catch (_) {} const p = Ink.pt(self, e); p.w = 22; self.cur = [p]; Ink.dot(self, p); };
+    self.onMove = (e) => { if (!self.cur) return; e.preventDefault(); const p = Ink.pt(self, e); const a = self.cur[self.cur.length - 1]; const dist = Math.hypot(p.x - a.x, p.y - a.y); if (dist < 2) return; const v = dist / Math.max(1, p.t - a.t); const tw = Math.max(13, Math.min(28, 30 - v * 5)); p.w = a.w * 0.65 + tw * 0.35; self.cur.push(p); Ink.seg(self, a, p); };
+    self.onUp = () => { if (!self.cur) return; self.strokes.push(self.cur); self.cur = null; self.setState({ count: self.strokes.length, warn: 0 }); };
+    self.wipe = () => { self.strokes = []; self.cur = null; Ink.redraw(self); };
+  },
+  pt(self, e) { const r = self.cv.getBoundingClientRect(); return { x: (e.clientX - r.left) * (CS * RES / r.width), y: (e.clientY - r.top) * (CS * RES / r.height), t: e.timeStamp || Date.now() }; },
+  seg(self, a, b) { const c = self.ctx; c.strokeStyle = '#1c1917'; c.lineCap = 'round'; c.lineJoin = 'round'; c.lineWidth = (a.w + b.w) / 2 * (CS / 560 + 0.3); c.beginPath(); c.moveTo(a.x, a.y); c.lineTo(b.x, b.y); c.stroke(); },
+  dot(self, p) { const c = self.ctx; c.fillStyle = '#1c1917'; c.beginPath(); c.arc(p.x, p.y, p.w / 2 * (CS / 560 + 0.3), 0, Math.PI * 2); c.fill(); },
+  redraw(self) { if (!self.ctx) return; self.ctx.clearRect(0, 0, CS * RES, CS * RES); self.strokes.forEach((s) => { Ink.dot(self, s[0]); for (let i = 1; i < s.length; i++) Ink.seg(self, s[i - 1], s[i]); }); }
+};
+
+const Rec = {
+  N: 64, F: 52, R: 4, LW: 3, SIG: 4.5,
+  OK: 0.6, ID_MIN: 0.33,
+  cache: new Map(),
+  ctx(n) { const c = document.createElement('canvas'); c.width = n; c.height = n; return c.getContext('2d', { willReadFrequently: true }); },
+  alpha(x, n) { const d = x.getImageData(0, 0, n, n).data; const m = new Uint8Array(n * n); for (let i = 0; i < n * n; i++) m[i] = d[i * 4 + 3] > 60 ? 1 : 0; return m; },
+  box(m, n) { let x0 = n, y0 = n, x1 = -1, y1 = -1; for (let y = 0; y < n; y++) for (let x = 0; x < n; x++) if (m[y * n + x]) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; } return x1 < 0 ? null : { x0, y0, w: x1 - x0 + 1, h: y1 - y0 + 1 }; },
+  // Formas "normais" são esticadas para o mesmo quadrado (cada pessoa escreve com proporções diferentes);
+  // formas muito alongadas (一, ー, 丨) mantêm a proporção.
+  fit(w, h) { const r = Math.min(w, h) / Math.max(w, h); if (r >= 0.35) return { sx: Rec.F / w, sy: Rec.F / h }; const s = Rec.F / Math.max(w, h); return { sx: s, sy: s }; },
+  glyph(ch) {
+    if (Rec.cache.has(ch)) return Rec.cache.get(ch);
+    const S = 220, fs = 150, N = Rec.N;
+    const font = fs + 'px ' + GLYPH_FONT;
+    const x = Rec.ctx(S); x.font = font; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillStyle = '#000000'; x.fillText(ch, S / 2, S / 2);
+    const b = Rec.box(Rec.alpha(x, S), S);
+    if (!b) { Rec.cache.set(ch, null); return null; }
+    const k = Rec.fit(b.w, b.h), sc = Math.sqrt(k.sx * k.sy);
+    const draw = (lw) => {
+      const y = Rec.ctx(N);
+      y.setTransform(k.sx, 0, 0, k.sy, N / 2 - (b.x0 + b.w / 2) * k.sx, N / 2 - (b.y0 + b.h / 2) * k.sy);
+      y.font = font; y.textAlign = 'center'; y.textBaseline = 'middle'; y.fillStyle = '#000000'; y.fillText(ch, S / 2, S / 2);
+      if (lw) { y.lineWidth = lw / sc; y.strokeStyle = '#000000'; y.lineJoin = 'round'; y.strokeText(ch, S / 2, S / 2); }
+      return Rec.alpha(y, N);
+    };
+    const g = { thin: draw(0), wide: draw(2 * Rec.R) };
+    Rec.cache.set(ch, g);
+    return g;
+  },
+  user(strokes, size) {
+    const N = Rec.N;
+    let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+    strokes.forEach((s) => s.forEach((p) => { x0 = Math.min(x0, p.x); x1 = Math.max(x1, p.x); y0 = Math.min(y0, p.y); y1 = Math.max(y1, p.y); }));
+    const w = Math.max(x1 - x0, 1), h = Math.max(y1 - y0, 1);
+    const k = Rec.fit(w, h), sc = Math.sqrt(k.sx * k.sy);
+    const draw = (lw) => {
+      const y = Rec.ctx(N);
+      y.setTransform(k.sx, 0, 0, k.sy, N / 2 - (x0 + w / 2) * k.sx, N / 2 - (y0 + h / 2) * k.sy);
+      y.lineWidth = lw / sc; y.lineCap = 'round'; y.lineJoin = 'round'; y.strokeStyle = '#000000';
+      strokes.forEach((s) => { y.beginPath(); y.moveTo(s[0].x, s[0].y); if (s.length === 1) y.lineTo(s[0].x + 0.5, s[0].y); for (let i = 1; i < s.length; i++) y.lineTo(s[i].x, s[i].y); y.stroke(); });
+      return Rec.alpha(y, N);
+    };
+    return { thin: draw(Rec.LW), wide: draw(Rec.LW + 2 * Rec.R) };
+  },
+  // Distância de cada pixel até o traço mais próximo (chanfro 3-4), para uma comparação tolerante.
+  dist(m) {
+    const N = Rec.N, D = new Float32Array(N * N);
+    for (let i = 0; i < N * N; i++) D[i] = m[i] ? 0 : 1e6;
+    for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) { const i = y * N + x; let v = D[i];
+      if (x > 0) v = Math.min(v, D[i - 1] + 3); if (y > 0) { v = Math.min(v, D[i - N] + 3); if (x > 0) v = Math.min(v, D[i - N - 1] + 4); if (x < N - 1) v = Math.min(v, D[i - N + 1] + 4); } D[i] = v; }
+    for (let y = N - 1; y >= 0; y--) for (let x = N - 1; x >= 0; x--) { const i = y * N + x; let v = D[i];
+      if (x < N - 1) v = Math.min(v, D[i + 1] + 3); if (y < N - 1) { v = Math.min(v, D[i + N] + 3); if (x < N - 1) v = Math.min(v, D[i + N + 1] + 4); if (x > 0) v = Math.min(v, D[i + N - 1] + 4); } D[i] = v; }
+    for (let i = 0; i < N * N; i++) D[i] /= 3;
+    return D;
+  },
+  score(u, g) {
+    if (!u.d) u.d = Rec.dist(u.thin); if (!g.d) g.d = Rec.dist(g.thin);
+    const s2 = 2 * Rec.SIG * Rec.SIG;
+    let a = 0, pa = 0, b = 0, rb = 0;
+    for (let i = 0; i < u.thin.length; i++) { if (u.thin[i]) { a++; pa += Math.exp(-g.d[i] * g.d[i] / s2); } if (g.thin[i]) { b++; rb += Math.exp(-u.d[i] * u.d[i] / s2); } }
+    const P = a ? pa / a : 0, R = b ? rb / b : 0;
+    return P + R ? 2 * P * R / (P + R) : 0;
+  },
+  candidates(D, t, userN) {
+    const out = [t], seen = new Set([t.id]);
+    const add = (e) => { if (e && !seen.has(e.id)) { seen.add(e.id); out.push(e); } };
+    (t.related || []).slice(0, 8).forEach((id) => add(D._idx[id]));
+    const len = Array.from(t.char).length;
+    const near = D.characters.filter((e) => e.id !== t.id && Math.abs(e.strokes - userN) <= 1 && Array.from(e.char).length === len &&
+      (t.category === 'kanji' ? e.category === 'kanji' || e.strokes <= 4 : (e.category !== 'kanji' || e.strokes <= 5)));
+    shuffle(near).sort((a, b) => (a.jlpt === t.jlpt ? 0 : 1) - (b.jlpt === t.jlpt ? 0 : 1)).slice(0, 60).forEach(add);
+    return out;
+  },
+  async fonts(text) {
+    try { if (document.fonts && document.fonts.load) await Promise.race([document.fonts.load('150px "Klee One"', text), new Promise((r) => setTimeout(r, 1500))]); } catch (e) {}
+  },
+  async evaluate(self, D, t) {
+    const cands = Rec.candidates(D, t, self.strokes.length);
+    await Rec.fonts(cands.map((e) => e.char).join(''));
+    const u = Rec.user(self.strokes, CS * RES), n = self.strokes.length;
+    let best = null, bestTot = -9, bestF = 0, tf = 0, tTot = -9;
+    cands.forEach((e) => {
+      const g = Rec.glyph(e.char); if (!g) return;
+      const f = Rec.score(u, g), tot = f - 0.035 * Math.abs(n - e.strokes);
+      if (e === t) { tf = f; tTot = tot; }
+      if (tot > bestTot) { bestTot = tot; best = e; bestF = f; }
+    });
+    let id = tTot >= bestTot - 0.04 ? t : best;
+    if ((id === t ? tf : bestF) < Rec.ID_MIN) id = null;
+    const shapeOk = tf >= Rec.OK, strokesOk = n === t.strokes;
+    const verdict = id === t && shapeOk && strokesOk ? 'ok' : (id === t ? 'almost' : 'no');
+    let img = ''; try { img = self.cv.toDataURL('image/png'); } catch (e) {}
+    return { id: id ? id.id : null, verdict, sim: Math.round(tf * 100), user: n, exp: t.strokes, shapeOk, strokesOk, img };
+  }
+};
+
+// ---------- respostas de leitura e significado ----------
+function kanaTable(D) { if (D._kana) return D._kana; const m = {}; D.characters.forEach((e) => { if (e.category !== 'kanji' && e.romaji) m[e.char] = e.romaji; }); D._kana = m; return m; }
+function kanaToRomaji(D, s) {
+  const m = kanaTable(D), ch = Array.from(s); let out = '', dbl = false;
+  for (let i = 0; i < ch.length; i++) {
+    const c = ch[i], two = c + (ch[i + 1] || '');
+    if (c === 'っ' || c === 'ッ') { dbl = true; continue; }
+    if (c === 'ー') { out += out.slice(-1); continue; }
+    let r;
+    if (ch[i + 1] && m[two]) { r = m[two]; i++; } else r = m[c] != null ? m[c] : c;
+    if (dbl && r) { out += r[0]; dbl = false; }
+    out += r;
+  }
+  return out;
+}
+function canonRo(s) {
+  s = String(s || '').toLowerCase().replace(/ā/g, 'aa').replace(/ī/g, 'ii').replace(/ū/g, 'uu').replace(/ē/g, 'ee').replace(/ō/g, 'ou').replace(/ô/g, 'ou').replace(/[^a-z]/g, '');
+  return s.replace(/jy/g, 'j').replace(/shi/g, 'si').replace(/sh/g, 'sy').replace(/chi/g, 'ti').replace(/ch/g, 'ty').replace(/tsu/g, 'tu').replace(/fu/g, 'hu')
+    .replace(/ji/g, 'zi').replace(/j/g, 'zy').replace(/di/g, 'zi').replace(/du/g, 'zu').replace(/oo/g, 'ou').replace(/nn/g, 'n').replace(/wo/g, 'o');
+}
+function readingKeys(D, e) {
+  const k = new Set();
+  const addRo = (r) => { const s = String(r); k.add(canonRo(s)); k.add(canonRo(s.replace(/\(.*?\)/g, ''))); };
+  if (e.category === 'kanji') {
+    (e.readingsRomaji || []).forEach(addRo);
+    e.readings.on.concat(e.readings.kun).forEach((r) => { k.add(canonRo(kanaToRomaji(D, r.kana))); if (r.display) k.add(canonRo(kanaToRomaji(D, r.display.replace(/\(.*?\)/g, '')))); });
+  } else { addRo(e.romaji); if (e.reading) k.add(canonRo(kanaToRomaji(D, e.reading))); }
+  k.delete('');
+  return k;
+}
+function readingOk(D, e, ans) {
+  const a = String(ans || '').trim(); if (!a) return false;
+  const ro = /[぀-ヿ]/.test(a) ? kanaToRomaji(D, a) : a;
+  return readingKeys(D, e).has(canonRo(ro));
+}
+function meaningTokens(e) {
+  const toks = [];
+  e.meaning.pt.concat(e.meaning.en).forEach((m) => norm(m).replace(/\(.*?\)/g, ' ').split(/[,;\/]| ou | or /).forEach((t) => {
+    t = t.replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim().replace(/^(o|a|os|as|um|uma|the|to|an) /, '');
+    if (t) toks.push(t);
+  }));
+  return toks;
+}
+function meaningOk(e, ans) {
+  const a = norm(ans).replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim().replace(/^(o|a|os|as|um|uma|the|to|an) /, '');
+  if (a.length < 2) return false;
+  return meaningTokens(e).some((t) => t === a || (a.length >= 3 && (' ' + t + ' ').includes(' ' + a + ' ')) || (t.length >= 4 && (' ' + a + ' ').includes(' ' + t + ' ')));
+}
+function readingText(e) {
+  if (e.category !== 'kanji') return e.char + ' · ' + e.romaji;
+  const on = e.readings.on.map((o) => o.kana).join('、'), kun = e.readings.kun.map((k) => k.display).join('、');
+  return [on, kun].filter(Boolean).join(' ／ ');
+}
+function readingRomaji(e) { return e.category === 'kanji' ? (e.readingsRomaji || []).join(', ') : e.romaji; }
+// ================= Kaku · sessão de prática (usa a mesma base das páginas de caracteres) =================
+const SIZES = [10, 20, 30, 50];
+const CAT_OPTS = [['hiragana', 'Hiragana'], ['katakana', 'Katakana'], ['kanji', 'Kanji']];
+const JLPT_OPTS = ['N5', 'N4', 'N3', 'N2', 'N1'];
+function poolOf(D, st, lists) {
+  if (st.src === 'list') { const l = lists.find((x) => x.id === st.listId); return l ? l.chars.map((id) => D._idx[id]).filter(Boolean) : []; }
+  const cats = st.cats, jl = st.jlpt;
+  return D.characters.filter((e) => {
+    if (jl.length) return e.category === 'kanji' ? jl.includes(e.jlpt) && (!cats.length || cats.includes('kanji')) : cats.includes(e.category);
+    return !cats.length || cats.includes(e.category);
+  });
+}
+function poolLabel(st, lists) {
+  if (st.src === 'list') { const l = lists.find((x) => x.id === st.listId); return l ? 'Lista: ' + l.name : 'Lista'; }
+  const c = st.cats.map((id) => CAT_OPTS.find((o) => o[0] === id)[1]);
+  const j = st.jlpt.slice().sort().reverse();
+  if (!c.length && !j.length) return 'Todos os caracteres';
+  if (!c.length) return 'Kanji · ' + j.join(' + ');
+  return c.join(' + ') + (j.length && st.cats.includes('kanji') ? ' · ' + j.join(' + ') : '');
+}
+function chipVals(on, accent) { return { pressed: on ? 'true' : 'false', bg: on ? '#1c1917' : '#ffffff', fg: on ? '#ffffff' : '#292524', bd: on ? '#1c1917' : '#e7e5e4' }; }
+function segVals(on) { return { pressed: on ? 'true' : 'false', bg: on ? '#ffffff' : 'transparent', fg: on ? '#1c1917' : '#44403c', fw: on ? '700' : '500', sh: on ? '0 1px 2px 0 rgb(0 0 0 / 0.05)' : 'none' }; }
+const EMPTY_T = { c: '', tl: '', tb: '#e7e5e4', tf: '#44403c', n: 0, jlpt: '', hasJlpt: false, pt: '', en: '', r: '', ro: '', romaji: '', gs: '150px', gsS: '64px' };
+function tOf(e) {
+  const T = KTYPES[e.category], two = Array.from(e.char).length > 1;
+  return { id: e.id, c: e.char, tl: T.label, tb: T.bg, tf: T.fg, n: e.strokes, jlpt: e.jlpt || '', hasJlpt: !!e.jlpt, pt: e.meaning.pt.join('; '), en: e.meaning.en.join('; '),
+    r: readingText(e), ro: readingRomaji(e), gs: two ? '108px' : '150px', gsM: two ? '76px' : '104px', gsS: two ? '40px' : '60px', gsG: two ? Math.round(CS * 0.42) + 'px' : Math.round(CS * 0.7) + 'px', isKanji: e.category === 'kanji' };
+}
+
+class Component extends DCLogic {
+  constructor(...a) {
+    super(...a);
+    this._page = PAGE;
+    this.state = {
+      view: 'setup', src: 'filters', cats: [], jlpt: [], listId: null, size: 20, prio: true, memory: false,
+      queue: [], i: 0, done: [], sid: null, label: '', saved: false, t0: 0,
+      count: 0, res: null, busy: false, showChar: true, rdShow: false, mnShow: false, rdAns: '', mnAns: '', rdRes: '', mnRes: '', over: null,
+      guide: true, ghost: false, warn: 0
+    };
+    Ink.init(this);
+  }
+  componentDidMount() {
+    waitForData(this);
+    this.takeIntent();
+    this._onStore = (e) => { if (!e || !e.key || e.key === 'kaku.v1.intent') setTimeout(() => this.takeIntent(), 0); };
+    window.addEventListener('storage', this._onStore);
+  }
+  componentWillUnmount() { window.removeEventListener('storage', this._onStore); }
+  takeIntent(tries) {
+    const D = kdb();
+    if (!D) { if ((tries || 0) < 60) setTimeout(() => this.takeIntent((tries || 0) + 1), 200); return; }
+    const it = Intent.take(); if (!it) return;
+    if (it.kind === 'filters') { this.setState({ view: 'setup', src: 'filters', cats: it.cats || [], jlpt: it.jlpt || [] }); return; }
+    if (it.kind === 'chars') this.startWith(it.chars, it.label || 'Prática rápida', null);
+    if (it.kind === 'list') { const l = Lists.get(it.listId); if (l && l.chars.length) { this.setState({ src: 'list', listId: l.id }); this.startWith(pickChars(l.chars, Math.min(l.chars.length, this.state.size), charHistory(UD.data()), this.state.prio), 'Lista: ' + l.name, { list: l.id }); } }
+  }
+  fresh() { return { count: 0, res: null, busy: false, showChar: !this.state.memory, rdShow: false, mnShow: false, rdAns: '', mnAns: '', rdRes: '', mnRes: '', over: null, warn: 0, t0: Date.now() }; }
+  startWith(ids, label, src) {
+    if (!ids.length) return;
+    const u = Auth.current();
+    const sid = u ? Sess.start({ label, src, n: ids.length }) : null;
+    this.wipe();
+    this.setState(Object.assign({ view: 'session', queue: ids, i: 0, done: [], sid, label, saved: !!u }, this.fresh(), { showChar: !this.state.memory }));
+  }
+  start() {
+    const D = kdb(); if (!D) return;
+    const st = this.state, lists = Lists.all();
+    const pool = poolOf(D, st, lists).map((e) => e.id);
+    if (!pool.length) return;
+    const n = st.size === 'all' ? pool.length : Math.min(st.size, pool.length);
+    const hist = Auth.current() ? charHistory(UD.data()) : null;
+    this.startWith(pickChars(pool, n, hist, st.prio), poolLabel(st, lists), st.src === 'list' ? { list: st.listId } : { cats: st.cats, jlpt: st.jlpt });
+  }
+  finalOk() {
+    const st = this.state; if (!st.res) return false;
+    if (st.over != null) return st.over;
+    return st.res.verdict === 'ok' && st.rdRes !== 'no' && st.mnRes !== 'no';
+  }
+  commit() {
+    const st = this.state, id = st.queue[st.i];
+    const item = { c: id, ok: this.finalOk() ? 1 : 0, v: st.res ? st.res.verdict : '', s: st.res ? st.res.sim : 0, t: Date.now(), ms: Math.min(180000, Date.now() - st.t0), rd: st.rdRes || (st.rdShow ? 'shown' : ''), mn: st.mnRes || (st.mnShow ? 'shown' : '') };
+    if (st.sid) Sess.record(st.sid, item);
+    return st.done.concat([item]);
+  }
+  next() {
+    const st = this.state; if (!st.res) return;
+    const done = this.commit();
+    this.wipe();
+    if (st.i + 1 >= st.queue.length) this.setState({ done, view: 'summary', res: null, count: 0 });
+    else this.setState(Object.assign({ done, i: st.i + 1 }, this.fresh()));
+  }
+  renderVals() { return withAcct(this, this._rv()); }
+  _rv() {
+    const accent = this.props.accent ?? '#dc2626';
+    const st = this.state, D = kdb(), u = Auth.current(), data = u ? UD.load(u) : null, lists = data ? data.lists : [];
+    const base = { accent, loading: !D, vSetup: !!D && st.view === 'setup', vSession: !!D && st.view === 'session', vSummary: !!D && st.view === 'summary', logged: !!u, guest: !u,
+      toLogin: () => KS.set('returnTo', PAGE) };
+    if (!D) return Object.assign(base, { cats: [], jlpts: [], sizes: [], lists: [], t: EMPTY_T, queue: [], results: [] });
+
+    // ---------- configuração ----------
+    const cnt = (patch) => poolOf(D, Object.assign({}, st, { src: 'filters' }, patch), lists).length;
+    const toggleIn = (arr, v) => arr.includes(v) ? arr.filter((x) => x !== v) : arr.concat([v]);
+    const cats = CAT_OPTS.map(([id, label]) => Object.assign({ label, count: fmtInt(D.characters.filter((e) => e.category === id).length), pick: () => this.setState({ cats: toggleIn(st.cats, id) }) }, chipVals(st.cats.includes(id))));
+    const jlpts = JLPT_OPTS.map((lv) => Object.assign({ label: lv, count: fmtInt(D.characters.filter((e) => e.jlpt === lv).length), pick: () => this.setState({ jlpt: toggleIn(st.jlpt, lv) }) }, chipVals(st.jlpt.includes(lv))));
+    const pool = poolOf(D, st, lists);
+    const listCards = lists.map((l) => { const on = st.listId === l.id; return { name: l.name, count: l.chars.length + (l.chars.length === 1 ? ' caractere' : ' caracteres'), preview: l.chars.slice(0, 8).map((id) => id.split(':')[1]).join(' '), pressed: on ? 'true' : 'false', bd: on ? accent : '#e7e5e4', bg: on ? '#fef2f2' : '#ffffff', pick: () => this.setState({ listId: l.id }),
+      play: () => { this.setState({ src: 'list', listId: l.id }); this.startWith(pickChars(l.chars, Math.min(l.chars.length, st.size === 'all' ? l.chars.length : st.size), charHistory(data), st.prio), 'Lista: ' + l.name, { list: l.id }); }, empty: !l.chars.length, has: l.chars.length > 0 }; });
+    const nPlan = st.size === 'all' ? pool.length : Math.min(st.size, pool.length);
+    const hist = data ? charHistory(data) : {};
+    const hardAll = Object.keys(hist).map((id) => Object.assign({ id }, hist[id])).filter((h) => h.fail > 0 && D._idx[h.id]).sort((a, b) => charWeight(b) - charWeight(a)).slice(0, 10);
+    const lastS = data ? data.sessions.filter((s) => s.items.length).slice(-1)[0] : null;
+    const setup = {
+      start: () => this.start(), srcFilters: st.src === 'filters', srcList: st.src === 'list',
+      srcs: [['filters', 'Filtros'], ['list', 'Minha lista']].map(([id, label]) => Object.assign({ label, pick: () => this.setState({ src: id, listId: id === 'list' && !st.listId && lists[0] ? lists[0].id : st.listId }) }, segVals(st.src === id))),
+      noneSel: !st.cats.length && !st.jlpt.length, allChip: chipVals(!st.cats.length && !st.jlpt.length), pickAll: () => this.setState({ cats: [], jlpt: [] }),
+      jlptNote: st.jlpt.length > 0 && st.cats.length > 0 && !st.cats.includes('kanji'),
+      poolLabel: poolLabel(st, lists), poolCount: fmtInt(pool.length), poolWord: pool.length === 1 ? 'caractere disponível' : 'caracteres disponíveis',
+      poolEmpty: pool.length === 0, canStart: pool.length > 0,
+      sizes: SIZES.map((n) => Object.assign({ label: String(n), pick: () => this.setState({ size: n }) }, segVals(st.size === n))).concat([Object.assign({ label: 'Todos', pick: () => this.setState({ size: 'all' }) }, segVals(st.size === 'all'))]),
+      startLabel: 'Começar · ' + nPlan + (nPlan === 1 ? ' caractere' : ' caracteres'),
+      memory: st.memory, copy: !st.memory,
+      modes: [[false, 'Com modelo', 'O caractere fica visível para copiar'], [true, 'De memória', 'Você vê só o significado e a leitura']].map(([m, label, sub]) => Object.assign({ label, sub, pick: () => this.setState({ memory: m }), ring: st.memory === m ? accent : '#e7e5e4', rbg: st.memory === m ? '#fef2f2' : '#ffffff', dot: st.memory === m ? accent : '#ffffff', dotBd: st.memory === m ? accent : '#a8a29e' }, segVals(st.memory === m))),
+      prio: st.prio && !!u, prioAttr: st.prio && !!u ? 'true' : 'false', prioBg: st.prio && u ? accent : '#d6d3d1', prioX: st.prio && u ? '22px' : '2px', togglePrio: () => { if (u) this.setState({ prio: !st.prio }); },
+      hasListsU: lists.length > 0, noListsU: !!u && lists.length === 0,
+      hard: hardAll.map((h) => ({ c: D._idx[h.id].char, sub: h.fail + (h.fail === 1 ? ' erro' : ' erros') + ' · ' + Math.round(h.ok / h.n * 100) + '%' })), hasHard: hardAll.length > 0, noHard: hardAll.length === 0,
+      reviewHard: () => this.startWith(shuffle(hardAll.map((h) => h.id)), 'Revisão: mais erros', { review: true }),
+      hasLast: !!lastS, last: lastS ? { label: lastS.label, when: fmtDate(lastS.start, true), n: lastS.items.length, acc: pct(lastS.items.filter((i) => i.ok).length / lastS.items.length) } : { label: '', when: '', n: 0, acc: '' }
+    };
+
+    // ---------- sessão ----------
+    const e = st.view === 'session' ? D._idx[st.queue[st.i]] : null;
+    const t = e ? tOf(e) : EMPTY_T;
+    const r = st.res;
+    const idE = r && r.id ? D._idx[r.id] : null;
+    const V = r ? ({ ok: { label: 'Correto!', sub: 'Seu desenho corresponde ao caractere pedido.', fg: '#15803d', bg: '#dcfce7' },
+      almost: { label: 'Quase lá', sub: r.shapeOk ? 'Forma reconhecida, mas você usou ' + r.user + (r.user === 1 ? ' traço' : ' traços') + ' — o esperado são ' + r.exp + '.' : 'Reconhecemos o caractere, mas a forma ainda pode ficar mais precisa.', fg: '#92400e', bg: '#fef3c7' },
+      no: { label: 'Não corresponde', sub: idE ? 'Parece “' + idE.char + '” em vez de “' + e.char + '”. Compare com o modelo e tente de novo.' : 'Não conseguimos reconhecer o desenho. Compare com o modelo e tente de novo.', fg: '#b91c1c', bg: '#fee2e2' } })[r.verdict] : { label: '', sub: '', fg: '#1c1917', bg: '#ffffff' };
+    const fin = this.finalOk();
+    const doneOk = st.done.filter((i) => i.ok).length;
+    const total = st.queue.length || 1;
+    const pos = Math.min(st.i + (r ? 1 : 0), total);
+    const pill = (on) => ({ bg: on ? '#1c1917' : '#ffffff', fg: on ? '#ffffff' : '#44403c', bd: on ? '#1c1917' : '#e7e5e4' });
+    const g = pill(st.guide), h = pill(st.ghost);
+    const answerChip = (res) => res === 'ok' ? { on: true, ok: true, no: false, label: 'Certo', fg: '#15803d', bg: '#dcfce7' } : res === 'no' ? { on: true, ok: false, no: true, label: 'Não é essa', fg: '#b91c1c', bg: '#fee2e2' } : { on: false, ok: false, no: false, label: '', fg: '#1c1917', bg: '#ffffff' };
+    const session = {
+      t, label: st.label, numLabel: (st.i + 1) + ' de ' + st.queue.length + (st.queue.length === 1 ? ' caractere' : ' caracteres'),
+      progW: Math.round(pos / total * 100) + '%', okN: doneOk, failN: st.done.length - doneOk,
+      showChar: st.showChar, hideChar: !st.showChar, toggleChar: () => this.setState({ showChar: !st.showChar }), charBtn: st.showChar ? 'Ocultar caractere' : 'Mostrar caractere',
+      memPrompt: st.memory, copyPrompt: !st.memory,
+      lead: t.isKanji ? 'Escreva o kanji que significa' : 'Escreva em ' + t.tl.toLowerCase() + ' o som',
+      main: t.isKanji ? t.pt : '“' + t.ro + '”',
+      mainSub: t.isKanji ? t.en : '',
+      isKanji: t.isKanji, isKana: !t.isKanji,
+      askRd: !(st.memory && !t.isKanji), askMn: t.isKanji && !st.memory, rdTitle: t.isKanji ? 'Leitura' : 'Som (romaji)',
+      rdShow: st.rdShow, rdHide: !st.rdShow, showRd: () => this.setState({ rdShow: true }),
+      mnShow: st.mnShow, mnHide: !st.mnShow, showMn: () => this.setState({ mnShow: true }),
+      rdAns: st.rdAns, mnAns: st.mnAns, rdChip: answerChip(st.rdRes), mnChip: answerChip(st.mnRes),
+      onRd: (ev) => this.setState({ rdAns: ev.target.value, rdRes: '' }), onMn: (ev) => this.setState({ mnAns: ev.target.value, mnRes: '' }),
+      checkRd: (ev) => { if (ev && ev.preventDefault) ev.preventDefault(); if (!st.rdAns.trim()) return; const ok = readingOk(D, e, st.rdAns); this.setState({ rdRes: ok ? 'ok' : 'no', rdShow: true }); },
+      checkMn: (ev) => { if (ev && ev.preventDefault) ev.preventDefault(); if (!st.mnAns.trim()) return; const ok = meaningOk(e, st.mnAns); this.setState({ mnRes: ok ? 'ok' : 'no', mnShow: true }); },
+      count: st.count, emptyHint: st.count === 0 && !r && !st.busy,
+      guide: st.guide, ghost: st.ghost, guideP: st.guide ? 'true' : 'false', guideBg: g.bg, guideFg: g.fg, guideBd: g.bd, ghostP: st.ghost ? 'true' : 'false', ghostBg: h.bg, ghostFg: h.fg, ghostBd: h.bd,
+      toggleGuide: () => this.setState({ guide: !st.guide }), toggleGhost: () => this.setState({ ghost: !st.ghost }),
+      warnOn: st.warn > 0, shakeCls: st.warn > 0 ? (st.warn % 2 ? 'shakeA' : 'shakeB') : '',
+      busy: st.busy,
+      hasResult: !!r, noResult: !r,
+      r: r || { img: '', sim: 0, user: 0, exp: 0 }, v: V, simW: (r ? r.sim : 0) + '%',
+      vOk: !!r && r.verdict === 'ok', vAl: !!r && r.verdict === 'almost', vNo: !!r && r.verdict === 'no',
+      rid: idE ? tOf(idE) : Object.assign({}, EMPTY_T, { c: '?', tl: 'Não identificado' }), hasRid: !!idE, noRid: !idE, sameRid: !!idE && idE === e,
+      fin, finLabel: fin ? 'Acerto' : 'Erro', finFg: fin ? '#15803d' : '#b91c1c', finBg: fin ? '#dcfce7' : '#fee2e2',
+      finWhy: st.over != null ? 'Você ajustou manualmente.' : (!r ? '' : r.verdict === 'no' ? 'O desenho não correspondeu.' : r.verdict === 'almost' ? 'Quase: confira a forma e o número de traços. Se achar que acertou, marque como acerto.' : st.rdRes === 'no' ? 'A leitura informada não confere.' : st.mnRes === 'no' ? 'O significado informado não confere.' : 'Desenho reconhecido' + (st.rdRes === 'ok' || st.mnRes === 'ok' ? ' e resposta certa.' : '.')),
+      overs: [[true, 'Acerto'], [false, 'Erro']].map(([v, label]) => Object.assign({ label, pick: () => this.setState({ over: v }) }, segVals(fin === v))),
+      isLast: st.i + 1 >= st.queue.length, nextLabel: st.i + 1 >= st.queue.length ? 'Ver resumo' : 'Próximo',
+      upcoming: st.queue.slice(st.i + 1, st.i + 7).map((id) => ({ c: st.memory ? '·' : D._idx[id].char })), hasUpcoming: st.i + 1 < st.queue.length,
+      saved: st.saved, unsaved: !st.saved,
+      setCanvas: this.setCanvas, onDown: this.onDown, onMove: this.onMove, onUp: this.onUp,
+      undo: () => { if (st.res || st.busy) return; this.strokes.pop(); Ink.redraw(this); this.setState({ count: this.strokes.length }); },
+      clear: () => { this.wipe(); this.setState({ count: 0, res: null, over: null, warn: 0 }); },
+      done: async () => {
+        if (st.res || st.busy) return;
+        if (!this.strokes.length) { this.setState({ warn: st.warn + 1 }); return; }
+        this.setState({ busy: true });
+        let res = null; try { res = await Rec.evaluate(this, D, e); } catch (err) { res = { id: null, verdict: 'no', sim: 0, user: this.strokes.length, exp: e.strokes, shapeOk: false, strokesOk: false, img: '' }; }
+        this.setState({ res, busy: false, showChar: true });
+      },
+      next: () => this.next(),
+      speak: () => say(e ? (e.category === 'kanji' ? (e.readings.kun[0] ? e.readings.kun[0].kana : e.readings.on[0].kana) : e.char) : ''),
+      endSession: () => { this.wipe(); if (!st.done.length) this.setState({ view: 'setup', res: null, count: 0 }); else this.setState({ view: 'summary', res: null, count: 0 }); }
+    };
+
+    // ---------- resumo ----------
+    const n = st.done.length, ok = st.done.filter((i) => i.ok).length, ms = st.done.reduce((a, i) => a + i.ms, 0);
+    const wrong = uniq(st.done.filter((i) => !i.ok).map((i) => i.c));
+    const summary = {
+      sN: n, sOk: ok, sFail: n - ok, sRate: n ? Math.round(ok / n * 100) + '%' : '—', sTime: fmtDur(ms), sLabel: st.label,
+      sHead: n ? (ok / n >= 0.8 ? 'Excelente sessão!' : ok / n >= 0.5 ? 'Bom trabalho!' : 'Continue praticando') : 'Sessão encerrada',
+      results: st.done.map((i) => { const x = D._idx[i.c]; return { c: x ? x.char : '?', ok: !!i.ok, no: !i.ok, sub: x ? (x.category === 'kanji' ? x.meaning.pt[0] : x.romaji) : '', bd: i.ok ? '#bbf7d0' : '#fecaca', bg: i.ok ? '#f0fdf4' : '#fef2f2' }; }),
+      hasWrong: wrong.length > 0, wrongLabel: 'Praticar os ' + wrong.length + ' errados',
+      retryWrong: () => this.startWith(shuffle(wrong), 'Revisão da sessão', { review: true }),
+      again: () => this.startWith(shuffle(uniq(st.queue)), st.label, null),
+      newSession: () => this.setState({ view: 'setup' }),
+      barOk: n ? Math.round(ok / n * 100) + '%' : '0%'
+    };
+    return Object.assign(base, setup, session, summary, { cats, jlpts, lists: listCards });
+  }
+}
+
+</script>
+</body>
+</html>

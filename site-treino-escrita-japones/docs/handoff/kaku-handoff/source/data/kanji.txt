@@ -1,0 +1,382 @@
+# kanji|pt|en|on|kun|jlpt|grade|strokes|examples(word:reading:pt:en ¦ ...)|frase|frase_pt|frase_en
+一|um|one|イチ,イツ|ひと,ひと.つ|N5|1|1|一つ:ひとつ:um (objeto):one (thing)¦一月:いちがつ:janeiro:January¦一人:ひとり:uma pessoa; sozinho:one person; alone|りんごを一つください。|Uma maçã, por favor.|One apple, please.
+二|dois|two|ニ|ふた,ふた.つ|N5|1|2|二つ:ふたつ:dois (objetos):two (things)¦二月:にがつ:fevereiro:February¦二人:ふたり:duas pessoas:two people|二人で映画を見ました。|Vimos um filme nós dois.|The two of us watched a movie.
+三|três|three|サン|み,み.つ,みっ.つ|N5|1|3|三つ:みっつ:três (objetos):three (things)¦三月:さんがつ:março:March¦三角:さんかく:triângulo:triangle|猫が三匹います。|Há três gatos.|There are three cats.
+四|quatro|four|シ|よ,よ.つ,よっ.つ,よん|N5|1|5|四つ:よっつ:quatro (objetos):four (things)¦四月:しがつ:abril:April¦四人:よにん:quatro pessoas:four people|四月に日本へ行きます。|Vou ao Japão em abril.|I will go to Japan in April.
+五|cinco|five|ゴ|いつ,いつ.つ|N5|1|4|五つ:いつつ:cinco (objetos):five (things)¦五月:ごがつ:maio:May¦五分:ごふん:cinco minutos:five minutes|あと五分待ってください。|Espere mais cinco minutos, por favor.|Please wait five more minutes.
+六|seis|six|ロク|む,む.つ,むっ.つ|N5|1|4|六つ:むっつ:seis (objetos):six (things)¦六月:ろくがつ:junho:June¦六時:ろくじ:seis horas:six o'clock|毎朝六時に起きます。|Acordo às seis todas as manhãs.|I wake up at six every morning.
+七|sete|seven|シチ|なな,なな.つ|N5|1|2|七つ:ななつ:sete (objetos):seven (things)¦七月:しちがつ:julho:July¦七時:しちじ:sete horas:seven o'clock|七時に晩ご飯を食べます。|Janto às sete.|I eat dinner at seven.
+八|oito|eight|ハチ|や,や.つ,やっ.つ|N5|1|2|八つ:やっつ:oito (objetos):eight (things)¦八月:はちがつ:agosto:August¦八百屋:やおや:quitanda:greengrocer|八月はとても暑いです。|Agosto é muito quente.|August is very hot.
+九|nove|nine|キュウ,ク|ここの,ここの.つ|N5|1|2|九つ:ここのつ:nove (objetos):nine (things)¦九月:くがつ:setembro:September¦九時:くじ:nove horas:nine o'clock|授業は九時に始まります。|A aula começa às nove.|Class starts at nine.
+十|dez|ten|ジュウ|とお,と|N5|1|2|十:とお:dez (objetos):ten (things)¦十月:じゅうがつ:outubro:October¦十分:じゅっぷん:dez minutos:ten minutes|駅まで歩いて十分です。|Até a estação são dez minutos a pé.|It's a ten-minute walk to the station.
+百|cem|hundred|ヒャク|—|N5|1|6|百:ひゃく:cem:hundred¦三百:さんびゃく:trezentos:three hundred¦百円:ひゃくえん:cem ienes:100 yen|このペンは百円です。|Esta caneta custa cem ienes.|This pen costs 100 yen.
+千|mil|thousand|セン|ち|N5|1|3|千:せん:mil:thousand¦三千:さんぜん:três mil:three thousand¦千葉:ちば:Chiba (província):Chiba (prefecture)|このかばんは五千円でした。|Esta bolsa custou cinco mil ienes.|This bag was 5,000 yen.
+万|dez mil|ten thousand|マン,バン|—|N5|2|3|一万:いちまん:dez mil:ten thousand¦万年筆:まんねんひつ:caneta-tinteiro:fountain pen¦万一:まんいち:no pior caso:by any chance|このカメラは三万円です。|Esta câmera custa trinta mil ienes.|This camera costs 30,000 yen.
+円|iene; círculo|yen; circle|エン|まる.い|N5|1|4|百円:ひゃくえん:cem ienes:100 yen¦円い:まるい:redondo:round¦円高:えんだか:iene valorizado:strong yen|りんごは一つ百円です。|As maçãs custam cem ienes cada.|Apples are 100 yen each.
+日|dia; sol|day; sun|ニチ,ジツ|ひ,び,か|N5|1|4|日本:にほん:Japão:Japan¦日曜日:にちようび:domingo:Sunday¦今日:きょう:hoje:today|今日はいい天気ですね。|Hoje o tempo está bom, né?|The weather is nice today, isn't it?
+月|lua; mês|moon; month|ゲツ,ガツ|つき|N5|1|4|月曜日:げつようび:segunda-feira:Monday¦一月:いちがつ:janeiro:January¦月:つき:lua:moon|今夜は月がきれいです。|Hoje à noite a lua está linda.|The moon is beautiful tonight.
+年|ano|year|ネン|とし|N5|1|6|今年:ことし:este ano:this year¦来年:らいねん:próximo ano:next year¦年:とし:ano; idade:year; age|来年、日本に留学します。|No ano que vem vou estudar no Japão.|Next year I will study abroad in Japan.
+時|hora; tempo|hour; time|ジ|とき|N5|2|10|時間:じかん:tempo; horas:time; hours¦時計:とけい:relógio:clock; watch¦時々:ときどき:às vezes:sometimes|今、何時ですか。|Que horas são agora?|What time is it now?
+分|minuto; parte; entender|minute; part; understand|ブン,フン,ブ|わ.ける,わ.かる|N5|2|4|五分:ごふん:cinco minutos:five minutes¦分かる:わかる:entender:to understand¦自分:じぶん:si mesmo:oneself|この問題が分かりません。|Não entendo esta questão.|I don't understand this question.
+半|metade|half|ハン|なか.ば|N5|2|5|半分:はんぶん:metade:half¦三時半:さんじはん:três e meia:half past three¦半年:はんとし:meio ano:half a year|ケーキを半分食べました。|Comi metade do bolo.|I ate half of the cake.
+今|agora|now|コン,キン|いま|N5|2|4|今:いま:agora:now¦今日:きょう:hoje:today¦今週:こんしゅう:esta semana:this week|今、忙しいですか。|Você está ocupado agora?|Are you busy now?
+前|antes; frente|before; front|ゼン|まえ|N5|2|9|前:まえ:frente; antes:front; before¦名前:なまえ:nome:name¦午前:ごぜん:manhã (a.m.):a.m.; morning|駅の前で会いましょう。|Vamos nos encontrar em frente à estação.|Let's meet in front of the station.
+後|depois; atrás|after; behind|ゴ,コウ|あと,うし.ろ,のち|N5|2|9|午後:ごご:tarde (p.m.):p.m.; afternoon¦後ろ:うしろ:atrás:behind¦最後:さいご:último; fim:last; end|授業の後で図書館に行きます。|Depois da aula vou à biblioteca.|After class I'll go to the library.
+午|meio-dia|noon|ゴ|—|N5|2|4|午前:ごぜん:manhã (a.m.):a.m.¦午後:ごご:tarde (p.m.):p.m.¦正午:しょうご:meio-dia:noon|午後三時に会議があります。|Há uma reunião às três da tarde.|There is a meeting at 3 p.m.
+毎|cada|every|マイ|—|N5|2|6|毎日:まいにち:todos os dias:every day¦毎朝:まいあさ:todas as manhãs:every morning¦毎年:まいとし:todo ano:every year|毎日日本語を勉強しています。|Estudo japonês todos os dias.|I study Japanese every day.
+週|semana|week|シュウ|—|N5|2|11|今週:こんしゅう:esta semana:this week¦来週:らいしゅう:próxima semana:next week¦週末:しゅうまつ:fim de semana:weekend|週末は何をしますか。|O que você vai fazer no fim de semana?|What will you do on the weekend?
+曜|dia da semana|weekday|ヨウ|—|N4|2|18|日曜日:にちようび:domingo:Sunday¦月曜日:げつようび:segunda-feira:Monday¦何曜日:なんようび:que dia da semana:what day of the week|今日は何曜日ですか。|Que dia da semana é hoje?|What day of the week is it today?
+火|fogo|fire|カ|ひ,ほ|N5|1|4|火曜日:かようび:terça-feira:Tuesday¦火:ひ:fogo:fire¦花火:はなび:fogos de artifício:fireworks|夏に花火を見に行きました。|No verão fui ver fogos de artifício.|In summer I went to see fireworks.
+水|água|water|スイ|みず|N5|1|4|水:みず:água:water¦水曜日:すいようび:quarta-feira:Wednesday¦水泳:すいえい:natação:swimming|水を一杯ください。|Um copo de água, por favor.|A glass of water, please.
+木|árvore; madeira|tree; wood|モク,ボク|き,こ|N5|1|4|木:き:árvore:tree¦木曜日:もくようび:quinta-feira:Thursday¦木村:きむら:Kimura (sobrenome):Kimura (surname)|公園に大きい木があります。|Há uma árvore grande no parque.|There is a big tree in the park.
+金|ouro; dinheiro|gold; money|キン,コン|かね,かな|N5|1|8|お金:おかね:dinheiro:money¦金曜日:きんようび:sexta-feira:Friday¦金色:きんいろ:dourado:gold (color)|お金がありません。|Não tenho dinheiro.|I have no money.
+土|terra; solo|earth; soil|ド,ト|つち|N5|1|3|土曜日:どようび:sábado:Saturday¦土:つち:terra:soil¦土地:とち:terreno:land|土曜日に友達と会います。|Vou encontrar um amigo no sábado.|I'll meet a friend on Saturday.
+人|pessoa|person|ジン,ニン|ひと|N5|1|2|人:ひと:pessoa:person¦日本人:にほんじん:japonês (pessoa):Japanese person¦三人:さんにん:três pessoas:three people|あの人は誰ですか。|Quem é aquela pessoa?|Who is that person?
+男|homem|man|ダン,ナン|おとこ|N5|1|7|男:おとこ:homem:man¦男の子:おとこのこ:menino:boy¦男性:だんせい:homem (sexo masculino):male|男の子が公園で遊んでいます。|Um menino está brincando no parque.|A boy is playing in the park.
+女|mulher|woman|ジョ,ニョ|おんな,め|N5|1|3|女:おんな:mulher:woman¦女の子:おんなのこ:menina:girl¦女性:じょせい:mulher (sexo feminino):female|あの女の人は先生です。|Aquela mulher é professora.|That woman is a teacher.
+子|criança; filho|child|シ,ス|こ|N5|1|3|子供:こども:criança:child¦女の子:おんなのこ:menina:girl¦様子:ようす:aparência; situação:appearance; state|子供たちが歌っています。|As crianças estão cantando.|The children are singing.
+父|pai|father|フ|ちち|N5|2|4|父:ちち:(meu) pai:(my) father¦お父さん:おとうさん:pai:father¦祖父:そふ:avô:grandfather|父は銀行で働いています。|Meu pai trabalha num banco.|My father works at a bank.
+母|mãe|mother|ボ|はは|N5|2|5|母:はは:(minha) mãe:(my) mother¦お母さん:おかあさん:mãe:mother¦祖母:そぼ:avó:grandmother|母は料理が上手です。|Minha mãe cozinha bem.|My mother is good at cooking.
+兄|irmão mais velho|older brother|キョウ,ケイ|あに|N4|2|5|兄:あに:(meu) irmão mais velho:(my) older brother¦お兄さん:おにいさん:irmão mais velho:older brother¦兄弟:きょうだい:irmãos:siblings|兄は大学生です。|Meu irmão mais velho é universitário.|My older brother is a university student.
+弟|irmão mais novo|younger brother|ダイ,テイ,デ|おとうと|N4|2|7|弟:おとうと:irmão mais novo:younger brother¦兄弟:きょうだい:irmãos:siblings¦弟子:でし:discípulo:disciple|弟はサッカーが好きです。|Meu irmão mais novo gosta de futebol.|My younger brother likes soccer.
+姉|irmã mais velha|older sister|シ|あね|N4|2|8|姉:あね:(minha) irmã mais velha:(my) older sister¦お姉さん:おねえさん:irmã mais velha:older sister¦姉妹:しまい:irmãs:sisters|姉は東京に住んでいます。|Minha irmã mais velha mora em Tóquio.|My older sister lives in Tokyo.
+妹|irmã mais nova|younger sister|マイ|いもうと|N4|2|8|妹:いもうと:irmã mais nova:younger sister¦姉妹:しまい:irmãs:sisters¦妹さん:いもうとさん:(sua) irmã mais nova:(your) younger sister|妹は高校生です。|Minha irmã mais nova está no ensino médio.|My younger sister is a high school student.
+友|amigo|friend|ユウ|とも|N5|2|4|友達:ともだち:amigo:friend¦友人:ゆうじん:amigo:friend¦親友:しんゆう:melhor amigo:best friend|友達と映画を見ました。|Vi um filme com um amigo.|I watched a movie with a friend.
+親|pais; íntimo|parent; intimate|シン|おや,した.しい|N4|2|16|親:おや:pai ou mãe:parent¦両親:りょうしん:pais:parents¦親切:しんせつ:gentil:kind|両親は大阪に住んでいます。|Meus pais moram em Osaka.|My parents live in Osaka.
+学|estudo; aprender|study; learning|ガク|まな.ぶ|N5|1|8|学生:がくせい:estudante:student¦大学:だいがく:universidade:university¦学ぶ:まなぶ:aprender:to learn|大学で経済を学んでいます。|Estudo economia na universidade.|I study economics at university.
+校|escola|school|コウ|—|N5|1|10|学校:がっこう:escola:school¦高校:こうこう:ensino médio:high school¦校長:こうちょう:diretor (escolar):principal|学校まで歩いて行きます。|Vou a pé para a escola.|I walk to school.
+生|vida; nascer|life; birth|セイ,ショウ|い.きる,う.まれる,なま|N5|1|5|学生:がくせい:estudante:student¦先生:せんせい:professor:teacher¦生まれる:うまれる:nascer:to be born|私は東京で生まれました。|Nasci em Tóquio.|I was born in Tokyo.
+先|antes; adiante|previous; ahead|セン|さき|N5|1|6|先生:せんせい:professor:teacher¦先週:せんしゅう:semana passada:last week¦先:さき:ponta; adiante:tip; ahead|先週、京都へ行きました。|Semana passada fui a Quioto.|Last week I went to Kyoto.
+教|ensinar|teach|キョウ|おし.える,おそ.わる|N4|2|11|教える:おしえる:ensinar:to teach¦教室:きょうしつ:sala de aula:classroom¦教会:きょうかい:igreja:church|先生が漢字を教えてくれます。|O professor nos ensina kanji.|The teacher teaches us kanji.
+本|livro; origem|book; origin|ホン|もと|N5|1|5|本:ほん:livro:book¦日本:にほん:Japão:Japan¦本当:ほんとう:verdade:truth|この本はとても面白いです。|Este livro é muito interessante.|This book is very interesting.
+文|texto; escrita|writing; sentence|ブン,モン|ふみ|N4|1|4|文:ぶん:frase:sentence¦文化:ぶんか:cultura:culture¦作文:さくぶん:redação:composition|日本の文化に興味があります。|Tenho interesse na cultura japonesa.|I'm interested in Japanese culture.
+字|letra; caractere|character; letter|ジ|あざ|N4|1|6|漢字:かんじ:kanji:kanji¦字:じ:letra; caligrafia:character; handwriting¦文字:もじ:caractere:character|漢字を毎日練習しています。|Pratico kanji todos os dias.|I practice kanji every day.
+語|palavra; língua|word; language|ゴ|かた.る|N5|2|14|日本語:にほんご:língua japonesa:Japanese language¦英語:えいご:inglês:English¦単語:たんご:palavra; vocábulo:word|日本語を話せますか。|Você fala japonês?|Can you speak Japanese?
+読|ler|read|ドク,トク,トウ|よ.む|N5|2|14|読む:よむ:ler:to read¦読書:どくしょ:leitura:reading¦読み方:よみかた:modo de ler:way of reading|毎晩本を読みます。|Leio um livro todas as noites.|I read a book every night.
+書|escrever|write|ショ|か.く|N5|2|10|書く:かく:escrever:to write¦辞書:じしょ:dicionário:dictionary¦図書館:としょかん:biblioteca:library|名前をここに書いてください。|Escreva seu nome aqui, por favor.|Please write your name here.
+聞|ouvir; perguntar|hear; ask|ブン,モン|き.く,き.こえる|N5|2|14|聞く:きく:ouvir; perguntar:to listen; to ask¦新聞:しんぶん:jornal:newspaper¦聞こえる:きこえる:ser ouvido:to be audible|毎朝ラジオを聞きます。|Ouço rádio todas as manhãs.|I listen to the radio every morning.
+話|falar; conversa|talk; story|ワ|はな.す,はなし|N5|2|13|話す:はなす:falar:to speak¦電話:でんわ:telefone:telephone¦話:はなし:conversa; história:talk; story|母と電話で話しました。|Falei com minha mãe por telefone.|I talked with my mother on the phone.
+言|dizer|say|ゲン,ゴン|い.う,こと|N5|2|7|言う:いう:dizer:to say¦言葉:ことば:palavra; língua:word; language¦方言:ほうげん:dialeto:dialect|もう一度言ってください。|Diga mais uma vez, por favor.|Please say it once more.
+英|inglês; excelente|English; excellent|エイ|—|N4|4|8|英語:えいご:inglês:English¦英国:えいこく:Reino Unido:United Kingdom¦英雄:えいゆう:herói:hero|彼は英語が上手です。|Ele fala bem inglês.|He is good at English.
+数|número; contar|number; count|スウ,ス|かず,かぞ.える|N3|2|13|数学:すうがく:matemática:mathematics¦数:かず:número; quantidade:number¦数える:かぞえる:contar:to count|数学のテストは難しかったです。|A prova de matemática foi difícil.|The math test was difficult.
+問|pergunta|question|モン|と.う,とん|N4|3|11|問題:もんだい:problema; questão:problem; question¦質問:しつもん:pergunta:question¦問う:とう:perguntar:to ask|質問がありますか。|Tem alguma pergunta?|Do you have any questions?
+答|resposta|answer|トウ|こた.える,こた.え|N4|2|12|答え:こたえ:resposta:answer¦答える:こたえる:responder:to answer¦回答:かいとう:resposta (formal):reply|この質問に答えてください。|Responda a esta pergunta, por favor.|Please answer this question.
+上|cima; subir|up; above|ジョウ,ショウ|うえ,あ.がる,あ.げる,のぼ.る,かみ|N5|1|3|上:うえ:em cima:above¦上手:じょうず:habilidoso:skillful¦上がる:あがる:subir:to go up|本は机の上にあります。|O livro está em cima da mesa.|The book is on the desk.
+下|baixo; descer|down; below|カ,ゲ|した,さ.がる,さ.げる,くだ.る,お.りる,しも|N5|1|3|下:した:embaixo:below¦地下鉄:ちかてつ:metrô:subway¦下手:へた:desajeitado:unskillful|猫が机の下で寝ています。|O gato está dormindo embaixo da mesa.|The cat is sleeping under the desk.
+左|esquerda|left|サ|ひだり|N5|1|5|左:ひだり:esquerda:left¦左手:ひだりて:mão esquerda:left hand¦左右:さゆう:esquerda e direita:left and right|次の角を左に曲がってください。|Vire à esquerda na próxima esquina.|Please turn left at the next corner.
+右|direita|right|ウ,ユウ|みぎ|N5|1|5|右:みぎ:direita:right¦右手:みぎて:mão direita:right hand¦左右:さゆう:esquerda e direita:left and right|銀行は右にあります。|O banco fica à direita.|The bank is on the right.
+中|meio; dentro|middle; inside|チュウ|なか|N5|1|4|中:なか:dentro:inside¦中国:ちゅうごく:China:China¦一日中:いちにちじゅう:o dia todo:all day|かばんの中に何がありますか。|O que tem dentro da bolsa?|What is in the bag?
+外|fora|outside|ガイ,ゲ|そと,ほか,はず.す|N5|2|5|外:そと:fora:outside¦外国:がいこく:país estrangeiro:foreign country¦外国人:がいこくじん:estrangeiro:foreigner|外は寒いです。|Lá fora está frio.|It's cold outside.
+東|leste|east|トウ|ひがし|N5|2|8|東:ひがし:leste:east¦東京:とうきょう:Tóquio:Tokyo¦東口:ひがしぐち:saída leste:east exit|東京は日本の首都です。|Tóquio é a capital do Japão.|Tokyo is the capital of Japan.
+西|oeste|west|セイ,サイ|にし|N5|2|6|西:にし:oeste:west¦関西:かんさい:região de Kansai:Kansai region¦西洋:せいよう:Ocidente:the West|太陽は西に沈みます。|O sol se põe no oeste.|The sun sets in the west.
+南|sul|south|ナン|みなみ|N5|2|9|南:みなみ:sul:south¦南口:みなみぐち:saída sul:south exit¦南米:なんべい:América do Sul:South America|ブラジルは南米にあります。|O Brasil fica na América do Sul.|Brazil is in South America.
+北|norte|north|ホク|きた|N5|2|5|北:きた:norte:north¦北海道:ほっかいどう:Hokkaido:Hokkaido¦東北:とうほく:região de Tohoku:Tohoku region|北海道の冬はとても寒いです。|O inverno em Hokkaido é muito frio.|Winter in Hokkaido is very cold.
+内|dentro; interior|inside; within|ナイ|うち|N3|2|4|国内:こくない:nacional (dentro do país):domestic¦案内:あんない:guia; orientação:guidance¦内:うち:dentro:inside|国内旅行が好きです。|Gosto de viajar dentro do próprio país.|I like domestic travel.
+近|perto|near|キン|ちか.い|N4|2|7|近い:ちかい:perto:near¦近所:きんじょ:vizinhança:neighborhood¦最近:さいきん:recentemente:recently|駅は家から近いです。|A estação fica perto de casa.|The station is close to my house.
+遠|longe|far|エン,オン|とお.い|N3|2|13|遠い:とおい:longe:far¦遠足:えんそく:excursão escolar:school trip¦遠慮:えんりょ:cerimônia; reserva:reserve; hesitation|学校は家から遠いです。|A escola fica longe de casa.|School is far from my house.
+所|lugar|place|ショ|ところ|N3|3|8|所:ところ:lugar:place¦台所:だいどころ:cozinha:kitchen¦住所:じゅうしょ:endereço:address|ここに住所を書いてください。|Escreva seu endereço aqui, por favor.|Please write your address here.
+方|direção; maneira|direction; way|ホウ|かた|N4|2|4|読み方:よみかた:modo de ler:way of reading¦方法:ほうほう:método:method¦あの方:あのかた:aquela pessoa (formal):that person (polite)|この漢字の読み方を教えてください。|Me ensine a ler este kanji, por favor.|Please teach me how to read this kanji.
+国|país|country|コク|くに|N5|2|8|国:くに:país:country¦外国:がいこく:país estrangeiro:foreign country¦中国:ちゅうごく:China:China|どこの国から来ましたか。|De que país você veio?|Which country are you from?
+家|casa; família|house; family|カ,ケ|いえ,や,うち|N4|2|10|家:いえ:casa:house¦家族:かぞく:família:family¦作家:さっか:escritor:writer|私の家族は四人です。|Minha família tem quatro pessoas.|There are four people in my family.
+店|loja|shop|テン|みせ|N5|2|8|店:みせ:loja:shop¦喫茶店:きっさてん:café (estabelecimento):coffee shop¦店員:てんいん:atendente:store clerk|この店のパンはおいしいです。|O pão desta loja é gostoso.|This shop's bread is delicious.
+駅|estação|station|エキ|—|N5|3|14|駅:えき:estação:station¦駅員:えきいん:funcionário da estação:station staff¦東京駅:とうきょうえき:Estação de Tóquio:Tokyo Station|駅はどこですか。|Onde fica a estação?|Where is the station?
+道|caminho; rua|road; way|ドウ,トウ|みち|N5|2|12|道:みち:caminho; rua:road; way¦歩道:ほどう:calçada:sidewalk¦北海道:ほっかいどう:Hokkaido:Hokkaido|この道をまっすぐ行ってください。|Siga reto por esta rua, por favor.|Please go straight along this road.
+町|cidade (pequena); bairro|town|チョウ|まち|N4|1|7|町:まち:cidade; bairro:town¦下町:したまち:bairro antigo:old downtown¦町長:ちょうちょう:prefeito (de cidade pequena):town mayor|この町は静かです。|Esta cidade é tranquila.|This town is quiet.
+村|vila; aldeia|village|ソン|むら|N3|1|7|村:むら:vila; aldeia:village¦村長:そんちょう:chefe da vila:village mayor¦農村:のうそん:vila rural:farming village|祖父は小さい村に住んでいます。|Meu avô mora numa vila pequena.|My grandfather lives in a small village.
+市|cidade; mercado|city; market|シ|いち|N3|2|5|市:し:cidade (município):city¦市場:いちば:mercado:market¦市民:しみん:cidadão:citizen|朝、魚の市場に行きました。|De manhã fui ao mercado de peixes.|In the morning I went to the fish market.
+県|província|prefecture|ケン|—|N3|3|9|県:けん:província:prefecture¦県庁:けんちょう:governo provincial:prefectural office¦千葉県:ちばけん:Província de Chiba:Chiba Prefecture|日本には四十七の都道府県があります。|O Japão tem 47 províncias.|Japan has 47 prefectures.
+京|capital|capital|キョウ,ケイ|みやこ|N4|2|8|東京:とうきょう:Tóquio:Tokyo¦京都:きょうと:Quioto:Kyoto¦上京:じょうきょう:mudar-se para Tóquio:moving to Tokyo|京都には古いお寺がたくさんあります。|Em Quioto há muitos templos antigos.|There are many old temples in Kyoto.
+社|empresa; santuário|company; shrine|シャ|やしろ|N5|2|7|会社:かいしゃ:empresa:company¦社会:しゃかい:sociedade:society¦神社:じんじゃ:santuário xintoísta:Shinto shrine|父は会社員です。|Meu pai é funcionário de empresa.|My father is an office worker.
+寺|templo budista|Buddhist temple|ジ|てら|N3|2|6|寺:てら:templo:temple¦お寺:おてら:templo budista:Buddhist temple¦金閣寺:きんかくじ:Kinkaku-ji:Kinkaku-ji|京都で有名なお寺を見ました。|Vi um templo famoso em Quioto.|I saw a famous temple in Kyoto.
+院|instituição|institution|イン|—|N4|3|10|病院:びょういん:hospital:hospital¦大学院:だいがくいん:pós-graduação:graduate school¦美容院:びよういん:salão de beleza:beauty salon|風邪で病院に行きました。|Fui ao hospital por causa de um resfriado.|I went to the hospital because of a cold.
+室|sala|room|シツ|むろ|N4|2|9|教室:きょうしつ:sala de aula:classroom¦会議室:かいぎしつ:sala de reunião:meeting room¦室内:しつない:ambiente interno:indoor|教室に学生が二十人います。|Há vinte alunos na sala de aula.|There are twenty students in the classroom.
+行|ir; linha|go; line|コウ,ギョウ,アン|い.く,ゆ.く,おこな.う|N5|2|6|行く:いく:ir:to go¦銀行:ぎんこう:banco:bank¦旅行:りょこう:viagem:trip|明日、銀行に行きます。|Amanhã vou ao banco.|Tomorrow I'll go to the bank.
+来|vir|come|ライ|く.る,きた.る|N5|2|7|来る:くる:vir:to come¦来年:らいねん:próximo ano:next year¦来週:らいしゅう:próxima semana:next week|友達が家に来ます。|Um amigo vem à minha casa.|A friend is coming to my house.
+帰|voltar|return|キ|かえ.る,かえ.す|N4|2|10|帰る:かえる:voltar (para casa):to return home¦帰国:きこく:volta ao país:returning to one's country¦日帰り:ひがえり:bate-volta:day trip|何時に家に帰りますか。|A que horas você volta para casa?|What time do you go home?
+見|ver|see|ケン|み.る,み.える,み.せる|N5|1|7|見る:みる:ver:to see¦見せる:みせる:mostrar:to show¦意見:いけん:opinião:opinion|写真を見せてください。|Me mostre a foto, por favor.|Please show me the photo.
+食|comer; comida|eat; food|ショク,ジキ|た.べる,く.う|N5|2|9|食べる:たべる:comer:to eat¦食堂:しょくどう:refeitório:cafeteria¦食事:しょくじ:refeição:meal|朝ご飯を食べましたか。|Você tomou café da manhã?|Did you eat breakfast?
+飲|beber|drink|イン|の.む|N5|3|12|飲む:のむ:beber:to drink¦飲み物:のみもの:bebida:drink¦飲食店:いんしょくてん:restaurante:eating establishment|何を飲みますか。|O que você vai beber?|What will you drink?
+買|comprar|buy|バイ|か.う|N5|2|12|買う:かう:comprar:to buy¦買い物:かいもの:compras:shopping¦売買:ばいばい:compra e venda:buying and selling|スーパーで野菜を買いました。|Comprei legumes no supermercado.|I bought vegetables at the supermarket.
+売|vender|sell|バイ|う.る,う.れる|N4|2|7|売る:うる:vender:to sell¦売り場:うりば:seção de vendas:sales floor¦売店:ばいてん:quiosque:kiosk|この店は古い本を売っています。|Esta loja vende livros usados.|This shop sells used books.
+会|encontrar; reunião|meet; meeting|カイ,エ|あ.う|N4|2|6|会う:あう:encontrar-se:to meet¦会社:かいしゃ:empresa:company¦会議:かいぎ:reunião:meeting|明日、先生に会います。|Amanhã vou me encontrar com o professor.|Tomorrow I'll meet the teacher.
+休|descansar|rest|キュウ|やす.む,やす.み|N5|1|6|休む:やすむ:descansar; faltar:to rest; to be absent¦休み:やすみ:folga; férias:holiday; break¦休日:きゅうじつ:dia de folga:day off|今日は学校を休みました。|Hoje faltei à escola.|I was absent from school today.
+入|entrar|enter|ニュウ|い.る,はい.る,い.れる|N5|1|2|入る:はいる:entrar:to enter¦入口:いりぐち:entrada:entrance¦入学:にゅうがく:ingresso na escola:school admission|部屋に入ってもいいですか。|Posso entrar no quarto?|May I enter the room?
+出|sair|exit|シュツ,スイ|で.る,だ.す|N5|1|5|出る:でる:sair:to go out¦出口:でぐち:saída:exit¦出す:だす:tirar; enviar:to take out; to send|出口はあちらです。|A saída é por ali.|The exit is over there.
+立|ficar de pé|stand|リツ,リュウ|た.つ,た.てる|N5|1|5|立つ:たつ:ficar de pé:to stand¦役に立つ:やくにたつ:ser útil:to be useful¦国立:こくりつ:nacional (público):national|この辞書はとても役に立ちます。|Este dicionário é muito útil.|This dictionary is very useful.
+座|sentar; assento|seat; sit|ザ|すわ.る|N3|6|10|座る:すわる:sentar-se:to sit¦座席:ざせき:assento:seat¦口座:こうざ:conta bancária:bank account|どうぞ、座ってください。|Sente-se, por favor.|Please have a seat.
+歩|andar|walk|ホ,ブ,フ|ある.く,あゆ.む|N4|2|8|歩く:あるく:andar:to walk¦散歩:さんぽ:passeio:walk; stroll¦歩道:ほどう:calçada:sidewalk|毎朝犬と散歩します。|Passeio com o cachorro todas as manhãs.|I walk the dog every morning.
+走|correr|run|ソウ|はし.る|N4|2|7|走る:はしる:correr:to run¦競走:きょうそう:corrida (competição):race¦走者:そうしゃ:corredor:runner|公園で毎日走っています。|Corro no parque todos os dias.|I run in the park every day.
+使|usar|use|シ|つか.う|N4|3|8|使う:つかう:usar:to use¦大使館:たいしかん:embaixada:embassy¦使用:しよう:uso:use|このパソコンを使ってもいいですか。|Posso usar este computador?|May I use this computer?
+作|fazer; criar|make|サク,サ|つく.る|N4|2|7|作る:つくる:fazer; preparar:to make¦作文:さくぶん:redação:composition¦作家:さっか:escritor:writer|母が晩ご飯を作っています。|Minha mãe está fazendo o jantar.|My mother is making dinner.
+持|segurar; ter|hold; have|ジ|も.つ|N4|3|9|持つ:もつ:segurar; ter:to hold; to have¦気持ち:きもち:sentimento:feeling¦持ち物:もちもの:pertences:belongings|傘を持っていますか。|Você tem guarda-chuva?|Do you have an umbrella?
+待|esperar|wait|タイ|ま.つ|N4|3|9|待つ:まつ:esperar:to wait¦招待:しょうたい:convite:invitation¦期待:きたい:expectativa:expectation|駅で友達を待っています。|Estou esperando um amigo na estação.|I'm waiting for a friend at the station.
+知|saber; conhecer|know|チ|し.る|N4|2|8|知る:しる:saber; conhecer:to know¦知識:ちしき:conhecimento:knowledge¦お知らせ:おしらせ:aviso:notice|あの人を知っていますか。|Você conhece aquela pessoa?|Do you know that person?
+思|pensar|think|シ|おも.う|N4|2|9|思う:おもう:pensar; achar:to think¦思い出:おもいで:lembrança:memory¦不思議:ふしぎ:misterioso:mysterious|明日は雨が降ると思います。|Acho que amanhã vai chover.|I think it will rain tomorrow.
+考|considerar; refletir|consider|コウ|かんが.える|N4|2|6|考える:かんがえる:pensar; refletir:to think; to consider¦考え:かんがえ:ideia; opinião:idea¦参考:さんこう:referência:reference|よく考えてから答えてください。|Pense bem antes de responder.|Please think carefully before answering.
+習|aprender (praticando)|learn|シュウ|なら.う|N4|3|11|習う:ならう:aprender (com alguém):to learn¦練習:れんしゅう:treino; prática:practice¦習慣:しゅうかん:hábito:habit|ピアノを習っています。|Estou aprendendo piano.|I'm learning piano.
+働|trabalhar|work|ドウ|はたら.く|N3|4|13|働く:はたらく:trabalhar:to work¦労働:ろうどう:trabalho (laboral):labor¦共働き:ともばたらき:casal em que ambos trabalham:dual income|姉は病院で働いています。|Minha irmã mais velha trabalha num hospital.|My older sister works at a hospital.
+住|morar|reside|ジュウ|す.む|N4|3|7|住む:すむ:morar:to live¦住所:じゅうしょ:endereço:address¦住民:じゅうみん:morador:resident|どこに住んでいますか。|Onde você mora?|Where do you live?
+始|começar|begin|シ|はじ.める,はじ.まる|N4|3|8|始める:はじめる:começar (algo):to begin¦始まる:はじまる:começar:to start¦開始:かいし:início:start|映画は七時に始まります。|O filme começa às sete.|The movie starts at seven.
+終|terminar|end|シュウ|お.わる,お.える|N4|3|11|終わる:おわる:terminar:to end¦終電:しゅうでん:último trem:last train¦最終:さいしゅう:final:final|宿題はもう終わりました。|Já terminei a lição de casa.|I've already finished my homework.
+開|abrir|open|カイ|ひら.く,あ.く,あ.ける|N4|3|12|開ける:あける:abrir:to open¦開く:ひらく:abrir:to open¦開始:かいし:início:start|窓を開けてもいいですか。|Posso abrir a janela?|May I open the window?
+閉|fechar|close|ヘイ|し.める,し.まる,と.じる|N3|6|11|閉める:しめる:fechar:to close¦閉じる:とじる:fechar (olhos; livro):to close¦閉店:へいてん:fechamento da loja:store closing|ドアを閉めてください。|Feche a porta, por favor.|Please close the door.
+大|grande|big|ダイ,タイ|おお,おお.きい|N5|1|3|大きい:おおきい:grande:big¦大学:だいがく:universidade:university¦大切:たいせつ:importante:important|この犬はとても大きいです。|Este cachorro é muito grande.|This dog is very big.
+小|pequeno|small|ショウ|ちい.さい,こ,お|N5|1|3|小さい:ちいさい:pequeno:small¦小学校:しょうがっこう:escola primária:elementary school¦小鳥:ことり:passarinho:small bird|小さい子供が泣いています。|Uma criança pequena está chorando.|A small child is crying.
+高|alto; caro|tall; expensive|コウ|たか.い|N5|2|10|高い:たかい:alto; caro:tall; expensive¦高校:こうこう:ensino médio:high school¦最高:さいこう:o melhor:the best|東京のホテルは高いです。|Os hotéis de Tóquio são caros.|Hotels in Tokyo are expensive.
+安|barato; tranquilo|cheap; peaceful|アン|やす.い|N5|3|6|安い:やすい:barato:cheap¦安心:あんしん:tranquilidade:relief¦安全:あんぜん:segurança:safety|この店は安くておいしいです。|Esta loja é barata e gostosa.|This shop is cheap and tasty.
+新|novo|new|シン|あたら.しい,にい|N5|2|13|新しい:あたらしい:novo:new¦新聞:しんぶん:jornal:newspaper¦新幹線:しんかんせん:trem-bala:bullet train|新しい靴を買いました。|Comprei sapatos novos.|I bought new shoes.
+古|velho; antigo|old|コ|ふる.い|N5|2|5|古い:ふるい:velho; antigo:old¦中古:ちゅうこ:usado:secondhand¦古代:こだい:antiguidade:ancient times|この建物はとても古いです。|Este prédio é muito antigo.|This building is very old.
+長|longo; chefe|long; leader|チョウ|なが.い|N5|2|8|長い:ながい:longo:long¦社長:しゃちょう:presidente (de empresa):company president¦校長:こうちょう:diretor (escolar):principal|彼女は髪が長いです。|Ela tem cabelo comprido.|She has long hair.
+短|curto|short|タン|みじか.い|N3|3|12|短い:みじかい:curto:short¦短所:たんしょ:defeito:weak point¦短期:たんき:curto prazo:short term|夏休みは短いです。|As férias de verão são curtas.|Summer vacation is short.
+多|muito|many|タ|おお.い|N5|2|6|多い:おおい:muitos:many¦多分:たぶん:talvez:probably¦多少:たしょう:um pouco:somewhat|東京は人が多いです。|Tóquio tem muita gente.|Tokyo has a lot of people.
+少|pouco|few; little|ショウ|すく.ない,すこ.し|N5|2|4|少し:すこし:um pouco:a little¦少ない:すくない:poucos:few¦少年:しょうねん:garoto:boy|日本語が少し話せます。|Falo um pouco de japonês.|I can speak a little Japanese.
+早|cedo; rápido|early; fast|ソウ|はや.い|N4|1|6|早い:はやい:cedo:early¦早朝:そうちょう:madrugada:early morning¦早速:さっそく:imediatamente:at once|今朝は早く起きました。|Hoje acordei cedo.|I woke up early this morning.
+遅|atrasado; lento|late; slow|チ|おく.れる,おそ.い|N3|8|12|遅い:おそい:tarde; lento:late; slow¦遅れる:おくれる:atrasar-se:to be late¦遅刻:ちこく:atraso:tardiness|電車が五分遅れました。|O trem atrasou cinco minutos.|The train was five minutes late.
+明|claro; brilhante|bright|メイ,ミョウ|あか.るい,あ.ける,あ.かり|N4|2|8|明るい:あかるい:claro; alegre:bright; cheerful¦説明:せつめい:explicação:explanation¦明日:あした:amanhã:tomorrow|この部屋はとても明るいです。|Este quarto é muito iluminado.|This room is very bright.
+暗|escuro|dark|アン|くら.い|N3|3|13|暗い:くらい:escuro:dark¦暗記:あんき:memorização:memorization¦暗証番号:あんしょうばんごう:senha (PIN):PIN|外はもう暗いです。|Lá fora já está escuro.|It's already dark outside.
+白|branco|white|ハク,ビャク|しろ,しろ.い|N5|1|5|白い:しろい:branco:white¦白:しろ:branco:white¦面白い:おもしろい:interessante:interesting|白いシャツを着ています。|Estou usando uma camisa branca.|I'm wearing a white shirt.
+黒|preto|black|コク|くろ,くろ.い|N4|2|11|黒い:くろい:preto:black¦黒板:こくばん:quadro-negro:blackboard¦白黒:しろくろ:preto e branco:black and white|黒い猫がいます。|Há um gato preto.|There is a black cat.
+赤|vermelho|red|セキ,シャク|あか,あか.い|N4|1|7|赤い:あかい:vermelho:red¦赤ちゃん:あかちゃん:bebê:baby¦赤道:せきどう:equador:equator|赤いりんごを買いました。|Comprei maçãs vermelhas.|I bought red apples.
+青|azul; verde|blue; green|セイ,ショウ|あお,あお.い|N4|1|8|青い:あおい:azul:blue¦青空:あおぞら:céu azul:blue sky¦青年:せいねん:jovem:youth|今日は空が青いです。|Hoje o céu está azul.|The sky is blue today.
+好|gostar|like|コウ|す.き,この.む|N3|4|6|好き:すき:gostar de:liked¦大好き:だいすき:adorar:love¦好物:こうぶつ:comida favorita:favorite food|私は猫が大好きです。|Eu adoro gatos.|I love cats.
+悪|ruim; mau|bad; evil|アク,オ|わる.い|N4|3|11|悪い:わるい:ruim:bad¦悪口:わるぐち:falar mal:bad-mouthing¦最悪:さいあく:o pior:the worst|天気が悪いです。|O tempo está ruim.|The weather is bad.
+楽|diversão; música|fun; music|ガク,ラク|たの.しい,たの.しむ|N4|2|13|楽しい:たのしい:divertido:fun¦音楽:おんがく:música:music¦楽:らく:confortável; fácil:comfortable; easy|パーティーはとても楽しかったです。|A festa foi muito divertida.|The party was a lot of fun.
+難|difícil|difficult|ナン|むずか.しい,かた.い|N3|6|18|難しい:むずかしい:difícil:difficult¦困難:こんなん:dificuldade:difficulty¦難民:なんみん:refugiado:refugee|漢字は難しいですが、面白いです。|Kanji é difícil, mas interessante.|Kanji is difficult but interesting.
+同|igual; mesmo|same|ドウ|おな.じ|N4|2|6|同じ:おなじ:mesmo; igual:same¦同時:どうじ:ao mesmo tempo:simultaneous¦同僚:どうりょう:colega de trabalho:coworker|私たちは同じクラスです。|Estamos na mesma turma.|We are in the same class.
+強|forte|strong|キョウ,ゴウ|つよ.い|N4|2|11|強い:つよい:forte:strong¦勉強:べんきょう:estudo:study¦強力:きょうりょく:poderoso:powerful|今日は風が強いです。|Hoje o vento está forte.|The wind is strong today.
+弱|fraco|weak|ジャク|よわ.い|N3|2|10|弱い:よわい:fraco:weak¦弱点:じゃくてん:ponto fraco:weakness¦弱虫:よわむし:medroso:coward|私はお酒に弱いです。|Fico bêbado com pouca bebida.|I can't hold my liquor.
+山|montanha|mountain|サン|やま|N5|1|3|山:やま:montanha:mountain¦富士山:ふじさん:Monte Fuji:Mount Fuji¦火山:かざん:vulcão:volcano|富士山に登りたいです。|Quero escalar o Monte Fuji.|I want to climb Mount Fuji.
+川|rio|river|セン|かわ|N5|1|3|川:かわ:rio:river¦小川:おがわ:riacho:stream¦川岸:かわぎし:margem do rio:riverbank|川で魚を釣りました。|Pesquei um peixe no rio.|I caught a fish in the river.
+海|mar|sea|カイ|うみ|N4|2|9|海:うみ:mar:sea¦海外:かいがい:exterior:overseas¦海岸:かいがん:litoral:coast|夏休みに海へ行きました。|Nas férias de verão fui à praia.|I went to the sea during summer vacation.
+空|céu; vazio|sky; empty|クウ|そら,あ.く,から|N5|1|8|空:そら:céu:sky¦空港:くうこう:aeroporto:airport¦空く:あく:ficar vago:to become empty|空港まで電車で行きます。|Vou ao aeroporto de trem.|I go to the airport by train.
+雨|chuva|rain|ウ|あめ,あま|N5|1|8|雨:あめ:chuva:rain¦大雨:おおあめ:chuva forte:heavy rain¦雨季:うき:estação chuvosa:rainy season|明日は雨が降るでしょう。|Amanhã provavelmente vai chover.|It will probably rain tomorrow.
+雪|neve|snow|セツ|ゆき|N3|2|11|雪:ゆき:neve:snow¦大雪:おおゆき:nevasca:heavy snow¦雪国:ゆきぐに:região de neve:snow country|北海道では雪がたくさん降ります。|Em Hokkaido neva muito.|It snows a lot in Hokkaido.
+風|vento; estilo|wind; style|フウ,フ|かぜ,かざ|N4|2|9|風:かぜ:vento:wind¦台風:たいふう:tufão:typhoon¦和風:わふう:estilo japonês:Japanese style|台風が来ています。|Um tufão está chegando.|A typhoon is coming.
+花|flor|flower|カ|はな|N5|1|7|花:はな:flor:flower¦花火:はなび:fogos de artifício:fireworks¦花見:はなみ:contemplação das cerejeiras:cherry blossom viewing|春に花見をしました。|Na primavera fizemos um hanami.|In spring we went cherry blossom viewing.
+草|grama; erva|grass|ソウ|くさ|N3|1|9|草:くさ:grama; erva:grass¦草原:そうげん:campina:grassland¦草花:くさばな:flores do campo:flowering plants|庭の草を取りました。|Arranquei o mato do jardim.|I pulled the weeds in the garden.
+林|bosque|grove|リン|はやし|N3|1|8|林:はやし:bosque:grove¦森林:しんりん:floresta:forest¦林業:りんぎょう:silvicultura:forestry|家の近くに小さい林があります。|Há um pequeno bosque perto de casa.|There is a small grove near my house.
+森|floresta|forest|シン|もり|N3|1|12|森:もり:floresta:forest¦森林:しんりん:floresta:forest¦青森:あおもり:Aomori (província):Aomori|森の中を散歩しました。|Passeei pela floresta.|I took a walk in the forest.
+石|pedra|stone|セキ,シャク,コク|いし|N3|1|5|石:いし:pedra:stone¦宝石:ほうせき:joia; pedra preciosa:jewel¦石油:せきゆ:petróleo:oil|川で白い石を拾いました。|Peguei uma pedra branca no rio.|I picked up a white stone at the river.
+田|arrozal|rice field|デン|た|N4|1|5|田んぼ:たんぼ:arrozal:rice paddy¦田舎:いなか:interior; campo:countryside¦山田:やまだ:Yamada (sobrenome):Yamada (surname)|祖母は田舎に住んでいます。|Minha avó mora no interior.|My grandmother lives in the countryside.
+天|céu|heaven; sky|テン|あめ,あま|N5|1|4|天気:てんき:tempo (clima):weather¦天国:てんごく:paraíso:heaven¦天才:てんさい:gênio:genius|明日の天気はどうですか。|Como vai estar o tempo amanhã?|How will the weather be tomorrow?
+気|espírito; ar; energia|spirit; air; energy|キ,ケ|—|N5|1|6|天気:てんき:tempo (clima):weather¦元気:げんき:bem-disposto:healthy; energetic¦気持ち:きもち:sentimento:feeling|お元気ですか。|Como vai você?|How are you?
+目|olho|eye|モク,ボク|め,ま|N5|1|5|目:め:olho:eye¦一つ目:ひとつめ:o primeiro:the first one¦目的:もくてき:objetivo:purpose|目が疲れました。|Meus olhos estão cansados.|My eyes are tired.
+耳|orelha|ear|ジ|みみ|N5|1|6|耳:みみ:orelha:ear¦耳鼻科:じびか:otorrinolaringologia:ENT clinic¦耳鳴り:みみなり:zumbido no ouvido:ringing in the ears|祖父は耳が遠いです。|Meu avô não ouve bem.|My grandfather is hard of hearing.
+口|boca|mouth|コウ,ク|くち|N5|1|3|口:くち:boca:mouth¦出口:でぐち:saída:exit¦人口:じんこう:população:population|口を大きく開けてください。|Abra bem a boca, por favor.|Please open your mouth wide.
+手|mão|hand|シュ|て|N5|1|4|手:て:mão:hand¦上手:じょうず:habilidoso:skillful¦切手:きって:selo:stamp|食べる前に手を洗います。|Lavo as mãos antes de comer.|I wash my hands before eating.
+足|pé; perna; bastar|foot; leg; suffice|ソク|あし,た.りる,た.す|N5|1|7|足:あし:pé; perna:foot; leg¦足りる:たりる:ser suficiente:to be enough¦一足:いっそく:um par (de calçados):one pair (of shoes)|時間が足りません。|O tempo não é suficiente.|There isn't enough time.
+頭|cabeça|head|トウ,ズ|あたま,かしら|N3|2|16|頭:あたま:cabeça:head¦頭痛:ずつう:dor de cabeça:headache¦先頭:せんとう:dianteira:front; lead|今朝から頭が痛いです。|Estou com dor de cabeça desde de manhã.|I've had a headache since this morning.
+顔|rosto|face|ガン|かお|N3|2|18|顔:かお:rosto:face¦笑顔:えがお:sorriso:smiling face¦洗顔:せんがん:lavagem do rosto:face washing|顔を洗ってから朝ご飯を食べます。|Lavo o rosto e depois tomo café da manhã.|I wash my face and then eat breakfast.
+心|coração; mente|heart; mind|シン|こころ|N4|2|4|心:こころ:coração; mente:heart; mind¦安心:あんしん:tranquilidade:relief¦心配:しんぱい:preocupação:worry|心配しないでください。|Não se preocupe.|Please don't worry.
+体|corpo|body|タイ,テイ|からだ|N4|2|7|体:からだ:corpo:body¦体育:たいいく:educação física:physical education¦全体:ぜんたい:o todo:whole|体に気をつけてください。|Cuide da sua saúde.|Please take care of yourself.
+力|força|power; strength|リョク,リキ|ちから|N4|1|2|力:ちから:força:power¦努力:どりょく:esforço:effort¦協力:きょうりょく:cooperação:cooperation|毎日努力しています。|Me esforço todos os dias.|I make an effort every day.
+声|voz|voice|セイ,ショウ|こえ,こわ|N3|2|7|声:こえ:voz:voice¦大声:おおごえ:voz alta:loud voice¦音声:おんせい:áudio; voz:audio|もう少し大きい声で話してください。|Fale um pouco mais alto, por favor.|Please speak a little louder.
+車|carro; veículo|car; vehicle|シャ|くるま|N5|1|7|車:くるま:carro:car¦電車:でんしゃ:trem:train¦自転車:じてんしゃ:bicicleta:bicycle|車で会社に行きます。|Vou para a empresa de carro.|I go to work by car.
+電|eletricidade|electricity|デン|—|N5|2|13|電車:でんしゃ:trem:train¦電話:でんわ:telefone:telephone¦電気:でんき:eletricidade; luz:electricity; light|電気を消してください。|Apague a luz, por favor.|Please turn off the light.
+通|passar; transitar|pass through; commute|ツウ,ツ|とお.る,とお.す,かよ.う|N4|2|10|通る:とおる:passar:to pass¦通う:かよう:frequentar:to commute¦交通:こうつう:trânsito:traffic|毎日バスで学校に通っています。|Vou à escola de ônibus todos os dias.|I commute to school by bus every day.
+乗|embarcar; andar (em veículo)|ride; board|ジョウ|の.る,の.せる|N3|3|9|乗る:のる:embarcar:to ride¦乗車:じょうしゃ:embarque:boarding¦乗り物:のりもの:veículo:vehicle|新宿で電車に乗ります。|Pego o trem em Shinjuku.|I get on the train at Shinjuku.
+降|descer; cair (chuva)|descend; fall|コウ|お.りる,お.ろす,ふ.る|N3|6|10|降りる:おりる:descer (de veículo):to get off¦降る:ふる:cair (chuva; neve):to fall (rain)¦以降:いこう:a partir de:from ... on|次の駅で降ります。|Desço na próxima estação.|I'll get off at the next station.
+自|si mesmo|oneself|ジ,シ|みずか.ら|N4|2|6|自分:じぶん:si mesmo:oneself¦自転車:じてんしゃ:bicicleta:bicycle¦自然:しぜん:natureza:nature|自分で料理を作ります。|Eu mesmo preparo a comida.|I cook for myself.
+転|girar; rolar|revolve; roll|テン|ころ.ぶ,ころ.がる|N4|3|11|自転車:じてんしゃ:bicicleta:bicycle¦運転:うんてん:dirigir:driving¦転ぶ:ころぶ:levar um tombo:to fall down|父は車の運転が上手です。|Meu pai dirige bem.|My father is a good driver.
+米|arroz; América|rice; America|ベイ,マイ|こめ|N3|2|6|米:こめ:arroz (cru):rice¦南米:なんべい:América do Sul:South America¦新米:しんまい:arroz novo; novato:new rice; newcomer|日本人はお米をよく食べます。|Os japoneses comem muito arroz.|Japanese people eat a lot of rice.
+肉|carne|meat|ニク|—|N4|2|6|肉:にく:carne:meat¦牛肉:ぎゅうにく:carne bovina:beef¦筋肉:きんにく:músculo:muscle|私は肉より魚が好きです。|Prefiro peixe a carne.|I like fish more than meat.
+魚|peixe|fish|ギョ|さかな,うお|N5|2|11|魚:さかな:peixe:fish¦金魚:きんぎょ:peixinho dourado:goldfish¦魚市場:うおいちば:mercado de peixes:fish market|この魚はとても新鮮です。|Este peixe está muito fresco.|This fish is very fresh.
+野|campo|field|ヤ|の|N4|2|11|野菜:やさい:legume; verdura:vegetable¦野球:やきゅう:beisebol:baseball¦野原:のはら:campo:field|弟は野球が好きです。|Meu irmão mais novo gosta de beisebol.|My younger brother likes baseball.
+菜|verdura|vegetable; greens|サイ|な|N3|4|11|野菜:やさい:legume; verdura:vegetable¦菜食:さいしょく:dieta vegetariana:vegetarian diet¦菜の花:なのはな:flor de colza:rapeseed blossom|毎日野菜を食べましょう。|Vamos comer legumes todos os dias.|Let's eat vegetables every day.
+茶|chá|tea|チャ,サ|—|N4|2|9|お茶:おちゃ:chá:tea¦茶色:ちゃいろ:marrom:brown¦喫茶店:きっさてん:café (estabelecimento):coffee shop|お茶をどうぞ。|Aceite um chá.|Please have some tea.
+酒|bebida alcoólica; saquê|alcohol; sake|シュ|さけ,さか|N3|3|10|お酒:おさけ:bebida alcoólica:alcohol¦日本酒:にほんしゅ:saquê:Japanese sake¦酒屋:さかや:loja de bebidas:liquor store|父は毎晩お酒を飲みます。|Meu pai bebe todas as noites.|My father drinks every night.
+飯|arroz cozido; refeição|cooked rice; meal|ハン|めし|N4|4|12|ご飯:ごはん:arroz; refeição:rice; meal¦朝ご飯:あさごはん:café da manhã:breakfast¦晩ご飯:ばんごはん:jantar:dinner|一緒に晩ご飯を食べませんか。|Que tal jantarmos juntos?|Won't you have dinner with me?
+仕|servir|serve; do|シ,ジ|つか.える|N4|3|5|仕事:しごと:trabalho:work¦仕方:しかた:jeito; maneira:way; method¦仕える:つかえる:servir:to serve|仕事は何時に終わりますか。|A que horas termina o trabalho?|What time does work end?
+事|coisa; assunto|thing; matter|ジ,ズ|こと|N4|3|8|仕事:しごと:trabalho:work¦事故:じこ:acidente:accident¦大事:だいじ:importante:important|大事な話があります。|Tenho algo importante para falar.|I have something important to talk about.
+員|membro|member|イン|—|N4|3|10|会社員:かいしゃいん:funcionário de empresa:office worker¦店員:てんいん:atendente:store clerk¦全員:ぜんいん:todos (os membros):everyone|全員そろいましたか。|Estão todos aqui?|Is everyone here?
+業|negócio; trabalho|business; work|ギョウ,ゴウ|わざ|N4|3|13|授業:じゅぎょう:aula:class¦工業:こうぎょう:indústria:industry¦卒業:そつぎょう:formatura:graduation|来年、大学を卒業します。|Ano que vem me formo na universidade.|I will graduate from university next year.
+物|coisa; objeto|thing; object|ブツ,モツ|もの|N4|3|8|物:もの:coisa:thing¦買い物:かいもの:compras:shopping¦動物:どうぶつ:animal:animal|どんな動物が好きですか。|De que animais você gosta?|What kind of animals do you like?
+者|pessoa (que faz algo)|person (who does)|シャ|もの|N4|3|8|医者:いしゃ:médico:doctor¦学者:がくしゃ:estudioso:scholar¦若者:わかもの:jovem:young person|兄は医者です。|Meu irmão mais velho é médico.|My older brother is a doctor.
+場|lugar|place|ジョウ|ば|N4|2|12|場所:ばしょ:lugar:place¦会場:かいじょう:local do evento:venue¦駐車場:ちゅうしゃじょう:estacionamento:parking lot|パーティーの場所はどこですか。|Onde é o local da festa?|Where is the party?
+何|o quê|what|カ|なに,なん|N5|2|7|何:なに:o quê:what¦何時:なんじ:que horas:what time¦何人:なんにん:quantas pessoas:how many people|これは何ですか。|O que é isto?|What is this?
+私|eu; privado|I; private|シ|わたし,わたくし|N4|6|7|私:わたし:eu:I¦私立:しりつ:particular (escola):private¦私鉄:してつ:ferrovia privada:private railway|私はブラジル人です。|Eu sou brasileiro.|I am Brazilian.
+名|nome|name|メイ,ミョウ|な|N5|1|6|名前:なまえ:nome:name¦有名:ゆうめい:famoso:famous¦名刺:めいし:cartão de visita:business card|お名前は何ですか。|Qual é o seu nome?|What is your name?
+間|intervalo; entre|interval; between|カン,ケン|あいだ,ま|N5|2|12|時間:じかん:tempo:time¦間:あいだ:entre; durante:between¦人間:にんげん:ser humano:human|駅と銀行の間にカフェがあります。|Há um café entre a estação e o banco.|There is a café between the station and the bank.
+世|mundo; geração|world; generation|セイ,セ|よ|N4|3|5|世界:せかい:mundo:world¦世話:せわ:cuidado:care¦世代:せだい:geração:generation|犬の世話をしています。|Estou cuidando do cachorro.|I'm taking care of the dog.
+界|mundo; fronteira|world; boundary|カイ|—|N4|3|9|世界:せかい:mundo:world¦業界:ぎょうかい:setor (indústria):industry¦限界:げんかい:limite:limit|世界中を旅行したいです。|Quero viajar pelo mundo todo.|I want to travel all over the world.
+理|razão; lógica|reason; logic|リ|—|N4|2|11|料理:りょうり:culinária; prato:cooking; dish¦理由:りゆう:motivo:reason¦無理:むり:impossível:impossible|日本料理が好きです。|Gosto de culinária japonesa.|I like Japanese food.
+意|intenção; significado|meaning; intention|イ|—|N4|3|13|意味:いみ:significado:meaning¦意見:いけん:opinião:opinion¦注意:ちゅうい:atenção:caution|この言葉の意味は何ですか。|Qual é o significado desta palavra?|What is the meaning of this word?
+味|sabor|taste; flavor|ミ|あじ,あじ.わう|N4|3|8|味:あじ:sabor:taste¦意味:いみ:significado:meaning¦趣味:しゅみ:hobby:hobby|趣味は何ですか。|Qual é o seu hobby?|What is your hobby?
+必|necessário; certamente|certain; necessary|ヒツ|かなら.ず|N3|4|5|必要:ひつよう:necessário:necessary¦必ず:かならず:sem falta:without fail¦必死:ひっし:desesperado:desperate|明日は必ず来てください。|Venha amanhã sem falta.|Please be sure to come tomorrow.
+要|necessidade; ponto principal|need; essential|ヨウ|い.る,かなめ|N3|4|9|必要:ひつよう:necessário:necessary¦要る:いる:precisar:to need¦重要:じゅうよう:importante:important|パスポートが必要です。|É preciso passaporte.|A passport is required.
+全|todo; inteiro|all; whole|ゼン|まった.く,すべ.て|N3|3|6|全部:ぜんぶ:tudo:all¦全然:ぜんぜん:nem um pouco:not at all¦安全:あんぜん:segurança:safety|宿題は全部終わりました。|Terminei toda a lição de casa.|I finished all my homework.
+無|nada; sem|nothing; without|ム,ブ|な.い|N4|4|12|無理:むり:impossível:impossible¦無料:むりょう:gratuito:free of charge¦無事:ぶじ:são e salvo:safe|このアプリは無料です。|Este app é gratuito.|This app is free.
+有|ter; existir|have; exist|ユウ,ウ|あ.る|N4|3|6|有名:ゆうめい:famoso:famous¦有料:ゆうりょう:pago:paid¦有る:ある:haver:to exist|この町は温泉で有名です。|Esta cidade é famosa pelas termas.|This town is famous for its hot springs.
+季|estação do ano|season|キ|—|N2|4|8|季節:きせつ:estação do ano:season¦四季:しき:as quatro estações:four seasons¦雨季:うき:estação chuvosa:rainy season|日本には四季があります。|O Japão tem quatro estações.|Japan has four seasons.
+湖|lago|lake|コ|みずうみ|N2|3|12|湖:みずうみ:lago:lake¦湖畔:こはん:margem do lago:lakeside¦琵琶湖:びわこ:Lago Biwa:Lake Biwa|湖の近くでキャンプをしました。|Acampamos perto do lago.|We camped near the lake.
+氷|gelo|ice|ヒョウ|こおり,ひ|N2|3|5|氷:こおり:gelo:ice¦氷山:ひょうざん:iceberg:iceberg¦かき氷:かきごおり:raspadinha de gelo:shaved ice|水に氷を入れてください。|Coloque gelo na água, por favor.|Please put ice in the water.
+岩|rocha|rock|ガン|いわ|N2|2|8|岩:いわ:rocha:rock¦岩石:がんせき:rocha; mineral:rock¦溶岩:ようがん:lava:lava|大きい岩の上で休みました。|Descansamos em cima de uma rocha grande.|We rested on a big rock.
+郵|correio|mail|ユウ|—|N2|6|11|郵便:ゆうびん:correio:mail¦郵便局:ゆうびんきょく:agência dos correios:post office¦郵送:ゆうそう:envio pelo correio:mailing|郵便局で切手を買いました。|Comprei selos nos correios.|I bought stamps at the post office.
+秒|segundo|second (time)|ビョウ|—|N2|3|9|秒:びょう:segundo:second¦秒針:びょうしん:ponteiro dos segundos:second hand¦一秒:いちびょう:um segundo:one second|あと十秒で始まります。|Começa em dez segundos.|It starts in ten seconds.
+券|bilhete|ticket|ケン|—|N2|5|8|乗車券:じょうしゃけん:passagem:ticket¦入場券:にゅうじょうけん:ingresso:admission ticket¦旅券:りょけん:passaporte:passport|入場券はいくらですか。|Quanto custa o ingresso?|How much is an admission ticket?
+皿|prato|plate; dish|—|さら|N2|3|5|皿:さら:prato:plate¦お皿:おさら:prato:plate¦灰皿:はいざら:cinzeiro:ashtray|お皿を洗ってください。|Lave os pratos, por favor.|Please wash the dishes.
+貯|poupar|save; store|チョ|た.める|N2|5|12|貯金:ちょきん:poupança:savings¦貯める:ためる:juntar (dinheiro):to save up¦貯蔵:ちょぞう:armazenamento:storage|旅行のためにお金を貯めています。|Estou juntando dinheiro para viajar.|I'm saving money for a trip.
+詩|poema|poem|シ|—|N2|3|13|詩:し:poema:poem¦詩人:しじん:poeta:poet¦詩集:ししゅう:coletânea de poemas:poetry collection|この詩はとても美しいです。|Este poema é muito bonito.|This poem is very beautiful.
+虹|arco-íris|rainbow|コウ|にじ|N1|8|9|虹:にじ:arco-íris:rainbow¦虹色:にじいろ:cores do arco-íris:rainbow colors|雨の後に虹が出ました。|Depois da chuva apareceu um arco-íris.|A rainbow appeared after the rain.
+峠|passo de montanha|mountain pass|—|とうげ|N1|8|9|峠:とうげ:passo de montanha:mountain pass¦峠道:とうげみち:estrada de serra:mountain pass road|峠を越えると海が見えます。|Passando a serra, dá para ver o mar.|Once you cross the pass, you can see the sea.
+麗|belo; elegante|lovely; beautiful|レイ|うるわ.しい|N1|8|19|綺麗:きれい:bonito; limpo:pretty; clean¦華麗:かれい:esplêndido:splendid¦麗しい:うるわしい:belo:beautiful|部屋が綺麗になりました。|O quarto ficou limpo.|The room became clean.
+鶴|grou|crane (bird)|カク|つる|N1|8|21|鶴:つる:grou:crane¦折り鶴:おりづる:tsuru de origami:origami crane¦千羽鶴:せんばづる:mil tsurus de papel:a thousand paper cranes|折り紙で鶴を作りました。|Fiz um tsuru de origami.|I made a crane out of origami.
+瞬|piscar; instante|blink; instant|シュン|またた.く|N1|8|18|瞬間:しゅんかん:instante:moment¦一瞬:いっしゅん:um instante:an instant¦瞬く:またたく:cintilar:to twinkle|一瞬、何も見えませんでした。|Por um instante, não consegui ver nada.|For an instant, I couldn't see anything.
+概|geral; aproximado|general; approximate|ガイ|—|N1|8|14|概要:がいよう:resumo:outline¦大概:たいがい:geralmente:generally¦概念:がいねん:conceito:concept|会議の概要を説明します。|Vou explicar o resumo da reunião.|I will explain the outline of the meeting.
+奨|incentivar|encourage|ショウ|—|N1|8|13|奨学金:しょうがくきん:bolsa de estudos:scholarship¦推奨:すいしょう:recomendação:recommendation¦奨励:しょうれい:incentivo:encouragement|奨学金をもらって留学しました。|Estudei no exterior com uma bolsa de estudos.|I studied abroad on a scholarship.
+繊|fibra; fino|fiber; slender|セン|—|N1|8|17|繊維:せんい:fibra:fiber¦繊細:せんさい:delicado; sensível:delicate; sensitive|彼女はとても繊細な人です。|Ela é uma pessoa muito sensível.|She is a very sensitive person.
+岳|pico; montanha alta|peak|ガク|たけ|N1|8|8|山岳:さんがく:montanhas:mountains¦岳:たけ:pico:peak¦谷川岳:たにがわだけ:Monte Tanigawa:Mount Tanigawa|山岳地帯を旅行しました。|Viajei por uma região montanhosa.|I traveled through a mountainous region.
+霧|névoa; neblina|fog; mist|ム|きり|N1|8|19|霧:きり:neblina:fog¦濃霧:のうむ:neblina densa:dense fog¦霧雨:きりさめ:garoa:drizzle|朝は霧で何も見えませんでした。|De manhã, com a neblina, não se via nada.|In the morning I couldn't see anything because of the fog.
+朝|manhã|morning|チョウ|あさ|N4|2|12|朝:あさ:manhã:morning¦毎朝:まいあさ:todas as manhãs:every morning¦朝食:ちょうしょく:café da manhã:breakfast|朝、コーヒーを飲みます。|De manhã, tomo café.|I drink coffee in the morning.
+昼|meio-dia; dia|noon; daytime|チュウ|ひる|N4|2|9|昼:ひる:meio-dia:noon¦昼ご飯:ひるごはん:almoço:lunch¦昼食:ちゅうしょく:almoço:lunch|昼ご飯を一緒に食べましょう。|Vamos almoçar juntos.|Let's have lunch together.
+夜|noite|night|ヤ|よる,よ|N4|2|8|夜:よる:noite:night¦今夜:こんや:esta noite:tonight¦夜中:よなか:madrugada:middle of the night|夜は静かです。|À noite é tranquilo.|It's quiet at night.
+夕|entardecer|evening|セキ|ゆう|N4|1|3|夕方:ゆうがた:fim de tarde:evening¦夕日:ゆうひ:sol poente:setting sun¦夕食:ゆうしょく:jantar:dinner|夕方に友達が来ます。|Um amigo vem no fim da tarde.|A friend is coming in the evening.
+春|primavera|spring|シュン|はる|N4|2|9|春:はる:primavera:spring¦春休み:はるやすみ:férias de primavera:spring break¦青春:せいしゅん:juventude:youth|春になると桜が咲きます。|Quando chega a primavera, as cerejeiras florescem.|When spring comes, the cherry trees bloom.
+夏|verão|summer|カ,ゲ|なつ|N4|2|10|夏:なつ:verão:summer¦夏休み:なつやすみ:férias de verão:summer vacation¦真夏:まなつ:pleno verão:midsummer|夏休みに海へ行きます。|Nas férias de verão vou à praia.|I'll go to the beach during summer vacation.
+秋|outono|autumn|シュウ|あき|N4|2|9|秋:あき:outono:autumn¦秋分:しゅうぶん:equinócio de outono:autumn equinox¦初秋:しょしゅう:início do outono:early autumn|秋は涼しくて気持ちがいいです。|O outono é fresco e agradável.|Autumn is cool and pleasant.
+冬|inverno|winter|トウ|ふゆ|N4|2|5|冬:ふゆ:inverno:winter¦冬休み:ふゆやすみ:férias de inverno:winter break¦真冬:まふゆ:pleno inverno:midwinter|冬はスキーをします。|No inverno eu esquio.|I ski in winter.
+晴|céu limpo|clear weather|セイ|は.れる,は.らす|N4|2|12|晴れ:はれ:tempo bom:sunny weather¦晴れる:はれる:clarear (o tempo):to clear up¦快晴:かいせい:céu totalmente limpo:clear sky|明日は晴れるでしょう。|Amanhã deve fazer sol.|It will probably be sunny tomorrow.
+犬|cão|dog|ケン|いぬ|N4|1|4|犬:いぬ:cão:dog¦子犬:こいぬ:filhote de cachorro:puppy¦番犬:ばんけん:cão de guarda:watchdog|犬を飼っています。|Tenho um cachorro.|I have a dog.
+牛|vaca; boi|cow|ギュウ|うし|N4|2|4|牛:うし:vaca; boi:cow¦牛乳:ぎゅうにゅう:leite:milk¦牛肉:ぎゅうにく:carne bovina:beef|毎朝牛乳を飲みます。|Tomo leite todas as manhãs.|I drink milk every morning.
+鳥|pássaro|bird|チョウ|とり|N4|2|11|鳥:とり:pássaro:bird¦小鳥:ことり:passarinho:small bird¦白鳥:はくちょう:cisne:swan|木の上に鳥がいます。|Há um pássaro na árvore.|There is a bird in the tree.
+音|som|sound|オン,イン|おと,ね|N4|1|9|音:おと:som:sound¦音楽:おんがく:música:music¦発音:はつおん:pronúncia:pronunciation|変な音が聞こえます。|Estou ouvindo um barulho estranho.|I can hear a strange sound.
+歌|canção; cantar|song; sing|カ|うた,うた.う|N4|2|14|歌:うた:canção:song¦歌う:うたう:cantar:to sing¦歌手:かしゅ:cantor:singer|みんなで歌を歌いました。|Cantamos uma música todos juntos.|We all sang a song together.
+色|cor|color|ショク,シキ|いろ|N4|2|6|色:いろ:cor:color¦茶色:ちゃいろ:marrom:brown¦景色:けしき:paisagem:scenery|どの色が好きですか。|De que cor você gosta?|Which color do you like?
+服|roupa|clothes|フク|—|N4|3|8|服:ふく:roupa:clothes¦洋服:ようふく:roupa ocidental:Western clothes¦制服:せいふく:uniforme:uniform|新しい服を買いました。|Comprei roupas novas.|I bought new clothes.
+紙|papel|paper|シ|かみ|N4|2|10|紙:かみ:papel:paper¦手紙:てがみ:carta:letter¦和紙:わし:papel japonês:Japanese paper|友達に手紙を書きました。|Escrevi uma carta para um amigo.|I wrote a letter to a friend.
+写|copiar; fotografar|copy; photograph|シャ|うつ.す,うつ.る|N4|3|5|写真:しゃしん:foto:photo¦写す:うつす:copiar:to copy¦複写:ふくしゃ:cópia:copy|写真を撮ってもいいですか。|Posso tirar uma foto?|May I take a photo?
+真|verdade; real|true; real|シン|ま|N4|3|10|写真:しゃしん:foto:photo¦真ん中:まんなか:bem no meio:right in the middle¦真実:しんじつ:verdade:truth|机の真ん中に花を置きました。|Coloquei flores bem no meio da mesa.|I put flowers right in the middle of the table.
+図|desenho; mapa|diagram; map|ズ,ト|はか.る|N4|2|7|地図:ちず:mapa:map¦図書館:としょかん:biblioteca:library¦図:ず:figura:figure|地図を見せてください。|Me mostre o mapa, por favor.|Please show me the map.
+館|edifício público|building; hall|カン|やかた|N4|3|16|図書館:としょかん:biblioteca:library¦映画館:えいがかん:cinema:movie theater¦旅館:りょかん:pousada japonesa:Japanese inn|図書館で勉強します。|Estudo na biblioteca.|I study at the library.
+銀|prata|silver|ギン|—|N4|3|14|銀行:ぎんこう:banco:bank¦銀:ぎん:prata:silver¦銀色:ぎんいろ:prateado:silver (color)|銀行は九時に開きます。|O banco abre às nove.|The bank opens at nine.
+病|doença|illness|ビョウ,ヘイ|や.む,やまい|N4|3|10|病気:びょうき:doença:illness¦病院:びょういん:hospital:hospital¦病人:びょうにん:doente:sick person|病気で学校を休みました。|Faltei à escola porque estava doente.|I missed school because I was sick.
+医|medicina|medicine; doctor|イ|—|N4|3|7|医者:いしゃ:médico:doctor¦医学:いがく:medicina:medical science¦歯医者:はいしゃ:dentista:dentist|明日、歯医者に行きます。|Amanhã vou ao dentista.|I'm going to the dentist tomorrow.
+動|mover|move|ドウ|うご.く,うご.かす|N4|3|11|動く:うごく:mover-se; funcionar:to move; to work¦動物:どうぶつ:animal:animal¦運動:うんどう:exercício:exercise|このパソコンは動きません。|Este computador não funciona.|This computer doesn't work.
+運|transportar; sorte|carry; luck|ウン|はこ.ぶ|N4|3|12|運ぶ:はこぶ:carregar:to carry¦運動:うんどう:exercício:exercise¦運転:うんてん:dirigir:driving|この箱を運んでください。|Carregue esta caixa, por favor.|Please carry this box.
+送|enviar|send|ソウ|おく.る|N4|3|9|送る:おくる:enviar:to send¦放送:ほうそう:transmissão:broadcast¦送料:そうりょう:frete:shipping fee|母にメールを送りました。|Mandei um e-mail para minha mãe.|I sent an e-mail to my mother.
+急|urgente; rápido|hurry; sudden|キュウ|いそ.ぐ|N4|3|9|急ぐ:いそぐ:apressar-se:to hurry¦急行:きゅうこう:trem expresso:express train¦急に:きゅうに:de repente:suddenly|急いでください。|Apresse-se, por favor.|Please hurry.
+止|parar|stop|シ|と.まる,と.める|N4|2|4|止まる:とまる:parar:to stop¦中止:ちゅうし:cancelamento:cancellation¦止める:とめる:parar (algo):to stop (something)|雨で試合が中止になりました。|O jogo foi cancelado por causa da chuva.|The game was canceled because of the rain.
+起|levantar; acordar|wake up; rise|キ|お.きる,お.こす|N4|3|10|起きる:おきる:acordar; levantar-se:to get up¦起こす:おこす:acordar (alguém):to wake someone¦起立:きりつ:ficar de pé:standing up|毎朝七時に起きます。|Acordo às sete todas as manhãs.|I get up at seven every morning.
+着|vestir; chegar|wear; arrive|チャク|き.る,つ.く|N4|3|12|着る:きる:vestir:to wear¦着く:つく:chegar:to arrive¦下着:したぎ:roupa íntima:underwear|駅に着いたら電話します。|Ligo quando chegar à estação.|I'll call when I arrive at the station.
+旅|viagem|travel|リョ|たび|N4|3|10|旅行:りょこう:viagem:trip¦旅:たび:jornada:journey¦旅館:りょかん:pousada japonesa:Japanese inn|家族と旅行に行きました。|Viajei com a família.|I went on a trip with my family.
+族|família; clã|family; tribe|ゾク|—|N4|3|11|家族:かぞく:família:family¦民族:みんぞく:etnia:ethnic group¦水族館:すいぞくかん:aquário:aquarium|週末、水族館に行きました。|No fim de semana fui ao aquário.|I went to the aquarium on the weekend.
+集|reunir|gather|シュウ|あつ.まる,あつ.める|N4|3|12|集める:あつめる:colecionar; reunir:to collect¦集まる:あつまる:reunir-se:to gather¦集中:しゅうちゅう:concentração:concentration|切手を集めています。|Coleciono selos.|I collect stamps.
+別|separar; outro|separate; another|ベツ|わか.れる|N4|4|7|別:べつ:outro; diferente:another¦別れる:わかれる:separar-se:to part¦特別:とくべつ:especial:special|別の日にしましょう。|Vamos marcar para outro dia.|Let's make it another day.
+借|pegar emprestado|borrow|シャク|か.りる|N4|4|10|借りる:かりる:pegar emprestado:to borrow¦借金:しゃっきん:dívida:debt|図書館で本を借りました。|Peguei um livro emprestado na biblioteca.|I borrowed a book from the library.
+貸|emprestar|lend|タイ|か.す|N4|5|12|貸す:かす:emprestar:to lend¦貸し出し:かしだし:empréstimo:lending¦賃貸:ちんたい:aluguel:rental|ペンを貸してください。|Me empresta uma caneta, por favor.|Please lend me a pen.
+計|medir; calcular|measure; plan|ケイ|はか.る|N4|2|9|時計:とけい:relógio:clock¦計画:けいかく:plano:plan¦合計:ごうけい:total:total|夏休みの計画を立てました。|Fiz os planos para as férias de verão.|I made plans for summer vacation.
+試|testar|test; try|シ|こころ.みる,ため.す|N4|4|13|試験:しけん:prova; exame:exam¦試合:しあい:jogo; partida:match¦試す:ためす:experimentar:to try|来週、試験があります。|Tenho prova semana que vem.|I have an exam next week.
+験|verificar; efeito|verify; test|ケン,ゲン|—|N4|4|18|試験:しけん:prova; exame:exam¦経験:けいけん:experiência:experience¦実験:じっけん:experimento:experiment|日本で働いた経験があります。|Tenho experiência de trabalho no Japão.|I have experience working in Japan.
+題|tema; título|topic; title|ダイ|—|N4|3|18|問題:もんだい:problema; questão:problem¦宿題:しゅくだい:lição de casa:homework¦話題:わだい:assunto:topic|宿題が多いです。|Tenho muita lição de casa.|I have a lot of homework.
+質|qualidade; natureza|quality; nature|シツ,シチ|—|N4|5|15|質問:しつもん:pergunta:question¦品質:ひんしつ:qualidade:quality¦性質:せいしつ:natureza; caráter:nature|先生に質問しました。|Fiz uma pergunta ao professor.|I asked the teacher a question.
+研|polir; pesquisar|polish; study|ケン|と.ぐ|N4|3|9|研究:けんきゅう:pesquisa:research¦研修:けんしゅう:treinamento:training|大学で日本語を研究しています。|Pesquiso a língua japonesa na universidade.|I do research on Japanese at university.
+究|investigar|research|キュウ|きわ.める|N4|3|7|研究:けんきゅう:pesquisa:research¦究明:きゅうめい:esclarecimento:investigation|兄は大学で研究をしています。|Meu irmão mais velho faz pesquisa na universidade.|My older brother does research at university.
+勉|esforço|exertion|ベン|—|N4|3|10|勉強:べんきょう:estudo:study¦勤勉:きんべん:dedicado:diligent|毎晩二時間勉強します。|Estudo duas horas todas as noites.|I study for two hours every night.
+漢|China (Han)|China; Han|カン|—|N4|3|13|漢字:かんじ:kanji:kanji¦漢方:かんぽう:medicina tradicional chinesa:Chinese herbal medicine|漢字を覚えるのは楽しいです。|Decorar kanji é divertido.|Memorizing kanji is fun.
+料|material; taxa|fee; materials|リョウ|—|N4|4|10|料理:りょうり:culinária:cooking¦料金:りょうきん:tarifa:fare; fee¦材料:ざいりょう:ingredientes:ingredients|父は料理が上手です。|Meu pai cozinha bem.|My father is good at cooking.
+堂|salão|hall|ドウ|—|N4|4|11|食堂:しょくどう:refeitório:cafeteria¦講堂:こうどう:auditório:auditorium¦堂々:どうどう:imponente:dignified|学校の食堂で昼ご飯を食べます。|Almoço no refeitório da escola.|I eat lunch in the school cafeteria.
+屋|loja; telhado|shop; roof|オク|や|N4|3|9|部屋:へや:quarto:room¦本屋:ほんや:livraria:bookstore¦屋上:おくじょう:terraço (cobertura):rooftop|駅の前に本屋があります。|Há uma livraria em frente à estação.|There is a bookstore in front of the station.
+広|largo; amplo|wide|コウ|ひろ.い|N4|2|5|広い:ひろい:amplo:wide¦広場:ひろば:praça:plaza¦広告:こうこく:anúncio:advertisement|この部屋は広いですね。|Este quarto é amplo, né?|This room is spacious, isn't it?
+建|construir|build|ケン,コン|た.てる,た.つ|N4|4|9|建物:たてもの:prédio:building¦建てる:たてる:construir:to build|あの建物は病院です。|Aquele prédio é um hospital.|That building is a hospital.
+地|terra; chão|ground; earth|チ,ジ|—|N4|2|6|地図:ちず:mapa:map¦地下鉄:ちかてつ:metrô:subway¦地震:じしん:terremoto:earthquake|地下鉄で会社に行きます。|Vou para a empresa de metrô.|I go to work by subway.
+池|lago pequeno|pond|チ|いけ|N4|2|6|池:いけ:lago; lagoa:pond¦電池:でんち:pilha:battery|池に魚がたくさんいます。|Há muitos peixes no lago.|There are many fish in the pond.
+工|trabalho; construção|craft; construction|コウ,ク|—|N4|2|3|工場:こうじょう:fábrica:factory¦工事:こうじ:obra:construction work¦大工:だいく:carpinteiro:carpenter|父は工場で働いています。|Meu pai trabalha numa fábrica.|My father works at a factory.
+代|substituir; época; taxa|replace; era; fee|ダイ,タイ|か.わる,よ|N4|3|5|時代:じだい:época:era¦代わり:かわり:substituto:substitute¦電気代:でんきだい:conta de luz:electricity bill|江戸時代について勉強しています。|Estou estudando o período Edo.|I'm studying the Edo period.
+主|principal; dono|main; master|シュ|ぬし,おも|N4|3|5|主人:しゅじん:marido; dono:husband; owner¦主に:おもに:principalmente:mainly¦主語:しゅご:sujeito (gramática):subject|週末は主に家にいます。|Nos fins de semana fico principalmente em casa.|I'm mainly at home on weekends.
+公|público|public|コウ|おおやけ|N4|2|4|公園:こうえん:parque:park¦公共:こうきょう:público:public¦主人公:しゅじんこう:protagonista:main character|公園で子供たちが遊んでいます。|As crianças estão brincando no parque.|The children are playing in the park.
+以|a partir de; por meio de|by means of; since|イ|—|N4|4|5|以上:いじょう:acima de; mais de:or more¦以下:いか:abaixo de:or less¦以外:いがい:exceto:except|十八歳以上の人が入れます。|Podem entrar pessoas com 18 anos ou mais.|People aged 18 or over can enter.
+用|usar; assunto|use; business|ヨウ|もち.いる|N4|2|5|用事:ようじ:compromisso:errand¦利用:りよう:uso:use¦用意:ようい:preparação:preparation|今日は用事があります。|Hoje tenho um compromisso.|I have something to do today.
+度|grau; vez|degree; time|ド,タク|たび|N4|3|9|今度:こんど:da próxima vez:next time¦温度:おんど:temperatura:temperature¦一度:いちど:uma vez:once|今度、一緒に行きましょう。|Da próxima vez, vamos juntos.|Let's go together next time.
+正|correto|correct|セイ,ショウ|ただ.しい,まさ|N4|1|5|正しい:ただしい:correto:correct¦お正月:おしょうがつ:Ano-Novo:New Year¦正直:しょうじき:honesto:honest|正しい答えを選んでください。|Escolha a resposta correta.|Please choose the correct answer.
+元|origem; início|origin; former|ゲン,ガン|もと|N4|2|4|元気:げんき:bem-disposto:healthy¦元日:がんじつ:1º de janeiro:New Year's Day¦地元:じもと:terra natal:hometown|みんな元気です。|Todos estão bem.|Everyone is well.
+重|pesado; importante|heavy; important|ジュウ,チョウ|おも.い,かさ.ねる|N4|3|9|重い:おもい:pesado:heavy¦重要:じゅうよう:importante:important¦体重:たいじゅう:peso corporal:body weight|このかばんはとても重いです。|Esta bolsa é muito pesada.|This bag is very heavy.
+特|especial|special|トク|—|N4|4|10|特に:とくに:especialmente:especially¦特別:とくべつ:especial:special¦特急:とっきゅう:trem expresso limitado:limited express|日本料理、特にすしが好きです。|Gosto de comida japonesa, especialmente sushi.|I like Japanese food, especially sushi.
+品|artigo; qualidade|goods; quality|ヒン|しな|N4|3|9|品物:しなもの:mercadoria:goods¦食品:しょくひん:alimento:food product¦作品:さくひん:obra:work (of art)|この店は品物が多いです。|Esta loja tem muitas mercadorias.|This store has a lot of goods.
+死|morte; morrer|death; die|シ|し.ぬ|N4|3|6|死ぬ:しぬ:morrer:to die¦死亡:しぼう:óbito:death¦必死:ひっし:desesperado:desperate|水がなくて花が死んでしまいました。|A flor morreu por falta de água.|The flower died from lack of water.
+発|partir; emitir|depart; emit|ハツ,ホツ|—|N4|3|9|出発:しゅっぱつ:partida:departure¦発音:はつおん:pronúncia:pronunciation¦発表:はっぴょう:apresentação:presentation|バスは八時に出発します。|O ônibus parte às oito.|The bus departs at eight.
+注|despejar; atenção|pour; attention|チュウ|そそ.ぐ|N4|3|8|注意:ちゅうい:atenção:caution¦注文:ちゅうもん:pedido:order¦注ぐ:そそぐ:despejar:to pour|車に注意してください。|Cuidado com os carros.|Please watch out for cars.
+洋|oceano; ocidental|ocean; Western|ヨウ|—|N4|3|9|洋服:ようふく:roupa ocidental:Western clothes¦西洋:せいよう:Ocidente:the West¦太平洋:たいへいよう:Oceano Pacífico:Pacific Ocean|日本は太平洋にあります。|O Japão fica no Oceano Pacífico.|Japan is in the Pacific Ocean.
+映|refletir; projetar|reflect; project|エイ|うつ.る,うつ.す,は.える|N4|6|9|映画:えいが:filme:movie¦映る:うつる:refletir-se:to be reflected¦反映:はんえい:reflexo:reflection|週末に映画を見ました。|Vi um filme no fim de semana.|I watched a movie on the weekend.
+画|desenho; traço|picture; stroke|ガ,カク|—|N4|2|8|映画:えいが:filme:movie¦画家:がか:pintor:painter¦計画:けいかく:plano:plan|この画家の絵が好きです。|Gosto das pinturas deste pintor.|I like this painter's pictures.
+台|base; contador de máquinas|stand; counter for machines|ダイ,タイ|—|N4|2|5|台所:だいどころ:cozinha:kitchen¦台風:たいふう:tufão:typhoon¦一台:いちだい:uma unidade (máquina):one (machine)|車が二台あります。|Há dois carros.|There are two cars.
+不|não; in-|not; un-|フ,ブ|—|N4|4|4|不便:ふべん:inconveniente:inconvenient¦不安:ふあん:ansiedade:anxiety¦不足:ふそく:falta:shortage|ここは駅から遠くて不便です。|Aqui é longe da estação e inconveniente.|It's inconvenient here because it's far from the station.
+信|confiar; crer|trust; believe|シン|—|N3|4|9|信じる:しんじる:acreditar:to believe¦自信:じしん:autoconfiança:confidence¦信号:しんごう:semáforo:traffic light|私はあなたを信じています。|Eu acredito em você.|I believe in you.
+相|mútuo; aparência|mutual; minister|ソウ,ショウ|あい|N3|3|9|相手:あいて:parceiro; oponente:partner¦相談:そうだん:consulta:consultation¦首相:しゅしょう:primeiro-ministro:prime minister|先生に相談しました。|Pedi conselho ao professor.|I consulted with my teacher.
+想|pensar; imaginar|concept; imagine|ソウ,ソ|—|N3|3|13|思想:しそう:pensamento; ideologia:thought¦予想:よそう:previsão:expectation¦感想:かんそう:impressão:impression|映画の感想を教えてください。|Me conte o que achou do filme.|Please tell me your impressions of the movie.
+感|sentir|feeling|カン|—|N3|3|13|感じる:かんじる:sentir:to feel¦感謝:かんしゃ:gratidão:gratitude¦感動:かんどう:emoção:being moved|この映画に感動しました。|Fiquei emocionado com este filme.|I was moved by this movie.
+情|emoção; circunstância|emotion; situation|ジョウ,セイ|なさ.け|N3|5|11|感情:かんじょう:emoção:emotion¦情報:じょうほう:informação:information¦友情:ゆうじょう:amizade:friendship|インターネットで情報を調べます。|Pesquiso informações na internet.|I look up information on the internet.
+性|natureza; sexo|nature; gender|セイ,ショウ|さが|N3|5|8|女性:じょせい:mulher:woman¦性格:せいかく:personalidade:personality¦可能性:かのうせい:possibilidade:possibility|彼は明るい性格です。|Ele tem uma personalidade alegre.|He has a cheerful personality.
+決|decidir|decide|ケツ|き.める,き.まる|N3|3|7|決める:きめる:decidir:to decide¦決まる:きまる:ser decidido:to be decided¦解決:かいけつ:solução:solution|旅行の日を決めました。|Decidi a data da viagem.|I decided on the date of the trip.
+定|fixar; determinar|fix; determine|テイ,ジョウ|さだ.める|N3|3|8|予定:よてい:plano; programação:plan¦決定:けってい:decisão:decision¦定食:ていしょく:prato feito:set meal|明日の予定は何ですか。|Qual é a sua programação para amanhã?|What are your plans for tomorrow?
+回|girar; vez|turn; times|カイ,エ|まわ.る,まわ.す|N3|2|6|一回:いっかい:uma vez:once¦回る:まわる:girar:to turn¦今回:こんかい:desta vez:this time|一日に三回歯をみがきます。|Escovo os dentes três vezes por dia.|I brush my teeth three times a day.
+実|realidade; fruto|reality; fruit|ジツ|み,みの.る|N3|3|8|実は:じつは:na verdade:actually¦事実:じじつ:fato:fact¦実:み:fruto:fruit|実は、明日引っ越します。|Na verdade, vou me mudar amanhã.|Actually, I'm moving tomorrow.
+取|pegar|take|シュ|と.る|N3|3|8|取る:とる:pegar:to take¦取り消す:とりけす:cancelar:to cancel¦受け取る:うけとる:receber:to receive|塩を取ってください。|Me passe o sal, por favor.|Please pass me the salt.
+受|receber|receive|ジュ|う.ける,う.かる|N3|3|8|受ける:うける:receber; fazer (prova):to receive; to take (an exam)¦受付:うけつけ:recepção:reception¦受験:じゅけん:prestar exame:taking an exam|来月、日本語の試験を受けます。|No mês que vem vou fazer uma prova de japonês.|Next month I will take a Japanese exam.
+投|lançar|throw|トウ|な.げる|N3|3|7|投げる:なげる:arremessar:to throw¦投票:とうひょう:votação:vote|ボールを投げてください。|Jogue a bola, por favor.|Please throw the ball.
+指|dedo; apontar|finger; point|シ|ゆび,さ.す|N3|3|9|指:ゆび:dedo:finger¦指す:さす:apontar:to point¦指輪:ゆびわ:anel:ring|地図のここを指してください。|Aponte este lugar no mapa, por favor.|Please point to this place on the map.
+打|bater|hit|ダ|う.つ|N3|3|5|打つ:うつ:bater:to hit¦打ち合わせ:うちあわせ:reunião preparatória:meeting|彼はボールを強く打ちました。|Ele bateu forte na bola.|He hit the ball hard.
+付|anexar; colar|attach|フ|つ.ける,つ.く|N3|4|5|付ける:つける:colar; acender:to attach; to turn on¦受付:うけつけ:recepção:reception¦付近:ふきん:arredores:vicinity|名前を付けてください。|Dê um nome, por favor.|Please give it a name.
+係|encarregado; relação|person in charge; relation|ケイ|かか.り|N3|3|9|係:かかり:encarregado:person in charge¦関係:かんけい:relação:relationship|それは私と関係ありません。|Isso não tem relação comigo.|That has nothing to do with me.
+例|exemplo|example|レイ|たと.える|N3|4|8|例:れい:exemplo:example¦例えば:たとえば:por exemplo:for example¦例外:れいがい:exceção:exception|例えば、すしや天ぷらが好きです。|Gosto, por exemplo, de sushi e tempurá.|I like, for example, sushi and tempura.
+位|posição; lugar|rank; place|イ|くらい|N3|4|7|一位:いちい:primeiro lugar:first place¦位置:いち:posição:position¦地位:ちい:status:status|マラソンで一位になりました。|Fiquei em primeiro lugar na maratona.|I came in first in the marathon.
+伝|transmitir|transmit|デン|つた.える,つた.わる|N3|4|6|伝える:つたえる:transmitir; avisar:to convey¦手伝う:てつだう:ajudar:to help¦伝統:でんとう:tradição:tradition|母の料理を手伝いました。|Ajudei minha mãe a cozinhar.|I helped my mother cook.
+化|transformar|change|カ,ケ|ば.ける|N3|3|4|文化:ぶんか:cultura:culture¦変化:へんか:mudança:change¦化学:かがく:química:chemistry|日本の文化を学びたいです。|Quero aprender a cultura japonesa.|I want to learn Japanese culture.
+活|vida; atividade|lively; activity|カツ|—|N3|2|9|生活:せいかつ:vida (cotidiana):daily life¦活動:かつどう:atividade:activity¦部活:ぶかつ:atividade de clube:club activities|日本の生活に慣れました。|Me acostumei à vida no Japão.|I've gotten used to life in Japan.
+流|fluir|flow|リュウ,ル|なが.れる,なが.す|N3|3|10|流れる:ながれる:fluir:to flow¦交流:こうりゅう:intercâmbio:exchange¦流行:りゅうこう:moda:trend|この川はゆっくり流れています。|Este rio corre devagar.|This river flows slowly.
+消|apagar; desaparecer|extinguish; erase|ショウ|け.す,き.える|N3|3|10|消す:けす:apagar; desligar:to turn off; to erase¦消える:きえる:desaparecer:to disappear¦消しゴム:けしゴム:borracha:eraser|テレビを消してください。|Desligue a televisão, por favor.|Please turn off the TV.
+深|profundo|deep|シン|ふか.い|N3|3|11|深い:ふかい:profundo:deep¦深夜:しんや:madrugada:late night¦深刻:しんこく:grave:serious|この湖はとても深いです。|Este lago é muito profundo.|This lake is very deep.
+泳|nadar|swim|エイ|およ.ぐ|N3|3|8|泳ぐ:およぐ:nadar:to swim¦水泳:すいえい:natação:swimming|海で泳ぐのが好きです。|Gosto de nadar no mar.|I like swimming in the sea.
+港|porto|harbor|コウ|みなと|N3|3|12|港:みなと:porto:harbor¦空港:くうこう:aeroporto:airport¦港町:みなとまち:cidade portuária:port town|空港まで一時間かかります。|Leva uma hora até o aeroporto.|It takes an hour to get to the airport.
+温|morno; quente|warm|オン|あたた.かい,あたた.める|N3|3|12|温かい:あたたかい:quente (morno):warm¦温度:おんど:temperatura:temperature¦温泉:おんせん:fonte termal:hot spring|温泉に入りたいです。|Quero entrar numa fonte termal.|I want to go into a hot spring.
+笑|rir; sorrir|laugh; smile|ショウ|わら.う,え.む|N3|4|10|笑う:わらう:rir:to laugh¦笑顔:えがお:sorriso:smiling face¦微笑む:ほほえむ:sorrir:to smile|みんなが大きな声で笑いました。|Todos riram alto.|Everyone laughed out loud.
+箱|caixa|box|ソウ|はこ|N3|3|15|箱:はこ:caixa:box¦本箱:ほんばこ:estante de livros:bookcase¦ゴミ箱:ゴミばこ:lixeira:trash can|この箱に本を入れてください。|Coloque os livros nesta caixa, por favor.|Please put the books in this box.
+若|jovem|young|ジャク,ニャク|わか.い|N3|6|8|若い:わかい:jovem:young¦若者:わかもの:jovem (pessoa):young person|祖母は若く見えます。|Minha avó parece jovem.|My grandmother looks young.
+苦|amargo; sofrimento|bitter; suffering|ク|くる.しい,にが.い|N3|3|8|苦い:にがい:amargo:bitter¦苦しい:くるしい:penoso:painful¦苦手:にがて:ponto fraco:weak point|私は数学が苦手です。|Não sou bom em matemática.|I'm not good at math.
+落|cair|fall|ラク|お.ちる,お.とす|N3|3|12|落ちる:おちる:cair:to fall¦落とす:おとす:deixar cair:to drop¦落語:らくご:rakugo (narrativa cômica):rakugo storytelling|財布を落としました。|Deixei cair a carteira.|I dropped my wallet.
+葉|folha|leaf|ヨウ|は|N3|3|12|葉:は:folha:leaf¦言葉:ことば:palavra:word¦紅葉:こうよう:folhas de outono:autumn leaves|秋になると葉が赤くなります。|No outono as folhas ficam vermelhas.|In autumn the leaves turn red.
+願|pedir; desejo|request; wish|ガン|ねが.う|N3|4|19|お願い:おねがい:por favor; pedido:please; request¦願う:ねがう:desejar:to wish¦願書:がんしょ:formulário de inscrição:application form|よろしくお願いします。|Conto com você.|I look forward to working with you.
+類|tipo; espécie|kind; sort|ルイ|たぐ.い|N3|4|18|種類:しゅるい:tipo:kind¦書類:しょるい:documentos:documents¦人類:じんるい:humanidade:humankind|この店にはいろいろな種類のパンがあります。|Esta loja tem vários tipos de pão.|This shop has many kinds of bread.
+横|lado; horizontal|side; horizontal|オウ|よこ|N3|3|15|横:よこ:lado:side¦横断歩道:おうだんほどう:faixa de pedestres:crosswalk|駅の横にコンビニがあります。|Há uma loja de conveniência ao lado da estação.|There is a convenience store next to the station.
+橋|ponte|bridge|キョウ|はし|N3|3|16|橋:はし:ponte:bridge¦歩道橋:ほどうきょう:passarela:pedestrian bridge¦鉄橋:てっきょう:ponte ferroviária:railway bridge|川に古い橋があります。|Há uma ponte antiga sobre o rio.|There is an old bridge over the river.
+機|máquina; ocasião|machine; opportunity|キ|はた|N3|4|16|機械:きかい:máquina:machine¦飛行機:ひこうき:avião:airplane¦機会:きかい:oportunidade:opportunity|飛行機で日本へ行きます。|Vou ao Japão de avião.|I'm going to Japan by plane.
+泣|chorar|cry|キュウ|な.く|N3|4|8|泣く:なく:chorar:to cry¦泣き声:なきごえ:choro:crying voice|赤ちゃんが泣いています。|O bebê está chorando.|The baby is crying.
+鳴|cantar (animal); soar|chirp; ring|メイ|な.く,な.る|N3|2|14|鳴く:なく:cantar (animal):to chirp¦鳴る:なる:tocar (som):to ring¦悲鳴:ひめい:grito:scream|電話が鳴っています。|O telefone está tocando.|The phone is ringing.
+洗|lavar|wash|セン|あら.う|N3|6|9|洗う:あらう:lavar:to wash¦洗濯:せんたく:lavar roupa:laundry¦お手洗い:おてあらい:banheiro:restroom|お手洗いはどこですか。|Onde fica o banheiro?|Where is the restroom?
+寝|dormir|sleep|シン|ね.る,ね.かす|N3|8|13|寝る:ねる:dormir:to sleep¦昼寝:ひるね:cochilo:nap¦寝坊:ねぼう:dormir demais:oversleeping|昨日は早く寝ました。|Ontem dormi cedo.|I went to bed early yesterday.
+薬|remédio|medicine|ヤク|くすり|N3|3|16|薬:くすり:remédio:medicine¦薬局:やっきょく:farmácia:pharmacy¦薬指:くすりゆび:dedo anelar:ring finger|この薬を一日三回飲んでください。|Tome este remédio três vezes ao dia.|Please take this medicine three times a day.
+馬|cavalo|horse|バ|うま,ま|N3|2|10|馬:うま:cavalo:horse¦競馬:けいば:corrida de cavalos:horse racing¦馬車:ばしゃ:carruagem:carriage|馬に乗ったことがありますか。|Você já andou a cavalo?|Have you ever ridden a horse?
+王|rei|king|オウ|—|N3|1|4|王:おう:rei:king¦王様:おうさま:rei:king¦女王:じょおう:rainha:queen|昔、この国には王様がいました。|Antigamente, este país tinha um rei.|Long ago, this country had a king.
+交|cruzar; trocar|cross; exchange|コウ|まじ.わる,ま.ぜる,か.わす|N3|2|6|交通:こうつう:trânsito:traffic¦交番:こうばん:posto policial:police box¦交換:こうかん:troca:exchange|道が分からない時は交番で聞きます。|Quando não sei o caminho, pergunto no posto policial.|When I don't know the way, I ask at the police box.
+河|rio (grande)|river|カ|かわ|N2|5|8|運河:うんが:canal:canal¦河川:かせん:rios:rivers¦銀河:ぎんが:galáxia:galaxy|夜空に銀河が見えました。|No céu noturno dava para ver a Via Láctea.|The Milky Way was visible in the night sky.
+浅|raso|shallow|セン|あさ.い|N2|4|9|浅い:あさい:raso:shallow¦遠浅:とおあさ:praia rasa:shoal beach|この川は浅いので安全です。|Este rio é raso, então é seguro.|This river is shallow, so it's safe.
+汗|suor|sweat|カン|あせ|N2|8|6|汗:あせ:suor:sweat¦汗をかく:あせをかく:suar:to sweat|走ったので汗をかきました。|Suei porque corri.|I sweated because I ran.
+松|pinheiro|pine|ショウ|まつ|N2|4|8|松:まつ:pinheiro:pine¦松竹梅:しょうちくばい:pinheiro, bambu e ameixeira:pine, bamboo and plum|庭に大きな松の木があります。|Há um grande pinheiro no jardim.|There is a big pine tree in the garden.
+枝|galho|branch|シ|えだ|N2|5|8|枝:えだ:galho:branch¦小枝:こえだ:graveto:twig|鳥が枝にとまっています。|Um pássaro está pousado no galho.|A bird is perched on the branch.
+植|plantar|plant|ショク|う.える|N2|3|12|植物:しょくぶつ:planta:plant¦植える:うえる:plantar:to plant|庭に花を植えました。|Plantei flores no jardim.|I planted flowers in the garden.
+棒|vara; bastão|stick; pole|ボウ|—|N2|6|12|棒:ぼう:vara:stick¦泥棒:どろぼう:ladrão:thief¦鉄棒:てつぼう:barra fixa:horizontal bar|泥棒に気をつけてください。|Cuidado com ladrões.|Watch out for thieves.
+粉|pó; farinha|powder; flour|フン|こ,こな|N2|5|10|粉:こな:pó:powder¦小麦粉:こむぎこ:farinha de trigo:wheat flour¦花粉:かふん:pólen:pollen|小麦粉でパンを作りました。|Fiz pão com farinha de trigo.|I made bread with wheat flour.
+糖|açúcar|sugar|トウ|—|N2|6|16|砂糖:さとう:açúcar:sugar¦糖分:とうぶん:teor de açúcar:sugar content|コーヒーに砂糖を入れますか。|Você põe açúcar no café?|Do you put sugar in your coffee?
+綿|algodão|cotton|メン|わた|N2|5|14|綿:めん:algodão:cotton¦綿菓子:わたがし:algodão-doce:cotton candy|このシャツは綿で作られています。|Esta camisa é feita de algodão.|This shirt is made of cotton.
+銅|cobre|copper|ドウ|—|N2|5|14|銅:どう:cobre:copper¦銅メダル:どうメダル:medalha de bronze:bronze medal|彼は銅メダルを取りました。|Ele ganhou a medalha de bronze.|He won the bronze medal.
+鉄|ferro|iron|テツ|—|N2|3|13|鉄:てつ:ferro:iron¦地下鉄:ちかてつ:metrô:subway¦鉄道:てつどう:ferrovia:railway|鉄道で旅行するのが好きです。|Gosto de viajar de trem.|I like traveling by rail.
+砂|areia|sand|サ,シャ|すな|N2|6|9|砂:すな:areia:sand¦砂糖:さとう:açúcar:sugar¦砂漠:さばく:deserto:desert|子供たちが砂で遊んでいます。|As crianças estão brincando na areia.|The children are playing in the sand.
+炭|carvão|charcoal|タン|すみ|N2|3|9|炭:すみ:carvão:charcoal¦石炭:せきたん:carvão mineral:coal¦炭酸:たんさん:gás carbônico:carbonation|炭で魚を焼きました。|Assei peixe no carvão.|I grilled fish over charcoal.
+燃|queimar|burn|ネン|も.える,も.やす|N2|5|16|燃える:もえる:queimar:to burn¦燃料:ねんりょう:combustível:fuel¦燃えるゴミ:もえるゴミ:lixo combustível:burnable trash|燃えるゴミは月曜日に出します。|O lixo combustível sai às segundas.|Burnable trash goes out on Mondays.
+焼|assar; queimar|bake; grill|ショウ|や.く,や.ける|N2|4|12|焼く:やく:assar; grelhar:to grill¦焼き鳥:やきとり:espetinho de frango:yakitori¦日焼け:ひやけ:bronzeado:suntan|パンを焼いています。|Estou assando pão.|I'm baking bread.
+紹|apresentar|introduce|ショウ|—|N2|8|11|紹介:しょうかい:apresentação:introduction¦自己紹介:じこしょうかい:autoapresentação:self-introduction|自己紹介をしてください。|Apresente-se, por favor.|Please introduce yourself.
+介|intermediar|mediate|カイ|—|N2|4|4|紹介:しょうかい:apresentação:introduction¦介護:かいご:cuidados (a idosos):nursing care¦仲介:ちゅうかい:mediação:mediation|友達を紹介します。|Vou apresentar um amigo.|I'll introduce a friend.
+竹|bambu|bamboo|チク|たけ|N2|1|6|竹:たけ:bambu:bamboo¦竹林:ちくりん:bambuzal:bamboo grove|京都の竹林はとてもきれいです。|O bambuzal de Quioto é muito bonito.|The bamboo grove in Kyoto is very beautiful.
+糸|fio|thread|シ|いと|N2|1|6|糸:いと:fio:thread¦毛糸:けいと:lã (fio):yarn|針と糸を貸してください。|Me empresta agulha e linha, por favor.|Please lend me a needle and thread.
+門|portão|gate|モン|かど|N2|2|8|門:もん:portão:gate¦専門:せんもん:especialidade:specialty¦正門:せいもん:portão principal:main gate|学校の門の前で待っています。|Estou esperando em frente ao portão da escola.|I'm waiting in front of the school gate.
+虫|inseto|insect|チュウ|むし|N2|1|6|虫:むし:inseto:insect¦昆虫:こんちゅう:inseto:insect¦虫歯:むしば:cárie:cavity|夏は虫が多いです。|No verão há muitos insetos.|There are many insects in summer.
+刀|faca; espada|sword; blade|トウ|かたな|N2|2|2|刀:かたな:espada:sword¦日本刀:にほんとう:espada japonesa:Japanese sword¦短刀:たんとう:punhal:dagger|博物館で日本刀を見ました。|Vi uma espada japonesa no museu.|I saw a Japanese sword at the museum.
+伐|derrubar; atacar|fell; attack|バツ|—|N1|8|6|伐採:ばっさい:corte de árvores:logging¦征伐:せいばつ:subjugação:conquest|森の木が伐採されました。|As árvores da floresta foram derrubadas.|The trees in the forest were cut down.
+峰|pico|peak|ホウ|みね|N1|8|10|峰:みね:pico:peak¦最高峰:さいこうほう:ponto mais alto:highest peak|富士山は日本の最高峰です。|O Monte Fuji é o ponto mais alto do Japão.|Mount Fuji is Japan's highest peak.
+謎|enigma|riddle|メイ|なぞ|N1|8|17|謎:なぞ:mistério; enigma:mystery¦謎々:なぞなぞ:charada:riddle|その事件は今も謎です。|Esse caso ainda é um mistério.|That incident is still a mystery.
+柿|caqui|persimmon|シ|かき|N1|8|9|柿:かき:caqui:persimmon¦干し柿:ほしがき:caqui seco:dried persimmon|秋は柿がおいしいです。|No outono o caqui é gostoso.|Persimmons are delicious in autumn.
+箸|hashi (palitos)|chopsticks|チョ|はし|N1|8|15|箸:はし:hashi:chopsticks¦割り箸:わりばし:hashi descartável:disposable chopsticks|箸を上手に使えますか。|Você sabe usar hashi direito?|Can you use chopsticks well?
+鍋|panela|pot|カ|なべ|N1|8|17|鍋:なべ:panela:pot¦鍋料理:なべりょうり:prato de panela (nabe):hot pot dish|冬は鍋料理が人気です。|No inverno, pratos de panela são populares.|Hot pot dishes are popular in winter.
+枕|travesseiro|pillow|チン|まくら|N1|8|8|枕:まくら:travesseiro:pillow¦枕元:まくらもと:cabeceira:bedside|この枕はとても柔らかいです。|Este travesseiro é muito macio.|This pillow is very soft.
+蜂|abelha; vespa|bee; wasp|ホウ|はち|N1|8|13|蜂:はち:abelha:bee¦蜂蜜:はちみつ:mel:honey|パンに蜂蜜をかけました。|Coloquei mel no pão.|I put honey on the bread.
+貝|concha; marisco|shellfish|—|かい|N1|1|7|貝:かい:marisco; concha:shellfish¦貝殻:かいがら:concha:seashell|海で貝殻を拾いました。|Peguei conchas na praia.|I picked up seashells at the beach.
+羊|ovelha|sheep|ヨウ|ひつじ|N1|3|6|羊:ひつじ:ovelha:sheep¦羊毛:ようもう:lã:wool¦子羊:こひつじ:cordeiro:lamb|牧場に羊がたくさんいます。|Há muitas ovelhas na fazenda.|There are many sheep on the ranch.

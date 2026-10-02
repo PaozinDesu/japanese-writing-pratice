@@ -1,0 +1,3535 @@
+{
+  "meta": {
+    "name": "Kaku — base de caracteres japoneses",
+    "schemaVersion": 2,
+    "generatedAt": "2026-09-27T01:25:52Z",
+    "romanization": "Hepburn em estilo wāpuro (vogais longas escritas por extenso: kyou, koohii)",
+    "categories": [
+      "hiragana",
+      "katakana",
+      "kanji"
+    ],
+    "groups": {
+      "basico": "Básicos",
+      "dakuten": "Dakuten (゛)",
+      "handakuten": "Handakuten (゜)",
+      "pequeno": "Pequenos",
+      "combinacao": "Combinações (yōon)",
+      "estrangeiro": "Sons estrangeiros",
+      "joyo": "Jōyō kanji"
+    },
+    "difficulty": {
+      "iniciante": "Iniciante",
+      "intermediario": "Intermediário",
+      "avancado": "Avançado"
+    },
+    "jlpt": [
+      "N5",
+      "N4",
+      "N3",
+      "N2",
+      "N1"
+    ],
+    "counts": {
+      "hiragana": 115,
+      "katakana": 139,
+      "kanji": 2136,
+      "total": 2390
+    },
+    "caveats": [
+      "Níveis JLPT são aproximados: desde 2010 o exame não publica listas oficiais de kanji; seguimos a classificação usual das listas de estudo.",
+      "“usage” (nível de uso) é derivado do nível JLPT, não de uma contagem de frequência em corpus.",
+      "formation (origem histórica) só é preenchida quando a classificação tradicional é consolidada; decomposition é apenas a análise visual e não implica origem.",
+      "strokeOrder só está preenchido para os caracteres com traçado simplificado do protótipo; o campo foi pensado para receber dados do KanjiVG."
+    ]
+  },
+  "characters": [
+    {
+      "id": "hiragana:あ",
+      "char": "あ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "a",
+      "reading": "あ",
+      "meaning": {
+        "pt": [
+          "sílaba “a”"
+        ],
+        "en": [
+          "syllable “a”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "あめ",
+          "reading": "あめ",
+          "romaji": "ame",
+          "pt": "chuva",
+          "en": "rain"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:い",
+      "char": "い",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "i",
+      "reading": "い",
+      "meaning": {
+        "pt": [
+          "sílaba “i”"
+        ],
+        "en": [
+          "syllable “i”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M26 26 Q20 60 30 74 Q34 78 38 68",
+          "M68 34 Q80 50 78 66"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "いぬ",
+          "reading": "いぬ",
+          "romaji": "inu",
+          "pt": "cão",
+          "en": "dog"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:う",
+      "char": "う",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "u",
+      "reading": "う",
+      "meaning": {
+        "pt": [
+          "sílaba “u”"
+        ],
+        "en": [
+          "syllable “u”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M40 14 Q52 18 60 22",
+          "M30 44 Q50 32 66 42 Q76 56 62 72 Q52 82 40 88"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "うみ",
+          "reading": "うみ",
+          "romaji": "umi",
+          "pt": "mar",
+          "en": "sea"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:え",
+      "char": "え",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "e",
+      "reading": "え",
+      "meaning": {
+        "pt": [
+          "sílaba “e”"
+        ],
+        "en": [
+          "syllable “e”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "えき",
+          "reading": "えき",
+          "romaji": "eki",
+          "pt": "estação",
+          "en": "station"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:お",
+      "char": "お",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "o",
+      "reading": "お",
+      "meaning": {
+        "pt": [
+          "sílaba “o”"
+        ],
+        "en": [
+          "syllable “o”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "おちゃ",
+          "reading": "おちゃ",
+          "romaji": "ocha",
+          "pt": "chá",
+          "en": "tea"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:か",
+      "char": "か",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ka",
+      "reading": "か",
+      "meaning": {
+        "pt": [
+          "sílaba “ka”"
+        ],
+        "en": [
+          "syllable “ka”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "かさ",
+          "reading": "かさ",
+          "romaji": "kasa",
+          "pt": "guarda-chuva",
+          "en": "umbrella"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:き",
+      "char": "き",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ki",
+      "reading": "き",
+      "meaning": {
+        "pt": [
+          "sílaba “ki”"
+        ],
+        "en": [
+          "syllable “ki”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "きって",
+          "reading": "きって",
+          "romaji": "kitte",
+          "pt": "selo",
+          "en": "stamp"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:く",
+      "char": "く",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ku",
+      "reading": "く",
+      "meaning": {
+        "pt": [
+          "sílaba “ku”"
+        ],
+        "en": [
+          "syllable “ku”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M64 14 Q40 36 30 50 Q42 64 64 86"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "くるま",
+          "reading": "くるま",
+          "romaji": "kuruma",
+          "pt": "carro",
+          "en": "car"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:け",
+      "char": "け",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ke",
+      "reading": "け",
+      "meaning": {
+        "pt": [
+          "sílaba “ke”"
+        ],
+        "en": [
+          "syllable “ke”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "けむり",
+          "reading": "けむり",
+          "romaji": "kemuri",
+          "pt": "fumaça",
+          "en": "smoke"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:こ",
+      "char": "こ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ko",
+      "reading": "こ",
+      "meaning": {
+        "pt": [
+          "sílaba “ko”"
+        ],
+        "en": [
+          "syllable “ko”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M30 30 Q52 26 68 30 Q64 34 60 38",
+          "M26 66 Q30 76 50 76 Q66 76 76 72"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "こども",
+          "reading": "こども",
+          "romaji": "kodomo",
+          "pt": "criança",
+          "en": "child"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:さ",
+      "char": "さ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "sa",
+      "reading": "さ",
+      "meaning": {
+        "pt": [
+          "sílaba “sa”"
+        ],
+        "en": [
+          "syllable “sa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "さかな",
+          "reading": "さかな",
+          "romaji": "sakana",
+          "pt": "peixe",
+          "en": "fish"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:し",
+      "char": "し",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "shi",
+      "reading": "し",
+      "meaning": {
+        "pt": [
+          "sílaba “shi”"
+        ],
+        "en": [
+          "syllable “shi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M36 14 L36 66 Q38 84 56 82 Q70 78 78 64"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "しお",
+          "reading": "しお",
+          "romaji": "shio",
+          "pt": "sal",
+          "en": "salt"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:す",
+      "char": "す",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "su",
+      "reading": "す",
+      "meaning": {
+        "pt": [
+          "sílaba “su”"
+        ],
+        "en": [
+          "syllable “su”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "すし",
+          "reading": "すし",
+          "romaji": "sushi",
+          "pt": "sushi",
+          "en": "sushi"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:せ",
+      "char": "せ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "se",
+      "reading": "せ",
+      "meaning": {
+        "pt": [
+          "sílaba “se”"
+        ],
+        "en": [
+          "syllable “se”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "せかい",
+          "reading": "せかい",
+          "romaji": "sekai",
+          "pt": "mundo",
+          "en": "world"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:そ",
+      "char": "そ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "so",
+      "reading": "そ",
+      "meaning": {
+        "pt": [
+          "sílaba “so”"
+        ],
+        "en": [
+          "syllable “so”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "そら",
+          "reading": "そら",
+          "romaji": "sora",
+          "pt": "céu",
+          "en": "sky"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:た",
+      "char": "た",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ta",
+      "reading": "た",
+      "meaning": {
+        "pt": [
+          "sílaba “ta”"
+        ],
+        "en": [
+          "syllable “ta”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "たまご",
+          "reading": "たまご",
+          "romaji": "tamago",
+          "pt": "ovo",
+          "en": "egg"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ち",
+      "char": "ち",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "chi",
+      "reading": "ち",
+      "meaning": {
+        "pt": [
+          "sílaba “chi”"
+        ],
+        "en": [
+          "syllable “chi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ちず",
+          "reading": "ちず",
+          "romaji": "chizu",
+          "pt": "mapa",
+          "en": "map"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:つ",
+      "char": "つ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "tsu",
+      "reading": "つ",
+      "meaning": {
+        "pt": [
+          "sílaba “tsu”"
+        ],
+        "en": [
+          "syllable “tsu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M16 44 Q52 26 76 36 Q88 48 72 64 Q60 74 42 78"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "つき",
+          "reading": "つき",
+          "romaji": "tsuki",
+          "pt": "lua",
+          "en": "moon"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:て",
+      "char": "て",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "te",
+      "reading": "て",
+      "meaning": {
+        "pt": [
+          "sílaba “te”"
+        ],
+        "en": [
+          "syllable “te”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M16 30 Q50 26 84 22 Q56 34 46 52 Q42 70 56 84 Q62 88 68 86"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "て",
+          "reading": "て",
+          "romaji": "te",
+          "pt": "mão",
+          "en": "hand"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:と",
+      "char": "と",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "to",
+      "reading": "と",
+      "meaning": {
+        "pt": [
+          "sílaba “to”"
+        ],
+        "en": [
+          "syllable “to”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "とり",
+          "reading": "とり",
+          "romaji": "tori",
+          "pt": "pássaro",
+          "en": "bird"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:な",
+      "char": "な",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "na",
+      "reading": "な",
+      "meaning": {
+        "pt": [
+          "sílaba “na”"
+        ],
+        "en": [
+          "syllable “na”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "なつ",
+          "reading": "なつ",
+          "romaji": "natsu",
+          "pt": "verão",
+          "en": "summer"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:に",
+      "char": "に",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ni",
+      "reading": "に",
+      "meaning": {
+        "pt": [
+          "sílaba “ni”"
+        ],
+        "en": [
+          "syllable “ni”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "にく",
+          "reading": "にく",
+          "romaji": "niku",
+          "pt": "carne",
+          "en": "meat"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぬ",
+      "char": "ぬ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "nu",
+      "reading": "ぬ",
+      "meaning": {
+        "pt": [
+          "sílaba “nu”"
+        ],
+        "en": [
+          "syllable “nu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぬの",
+          "reading": "ぬの",
+          "romaji": "nuno",
+          "pt": "tecido",
+          "en": "cloth"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ね",
+      "char": "ね",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ne",
+      "reading": "ね",
+      "meaning": {
+        "pt": [
+          "sílaba “ne”"
+        ],
+        "en": [
+          "syllable “ne”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ねこ",
+          "reading": "ねこ",
+          "romaji": "neko",
+          "pt": "gato",
+          "en": "cat"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:の",
+      "char": "の",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "no",
+      "reading": "の",
+      "meaning": {
+        "pt": [
+          "sílaba “no”"
+        ],
+        "en": [
+          "syllable “no”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "のり",
+          "reading": "のり",
+          "romaji": "nori",
+          "pt": "alga nori",
+          "en": "nori seaweed"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:は",
+      "char": "は",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ha",
+      "reading": "は",
+      "meaning": {
+        "pt": [
+          "sílaba “ha”"
+        ],
+        "en": [
+          "syllable “ha”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "はな",
+          "reading": "はな",
+          "romaji": "hana",
+          "pt": "flor",
+          "en": "flower"
+        }
+      ],
+      "note": "Como partícula de tópico, lê-se “wa”."
+    },
+    {
+      "id": "hiragana:ひ",
+      "char": "ひ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "hi",
+      "reading": "ひ",
+      "meaning": {
+        "pt": [
+          "sílaba “hi”"
+        ],
+        "en": [
+          "syllable “hi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ひと",
+          "reading": "ひと",
+          "romaji": "hito",
+          "pt": "pessoa",
+          "en": "person"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ふ",
+      "char": "ふ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "fu",
+      "reading": "ふ",
+      "meaning": {
+        "pt": [
+          "sílaba “fu”"
+        ],
+        "en": [
+          "syllable “fu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ふね",
+          "reading": "ふね",
+          "romaji": "fune",
+          "pt": "barco",
+          "en": "boat"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:へ",
+      "char": "へ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "he",
+      "reading": "へ",
+      "meaning": {
+        "pt": [
+          "sílaba “he”"
+        ],
+        "en": [
+          "syllable “he”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M12 60 Q24 40 34 36 Q42 36 52 48 Q70 68 88 76"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "へや",
+          "reading": "へや",
+          "romaji": "heya",
+          "pt": "quarto",
+          "en": "room"
+        }
+      ],
+      "note": "Como partícula de direção, lê-se “e”."
+    },
+    {
+      "id": "hiragana:ほ",
+      "char": "ほ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ho",
+      "reading": "ほ",
+      "meaning": {
+        "pt": [
+          "sílaba “ho”"
+        ],
+        "en": [
+          "syllable “ho”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ほし",
+          "reading": "ほし",
+          "romaji": "hoshi",
+          "pt": "estrela",
+          "en": "star"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ま",
+      "char": "ま",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ma",
+      "reading": "ま",
+      "meaning": {
+        "pt": [
+          "sílaba “ma”"
+        ],
+        "en": [
+          "syllable “ma”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "まど",
+          "reading": "まど",
+          "romaji": "mado",
+          "pt": "janela",
+          "en": "window"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:み",
+      "char": "み",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "mi",
+      "reading": "み",
+      "meaning": {
+        "pt": [
+          "sílaba “mi”"
+        ],
+        "en": [
+          "syllable “mi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "みず",
+          "reading": "みず",
+          "romaji": "mizu",
+          "pt": "água",
+          "en": "water"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:む",
+      "char": "む",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "mu",
+      "reading": "む",
+      "meaning": {
+        "pt": [
+          "sílaba “mu”"
+        ],
+        "en": [
+          "syllable “mu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "むし",
+          "reading": "むし",
+          "romaji": "mushi",
+          "pt": "inseto",
+          "en": "insect"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:め",
+      "char": "め",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "me",
+      "reading": "め",
+      "meaning": {
+        "pt": [
+          "sílaba “me”"
+        ],
+        "en": [
+          "syllable “me”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "め",
+          "reading": "め",
+          "romaji": "me",
+          "pt": "olho",
+          "en": "eye"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:も",
+      "char": "も",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "mo",
+      "reading": "も",
+      "meaning": {
+        "pt": [
+          "sílaba “mo”"
+        ],
+        "en": [
+          "syllable “mo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "もり",
+          "reading": "もり",
+          "romaji": "mori",
+          "pt": "floresta",
+          "en": "forest"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:や",
+      "char": "や",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ya",
+      "reading": "や",
+      "meaning": {
+        "pt": [
+          "sílaba “ya”"
+        ],
+        "en": [
+          "syllable “ya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "やま",
+          "reading": "やま",
+          "romaji": "yama",
+          "pt": "montanha",
+          "en": "mountain"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ゆ",
+      "char": "ゆ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "yu",
+      "reading": "ゆ",
+      "meaning": {
+        "pt": [
+          "sílaba “yu”"
+        ],
+        "en": [
+          "syllable “yu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ゆき",
+          "reading": "ゆき",
+          "romaji": "yuki",
+          "pt": "neve",
+          "en": "snow"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:よ",
+      "char": "よ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "yo",
+      "reading": "よ",
+      "meaning": {
+        "pt": [
+          "sílaba “yo”"
+        ],
+        "en": [
+          "syllable “yo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "よる",
+          "reading": "よる",
+          "romaji": "yoru",
+          "pt": "noite",
+          "en": "night"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ら",
+      "char": "ら",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ra",
+      "reading": "ら",
+      "meaning": {
+        "pt": [
+          "sílaba “ra”"
+        ],
+        "en": [
+          "syllable “ra”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "らいねん",
+          "reading": "らいねん",
+          "romaji": "rainen",
+          "pt": "próximo ano",
+          "en": "next year"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:り",
+      "char": "り",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ri",
+      "reading": "り",
+      "meaning": {
+        "pt": [
+          "sílaba “ri”"
+        ],
+        "en": [
+          "syllable “ri”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": {
+        "source": "kaku-simplificado",
+        "viewBox": "0 0 100 100",
+        "paths": [
+          "M34 20 Q30 44 34 58 Q36 62 40 52",
+          "M64 18 Q72 40 68 62 Q62 80 44 90"
+        ],
+        "note": "Traçado simplificado desenhado à mão; substituir por KanjiVG em produção."
+      },
+      "examples": [
+        {
+          "word": "りんご",
+          "reading": "りんご",
+          "romaji": "ringo",
+          "pt": "maçã",
+          "en": "apple"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:る",
+      "char": "る",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ru",
+      "reading": "る",
+      "meaning": {
+        "pt": [
+          "sílaba “ru”"
+        ],
+        "en": [
+          "syllable “ru”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "るす",
+          "reading": "るす",
+          "romaji": "rusu",
+          "pt": "ausência de casa",
+          "en": "being away from home"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:れ",
+      "char": "れ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "re",
+      "reading": "れ",
+      "meaning": {
+        "pt": [
+          "sílaba “re”"
+        ],
+        "en": [
+          "syllable “re”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "れきし",
+          "reading": "れきし",
+          "romaji": "rekishi",
+          "pt": "história",
+          "en": "history"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ろ",
+      "char": "ろ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "ro",
+      "reading": "ろ",
+      "meaning": {
+        "pt": [
+          "sílaba “ro”"
+        ],
+        "en": [
+          "syllable “ro”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ろうか",
+          "reading": "ろうか",
+          "romaji": "rouka",
+          "pt": "corredor",
+          "en": "hallway"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:わ",
+      "char": "わ",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "wa",
+      "reading": "わ",
+      "meaning": {
+        "pt": [
+          "sílaba “wa”"
+        ],
+        "en": [
+          "syllable “wa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "わたし",
+          "reading": "わたし",
+          "romaji": "watashi",
+          "pt": "eu",
+          "en": "I"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:を",
+      "char": "を",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "wo",
+      "reading": "を",
+      "meaning": {
+        "pt": [
+          "partícula de objeto “o”"
+        ],
+        "en": [
+          "object particle “o”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ほんをよむ",
+          "reading": "ほんをよむ",
+          "romaji": "honwoyomu",
+          "pt": "ler um livro",
+          "en": "to read a book"
+        }
+      ],
+      "note": "Hoje usado quase só como partícula de objeto; pronuncia-se “o”."
+    },
+    {
+      "id": "hiragana:ん",
+      "char": "ん",
+      "category": "hiragana",
+      "group": "basico",
+      "romaji": "n",
+      "reading": "ん",
+      "meaning": {
+        "pt": [
+          "som nasal “n”"
+        ],
+        "en": [
+          "nasal sound “n”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ほん",
+          "reading": "ほん",
+          "romaji": "hon",
+          "pt": "livro",
+          "en": "book"
+        }
+      ],
+      "note": "Único som que é só consoante; soa como “n” ou “m” conforme a letra seguinte."
+    },
+    {
+      "id": "hiragana:が",
+      "char": "が",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "ga",
+      "reading": "が",
+      "meaning": {
+        "pt": [
+          "sílaba “ga”"
+        ],
+        "en": [
+          "syllable “ga”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "がっこう",
+          "reading": "がっこう",
+          "romaji": "gakkou",
+          "pt": "escola",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぎ",
+      "char": "ぎ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "gi",
+      "reading": "ぎ",
+      "meaning": {
+        "pt": [
+          "sílaba “gi”"
+        ],
+        "en": [
+          "syllable “gi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぎんこう",
+          "reading": "ぎんこう",
+          "romaji": "ginkou",
+          "pt": "banco",
+          "en": "bank"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぐ",
+      "char": "ぐ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "gu",
+      "reading": "ぐ",
+      "meaning": {
+        "pt": [
+          "sílaba “gu”"
+        ],
+        "en": [
+          "syllable “gu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぐあい",
+          "reading": "ぐあい",
+          "romaji": "guai",
+          "pt": "condição (de saúde)",
+          "en": "condition"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:げ",
+      "char": "げ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "ge",
+      "reading": "げ",
+      "meaning": {
+        "pt": [
+          "sílaba “ge”"
+        ],
+        "en": [
+          "syllable “ge”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "げんき",
+          "reading": "げんき",
+          "romaji": "genki",
+          "pt": "bem-disposto",
+          "en": "healthy; energetic"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ご",
+      "char": "ご",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "go",
+      "reading": "ご",
+      "meaning": {
+        "pt": [
+          "sílaba “go”"
+        ],
+        "en": [
+          "syllable “go”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ごはん",
+          "reading": "ごはん",
+          "romaji": "gohan",
+          "pt": "arroz; refeição",
+          "en": "rice; meal"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ざ",
+      "char": "ざ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "za",
+      "reading": "ざ",
+      "meaning": {
+        "pt": [
+          "sílaba “za”"
+        ],
+        "en": [
+          "syllable “za”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ざっし",
+          "reading": "ざっし",
+          "romaji": "zasshi",
+          "pt": "revista",
+          "en": "magazine"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:じ",
+      "char": "じ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "ji",
+      "reading": "じ",
+      "meaning": {
+        "pt": [
+          "sílaba “ji”"
+        ],
+        "en": [
+          "syllable “ji”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "じかん",
+          "reading": "じかん",
+          "romaji": "jikan",
+          "pt": "tempo",
+          "en": "time"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ず",
+      "char": "ず",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "zu",
+      "reading": "ず",
+      "meaning": {
+        "pt": [
+          "sílaba “zu”"
+        ],
+        "en": [
+          "syllable “zu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ずっと",
+          "reading": "ずっと",
+          "romaji": "zutto",
+          "pt": "o tempo todo",
+          "en": "all the time"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぜ",
+      "char": "ぜ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "ze",
+      "reading": "ぜ",
+      "meaning": {
+        "pt": [
+          "sílaba “ze”"
+        ],
+        "en": [
+          "syllable “ze”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぜんぶ",
+          "reading": "ぜんぶ",
+          "romaji": "zenbu",
+          "pt": "tudo",
+          "en": "all"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぞ",
+      "char": "ぞ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "zo",
+      "reading": "ぞ",
+      "meaning": {
+        "pt": [
+          "sílaba “zo”"
+        ],
+        "en": [
+          "syllable “zo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぞう",
+          "reading": "ぞう",
+          "romaji": "zou",
+          "pt": "elefante",
+          "en": "elephant"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:だ",
+      "char": "だ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "da",
+      "reading": "だ",
+      "meaning": {
+        "pt": [
+          "sílaba “da”"
+        ],
+        "en": [
+          "syllable “da”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "だいがく",
+          "reading": "だいがく",
+          "romaji": "daigaku",
+          "pt": "universidade",
+          "en": "university"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぢ",
+      "char": "ぢ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "ji",
+      "reading": "ぢ",
+      "meaning": {
+        "pt": [
+          "sílaba “ji”"
+        ],
+        "en": [
+          "syllable “ji”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "はなぢ",
+          "reading": "はなぢ",
+          "romaji": "hanaji",
+          "pt": "sangramento nasal",
+          "en": "nosebleed"
+        }
+      ],
+      "note": "Raro: soa igual a じ. Aparece em palavras como はなぢ."
+    },
+    {
+      "id": "hiragana:づ",
+      "char": "づ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "zu",
+      "reading": "づ",
+      "meaning": {
+        "pt": [
+          "sílaba “zu”"
+        ],
+        "en": [
+          "syllable “zu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "つづく",
+          "reading": "つづく",
+          "romaji": "tsuzuku",
+          "pt": "continuar",
+          "en": "to continue"
+        }
+      ],
+      "note": "Raro: soa igual a ず. Aparece em palavras como つづく."
+    },
+    {
+      "id": "hiragana:で",
+      "char": "で",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "de",
+      "reading": "で",
+      "meaning": {
+        "pt": [
+          "sílaba “de”"
+        ],
+        "en": [
+          "syllable “de”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "でんわ",
+          "reading": "でんわ",
+          "romaji": "denwa",
+          "pt": "telefone",
+          "en": "telephone"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ど",
+      "char": "ど",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "do",
+      "reading": "ど",
+      "meaning": {
+        "pt": [
+          "sílaba “do”"
+        ],
+        "en": [
+          "syllable “do”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "どうぶつ",
+          "reading": "どうぶつ",
+          "romaji": "doubutsu",
+          "pt": "animal",
+          "en": "animal"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ば",
+      "char": "ば",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "ba",
+      "reading": "ば",
+      "meaning": {
+        "pt": [
+          "sílaba “ba”"
+        ],
+        "en": [
+          "syllable “ba”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ばしょ",
+          "reading": "ばしょ",
+          "romaji": "basho",
+          "pt": "lugar",
+          "en": "place"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:び",
+      "char": "び",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "bi",
+      "reading": "び",
+      "meaning": {
+        "pt": [
+          "sílaba “bi”"
+        ],
+        "en": [
+          "syllable “bi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "びょういん",
+          "reading": "びょういん",
+          "romaji": "byouin",
+          "pt": "hospital",
+          "en": "hospital"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぶ",
+      "char": "ぶ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "bu",
+      "reading": "ぶ",
+      "meaning": {
+        "pt": [
+          "sílaba “bu”"
+        ],
+        "en": [
+          "syllable “bu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぶた",
+          "reading": "ぶた",
+          "romaji": "buta",
+          "pt": "porco",
+          "en": "pig"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:べ",
+      "char": "べ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "be",
+      "reading": "べ",
+      "meaning": {
+        "pt": [
+          "sílaba “be”"
+        ],
+        "en": [
+          "syllable “be”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "べんきょう",
+          "reading": "べんきょう",
+          "romaji": "benkyou",
+          "pt": "estudo",
+          "en": "study"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぼ",
+      "char": "ぼ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "bo",
+      "reading": "ぼ",
+      "meaning": {
+        "pt": [
+          "sílaba “bo”"
+        ],
+        "en": [
+          "syllable “bo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぼうし",
+          "reading": "ぼうし",
+          "romaji": "boushi",
+          "pt": "chapéu",
+          "en": "hat"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぱ",
+      "char": "ぱ",
+      "category": "hiragana",
+      "group": "handakuten",
+      "romaji": "pa",
+      "reading": "ぱ",
+      "meaning": {
+        "pt": [
+          "sílaba “pa”"
+        ],
+        "en": [
+          "syllable “pa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "かんぱい",
+          "reading": "かんぱい",
+          "romaji": "kanpai",
+          "pt": "saúde! (brinde)",
+          "en": "cheers!"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぴ",
+      "char": "ぴ",
+      "category": "hiragana",
+      "group": "handakuten",
+      "romaji": "pi",
+      "reading": "ぴ",
+      "meaning": {
+        "pt": [
+          "sílaba “pi”"
+        ],
+        "en": [
+          "syllable “pi”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "えんぴつ",
+          "reading": "えんぴつ",
+          "romaji": "enpitsu",
+          "pt": "lápis",
+          "en": "pencil"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぷ",
+      "char": "ぷ",
+      "category": "hiragana",
+      "group": "handakuten",
+      "romaji": "pu",
+      "reading": "ぷ",
+      "meaning": {
+        "pt": [
+          "sílaba “pu”"
+        ],
+        "en": [
+          "syllable “pu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "てんぷら",
+          "reading": "てんぷら",
+          "romaji": "tenpura",
+          "pt": "tempurá",
+          "en": "tempura"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぺ",
+      "char": "ぺ",
+      "category": "hiragana",
+      "group": "handakuten",
+      "romaji": "pe",
+      "reading": "ぺ",
+      "meaning": {
+        "pt": [
+          "sílaba “pe”"
+        ],
+        "en": [
+          "syllable “pe”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぺこぺこ",
+          "reading": "ぺこぺこ",
+          "romaji": "pekopeko",
+          "pt": "morrendo de fome",
+          "en": "starving"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぽ",
+      "char": "ぽ",
+      "category": "hiragana",
+      "group": "handakuten",
+      "romaji": "po",
+      "reading": "ぽ",
+      "meaning": {
+        "pt": [
+          "sílaba “po”"
+        ],
+        "en": [
+          "syllable “po”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "iniciante",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "さんぽ",
+          "reading": "さんぽ",
+          "romaji": "sanpo",
+          "pt": "passeio",
+          "en": "walk; stroll"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ゔ",
+      "char": "ゔ",
+      "category": "hiragana",
+      "group": "dakuten",
+      "romaji": "vu",
+      "reading": "ゔ",
+      "meaning": {
+        "pt": [
+          "sílaba “vu”"
+        ],
+        "en": [
+          "syllable “vu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [],
+      "note": "Representa o som “v” de palavras estrangeiras; na prática quase sempre se usa ヴ em katakana."
+    },
+    {
+      "id": "hiragana:ぁ",
+      "char": "ぁ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "a",
+      "reading": "ぁ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “a”"
+        ],
+        "en": [
+          "small vowel “a”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "わぁ",
+          "reading": "わぁ",
+          "romaji": "waa",
+          "pt": "uau!",
+          "en": "wow!"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぃ",
+      "char": "ぃ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "i",
+      "reading": "ぃ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “i”"
+        ],
+        "en": [
+          "small vowel “i”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": []
+    },
+    {
+      "id": "hiragana:ぅ",
+      "char": "ぅ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "u",
+      "reading": "ぅ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “u”"
+        ],
+        "en": [
+          "small vowel “u”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": []
+    },
+    {
+      "id": "hiragana:ぇ",
+      "char": "ぇ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "e",
+      "reading": "ぇ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “e”"
+        ],
+        "en": [
+          "small vowel “e”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ねぇ",
+          "reading": "ねぇ",
+          "romaji": "nee",
+          "pt": "ei!; né?",
+          "en": "hey!"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ぉ",
+      "char": "ぉ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "o",
+      "reading": "ぉ",
+      "meaning": {
+        "pt": [
+          "vogal pequena “o”"
+        ],
+        "en": [
+          "small vowel “o”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": []
+    },
+    {
+      "id": "hiragana:ゃ",
+      "char": "ゃ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "ya",
+      "reading": "ゃ",
+      "meaning": {
+        "pt": [
+          "“ya” pequeno (forma sílabas combinadas)"
+        ],
+        "en": [
+          "small “ya” (forms combined syllables)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "おちゃ",
+          "reading": "おちゃ",
+          "romaji": "ocha",
+          "pt": "chá",
+          "en": "tea"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ゅ",
+      "char": "ゅ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "yu",
+      "reading": "ゅ",
+      "meaning": {
+        "pt": [
+          "“yu” pequeno (forma sílabas combinadas)"
+        ],
+        "en": [
+          "small “yu” (forms combined syllables)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "しゅくだい",
+          "reading": "しゅくだい",
+          "romaji": "shukudai",
+          "pt": "lição de casa",
+          "en": "homework"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:ょ",
+      "char": "ょ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "yo",
+      "reading": "ょ",
+      "meaning": {
+        "pt": [
+          "“yo” pequeno (forma sílabas combinadas)"
+        ],
+        "en": [
+          "small “yo” (forms combined syllables)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "きょう",
+          "reading": "きょう",
+          "romaji": "kyou",
+          "pt": "hoje",
+          "en": "today"
+        }
+      ]
+    },
+    {
+      "id": "hiragana:っ",
+      "char": "っ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "(dobra a consoante)",
+      "reading": "っ",
+      "meaning": {
+        "pt": [
+          "tsu pequeno (consoante dobrada)"
+        ],
+        "en": [
+          "small tsu (doubled consonant)"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 1,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "きって",
+          "reading": "きって",
+          "romaji": "kitte",
+          "pt": "selo",
+          "en": "stamp"
+        }
+      ],
+      "note": "Não tem som próprio: indica uma pausa curta e dobra a consoante seguinte (きって = kitte)."
+    },
+    {
+      "id": "hiragana:ゎ",
+      "char": "ゎ",
+      "category": "hiragana",
+      "group": "pequeno",
+      "romaji": "wa",
+      "reading": "ゎ",
+      "meaning": {
+        "pt": [
+          "“wa” pequeno"
+        ],
+        "en": [
+          "small “wa”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "avancado",
+      "strokes": 2,
+      "strokeOrder": null,
+      "examples": [],
+      "note": "Forma arcaica, praticamente fora de uso."
+    },
+    {
+      "id": "hiragana:きゃ",
+      "char": "きゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "kya",
+      "reading": "きゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “kya”"
+        ],
+        "en": [
+          "syllable “kya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 7,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "きゃく",
+          "reading": "きゃく",
+          "romaji": "kyaku",
+          "pt": "cliente; visita",
+          "en": "customer; guest"
+        }
+      ],
+      "components": [
+        "き",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:きゅ",
+      "char": "きゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "kyu",
+      "reading": "きゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “kyu”"
+        ],
+        "en": [
+          "syllable “kyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "きゅう",
+          "reading": "きゅう",
+          "romaji": "kyuu",
+          "pt": "nove",
+          "en": "nine"
+        }
+      ],
+      "components": [
+        "き",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:きょ",
+      "char": "きょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "kyo",
+      "reading": "きょ",
+      "meaning": {
+        "pt": [
+          "sílaba “kyo”"
+        ],
+        "en": [
+          "syllable “kyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "きょう",
+          "reading": "きょう",
+          "romaji": "kyou",
+          "pt": "hoje",
+          "en": "today"
+        }
+      ],
+      "components": [
+        "き",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:ぎゃ",
+      "char": "ぎゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "gya",
+      "reading": "ぎゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “gya”"
+        ],
+        "en": [
+          "syllable “gya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 9,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぎゃく",
+          "reading": "ぎゃく",
+          "romaji": "gyaku",
+          "pt": "inverso",
+          "en": "reverse"
+        }
+      ],
+      "components": [
+        "ぎ",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:ぎゅ",
+      "char": "ぎゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "gyu",
+      "reading": "ぎゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “gyu”"
+        ],
+        "en": [
+          "syllable “gyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 8,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ぎゅうにゅう",
+          "reading": "ぎゅうにゅう",
+          "romaji": "gyuunyuu",
+          "pt": "leite",
+          "en": "milk"
+        }
+      ],
+      "components": [
+        "ぎ",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:ぎょ",
+      "char": "ぎょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "gyo",
+      "reading": "ぎょ",
+      "meaning": {
+        "pt": [
+          "sílaba “gyo”"
+        ],
+        "en": [
+          "syllable “gyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 8,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "きんぎょ",
+          "reading": "きんぎょ",
+          "romaji": "kingyo",
+          "pt": "peixinho dourado",
+          "en": "goldfish"
+        }
+      ],
+      "components": [
+        "ぎ",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:しゃ",
+      "char": "しゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "sha",
+      "reading": "しゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “sha”"
+        ],
+        "en": [
+          "syllable “sha”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "しゃしん",
+          "reading": "しゃしん",
+          "romaji": "shashin",
+          "pt": "foto",
+          "en": "photo"
+        }
+      ],
+      "components": [
+        "し",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:しゅ",
+      "char": "しゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "shu",
+      "reading": "しゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “shu”"
+        ],
+        "en": [
+          "syllable “shu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "しゅくだい",
+          "reading": "しゅくだい",
+          "romaji": "shukudai",
+          "pt": "lição de casa",
+          "en": "homework"
+        }
+      ],
+      "components": [
+        "し",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:しょ",
+      "char": "しょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "sho",
+      "reading": "しょ",
+      "meaning": {
+        "pt": [
+          "sílaba “sho”"
+        ],
+        "en": [
+          "syllable “sho”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "しょくじ",
+          "reading": "しょくじ",
+          "romaji": "shokuji",
+          "pt": "refeição",
+          "en": "meal"
+        }
+      ],
+      "components": [
+        "し",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:じゃ",
+      "char": "じゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "ja",
+      "reading": "じゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “ja”"
+        ],
+        "en": [
+          "syllable “ja”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "じゃま",
+          "reading": "じゃま",
+          "romaji": "jama",
+          "pt": "estorvo",
+          "en": "hindrance"
+        }
+      ],
+      "components": [
+        "じ",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:じゅ",
+      "char": "じゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "ju",
+      "reading": "じゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “ju”"
+        ],
+        "en": [
+          "syllable “ju”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "じゅぎょう",
+          "reading": "じゅぎょう",
+          "romaji": "jugyou",
+          "pt": "aula",
+          "en": "class"
+        }
+      ],
+      "components": [
+        "じ",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:じょ",
+      "char": "じょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "jo",
+      "reading": "じょ",
+      "meaning": {
+        "pt": [
+          "sílaba “jo”"
+        ],
+        "en": [
+          "syllable “jo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "じょうず",
+          "reading": "じょうず",
+          "romaji": "jouzu",
+          "pt": "habilidoso",
+          "en": "skillful"
+        }
+      ],
+      "components": [
+        "じ",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:ちゃ",
+      "char": "ちゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "cha",
+      "reading": "ちゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “cha”"
+        ],
+        "en": [
+          "syllable “cha”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "おちゃ",
+          "reading": "おちゃ",
+          "romaji": "ocha",
+          "pt": "chá",
+          "en": "tea"
+        }
+      ],
+      "components": [
+        "ち",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:ちゅ",
+      "char": "ちゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "chu",
+      "reading": "ちゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “chu”"
+        ],
+        "en": [
+          "syllable “chu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ちゅうい",
+          "reading": "ちゅうい",
+          "romaji": "chuui",
+          "pt": "atenção; cuidado",
+          "en": "caution"
+        }
+      ],
+      "components": [
+        "ち",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:ちょ",
+      "char": "ちょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "cho",
+      "reading": "ちょ",
+      "meaning": {
+        "pt": [
+          "sílaba “cho”"
+        ],
+        "en": [
+          "syllable “cho”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ちょっと",
+          "reading": "ちょっと",
+          "romaji": "chotto",
+          "pt": "um pouco",
+          "en": "a little"
+        }
+      ],
+      "components": [
+        "ち",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:にゃ",
+      "char": "にゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "nya",
+      "reading": "にゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “nya”"
+        ],
+        "en": [
+          "syllable “nya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "にゃあ",
+          "reading": "にゃあ",
+          "romaji": "nyaa",
+          "pt": "miau",
+          "en": "meow"
+        }
+      ],
+      "components": [
+        "に",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:にゅ",
+      "char": "にゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "nyu",
+      "reading": "にゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “nyu”"
+        ],
+        "en": [
+          "syllable “nyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "にゅういん",
+          "reading": "にゅういん",
+          "romaji": "nyuuin",
+          "pt": "internação",
+          "en": "hospitalization"
+        }
+      ],
+      "components": [
+        "に",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:にょ",
+      "char": "にょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "nyo",
+      "reading": "にょ",
+      "meaning": {
+        "pt": [
+          "sílaba “nyo”"
+        ],
+        "en": [
+          "syllable “nyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "にょろにょろ",
+          "reading": "にょろにょろ",
+          "romaji": "nyoronyoro",
+          "pt": "serpenteando",
+          "en": "wriggling"
+        }
+      ],
+      "components": [
+        "に",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:ひゃ",
+      "char": "ひゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "hya",
+      "reading": "ひゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “hya”"
+        ],
+        "en": [
+          "syllable “hya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ひゃく",
+          "reading": "ひゃく",
+          "romaji": "hyaku",
+          "pt": "cem",
+          "en": "hundred"
+        }
+      ],
+      "components": [
+        "ひ",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:ひゅ",
+      "char": "ひゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "hyu",
+      "reading": "ひゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “hyu”"
+        ],
+        "en": [
+          "syllable “hyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ひゅうひゅう",
+          "reading": "ひゅうひゅう",
+          "romaji": "hyuuhyuu",
+          "pt": "assobio (do vento)",
+          "en": "whistling (wind)"
+        }
+      ],
+      "components": [
+        "ひ",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:ひょ",
+      "char": "ひょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "hyo",
+      "reading": "ひょ",
+      "meaning": {
+        "pt": [
+          "sílaba “hyo”"
+        ],
+        "en": [
+          "syllable “hyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 3,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "ひょうじょう",
+          "reading": "ひょうじょう",
+          "romaji": "hyoujou",
+          "pt": "expressão facial",
+          "en": "facial expression"
+        }
+      ],
+      "components": [
+        "ひ",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:びゃ",
+      "char": "びゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "bya",
+      "reading": "びゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “bya”"
+        ],
+        "en": [
+          "syllable “bya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 6,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "さんびゃく",
+          "reading": "さんびゃく",
+          "romaji": "sanbyaku",
+          "pt": "trezentos",
+          "en": "three hundred"
+        }
+      ],
+      "components": [
+        "び",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:びゅ",
+      "char": "びゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "byu",
+      "reading": "びゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “byu”"
+        ],
+        "en": [
+          "syllable “byu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "びゅうびゅう",
+          "reading": "びゅうびゅう",
+          "romaji": "byuubyuu",
+          "pt": "uivo (do vento)",
+          "en": "howling (wind)"
+        }
+      ],
+      "components": [
+        "び",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:びょ",
+      "char": "びょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "byo",
+      "reading": "びょ",
+      "meaning": {
+        "pt": [
+          "sílaba “byo”"
+        ],
+        "en": [
+          "syllable “byo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "びょういん",
+          "reading": "びょういん",
+          "romaji": "byouin",
+          "pt": "hospital",
+          "en": "hospital"
+        }
+      ],
+      "components": [
+        "び",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:ぴゃ",
+      "char": "ぴゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "pya",
+      "reading": "ぴゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “pya”"
+        ],
+        "en": [
+          "syllable “pya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "はっぴゃく",
+          "reading": "はっぴゃく",
+          "romaji": "happyaku",
+          "pt": "oitocentos",
+          "en": "eight hundred"
+        }
+      ],
+      "components": [
+        "ぴ",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:ぴゅ",
+      "char": "ぴゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "pyu",
+      "reading": "ぴゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “pyu”"
+        ],
+        "en": [
+          "syllable “pyu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "ぴ",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:ぴょ",
+      "char": "ぴょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "pyo",
+      "reading": "ぴょ",
+      "meaning": {
+        "pt": [
+          "sílaba “pyo”"
+        ],
+        "en": [
+          "syllable “pyo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "はっぴょう",
+          "reading": "はっぴょう",
+          "romaji": "happyou",
+          "pt": "apresentação",
+          "en": "presentation"
+        }
+      ],
+      "components": [
+        "ぴ",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:みゃ",
+      "char": "みゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "mya",
+      "reading": "みゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “mya”"
+        ],
+        "en": [
+          "syllable “mya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "みゃく",
+          "reading": "みゃく",
+          "romaji": "myaku",
+          "pt": "pulso",
+          "en": "pulse"
+        }
+      ],
+      "components": [
+        "み",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:みゅ",
+      "char": "みゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "myu",
+      "reading": "みゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “myu”"
+        ],
+        "en": [
+          "syllable “myu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [],
+      "components": [
+        "み",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:みょ",
+      "char": "みょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "myo",
+      "reading": "みょ",
+      "meaning": {
+        "pt": [
+          "sílaba “myo”"
+        ],
+        "en": [
+          "syllable “myo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "みょうじ",
+          "reading": "みょうじ",
+          "romaji": "myouji",
+          "pt": "sobrenome",
+          "en": "surname"
+        }
+      ],
+      "components": [
+        "み",
+        "ょ"
+      ]
+    },
+    {
+      "id": "hiragana:りゃ",
+      "char": "りゃ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "rya",
+      "reading": "りゃ",
+      "meaning": {
+        "pt": [
+          "sílaba “rya”"
+        ],
+        "en": [
+          "syllable “rya”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 5,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "りゃくご",
+          "reading": "りゃくご",
+          "romaji": "ryakugo",
+          "pt": "abreviação",
+          "en": "abbreviation"
+        }
+      ],
+      "components": [
+        "り",
+        "ゃ"
+      ]
+    },
+    {
+      "id": "hiragana:りゅ",
+      "char": "りゅ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "ryu",
+      "reading": "りゅ",
+      "meaning": {
+        "pt": [
+          "sílaba “ryu”"
+        ],
+        "en": [
+          "syllable “ryu”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "りゅうがく",
+          "reading": "りゅうがく",
+          "romaji": "ryuugaku",
+          "pt": "estudo no exterior",
+          "en": "study abroad"
+        }
+      ],
+      "components": [
+        "り",
+        "ゅ"
+      ]
+    },
+    {
+      "id": "hiragana:りょ",
+      "char": "りょ",
+      "category": "hiragana",
+      "group": "combinacao",
+      "romaji": "ryo",
+      "reading": "りょ",
+      "meaning": {
+        "pt": [
+          "sílaba “ryo”"
+        ],
+        "en": [
+          "syllable “ryo”"
+        ]
+      },
+      "jlpt": null,
+      "difficulty": "intermediario",
+      "strokes": 4,
+      "strokeOrder": null,
+      "examples": [
+        {
+          "word": "りょこう",
+          "reading": "りょこう",
+          "romaji": "ryokou",
+          "pt": "viagem",
+          "en": "trip"
+        }
+      ],
+      "components": [
+        "り",
+        "ょ"
+      ]
+    }
+  ]
+}

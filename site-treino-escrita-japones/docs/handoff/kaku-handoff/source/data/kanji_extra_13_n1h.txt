@@ -1,0 +1,128 @@
+煎|torrar; infusão|roast; brew|セン|い.る|N1|0|13|煎茶:せんちゃ:sencha (chá verde):green tea||||灬|前 灬|F;灬=s,前=f:ゼン;
+箇|contador de itens|counter for items|カ|—|N1|0|14|箇所:かしょ:parte; lugar:place; point||||⺮|⺮ 固|F;⺮=s,固=f:コ;
+勾|inclinação|slope|コウ|—|N1|0|4|勾配:こうばい:inclinação:slope||||勹|勹 厶|
+勅|decreto imperial|imperial decree|チョク|—|N1|0|9|勅語:ちょくご:reescrito imperial:imperial rescript||||力|束 力|
+憾|lamentar|regret|カン|—|N1|0|16|遺憾:いかん:lamentável:regrettable||||忄|忄 感|F;忄=s,感=f:カン;
+倣|imitar|imitate|ホウ|なら.う|N1|0|10|模倣:もほう:imitação:imitation||||亻|亻 放|F;亻=s,放=f:ホウ;
+鬱|melancolia; denso|gloom; dense|ウツ|—|N1|0|29|憂鬱:ゆううつ:melancolia:depression||||鬯|-|
+唄|canção|song|—|うた|N1|0|10|長唄:ながうた:nagauta (canto tradicional):nagauta||||口|口 貝|
+淫|lascivo|lewd|イン|みだ.ら|N1|0|11|淫ら:みだら:indecente:lewd||||氵|氵 㸒|
+紡|fiar|spin|ボウ|つむ.ぐ|N1|0|10|紡ぐ:つむぐ:fiar:to spin (thread)||||糹|糹 方|F;糹=s,方=f:ホウ;
+愁|tristeza|sorrow|シュウ|うれ.える|N1|0|13|郷愁:きょうしゅう:nostalgia:nostalgia||||心|秋 心|F;心=s,秋=f:シュウ;
+朕|nós (imperador)|we (imperial)|チン|—|N1|0|10|朕:ちん:nós (majestático):we (imperial)||||月|月! 关|
+糾|torcer; investigar|twist; investigate|キュウ|—|N1|0|9|糾弾:きゅうだん:denúncia:censure||||糹|糹 丩|F;糹=s,丩=f:キュウ;
+遷|mudar; transferir|transition|セン|—|N1|0|15|変遷:へんせん:transição:transition||||辶|辶 䙴!|
+禍|desgraça|calamity|カ|わざわ.い|N1|0|13|禍:わざわい:desgraça:calamity||||礻|礻 咼|F;礻=s,咼=f:カ;
+旺|próspero|flourishing|オウ|—|N1|0|8|旺盛:おうせい:vigoroso:vigorous||||日|日 王|F;日=s,王=f:オウ;
+栃|castanheiro-da-índia|horse chestnut|—|とち|N1|0|9|栃木:とちぎ:Tochigi:Tochigi||||木|木 万! 厂!|K;;Kanji criado no Japão.
+箋|papel de carta; nota|letter paper|セン|—|N1|0|14|便箋:びんせん:papel de carta:letter paper||||⺮|⺮ 戋|F;⺮=s,戋=f:セン;
+吏|funcionário|official|リ|—|N1|0|6|官吏:かんり:funcionário público:government official||||口|-|
+桟|ponte de tábuas|scaffold; pier|サン|—|N1|0|10|桟橋:さんばし:píer:pier||||木|木 戋|F;木=s,戋=f:セン;
+玩|brincar|toy|ガン|—|N1|0|8|玩具:がんぐ:brinquedo:toy||||王|王~ 元|F;玉=s,元=f:ゲン;
+遜|humilde|humble|ソン|—|N1|0|14|謙遜:けんそん:modéstia:modesty||||辶|辶 孫|F;辶=s,孫=f:ソン;
+酌|servir (bebida); considerar|pour; consider|シャク|く.む|N1|0|10|晩酌:ばんしゃく:drinque no jantar:evening drink||||酉|酉 勺|F;酉=s,勺=f:シャク;
+霜|geada|frost|ソウ|しも|N1|0|17|霜:しも:geada:frost||||雨|雨 相|F;雨=s,相=f:ソウ;
+哺|amamentar|nurse|ホ|—|N1|0|10|哺乳類:ほにゅうるい:mamíferos:mammals||||口|口 甫|F;口=s,甫=f:ホ;
+瞭|claro|clear|リョウ|—|N1|0|17|明瞭:めいりょう:claro:clear||||目|目 尞|F;目=s,尞=f:リョウ;
+叙|narrar; conferir|narrate; confer|ジョ|—|N1|0|9|叙述:じょじゅつ:narração:description||||又|余 又|F;又=s,余=f:ヨ;
+舶|navio|ship|ハク|—|N1|0|11|船舶:せんぱく:embarcações:vessels||||舟|舟 白|F;舟=s,白=f:ハク;
+畿|arredores da capital|capital region|キ|—|N1|0|15|近畿:きんき:região de Kinki:Kinki region||||田|幾! 田|
+謁|audiência (com superior)|audience|エツ|—|N1|0|15|謁見:えっけん:audiência:audience||||言|言 曷|F;言=s,曷=f:カツ;
+累|acumular|accumulate|ルイ|—|N1|0|11|累計:るいけい:total acumulado:cumulative total||||糸|田 糸|
+采|colher; aparência|pick; appearance|サイ|—|N1|0|8|喝采:かっさい:aclamação:applause||||釆|爫 木|C;爫=s,木=s;Uma mão (爫) colhendo algo de uma árvore (木).
+冶|fundir (metal)|smelt|ヤ|—|N1|0|7|冶金:やきん:metalurgia:metallurgy||||冫|冫 台|F;冫=s,台=f:イ;
+曖|obscuro|obscure|アイ|—|N1|0|17|曖昧:あいまい:vago:vague||||日|日 愛|F;日=s,愛=f:アイ;
+惧|temer|fear|グ|—|N1|0|11|危惧:きぐ:apreensão:apprehension||||忄|忄 具|F;忄=s,具=f:グ;
+綻|romper-se; desabrochar|burst; unravel|タン|ほころ.びる|N1|0|14|破綻:はたん:falência; colapso:collapse||||糹|糹 定|
+裾|barra (de roupa); sopé|hem; foot (of mountain)|—|すそ|N1|0|13|裾:すそ:barra:hem||||衤|衤 居|F;衤=s,居=f:キョ;
+某|certo (alguém)|a certain|ボウ|—|N1|0|9|某氏:ぼうし:certa pessoa:a certain person||||木|甘 木|
+阜|monte; colina|mound|フ|—|N1|0|8|岐阜:ぎふ:Gifu:Gifu||||阜|-|P;;Desenho de degraus de terra numa encosta.
+頓|de repente; arrumar|sudden; tidy|トン|—|N1|0|13|整頓:せいとん:arrumação:tidying||||頁|屯 頁|F;頁=s,屯=f:トン;
+俸|salário|salary|ホウ|—|N1|0|10|年俸:ねんぽう:salário anual:annual salary||||亻|亻 奉|F;亻=s,奉=f:ホウ;
+喩|metáfora|metaphor|ユ|—|N1|0|12|比喩:ひゆ:metáfora:metaphor||||口|口 俞|F;口=s,俞=f:ユ;
+惰|preguiça|lazy|ダ|—|N1|0|12|怠惰:たいだ:preguiça:laziness||||忄|忄 左 月!|
+肘|cotovelo|elbow|—|ひじ|N1|0|7|肘:ひじ:cotovelo:elbow||||月|月~ 寸|
+閑|ócio; tranquilo|leisure; quiet|カン|—|N1|0|12|閑静:かんせい:tranquilo:quiet||||門|門 木|C;門=s,木=s;
+窯|forno (de cerâmica)|kiln|ヨウ|かま|N1|0|15|窯:かま:forno de cerâmica:kiln||||穴|穴 羔|F;穴=s,羔=f:ヨウ;
+苛|atormentar; severo|torment; harsh|カ|—|N1|0|8|苛酷:かこく:rigoroso:harsh||||艹|艹 可|F;艹=s,可=f:カ;
+寡|poucos; viúva|few; widow|カ|—|N1|0|14|寡黙:かもく:calado:taciturn||||宀|-|
+捻|torcer|twist|ネン|ねじ.る|N1|0|11|捻挫:ねんざ:entorse:sprain||||扌|扌 念|F;扌=s,念=f:ネン;
+褐|marrom|brown|カツ|—|N1|0|13|褐色:かっしょく:marrom:brown||||衤|衤 曷|F;衤=s,曷=f:カツ;
+遡|remontar a|go back to|ソ|さかのぼ.る|N1|0|14|遡る:さかのぼる:remontar:to go back||||辶|辶 朔|F;辶=s,朔=f:サク;
+堆|amontoar|pile|タイ|—|N1|0|11|堆積:たいせき:acúmulo:accumulation||||土|土 隹|F;土=s,隹=f:スイ;
+顎|mandíbula|jaw|ガク|あご|N1|0|18|顎:あご:queixo:jaw||||頁|咢 頁|F;頁=s,咢=f:ガク;
+畔|margem|shore|ハン|—|N1|0|10|湖畔:こはん:margem do lago:lakeside||||田|田 半|F;田=s,半=f:ハン;
+諮|consultar|consult|シ|はか.る|N1|0|16|諮問:しもん:consulta (oficial):inquiry||||言|言 咨|F;言=s,咨=f:シ;
+璽|selo imperial|imperial seal|ジ|—|N1|0|19|御璽:ぎょじ:selo imperial:imperial seal||||玉|爾 玉|F;玉=s,爾=f:ジ;
+翁|ancião|old man|オウ|—|N1|0|10|老翁:ろうおう:ancião:old man||||羽|公 羽|F;羽=s,公=f:コウ;
+儒|confucionismo|Confucianism|ジュ|—|N1|0|16|儒教:じゅきょう:confucionismo:Confucianism||||亻|亻 需|F;亻=s,需=f:ジュ;
+艶|brilho; charme|gloss; charm|エン|つや|N1|0|19|艶:つや:brilho:gloss||||色|豊 色|
+斥|repelir|repel|セキ|—|N1|0|5|排斥:はいせき:exclusão:exclusion||||斤|斤 丶|
+貪|cobiçar|covet|ドン|むさぼ.る|N1|0|11|貪欲:どんよく:ganancioso:greedy||||貝|今 貝|F;貝=s,今=f:キン;
+墳|túmulo|tomb|フン|—|N1|0|15|古墳:こふん:túmulo antigo (kofun):ancient burial mound||||土|土 賁|F;土=s,賁=f:フン;
+萎|murchar|wither|イ|な.える|N1|0|11|萎縮:いしゅく:atrofia:atrophy||||艹|艹 委|F;艹=s,委=f:イ;
+附|anexar|attach|フ|—|N1|0|8|寄附:きふ:doação:donation||||阝|阝 付|F;阝=s,付=f:フ;
+罷|demitir; parar|quit; dismiss|ヒ|—|N1|0|15|罷免:ひめん:destituição:dismissal||||罒|罒 能|
+劾|acusar|impeach|ガイ|—|N1|0|8|弾劾:だんがい:impeachment:impeachment||||力|亥 力|F;力=s,亥=f:ガイ;
+畏|reverenciar|revere; fear|イ|おそ.れる|N1|0|9|畏敬:いけい:reverência:awe||||田|田 𧘇!|
+鋳|fundir (metal)|cast (metal)|チュウ|い.る|N1|0|15|鋳造:ちゅうぞう:fundição:casting||||釒|釒 寿|F;釒=s,寿=f:ジュ;
+捗|progredir|make progress|チョク|—|N1|0|10|進捗:しんちょく:progresso:progress||||扌|扌 歩|
+詔|decreto imperial|imperial edict|ショウ|みことのり|N1|0|12|詔書:しょうしょ:decreto imperial:imperial edict||||言|言 召|F;言=s,召=f:ショウ;
+辣|picante; implacável|spicy; harsh|ラツ|—|N1|0|14|辛辣:しんらつ:mordaz:harsh||||辛|辛 束|
+租|tributo|tribute; tax|ソ|—|N1|0|10|租税:そぜい:tributos:taxes||||禾|禾 且|F;禾=s,且=f:ソ;
+沃|fértil|fertile|ヨク|—|N1|0|7|肥沃:ひよく:fértil:fertile||||氵|氵 夭|F;氵=s,夭=f:ヨウ;
+升|masu (medida)|measuring box|ショウ|ます|N1|0|4|升:ます:caixa de medida (masu):measuring box||||十|-|
+摯|sincero|sincere|シ|—|N1|0|15|真摯:しんし:sincero:sincere||||手|執 手|F;手=s,執=f:シツ;
+厘|rin (unidade)|rin (unit)|リン|—|N1|0|9|一分一厘:いちぶいちりん:uma fração mínima:tiny amount||||厂|厂 里|F;厂=s,里=f:リ;
+咽|garganta|throat|イン|—|N1|0|9|咽喉:いんこう:garganta:throat||||口|口 因|F;口=s,因=f:イン;
+毀|danificar|damage|キ|—|N1|0|13|毀損:きそん:dano:damage||||殳|臼 工 殳|
+庸|comum; mediano|ordinary|ヨウ|—|N1|0|11|凡庸:ぼんよう:medíocre:mediocre||||广|广 肀! 用|
+緻|minucioso|fine; minute|チ|—|N1|0|16|緻密:ちみつ:minucioso:detailed||||糹|糹 致|F;糹=s,致=f:チ;
+嫡|herdeiro legítimo|legitimate heir|チャク|—|N1|0|14|嫡子:ちゃくし:herdeiro legítimo:legitimate heir||||女|女 啇|F;女=s,啇=f:テキ;
+訃|aviso de falecimento|obituary|フ|—|N1|0|9|訃報:ふほう:notícia de falecimento:news of a death||||言|言 卜|F;言=s,卜=f:ボク;
+伎|arte; técnica|art; skill|キ|—|N1|0|6|歌舞伎:かぶき:kabuki:kabuki||||亻|亻 支|F;亻=s,支=f:シ;
+詣|visitar (templo)|visit (shrine)|ケイ|もう.でる|N1|0|13|初詣:はつもうで:primeira visita do ano ao templo:first shrine visit of the year||||言|言 旨|F;言=s,旨=f:シ;
+麓|sopé|foot of a mountain|ロク|ふもと|N1|0|19|麓:ふもと:sopé:foot of a mountain||||鹿|林 鹿|F;林=s,鹿=f:ロク;
+痘|varíola|smallpox|トウ|—|N1|0|12|水痘:すいとう:catapora:chickenpox||||疒|疒 豆|F;疒=s,豆=f:トウ;
+嘲|zombar|ridicule|チョウ|あざけ.る|N1|0|15|嘲笑:ちょうしょう:zombaria:ridicule||||口|口 朝|F;口=s,朝=f:チョウ;
+倹|econômico|thrifty|ケン|—|N1|0|10|倹約:けんやく:economia:thrift||||亻|亻 㑒|F;亻=s,僉=f:ケン;
+款|cláusula|article; clause|カン|—|N1|0|12|定款:ていかん:estatuto:articles of incorporation||||欠|-|
+汎|geral; amplo|pan-; general|ハン|—|N1|0|6|汎用:はんよう:uso geral:general-purpose||||氵|氵 凡|F;氵=s,凡=f:ハン;
+弐|dois (formal)|two (formal)|ニ|—|N1|0|6|弐万円:にまんえん:vinte mil ienes (formal):20,000 yen||||弋|弋 二|F;弋=s,二=f:ニ;
+弧|arco (geometria)|arc|コ|—|N1|0|9|括弧:かっこ:parênteses:parentheses||||弓|弓 瓜|F;弓=s,瓜=f:カ;
+嘱|confiar (tarefa)|entrust|ショク|—|N1|0|15|嘱託:しょくたく:contratado temporário:part-time employee||||口|口 属|F;口=s,属=f:ゾク;
+賦|tributo; dotar|levy; endow|フ|—|N1|0|15|月賦:げっぷ:prestação mensal:monthly installment||||貝|貝 武|F;貝=s,武=f:ブ;
+迭|alternar|alternate|テツ|—|N1|0|8|更迭:こうてつ:substituição (de cargo):reshuffle||||辶|辶 失|F;辶=s,失=f:シツ;
+羞|vergonha|shame|シュウ|—|N1|0|11|羞恥心:しゅうちしん:pudor:sense of shame||||羊|羊! 丑|F;羊=s,丑=f:チュウ;
+凹|côncavo|concave|オウ|へこ.む|N1|0|5|凹む:へこむ:amassar; afundar:to dent||||凵|-|P;;Desenho de uma superfície côncava.
+濫|excessivo|excessive|ラン|—|N1|0|18|濫用:らんよう:abuso:abuse||||氵|氵 監|F;氵=s,監=f:カン;
+氾|transbordar|overflow|ハン|—|N1|0|5|氾濫:はんらん:inundação:flood||||氵|氵 㔾|F;氵=s,㔾=f:ハン;
+凸|convexo|convex|トツ|—|N1|0|5|凸凹:でこぼこ:irregular:bumpy||||凵|-|P;;Desenho de uma superfície convexa.
+衷|íntimo|inner feelings|チュウ|—|N1|0|9|折衷:せっちゅう:meio-termo:compromise||||衣|衣 中|F;衣=s,中=f:チュウ;
+慄|tremer de medo|shudder|リツ|—|N1|0|13|戦慄:せんりつ:calafrio:shudder||||忄|忄 栗|F;忄=s,栗=f:リツ;
+遵|obedecer|obey|ジュン|—|N1|0|15|遵守:じゅんしゅ:cumprimento (de normas):compliance||||辶|辶 尊|F;辶=s,尊=f:ソン;
+蚕|bicho-da-seda|silkworm|サン|かいこ|N1|0|10|養蚕:ようさん:sericicultura:sericulture||||虫|天 虫|
+剝|descascar|peel|ハク|は.がす,は.げる|N1|0|10|剝がす:はがす:descolar:to peel off||||刂|录 刂|
+彙|coleção|collection|イ|—|N1|0|13|語彙:ごい:vocabulário:vocabulary||||彐|-|
+斤|machado; medida de peso|axe; catty|キン|—|N1|0|4|一斤:いっきん:um pão de forma:one loaf||||斤|-|P;;Desenho de um machado.
+壱|um (formal)|one (formal)|イチ|—|N1|0|7|壱万円:いちまんえん:dez mil ienes (formal):10,000 yen||||士|士 冖 匕|
+丙|terceiro (C)|third (C)|ヘイ|—|N1|0|5|甲乙丙:こうおつへい:A, B, C (classificação):A, B, C||||一|-|
+但|porém|however|—|ただ.し|N1|0|7|但し:ただし:porém:however||||亻|亻 旦|F;亻=s,旦=f:タン;
+錮|prender|confine|コ|—|N1|0|16|禁錮:きんこ:detenção:imprisonment||||釒|釒 固|F;釒=s,固=f:コ;
+謄|copiar|copy|トウ|—|N1|0|17|謄本:とうほん:cópia oficial (de registro):certified copy||||言|月! 龹 言|
+墾|desbravar (terra)|cultivate new land|コン|—|N1|0|16|開墾:かいこん:desbravamento:land clearing||||土|貇 土|
+逓|revezar|relay|テイ|—|N1|0|10|逓信:ていしん:comunicações (postais):communications||||辶|辶 虒!|
+抄|extrair; resumir|extract|ショウ|—|N1|0|7|抄録:しょうろく:resumo:abstract||||扌|扌 少|F;扌=s,少=f:ショウ;
+且|além disso|furthermore|—|か.つ|N1|0|5|且つ:かつ:além disso:moreover||||一|-|
+塑|modelar|model; mold|ソ|—|N1|0|13|彫塑:ちょうそ:escultura:sculpture||||土|朔 土|F;土=s,朔=f:サク;
+虞|receio|fear; risk|—|おそれ|N1|0|13|虞:おそれ:risco:risk||||虍|虍 呉|F;虍=s,呉=f:ゴ;
+恣|arbitrário|arbitrary|シ|—|N1|0|10|恣意的:しいてき:arbitrário:arbitrary||||心|次 心|F;心=s,次=f:シ;
+漸|gradualmente|gradually|ゼン|—|N1|0|14|漸く:ようやく:finalmente:at last||||氵|氵 斬|F;氵=s,斬=f:ザン;
+畝|sulco|ridge (in field)|—|うね|N1|0|10|畝:うね:sulco:ridge||||田|亠 田 久|
+塡|preencher|fill|テン|—|N1|0|13|装塡:そうてん:carregamento (arma):loading||||土|土 眞|F;土=s,眞=f:シン;
+楷|escrita padrão|block style|カイ|—|N1|0|13|楷書:かいしょ:escrita regular:block style||||木|木 皆|F;木=s,皆=f:カイ;
+頒|distribuir|distribute|ハン|—|N1|0|13|頒布:はんぷ:distribuição:distribution||||頁|分 頁|F;頁=s,分=f:フン;
+頰|bochecha|cheek|キョウ|ほお|N1|0|16|頰:ほお:bochecha:cheek||||頁|夾 頁|F;頁=s,夾=f:キョウ;
+憬|ansiar|yearn|ケイ|—|N1|0|15|憧憬:しょうけい:anseio:longing||||忄|忄 景|F;忄=s,景=f:ケイ;
+諧|harmonia|harmony|カイ|—|N1|0|16|俳諧:はいかい:poesia haikai:haikai poetry||||言|言 皆|F;言=s,皆=f:カイ;
+𠮟|repreender|scold|シツ|しか.る|N1|0|5|𠮟る:しかる:repreender:to scold||||口|口 七|F;口=s,七=f:シチ;

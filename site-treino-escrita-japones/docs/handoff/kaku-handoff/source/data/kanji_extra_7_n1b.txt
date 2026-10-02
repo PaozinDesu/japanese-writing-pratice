@@ -1,0 +1,143 @@
+輩|colega; geração|fellow; generation|ハイ|—|N1|0|15|先輩:せんぱい:veterano:senior||||車|非 車|F;車=s,非=f:ヒ;
+歓|alegria|delight|カン|—|N1|0|15|歓迎:かんげい:boas-vindas:welcome||||欠|隹! 欠|F;欠=s,雚=f:カン;
+踏|pisar|step on|トウ|ふ.む|N1|0|15|踏む:ふむ:pisar:to step on||||𧾷|𧾷 沓|F;𧾷=s,沓=f:トウ;
+症|sintoma|symptom|ショウ|—|N1|0|10|症状:しょうじょう:sintoma:symptom||||疒|疒 正|F;疒=s,正=f:セイ;
+挑|desafiar|challenge|チョウ|いど.む|N1|0|9|挑戦:ちょうせん:desafio:challenge||||扌|扌 兆|F;扌=s,兆=f:チョウ;
+竜|dragão|dragon|リュウ|たつ|N1|0|10|竜:りゅう:dragão:dragon||||竜|-|P;;Desenho de um dragão.
+浜|praia|beach|ヒン|はま|N1|0|10|横浜:よこはま:Yokohama:Yokohama||||氵|氵 兵|
+迫|pressionar; aproximar-se|press; approach|ハク|せま.る|N1|0|8|迫る:せまる:aproximar-se; pressionar:to press||||辶|辶 白|F;辶=s,白=f:ハク;
+環|anel; ambiente|ring; environment|カン|—|N1|0|17|環境:かんきょう:meio ambiente:environment||||王|王~ 睘|F;玉=s,睘=f:カン;
+滅|destruir|destroy|メツ|ほろ.びる|N1|0|13|絶滅:ぜつめつ:extinção:extinction||||氵|氵 威!|
+儀|cerimônia|ceremony|ギ|—|N1|0|15|礼儀:れいぎ:etiqueta:manners||||亻|亻 義|F;亻=s,義=f:ギ;
+源|fonte; origem|source|ゲン|みなもと|N1|0|13|資源:しげん:recursos:resources||||氵|氵 原|F;氵=s,原=f:ゲン;
+養|nutrir; criar|nourish; raise|ヨウ|やしな.う|N1|0|15|栄養:えいよう:nutrição:nutrition||||食|羊! 食|F;食=s,羊=f:ヨウ;
+納|entregar; guardar|deliver; store|ノウ,ナッ|おさ.める|N1|0|10|納得:なっとく:entendimento; aceitação:consent||||糹|糹 内|F;糹=s,内=f:ナイ;
+端|ponta; borda|edge; end|タン|はし,はた|N1|0|14|端:はし:ponta; beira:edge||||立|立 耑|F;立=s,耑=f:タン;
+艦|navio de guerra|warship|カン|—|N1|0|21|軍艦:ぐんかん:navio de guerra:warship||||舟|舟 監|F;舟=s,監=f:カン;
+渉|atravessar; negociar|ford; negotiate|ショウ|—|N1|0|11|交渉:こうしょう:negociação:negotiation||||氵|氵 歩|
+妙|estranho; engenhoso|strange; exquisite|ミョウ|—|N1|0|7|微妙:びみょう:delicado; sutil:subtle||||女|女 少|
+霊|espírito|spirit|レイ,リョウ|たま|N1|0|15|幽霊:ゆうれい:fantasma:ghost||||雨|雨 亚!|
+契|contrato|contract|ケイ|ちぎ.る|N1|0|9|契約:けいやく:contrato:contract||||大|丯 刀 大|
+請|pedir|request|セイ,シン|こ.う,う.ける|N1|0|15|請求:せいきゅう:cobrança:billing||||言|言 青|F;言=s,青=f:セイ;
+怪|misterioso; estranho|mysterious; suspicious|カイ|あや.しい|N1|0|8|怪しい:あやしい:suspeito:suspicious||||忄|忄 圣|
+為|fazer; por causa de|do; for the sake of|イ|ため|N1|0|9|行為:こうい:ato:act||||灬|-|
+殴|bater; socar|hit; punch|オウ|なぐ.る|N1|0|8|殴る:なぐる:socar:to hit||||殳|区 殳|F;殳=s,区=f:ク;
+懸|pendurar; empenho|hang; stake|ケン,ケ|か.ける|N1|0|20|一生懸命:いっしょうけんめい:com todo o empenho:with all one's effort||||心|県 系 心|
+推|empurrar; inferir|push; infer|スイ|お.す|N1|0|11|推薦:すいせん:recomendação:recommendation||||扌|扌 隹|F;扌=s,隹=f:スイ;
+診|examinar (médico)|diagnose|シン|み.る|N1|0|12|診察:しんさつ:consulta médica:medical examination||||言|言 㐱|F;言=s,㐱=f:シン;
+脅|ameaçar|threaten|キョウ|おど.す,おびや.かす|N1|0|10|脅す:おどす:ameaçar:to threaten||||月|劦 月~|F;肉=s,劦=f:キョウ;
+模|modelo; imitar|model; imitate|モ,ボ|—|N1|0|14|模様:もよう:padrão; desenho:pattern||||木|木 莫|F;木=s,莫=f:ボ;
+及|alcançar|reach|キュウ|およ.ぶ,およ.び|N1|0|3|普及:ふきゅう:difusão:spread||||又|-|
+討|discutir; atacar|discuss; attack|トウ|う.つ|N1|0|10|検討:けんとう:análise:examination||||言|言 寸|
+遣|enviar|dispatch|ケン|つか.う,つか.わす|N1|0|13|派遣:はけん:envio (de pessoal):dispatch||||辶|辶 𠂤! 中!|
+握|agarrar|grasp|アク|にぎ.る|N1|0|12|握手:あくしゅ:aperto de mão:handshake||||扌|扌 屋|F;扌=s,屋=f:オク;
+隣|vizinho|neighbor|リン|となり,とな.る|N1|0|16|隣:となり:ao lado; vizinho:next door||||阝|阝 粦|F;阝=s,粦=f:リン;
+康|saúde; paz|health; peace|コウ|—|N1|0|11|健康:けんこう:saúde:health||||广|广 隶!|
+載|carregar; publicar|load; publish|サイ|の.せる,の.る|N1|0|13|記載:きさい:registro; menção:mention||||車|𢦏 車|F;車=s,𢦏=f:サイ;
+憶|lembrar|remember|オク|—|N1|0|16|記憶:きおく:memória:memory||||忄|忄 意|F;忄=s,意=f:イ;
+至|chegar; extremo|reach; utmost|シ|いた.る|N1|0|6|至る:いたる:chegar a:to reach||||至|-|P;;Desenho de uma flecha que chega ao chão.
+房|quarto; cacho|room; cluster|ボウ|ふさ|N1|0|8|冷房:れいぼう:ar-condicionado:air conditioning||||戸|戸 方|F;戸=s,方=f:ホウ;
+秀|excelente|excel|シュウ|ひい.でる|N1|0|7|優秀:ゆうしゅう:excelente:excellent||||禾|禾 乃|
+執|segurar; executar|hold; carry out|シツ,シュウ|と.る|N1|0|11|執筆:しっぴつ:escrita (de obra):writing||||土|幸 丸|
+慢|arrogante; lento|arrogant; slow|マン|—|N1|0|14|我慢:がまん:paciência; aguentar:endurance||||忄|忄 曼|F;忄=s,曼=f:マン;
+華|flor; esplendor|flower; splendor|カ,ケ|はな|N1|0|10|中華:ちゅうか:chinês (culinária):Chinese||||艹|艹 𠦒!|
+扱|manusear|handle|—|あつか.う|N1|0|6|扱う:あつかう:lidar com; manusear:to handle||||扌|扌 及|
+徳|virtude|virtue|トク|—|N1|0|14|道徳:どうとく:moral:morality||||彳|彳 十 罒 心|
+択|escolher|choose|タク|—|N1|0|7|選択:せんたく:escolha:selection||||扌|扌 尺|
+衝|colidir|collide|ショウ|—|N1|0|15|衝突:しょうとつ:colisão:collision||||行|行 重|F;行=s,重=f:ジュウ;
+衆|multidão|masses|シュウ,シュ|—|N1|0|12|観衆:かんしゅう:público:audience||||血|血 𠂢!|
+偽|falso|false|ギ|いつわ.る,にせ|N1|0|11|偽物:にせもの:falsificação:fake||||亻|亻 為|F;亻=s,為=f:イ;
+幹|tronco; principal|trunk; main|カン|みき|N1|0|13|幹部:かんぶ:diretoria:executives||||干|𠦝 人! 干|
+鬼|demônio; ogro|demon; ogre|キ|おに|N1|0|10|鬼:おに:ogro; demônio:demon||||鬼|-|P;;Desenho de uma figura com máscara (espírito dos mortos).
+崩|desmoronar|collapse|ホウ|くず.れる,くず.す|N1|0|11|崩れる:くずれる:desmoronar:to collapse||||山|山 朋|F;山=s,朋=f:ホウ;
+尽|esgotar|exhaust|ジン|つ.くす,つ.きる|N1|0|6|尽くす:つくす:dedicar-se totalmente:to devote||||尸|尸 ⺀|
+悔|arrepender-se|regret|カイ|く.やしい,く.やむ|N1|0|9|悔しい:くやしい:frustrante:frustrating||||忄|忄 毎|F;忄=s,毎=f:マイ;
+津|porto; costa|harbor|シン|つ|N1|0|9|津波:つなみ:tsunami:tsunami||||氵|氵 聿|
+侵|invadir|invade|シン|おか.す|N1|0|9|侵入:しんにゅう:invasão:intrusion||||亻|亻 帚! 又|
+宣|declarar|proclaim|セン|—|N1|0|9|宣伝:せんでん:publicidade:advertisement||||宀|宀 亘|F;宀=s,亘=f:セン;
+葬|enterrar|bury|ソウ|ほうむ.る|N1|0|12|葬式:そうしき:funeral:funeral||||艹|艹 死 廾|
+稼|ganhar (dinheiro)|earn|カ|かせ.ぐ|N1|0|15|稼ぐ:かせぐ:ganhar dinheiro:to earn||||禾|禾 家|F;禾=s,家=f:カ;
+奇|estranho; ímpar|strange; odd|キ|—|N1|0|8|奇妙:きみょう:estranho:strange||||大|大 可|F;大=s,可=f:カ;
+株|ação (bolsa); toco|stock; stump|—|かぶ|N1|0|10|株式会社:かぶしきがいしゃ:sociedade anônima:corporation||||木|木 朱|F;木=s,朱=f:シュ;
+冗|supérfluo|superfluous|ジョウ|—|N1|0|4|冗談:じょうだん:piada:joke||||冖|冖 几|
+宗|religião; seita|religion; sect|シュウ,ソウ|—|N1|0|8|宗教:しゅうきょう:religião:religion||||宀|宀 示|C;宀=s,示=s;
+看|olhar; cuidar|watch; nurse|カン|—|N1|0|9|看板:かんばん:letreiro:signboard||||目|手! 目|C;手=s,目=s;Uma mão sobre os olhos para ver ao longe.
+穴|buraco|hole|ケツ|あな|N1|0|5|穴:あな:buraco:hole||||穴|-|
+就|assumir (cargo)|take up (a post)|シュウ,ジュ|つ.く|N1|0|12|就職:しゅうしょく:conseguir emprego:finding employment||||尢|京 尤|
+節|nó; estação; moderação|joint; season; moderation|セツ,セチ|ふし|N1|0|13|季節:きせつ:estação do ano:season||||⺮|⺮ 即|F;⺮=s,即=f:ソク;
+締|apertar; fechar|tighten; close|テイ|し.める,し.まる|N1|0|15|締め切り:しめきり:prazo final:deadline||||糹|糹 帝|F;糹=s,帝=f:テイ;
+詳|detalhado|detailed|ショウ|くわ.しい|N1|0|13|詳しい:くわしい:detalhado:detailed||||言|言 羊|F;言=s,羊=f:ヨウ;
+輝|brilhar|shine|キ|かがや.く|N1|0|15|輝く:かがやく:brilhar:to shine||||車|光 軍|F;光=s,軍=f:グン;
+脚|perna|leg|キャク,キャ|あし|N1|0|11|脚本:きゃくほん:roteiro:script||||月|月~ 却|F;肉=s,却=f:キャク;
+拒|recusar|refuse|キョ|こば.む|N1|0|8|拒否:きょひ:recusa:refusal||||扌|扌 巨|F;扌=s,巨=f:キョ;
+慮|consideração|consideration|リョ|—|N1|0|15|遠慮:えんりょ:cerimônia; reserva:reserve||||心|虍 思|
+邦|país; japonês|country; Japanese|ホウ|くに|N1|0|7|邦画:ほうが:filme japonês:Japanese film||||阝|丰 阝|F;阝=s,丰=f:ホウ;
+仮|temporário; suposto|temporary; provisional|カ,ケ|かり|N1|0|6|仮名:かな:kana (silabário):kana||||亻|亻 反|
+裂|rasgar|split; tear|レツ|さ.く,さ.ける|N1|0|12|分裂:ぶんれつ:divisão:split||||衣|列 衣|F;衣=s,列=f:レツ;
+駄|inútil; carga|useless; burden|ダ,タ|—|N1|0|14|無駄:むだ:desperdício:waste||||馬|馬 太|F;馬=s,太=f:タ;
+帝|imperador|emperor|テイ|みかど|N1|0|9|皇帝:こうてい:imperador:emperor||||巾|-|
+繰|enrolar; repetir|reel; repeat|—|く.る|N1|0|19|繰り返す:くりかえす:repetir:to repeat||||糹|糹 喿|
+益|lucro; benefício|benefit; profit|エキ,ヤク|—|N1|0|10|利益:りえき:lucro:profit||||皿|-|
+耐|suportar|endure|タイ|た.える|N1|0|9|耐える:たえる:suportar:to endure||||而|而 寸|
+獲|capturar|capture|カク|え.る|N1|0|16|獲得:かくとく:conquista:acquisition||||犭|犭 蒦|F;犭=s,蒦=f:カク;
+拍|bater (palmas)|clap; beat|ハク,ヒョウ|—|N1|0|8|拍手:はくしゅ:aplauso:applause||||扌|扌 白|F;扌=s,白=f:ハク;
+姫|princesa|princess|キ|ひめ|N1|0|10|お姫様:おひめさま:princesa:princess||||女|女 𦣞!|
+魅|encantar|fascinate|ミ|—|N1|0|15|魅力:みりょく:charme:charm||||鬼|鬼 未|F;鬼=s,未=f:ミ;
+催|organizar (evento)|host; sponsor|サイ|もよお.す|N1|0|13|開催:かいさい:realização (de evento):holding (an event)||||亻|亻 崔|F;亻=s,崔=f:サイ;
+駆|correr; impelir|drive; gallop|ク|か.ける,か.る|N1|0|14|駆ける:かける:correr (a galope):to run||||馬|馬 区|F;馬=s,区=f:ク;
+勘|intuição|intuition|カン|—|N1|0|11|勘違い:かんちがい:engano:misunderstanding||||力|甚 力|F;力=s,甚=f:ジン;
+誠|sinceridade|sincerity|セイ|まこと|N1|0|13|誠実:せいじつ:sincero:sincere||||言|言 成|F;言=s,成=f:セイ;
+酔|embriagar-se|get drunk|スイ|よ.う|N1|0|11|酔う:よう:embriagar-se; enjoar:to get drunk||||酉|酉 卒|F;酉=s,卒=f:ソツ;
+郷|terra natal|hometown|キョウ,ゴウ|さと|N1|0|11|故郷:こきょう:terra natal:hometown||||阝|-|
+恩|gratidão; favor|kindness; favor|オン|—|N1|0|10|恩返し:おんがえし:retribuir um favor:repaying a kindness||||心|因 心|F;心=s,因=f:イン;
+陣|acampamento; posição|camp; position|ジン|—|N1|0|10|陣地:じんち:posição militar:position||||阝|阝 車|
+罰|castigo|punishment|バツ,バチ|—|N1|0|14|罰金:ばっきん:multa:fine||||罒|罒 言 刂|
+索|procurar; corda|search; rope|サク|—|N1|0|10|検索:けんさく:busca:search||||糸|十 冖 糸|
+裕|abundante; folga|abundant; ample|ユウ|—|N1|0|12|余裕:よゆう:folga; margem:leeway||||衤|衤 谷|F;衤=s,谷=f:コク;
+慎|prudente|prudent|シン|つつし.む|N1|0|13|慎重:しんちょう:cauteloso:careful||||忄|忄 真|F;忄=s,真=f:シン;
+桜|cerejeira|cherry tree|オウ|さくら|N1|0|10|桜:さくら:cerejeira:cherry blossom||||木|木 ⺍ 女|
+揺|balançar|shake; sway|ヨウ|ゆ.れる,ゆ.する|N1|0|12|揺れる:ゆれる:balançar; tremer:to shake||||扌|扌 䍃|F;扌=s,䍃=f:ヨウ;
+致|fazer (humilde); causar|do (humble); cause|チ|いた.す|N1|0|10|一致:いっち:concordância:agreement||||至|至 攵|F;攵=s,至=f:シ;
+属|pertencer|belong|ゾク|—|N1|0|12|所属:しょぞく:filiação:affiliation||||尸|尸 禹!|
+償|compensar|compensate|ショウ|つぐな.う|N1|0|17|弁償:べんしょう:indenização:compensation||||亻|亻 賞|F;亻=s,賞=f:ショウ;
+己|si mesmo|oneself|コ,キ|おのれ|N1|0|3|自己紹介:じこしょうかい:autoapresentação:self-introduction||||己|-|
+徹|penetrar; atravessar|penetrate|テツ|—|N1|0|15|徹夜:てつや:virar a noite:staying up all night||||彳|彳 育 攵|
+露|orvalho; expor|dew; expose|ロ,ロウ|つゆ|N1|0|21|露天風呂:ろてんぶろ:banho ao ar livre:outdoor bath||||雨|雨 路|F;雨=s,路=f:ロ;
+剤|remédio (preparado)|dose; agent|ザイ|—|N1|0|10|洗剤:せんざい:detergente:detergent||||刂|斉 刂|F;刂=s,斉=f:セイ;
+抑|reprimir|suppress|ヨク|おさ.える|N1|0|7|抑える:おさえる:conter:to suppress||||扌|扌 卬|
+焦|queimar; apressar|scorch; hurry|ショウ|こ.げる,あせ.る|N1|0|12|焦る:あせる:afobar-se:to be in a hurry||||灬|隹 灬|C;隹=s,灬=s;Um pássaro (隹) sobre o fogo (灬).
+陛|degrau do trono|steps of the throne|ヘイ|—|N1|0|10|陛下:へいか:Sua Majestade:His Majesty||||阝|阝 坒|F;阝=s,坒=f:ヘイ;
+獄|prisão|prison|ゴク|—|N1|0|14|地獄:じごく:inferno:hell||||犭|犭 言 犬|
+屈|dobrar-se|bend; yield|クツ|—|N1|0|8|退屈:たいくつ:tédio:boredom||||尸|尸 出|
+犠|sacrifício|sacrifice|ギ|—|N1|0|17|犠牲:ぎせい:sacrifício:sacrifice||||牜|牜 義|F;牛=s,義=f:ギ;
+暇|tempo livre|free time|カ|ひま|N1|0|13|暇:ひま:tempo livre:free time||||日|日 叚|F;日=s,叚=f:カ;
+融|dissolver; fundir|dissolve; fuse|ユウ|—|N1|0|16|金融:きんゆう:finanças:finance||||虫|鬲 虫|
+免|dispensar; licença|exempt; license|メン|まぬか.れる|N1|0|8|免許:めんきょ:licença:license||||儿|-|
+揮|agitar; comandar|wave; command|キ|—|N1|0|12|指揮:しき:regência; comando:conducting||||扌|扌 軍|F;扌=s,軍=f:グン;
+忠|lealdade|loyalty|チュウ|—|N1|0|8|忠実:ちゅうじつ:leal; fiel:faithful||||心|中 心|F;心=s,中=f:チュウ;
+瀬|corredeira; baixio|rapids; shallows|—|せ|N1|0|19|瀬戸内海:せとないかい:Mar Interior de Seto:Seto Inland Sea||||氵|氵 頼|
+哲|filosofia; sábio|philosophy; sage|テツ|—|N1|0|10|哲学:てつがく:filosofia:philosophy||||口|折 口|F;口=s,折=f:セツ;
+柄|padrão; cabo|pattern; handle|ヘイ|がら,え|N1|0|9|花柄:はながら:estampa floral:floral pattern||||木|木 丙|F;木=s,丙=f:ヘイ;
+威|autoridade; ameaça|authority; threat|イ|—|N1|0|9|権威:けんい:autoridade:authority||||女|戌 女|
+僚|colega|colleague|リョウ|—|N1|0|14|同僚:どうりょう:colega de trabalho:coworker||||亻|亻 尞|F;亻=s,尞=f:リョウ;
+徴|sinal; recrutar|sign; levy|チョウ|—|N1|0|14|特徴:とくちょう:característica:feature||||彳|彳 山 王! 攵|
+誇|orgulho|pride|コ|ほこ.る|N1|0|13|誇り:ほこり:orgulho:pride||||言|言 夸|F;言=s,夸=f:コ;
+飾|enfeitar|decorate|ショク|かざ.る|N1|0|13|飾る:かざる:enfeitar:to decorate||||飠|飠 𠂉 巾|
+炎|chama|flame|エン|ほのお|N1|0|8|炎:ほのお:chama:flame||||火|火 火|C;火=s,火=s;Fogo sobre fogo: chamas.
+倉|depósito|warehouse|ソウ|くら|N1|0|10|倉庫:そうこ:armazém:warehouse||||人|-|P;;Desenho de um celeiro.
+牲|vítima (sacrifício)|sacrificial animal|セイ|—|N1|0|9|犠牲:ぎせい:sacrifício:sacrifice||||牜|牜 生|F;牛=s,生=f:セイ;
+奏|tocar (música)|play music|ソウ|かな.でる|N1|0|9|演奏:えんそう:apresentação musical:performance||||大|𡗗 天!|
+廃|abolir; decadência|abolish; ruin|ハイ|すた.れる|N1|0|12|廃止:はいし:abolição:abolition||||广|广 発|F;广=s,発=f:ハツ;
+妊|engravidar|pregnant|ニン|—|N1|0|7|妊娠:にんしん:gravidez:pregnancy||||女|女 壬|F;女=s,壬=f:ジン;
+維|fibra; manter|fiber; maintain|イ|—|N1|0|14|維持:いじ:manutenção:maintenance||||糹|糹 隹|F;糹=s,隹=f:スイ;
+砲|canhão|cannon|ホウ|—|N1|0|10|鉄砲:てっぽう:arma de fogo:gun||||石|石 包|F;石=s,包=f:ホウ;
+塚|montículo|mound|—|つか|N1|0|12|貝塚:かいづか:sambaqui:shell mound||||土|土 冢!|
+核|núcleo|nucleus|カク|—|N1|0|10|核:かく:núcleo:nucleus||||木|木 亥|F;木=s,亥=f:ガイ;
+亜|sub-; Ásia|sub-; Asia|ア|—|N1|0|7|亜熱帯:あねったい:subtropical:subtropical||||二|-|
+距|distância|distance|キョ|—|N1|0|12|距離:きょり:distância:distance||||𧾷|𧾷 巨|F;𧾷=s,巨=f:キョ;
+釈|explicar; soltar|explain; release|シャク|—|N1|0|11|解釈:かいしゃく:interpretação:interpretation||||釆|釆 尺|
+縁|laço; borda|bond; edge|エン|ふち|N1|0|15|縁:えん:laço (destino):bond||||糹|糹 彖|F;糹=s,彖=f:タン;
+句|frase; verso|phrase; verse|ク|—|N1|0|5|俳句:はいく:haicai:haiku||||口|勹 口|
+譲|ceder|yield|ジョウ|ゆず.る|N1|0|20|譲る:ゆずる:ceder:to give up (a seat)||||言|言 襄!|
+批|criticar|criticize|ヒ|—|N1|0|7|批判:ひはん:crítica:criticism||||扌|扌 比|F;扌=s,比=f:ヒ;
+牧|pastorear|pasture|ボク|まき|N1|0|8|牧場:ぼくじょう:fazenda de gado:ranch||||牜|牜 攵|C;牛=s,攵=s;

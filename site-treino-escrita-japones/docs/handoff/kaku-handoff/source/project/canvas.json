@@ -1,0 +1,265 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Cadastro.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Criar conta",
+      "w": 1920,
+      "x": 2000,
+      "y": 3700
+    },
+    "Caracteres.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Caracteres",
+      "w": 1920,
+      "x": 2000,
+      "y": 0
+    },
+    "CaracteresMobile.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Caracteres · celular",
+      "w": 390,
+      "x": 0,
+      "y": 2300
+    },
+    "Componentes.dc.html": {
+      "h": 4880,
+      "title": "Design System · Componentes",
+      "w": 1440,
+      "x": 1520,
+      "y": 5600
+    },
+    "DesignSystem.dc.html": {
+      "h": 5760,
+      "title": "Design System · Fundamentos",
+      "w": 1440,
+      "x": 0,
+      "y": 5600
+    },
+    "DetalheMobile.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Detalhe · celular",
+      "w": 390,
+      "x": 470,
+      "y": 2300
+    },
+    "Kanji.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Kanji · componentes",
+      "w": 1920,
+      "x": 6000,
+      "y": 0
+    },
+    "Leitura.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Prática de leitura",
+      "w": 1920,
+      "x": 10000,
+      "y": 0
+    },
+    "LeituraMobile.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Leitura · celular",
+      "w": 390,
+      "x": 1880,
+      "y": 2300
+    },
+    "Listas.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Minhas listas",
+      "w": 1920,
+      "x": 4000,
+      "y": 3700
+    },
+    "Login.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Entrar",
+      "w": 1920,
+      "x": 0,
+      "y": 3700
+    },
+    "Main.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Início",
+      "w": 1920,
+      "x": 0,
+      "y": 0
+    },
+    "Perfil.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Perfil",
+      "w": 1920,
+      "x": 6000,
+      "y": 3700
+    },
+    "Praticar.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "w": 1920,
+      "x": 8000,
+      "y": 0
+    },
+    "PraticarMobile.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Praticar · celular",
+      "w": 390,
+      "x": 940,
+      "y": 2300
+    },
+    "Progresso.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "Progresso",
+      "w": 1920,
+      "x": 4000,
+      "y": 0
+    },
+    "ResultadoMobile.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Resultado · celular",
+      "w": 390,
+      "x": 1410,
+      "y": 2300
+    },
+    "MainMobile.dc.html": {
+      "x": 2350,
+      "y": 2300,
+      "w": 390,
+      "h": 844,
+      "title": "Início · celular",
+      "is_interactive": true
+    },
+    "KanjiMobile.dc.html": {
+      "x": 2820,
+      "y": 2300,
+      "w": 390,
+      "h": 844,
+      "title": "Kanji · celular",
+      "is_interactive": true
+    },
+    "ProgressoMobile.dc.html": {
+      "x": 3290,
+      "y": 2300,
+      "w": 390,
+      "h": 844,
+      "title": "Progresso · celular",
+      "is_interactive": true
+    },
+    "ListasMobile.dc.html": {
+      "x": 3760,
+      "y": 2300,
+      "w": 390,
+      "h": 844,
+      "title": "Minhas listas · celular",
+      "is_interactive": true
+    },
+    "PerfilMobile.dc.html": {
+      "x": 4230,
+      "y": 2300,
+      "w": 390,
+      "h": 844,
+      "title": "Perfil · celular",
+      "is_interactive": true
+    },
+    "LoginMobile.dc.html": {
+      "x": 4700,
+      "y": 2300,
+      "w": 390,
+      "h": 844,
+      "title": "Entrar · celular",
+      "is_interactive": true
+    },
+    "CadastroMobile.dc.html": {
+      "x": 5170,
+      "y": 2300,
+      "w": 390,
+      "h": 844,
+      "title": "Criar conta · celular",
+      "is_interactive": true
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-09-22T22:40:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "conta": {
+      "kind": "title1",
+      "maxW": 7920,
+      "text": "Conta e listas",
+      "w": 240,
+      "x": 0,
+      "y": 3400
+    },
+    "desk": {
+      "kind": "title1",
+      "maxW": 11920,
+      "text": "Desktop",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "ds": {
+      "kind": "title1",
+      "maxW": 2960,
+      "text": "Design System",
+      "w": 240,
+      "x": 0,
+      "y": 5300
+    },
+    "mob": {
+      "kind": "title1",
+      "maxW": 5560,
+      "text": "Celular",
+      "w": 240,
+      "x": 0,
+      "y": 2000
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Caracteres.dc.html",
+    "Kanji.dc.html",
+    "Praticar.dc.html",
+    "Leitura.dc.html",
+    "Progresso.dc.html",
+    "CaracteresMobile.dc.html",
+    "DetalheMobile.dc.html",
+    "PraticarMobile.dc.html",
+    "LeituraMobile.dc.html",
+    "ResultadoMobile.dc.html",
+    "Login.dc.html",
+    "Cadastro.dc.html",
+    "Listas.dc.html",
+    "Perfil.dc.html",
+    "DesignSystem.dc.html",
+    "Componentes.dc.html",
+    "MainMobile.dc.html",
+    "KanjiMobile.dc.html",
+    "ProgressoMobile.dc.html",
+    "ListasMobile.dc.html",
+    "PerfilMobile.dc.html",
+    "LoginMobile.dc.html",
+    "CadastroMobile.dc.html"
+  ],
+  "pages": [],
+  "title": "Kaku — Escrita japonesa"
+}

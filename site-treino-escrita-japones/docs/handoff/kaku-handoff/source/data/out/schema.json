@@ -1,0 +1,557 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kaku-caracteres.schema.json",
+  "title": "Kaku — base de caracteres japoneses",
+  "type": "object",
+  "required": [
+    "meta",
+    "characters"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "counts"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 2
+        },
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "romanization": {
+          "type": "string"
+        },
+        "groups": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "difficulty": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "jlpt": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/jlpt"
+          }
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer"
+          }
+        },
+        "caveats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/character"
+      }
+    }
+  },
+  "$defs": {
+    "jlpt": {
+      "enum": [
+        "N5",
+        "N4",
+        "N3",
+        "N2",
+        "N1"
+      ]
+    },
+    "example": {
+      "type": "object",
+      "required": [
+        "word",
+        "reading",
+        "romaji",
+        "pt",
+        "en"
+      ],
+      "properties": {
+        "word": {
+          "type": "string",
+          "description": "Palavra como é escrita (kanji/kana)."
+        },
+        "reading": {
+          "type": "string",
+          "description": "Leitura em kana."
+        },
+        "romaji": {
+          "type": "string"
+        },
+        "pt": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        }
+      }
+    },
+    "strokeOrder": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "source",
+        "viewBox",
+        "paths"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "Ex.: kaku-simplificado, kanjivg."
+        },
+        "viewBox": {
+          "type": "string"
+        },
+        "paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Um path SVG por traço, na ordem correta."
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "character": {
+      "type": "object",
+      "required": [
+        "id",
+        "char",
+        "category",
+        "group",
+        "romaji",
+        "reading",
+        "meaning",
+        "jlpt",
+        "difficulty",
+        "strokes",
+        "strokeOrder",
+        "examples"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(hiragana|katakana|kanji):.+$",
+          "description": "Chave única: categoria + caractere. Um caractere aparece uma única vez."
+        },
+        "char": {
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "hiragana",
+            "katakana",
+            "kanji"
+          ]
+        },
+        "group": {
+          "enum": [
+            "basico",
+            "dakuten",
+            "handakuten",
+            "pequeno",
+            "combinacao",
+            "estrangeiro",
+            "joyo"
+          ]
+        },
+        "romaji": {
+          "type": "string",
+          "description": "Kana: som do caractere. Kanji: romaji da leitura principal."
+        },
+        "reading": {
+          "type": "string",
+          "description": "Kana: forma em hiragana. Kanji: leitura principal (kun'yomi com okurigana entre parênteses, ou on'yomi)."
+        },
+        "meaning": {
+          "type": "object",
+          "required": [
+            "pt",
+            "en"
+          ],
+          "properties": {
+            "pt": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "en": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "jlpt": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/jlpt"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Só para kanji; kana = null."
+        },
+        "difficulty": {
+          "enum": [
+            "iniciante",
+            "intermediario",
+            "avancado"
+          ]
+        },
+        "strokes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "strokeOrder": {
+          "$ref": "#/$defs/strokeOrder"
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/example"
+          }
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Kana combinados (ex.: きゃ → き + ゃ)."
+        },
+        "note": {
+          "type": "string"
+        },
+        "readings": {
+          "type": "object",
+          "description": "Somente kanji.",
+          "properties": {
+            "on": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "kana",
+                  "romaji"
+                ],
+                "properties": {
+                  "kana": {
+                    "type": "string"
+                  },
+                  "romaji": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "kun": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "kana",
+                  "display",
+                  "romaji"
+                ],
+                "properties": {
+                  "kana": {
+                    "type": "string"
+                  },
+                  "display": {
+                    "type": "string"
+                  },
+                  "okurigana": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "romaji": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "readingsRomaji": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "grade": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Série escolar (1–6; 8 = secundário; 0 = não informado)."
+        },
+        "gradeLabel": {
+          "type": "string"
+        },
+        "usage": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "label": {
+              "type": "string"
+            }
+          }
+        },
+        "sentence": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "ja": {
+              "type": "string"
+            },
+            "pt": {
+              "type": "string"
+            },
+            "en": {
+              "type": "string"
+            }
+          }
+        },
+        "radical": {
+          "type": "object",
+          "required": [
+            "char",
+            "standard",
+            "number",
+            "meaning"
+          ],
+          "properties": {
+            "char": {
+              "type": "string",
+              "description": "Como aparece no kanji."
+            },
+            "standard": {
+              "type": "string"
+            },
+            "number": {
+              "type": "integer",
+              "description": "Número Kangxi (1–214)."
+            },
+            "meaning": {
+              "type": "object"
+            },
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "decomposition": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/component"
+          },
+          "description": "Decomposição GRÁFICA (visual). Não implica origem histórica."
+        },
+        "formation": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "Origem/formação histórica; null quando não há classificação consolidada.",
+          "properties": {
+            "type": {
+              "enum": [
+                "pictograma",
+                "indicativo",
+                "ideograma-composto",
+                "fono-semantico",
+                "kokuji"
+              ]
+            },
+            "label": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "note": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "parts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "c",
+                  "role"
+                ],
+                "properties": {
+                  "c": {
+                    "type": "string"
+                  },
+                  "role": {
+                    "enum": [
+                      "semantico",
+                      "fonetico"
+                    ]
+                  },
+                  "reading": {
+                    "type": "string"
+                  },
+                  "meaning": {
+                    "type": "string"
+                  },
+                  "form": {
+                    "type": "string"
+                  },
+                  "ref": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "containsComponents": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Todos os componentes visuais, recursivamente (inclui a forma padrão dos radicais). Usado na busca por componente."
+        },
+        "usedIn": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Kanji da base que contêm este kanji (ou suas formas de radical) como componente."
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Kanji que compartilham componentes (e radical), por relevância."
+        },
+        "detail": {
+          "enum": [
+            "completo",
+            "essencial"
+          ],
+          "description": "completo = 2–3 exemplos + frase; essencial = 1 exemplo, sem frase (N2/N1 em expansão)."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "category": {
+                "const": "kanji"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "readings",
+              "readingsRomaji",
+              "grade",
+              "usage",
+              "sentence",
+              "radical",
+              "decomposition",
+              "formation",
+              "containsComponents",
+              "usedIn",
+              "related"
+            ],
+            "properties": {
+              "jlpt": {
+                "$ref": "#/$defs/jlpt"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "component": {
+      "type": "object",
+      "required": [
+        "c",
+        "form",
+        "meaning",
+        "ref"
+      ],
+      "properties": {
+        "c": {
+          "type": "string"
+        },
+        "form": {
+          "enum": [
+            "kanji",
+            "radical",
+            "grafico"
+          ],
+          "description": "kanji = caractere independente; radical = forma de radical (亻, 氵…); grafico = elemento visual sem significado próprio neste uso."
+        },
+        "lookalike": {
+          "type": "boolean",
+          "description": "true quando a parte tem a forma de outro caractere mas outra origem (ex.: 田 em 思)."
+        },
+        "standard": {
+          "type": "string",
+          "description": "Forma padrão do radical (亻 → 人)."
+        },
+        "meaning": {
+          "type": "string"
+        },
+        "ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "id do kanji na base, quando existir (clicável)."
+        }
+      }
+    }
+  }
+}

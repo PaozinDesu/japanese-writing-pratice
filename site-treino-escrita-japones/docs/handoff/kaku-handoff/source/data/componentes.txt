@@ -1,0 +1,384 @@
+# kanji | radical (como aparece) | decomposição gráfica (espaços; "X!" = parte com forma de X mas outra origem; "-" = simples) | formação: TIPO;partes;nota
+# TIPO: P pictograma · I indicativo · C ideograma composto · F fono-semântico · K kokuji (criado no Japão)
+# partes: X=s (semântico) · X=f:LEITURA (fonético). Formação só quando a classificação é consolidada; senão vazio.
+一|一|-|I;;Um traço horizontal representa a quantidade um.
+二|二|-|I;;Dois traços representam a quantidade dois.
+三|一|-|I;;Três traços representam a quantidade três.
+四|囗|囗 儿|
+五|二|-|
+六|八|亠 八|
+七|一|-|
+八|八|-|I;;Dois traços que se afastam, sugerindo divisão; o sentido “oito” é emprestado.
+九|乙|-|
+十|十|-|
+百|白|一 白|
+千|十|丿 十|
+万|一|-|
+円|冂|-|
+日|日|-|P;;Desenho do sol.
+月|月|-|P;;Desenho da lua crescente.
+年|干|-|
+時|日|日 寺|F;日=s,寺=f:ジ;
+分|刀|八 刀|C;八=s,刀=s;Uma faca (刀) separando algo em partes (八).
+半|十|-|
+今|𠆢|-|
+前|刂|䒑 月! 刂|
+後|彳|彳 幺 夂|
+午|十|-|
+毎|毋|𠂉 毋|
+週|辶|辶 周|F;辶=s,周=f:シュウ;
+曜|日|日 羽 隹|F;日=s,翟=f:ヨウ;O som vem de 翟 (羽 + 隹).
+火|火|-|P;;Desenho de chamas.
+水|水|-|P;;Desenho de água corrente.
+木|木|-|P;;Desenho de uma árvore com galhos e raízes.
+金|金|-|
+土|土|-|P;;Desenho de um monte de terra sobre o solo.
+人|人|-|P;;Desenho de uma pessoa de perfil.
+男|田|田 力|C;田=s,力=s;Força (力) no arrozal (田).
+女|女|-|P;;Desenho de uma mulher ajoelhada, com as mãos cruzadas.
+子|子|-|P;;Desenho de uma criança pequena.
+父|父|-|
+母|毋|-|P;;Desenho de uma mulher com dois pontos que indicam os seios.
+兄|儿|口 儿|C;口=s,儿=s;
+弟|弓|-|
+姉|女|女 市!|F;女=s,𠂔=f:シ;A parte direita parece 市, mas é outro elemento (𠂔) que indicava o som.
+妹|女|女 未|F;女=s,未=f:マイ;
+友|又|𠂇 又|C;𠂇=s,又=s;Duas mãos direitas juntas: ajuda mútua.
+親|見|立 木 見|F;見=s,亲=f:シン;
+学|子|⺍ 冖 子|
+校|木|木 交|F;木=s,交=f:コウ;
+生|生|-|P;;Desenho de uma planta brotando da terra.
+先|儿|⺧ 儿|C;⺧=s,儿=s;Um pé à frente de uma pessoa.
+教|攵|耂 子 攵|
+本|木|木 一|I;;Um traço marcando a base (a raiz) da árvore 木.
+文|文|-|
+字|子|宀 子|C;宀=s,子=s;Criança sob um teto; 子 também indica o som (ジ).
+語|言|言 五 口|F;言=s,吾=f:ゴ;O som vem de 吾 (= 五 + 口), por isso 五 e 口 não são o significado aqui.
+読|言|言 売|
+書|曰|聿 曰|
+聞|耳|門 耳|F;耳=s,門=f:モン;
+話|言|言 舌!|
+言|言|亠 二 口|
+英|艹|艹 央|F;艹=s,央=f:エイ;
+数|攵|米 女 攵|
+問|口|門 口|F;口=s,門=f:モン;
+答|⺮|⺮ 合|F;⺮=s,合=f:トウ;
+上|一|-|I;;Uma marca acima de uma linha de base.
+下|一|-|I;;Uma marca abaixo de uma linha de base.
+左|工|𠂇 工|C;𠂇=s,工=s;Uma mão segurando uma ferramenta.
+右|口|𠂇 口|C;𠂇=s,口=s;Uma mão junto à boca.
+中|丨|口 丨|
+外|夕|夕 卜|
+東|木|木 日|P;;Nas formas antigas, desenho de um saco amarrado nas pontas; o sentido “leste” foi emprestado pelo som. “Sol atrás da árvore” é uma explicação popular, não histórica.
+西|襾|-|
+南|十|-|
+北|匕|丬 匕|C;;Duas pessoas de costas uma para a outra.
+内|入|冂 人!|C;冂=s,入=s;A parte de dentro parece 人, mas é 入 (entrar): entrar sob uma cobertura.
+近|辶|辶 斤|F;辶=s,斤=f:キン;
+遠|辶|辶 袁|F;辶=s,袁=f:エン;
+所|戸|戸 斤|F;斤=s,戸=f:コ;
+方|方|-|
+国|囗|囗 玉|C;囗=s,玉=s;Forma simplificada; a forma tradicional 國 tinha 或 dentro da cerca.
+家|宀|宀 豕|
+店|广|广 占|F;广=s,占=f:テン;
+駅|馬|馬 尺|F;馬=s;Forma simplificada de 驛, em que 睪 indicava o som (エキ); na forma atual, 尺 não indica o som.
+道|辶|辶 首|F;辶=s,首=f:ドウ;
+町|田|田 丁|F;田=s,丁=f:チョウ;
+村|木|木 寸|F;木=s,寸=f:ソン;
+市|巾|亠 巾|
+県|目|目 小!|
+京|亠|亠 口 小!|P;;Desenho de uma construção alta sobre uma elevação.
+社|礻|礻 土|C;礻=s,土=s;O altar (礻) do deus da terra (土); 土 também sugere o som.
+寺|寸|土! 寸|
+院|阝|阝 完|F;阝=s,完=f:カン;
+室|宀|宀 至|F;宀=s,至=f:シ;
+行|行|-|P;;Desenho de um cruzamento de ruas.
+来|木|-|P;;Originalmente desenho de um pé de trigo; o sentido “vir” foi emprestado.
+帰|巾|リ! 帚|
+見|見|目 儿|C;目=s,儿=s;Um olho grande sobre pernas: uma pessoa olhando.
+食|食|𠆢 良|P;;Desenho de um recipiente de comida com tampa.
+飲|飠|飠 欠|
+買|貝|罒 貝|C;罒=s,貝=s;Uma rede (罒) recolhendo conchas (貝), que eram usadas como dinheiro.
+売|士|士 冖 儿|
+会|𠆢|𠆢 云!|
+休|亻|亻 木|C;亻=s,木=s;Uma pessoa encostada numa árvore.
+入|入|-|
+出|凵|-|
+立|立|-|P;;Desenho de uma pessoa de pé sobre o chão.
+座|广|广 坐|F;广=s,坐=f:ザ;
+歩|止|止 少!|C;;Dois pés, um à frente do outro. A parte de baixo parece 少, mas é um pé invertido.
+走|走|-|
+使|亻|亻 吏|F;亻=s,吏=f:リ;
+作|亻|亻 乍|F;亻=s,乍=f:サ;
+持|扌|扌 寺|F;扌=s,寺=f:ジ;
+待|彳|彳 寺|F;彳=s,寺=f:ジ;
+知|矢|矢 口|
+思|心|田! 心|C;囟=s,心=s;A parte de cima hoje parece 田, mas era 囟 (a cabeça).
+考|耂|耂 丂|F;耂=s,丂=f:コウ;
+習|羽|羽 白|
+働|亻|亻 動|K;亻=s,動=s;Kanji criado no Japão: pessoa (亻) + mover-se (動).
+住|亻|亻 主|F;亻=s,主=f:シュ;
+始|女|女 台|F;女=s,台=f:イ;
+終|糹|糹 冬|F;糹=s,冬=f:トウ;
+開|門|門 开|
+閉|門|門 才|
+大|大|-|P;;Desenho de uma pessoa de braços e pernas abertos.
+小|小|-|
+高|高|-|P;;Desenho de uma construção alta.
+安|宀|宀 女|C;宀=s,女=s;
+新|斤|立 木 斤|F;斤=s,亲=f:シン;
+古|口|十 口|
+長|長|-|P;;Desenho de uma pessoa com cabelos longos.
+短|矢|矢 豆|F;矢=s,豆=f:トウ;
+多|夕|夕! 夕!|C;;As duas partes parecem 夕, mas representam pedaços de carne empilhados.
+少|小|小 丿|
+早|日|日 十|
+遅|辶|辶 尸 羊|
+明|日|日 月|C;;Tradicionalmente explicado como “sol + lua”, mas nas formas mais antigas a parte esquerda é 囧 (uma janela) e não 日.
+暗|日|日 音|F;日=s,音=f:オン;
+白|白|-|
+黒|黒|里! 灬|
+赤|赤|-|C;大=s,火=s;Nas formas antigas: 大 (grande) + 火 (fogo).
+青|青|龶 月!|F;丹=s,生=f:セイ;A parte de baixo hoje parece 月, mas era 丹 (pigmento); a de cima vem de 生 e indicava o som.
+好|女|女 子|C;女=s,子=s;
+悪|心|亜 心|F;心=s,亜=f:ア;
+楽|木|白! 木|
+難|隹|𦰩 隹|
+同|口|冂 一 口|
+強|弓|弓 厶 虫|
+弱|弓|弓 弓|
+山|山|-|P;;Desenho de três picos.
+川|川|-|P;;Desenho de água correndo.
+海|氵|氵 毎|F;氵=s,毎=f:マイ;
+空|穴|穴 工|F;穴=s,工=f:コウ;
+雨|雨|-|P;;Desenho de gotas caindo de uma nuvem.
+雪|雨|雨 ⺕|
+風|風|几 虫|F;虫=s,凡=f:ハン;
+花|艹|艹 化|F;艹=s,化=f:カ;
+草|艹|艹 早|F;艹=s,早=f:ソウ;
+林|木|木 木|C;木=s,木=s;Duas árvores: um bosque.
+森|木|木 木 木|C;木=s,木=s,木=s;Três árvores: uma floresta.
+石|石|-|P;;Desenho de uma pedra ao pé de um penhasco.
+田|田|-|P;;Desenho de um campo cultivado dividido em lotes.
+天|大|一 大|I;;Uma marca acima da cabeça de uma pessoa (大): o céu.
+気|气|气 㐅|C;;Forma simplificada de 氣 (气, vapor + 米, arroz).
+目|目|-|P;;Desenho de um olho (girado na vertical).
+耳|耳|-|P;;Desenho de uma orelha.
+口|口|-|P;;Desenho de uma boca aberta.
+手|手|-|P;;Desenho de uma mão com os dedos.
+足|足|-|P;;Desenho de uma perna com o pé.
+頭|頁|豆 頁|F;頁=s,豆=f:トウ;
+顔|頁|彦 頁|F;頁=s,彦=f:ゲン;
+心|心|-|P;;Desenho do coração.
+体|亻|亻 本|C;;Forma simplificada de 體 (骨, ossos + 豊). “Pessoa + origem” é uma leitura moderna, não a origem.
+力|力|-|P;;Desenho de um braço forte (ou de um arado).
+声|士|士 尸!|
+車|車|-|P;;Desenho de uma carroça vista de cima.
+電|雨|雨 申!|C;雨=s,申=s;申 representava originalmente um relâmpago.
+通|辶|辶 甬|F;辶=s,甬=f:ヨウ;
+乗|丿|-|
+降|阝|阝 夂 㐄|
+自|自|-|P;;Desenho de um nariz.
+転|車|車 云|F;車=s;Forma simplificada de 轉, em que 專 indicava o som (テン).
+米|米|-|P;;Desenho de grãos de arroz.
+肉|肉|-|P;;Desenho de um pedaço de carne.
+魚|魚|-|P;;Desenho de um peixe.
+野|里|里 予|F;里=s,予=f:ヨ;
+菜|艹|艹 采|F;艹=s,采=f:サイ;
+茶|艹|艹 人! 木!|
+酒|酉|氵 酉|C;氵=s,酉=s;Líquido (氵) em uma jarra de bebida (酉).
+飯|飠|飠 反|F;飠=s,反=f:ハン;
+仕|亻|亻 士|F;亻=s,士=f:シ;
+事|亅|-|
+員|口|口 貝|
+業|木|-|
+物|牜|牜 勿|F;牜=s,勿=f:ブツ;
+者|耂|耂 日!|
+場|土|土 昜|F;土=s,昜=f:ヨウ;
+何|亻|亻 可|F;亻=s,可=f:カ;
+私|禾|禾 厶|F;禾=s,厶=f:シ;
+名|口|夕 口|C;夕=s,口=s;Dizer o nome (口) no escuro do entardecer (夕).
+間|門|門 日|C;門=s,月=s;A forma antiga 閒 tinha 月: luz da lua entrando pela fresta do portão.
+世|一|-|
+界|田|田 介|F;田=s,介=f:カイ;
+理|王|王~ 里|F;玉=s,里=f:リ;王 aqui é a forma do radical 玉 (joia), não “rei”.
+意|心|音 心|C;音=s,心=s;
+味|口|口 未|F;口=s,未=f:ミ;
+必|心|心! 丿|
+要|覀|覀 女|
+全|入|𠆢 王!|
+無|灬|-|
+有|月|𠂇 月~|F;月=s,又=f:ユウ;Aqui 月 representa 肉 (carne): uma mão segurando carne.
+季|子|禾 子|
+湖|氵|氵 胡|F;氵=s,胡=f:コ;
+氷|水|丶 水|C;冫=s,水=s;Variante de 冰: gelo (冫) + água (水).
+岩|山|山 石|C;山=s,石=s;
+郵|阝|垂 阝|
+秒|禾|禾 少|F;禾=s,少=f:ショウ;
+券|刀|龹 刀|F;刀=s,龹=f:ケン;
+皿|皿|-|P;;Desenho de um prato com pé.
+貯|貝|貝 宁|F;貝=s,宁=f:チョ;
+詩|言|言 寺|F;言=s,寺=f:ジ;
+虹|虫|虫 工|F;虫=s,工=f:コウ;
+峠|山|山 上 下|K;山=s,上=s,下=s;Kanji criado no Japão: o ponto da montanha em que se deixa de subir e se começa a descer.
+麗|鹿|丽 鹿|
+鶴|鳥|隺 鳥|F;鳥=s,隺=f:カク;
+瞬|目|目 舜|F;目=s,舜=f:シュン;
+概|木|木 既|F;木=s,既=f:キ;
+奨|大|将! 大|
+繊|糹|糹 韱|F;糹=s,韱=f:セン;
+岳|山|丘 山|C;丘=s,山=s;
+霧|雨|雨 務|F;雨=s,務=f:ム;
+朝|月|十 日 十 月!|
+昼|日|尺 旦|C;;Forma simplificada de 晝.
+夜|夕|亠 亻 夕|F;夕=s,亦=f:エキ;
+夕|夕|-|P;;Desenho da lua crescente no entardecer.
+春|日|𡗗 日|
+夏|夊|-|
+秋|禾|禾 火|
+冬|冫|夂 ⺀|
+晴|日|日 青|F;日=s,青=f:セイ;
+犬|犬|-|P;;Desenho de um cão.
+牛|牛|-|P;;Desenho da cabeça de um boi com chifres.
+鳥|鳥|-|P;;Desenho de um pássaro.
+音|音|立 日|I;;Um traço dentro da boca de 言 indicava o som; 立 + 日 é só a forma visual atual.
+歌|欠|哥 欠|F;欠=s,哥=f:カ;
+色|色|-|
+服|月|月! 𠬝|
+紙|糹|糹 氏|F;糹=s,氏=f:シ;
+写|冖|冖 与|
+真|目|十 目! 八|
+図|囗|囗 㐅|
+館|飠|飠 官|F;飠=s,官=f:カン;
+銀|釒|釒 艮|F;釒=s,艮=f:コン;
+病|疒|疒 丙|F;疒=s,丙=f:ヘイ;
+医|匚|匚 矢|
+動|力|重 力|F;力=s,重=f:ジュウ;
+運|辶|辶 軍|F;辶=s,軍=f:グン;
+送|辶|辶 关|
+急|心|⺈ 彐 心|F;心=s,及=f:キュウ;A parte de cima vem de 及, que indicava o som.
+止|止|-|P;;Desenho de um pé.
+起|走|走 己|F;走=s,己=f:キ;
+着|目|⺷ 目!|
+旅|方|方 𠂉 㐅|
+族|方|方 𠂉 矢|C;方=s,矢=s;Uma bandeira (方 + 𠂉) e flechas (矢): um grupo armado sob a mesma bandeira.
+集|隹|隹 木|C;隹=s,木=s;Pássaros (隹) pousados numa árvore (木).
+別|刂|口 力! 刂|
+借|亻|亻 昔|F;亻=s,昔=f:セキ;
+貸|貝|代 貝|F;貝=s,代=f:タイ;
+計|言|言 十|C;言=s,十=s;
+試|言|言 式|F;言=s,式=f:シキ;
+験|馬|馬 㑒|F;馬=s,僉=f:ケン;
+題|頁|是 頁|F;頁=s,是=f:シ;
+質|貝|斤 斤 貝|
+研|石|石 开|F;石=s,幵=f:ケン;
+究|穴|穴 九|F;穴=s,九=f:キュウ;
+勉|力|免 力|F;力=s,免=f:メン;
+漢|氵|氵 𦰩|F;氵=s,𦰩=f:カン;
+料|斗|米 斗|C;米=s,斗=s;Medir (斗) o arroz (米).
+堂|土|⺍ 冖 口 土|F;土=s,尚=f:ショウ;
+屋|尸|尸 至|
+広|广|广 厶|C;;Forma simplificada de 廣, em que 黄 indicava o som.
+建|廴|廴 聿|
+地|土|土 也|F;土=s,也=f:ヤ;
+池|氵|氵 也|F;氵=s,也=f:ヤ;
+工|工|-|P;;Desenho de uma ferramenta (régua ou esquadro de artesão).
+代|亻|亻 弋|F;亻=s,弋=f:ヨク;
+主|丶|丶 王!|P;;Desenho de uma lamparina com a chama (丶) no topo.
+公|八|八 厶|C;八=s,厶=s;Abrir (八) o que é privado (厶): público.
+以|人|-|
+用|用|-|
+度|广|广 廿 又|
+正|止|一 止|C;一=s,止=s;Um pé (止) avançando em direção a uma linha/alvo (一).
+元|儿|二 儿|I;;Uma pessoa (儿) com destaque na cabeça: o início.
+重|里|-|
+特|牜|牜 寺|F;牜=s,寺=f:ジ;
+品|口|口 口 口|C;口=s,口=s,口=s;
+死|歹|歹 匕|C;歹=s,匕=s;Ossos (歹) e uma pessoa (匕).
+発|癶|-|
+注|氵|氵 主|F;氵=s,主=f:シュ;
+洋|氵|氵 羊|F;氵=s,羊=f:ヨウ;
+映|日|日 央|F;日=s,央=f:オウ;
+画|田|-|
+台|口|厶 口|
+不|一|-|
+信|亻|亻 言|C;亻=s,言=s;
+相|目|木 目|C;木=s,目=s;
+想|心|相 心|F;心=s,相=f:ソウ;
+感|心|咸 心|F;心=s,咸=f:カン;
+情|忄|忄 青|F;忄=s,青=f:セイ;
+性|忄|忄 生|F;忄=s,生=f:セイ;
+決|氵|氵 夬|F;氵=s,夬=f:ケツ;
+定|宀|宀 疋!|F;宀=s,正=f:セイ;A parte de baixo é uma forma de 正, que indicava o som.
+回|囗|囗 口|P;;Desenho de uma espiral.
+実|宀|宀 三! 人!|
+取|又|耳 又|C;耳=s,又=s;Uma mão (又) pegando uma orelha (耳).
+受|又|爫 冖 又|C;爫=s,又=s;Duas mãos passando algo de uma para a outra.
+投|扌|扌 殳|
+指|扌|扌 旨|F;扌=s,旨=f:シ;
+打|扌|扌 丁|F;扌=s,丁=f:テイ;
+付|亻|亻 寸|C;亻=s,寸=s;Uma mão (寸) entregando algo a uma pessoa (亻).
+係|亻|亻 系|F;亻=s,系=f:ケイ;
+例|亻|亻 列|F;亻=s,列=f:レツ;
+位|亻|亻 立|C;亻=s,立=s;
+伝|亻|亻 云|C;;Forma simplificada de 傳, em que 專 indicava o som.
+化|匕|亻 匕|C;亻=s,匕=s;Uma pessoa em pé e outra virada: transformação.
+活|氵|氵 舌!|F;氵=s,𠯑=f:カツ;A parte direita parece 舌, mas é outro elemento que indicava o som.
+流|氵|氵 㐬|
+消|氵|氵 肖|F;氵=s,肖=f:ショウ;
+深|氵|氵 罙|F;氵=s,罙=f:シン;
+泳|氵|氵 永|F;氵=s,永=f:エイ;
+港|氵|氵 巷|F;氵=s,巷=f:コウ;
+温|氵|氵 日 皿|F;氵=s,昷=f:オン;
+笑|⺮|⺮ 夭|
+箱|⺮|⺮ 相|F;⺮=s,相=f:ソウ;
+若|艹|艹 右!|
+苦|艹|艹 古|F;艹=s,古=f:コ;
+落|艹|艹 氵 各|F;艹=s,洛=f:ラク;
+葉|艹|艹 世 木|F;艹=s,枼=f:ヨウ;
+願|頁|原 頁|F;頁=s,原=f:ゲン;
+類|頁|米 大 頁|
+横|木|木 黄|F;木=s,黄=f:コウ;
+橋|木|木 喬|F;木=s,喬=f:キョウ;
+機|木|木 幾|F;木=s,幾=f:キ;
+泣|氵|氵 立|F;氵=s,立=f:リュウ;
+鳴|鳥|口 鳥|C;口=s,鳥=s;
+洗|氵|氵 先|F;氵=s,先=f:セン;
+寝|宀|宀 丬 帚!|
+薬|艹|艹 楽|F;艹=s,楽=f:ガク;
+馬|馬|-|P;;Desenho de um cavalo com crina.
+王|王|-|
+交|亠|-|P;;Desenho de uma pessoa com as pernas cruzadas.
+河|氵|氵 可|F;氵=s,可=f:カ;
+浅|氵|氵 戋|F;氵=s,戋=f:セン;
+汗|氵|氵 干|F;氵=s,干=f:カン;
+松|木|木 公|F;木=s,公=f:コウ;
+枝|木|木 支|F;木=s,支=f:シ;
+植|木|木 直|F;木=s,直=f:チョク;
+棒|木|木 奉|F;木=s,奉=f:ホウ;
+粉|米|米 分|F;米=s,分=f:フン;
+糖|米|米 唐|F;米=s,唐=f:トウ;
+綿|糹|糹 帛|
+銅|釒|釒 同|F;釒=s,同=f:ドウ;
+鉄|釒|釒 失|C;;Forma simplificada de 鐵; na forma atual, 失 não indica o som.
+砂|石|石 少|C;石=s,少=s;Pedras (石) pequenas (少): areia.
+炭|火|山 灰|
+燃|火|火 然|F;火=s,然=f:ゼン;
+焼|火|火 尭|F;火=s,尭=f:ギョウ;
+紹|糹|糹 召|F;糹=s,召=f:ショウ;
+介|人|-|
+竹|竹|-|P;;Desenho de dois ramos de bambu com folhas.
+糸|糸|-|P;;Desenho de um fio de seda enrolado.
+門|門|-|P;;Desenho de um portão de duas folhas.
+虫|虫|-|P;;Desenho de uma cobra ou de um inseto.
+刀|刀|-|P;;Desenho de uma faca.
+伐|亻|亻 戈|C;亻=s,戈=s;Uma pessoa (亻) com uma alabarda (戈).
+峰|山|山 夆|F;山=s,夆=f:ホウ;
+謎|言|言 迷|F;言=s,迷=f:メイ;
+柿|木|木 市!|
+箸|⺮|⺮ 者|F;⺮=s,者=f:シャ;
+鍋|釒|釒 咼|F;釒=s,咼=f:カ;
+枕|木|木 冘|F;木=s,冘=f:チン;
+蜂|虫|虫 夆|F;虫=s,夆=f:ホウ;
+貝|貝|-|P;;Desenho de uma concha.
+羊|羊|-|P;;Desenho da cabeça de uma ovelha com chifres.
