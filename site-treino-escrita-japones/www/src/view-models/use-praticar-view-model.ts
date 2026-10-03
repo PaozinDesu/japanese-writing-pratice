@@ -358,14 +358,18 @@ export function usePraticarViewModel() {
 		else setView("summary");
 	}
 
-	// Nível JLPT só faz sentido para kanji — os chips ficam desabilitados a menos que "Kanji"
-	// seja o único sistema selecionado.
-	const jlptEnabled = categories.length === 1 && categories[0] === "kanji";
+	// Nível JLPT só faz sentido para kanji — fica habilitado sempre que a seleção de sistema de
+	// escrita inclui kanji: "Todos" (nenhuma categoria marcada, que vale para os três tipos) ou
+	// "Kanji". Com Hiragana/Katakana sozinhos não há kanji na seleção, então os chips desabilitam.
+	function hasKanjiInSelection(cats: CharacterCategory[]): boolean {
+		return !cats.length || cats.includes("kanji");
+	}
+	const jlptEnabled = hasKanjiInSelection(categories);
 
 	function toggleCategory(id: CharacterCategory) {
 		setCategories((prev) => {
 			const next = prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id];
-			if (!(next.length === 1 && next[0] === "kanji")) setJlpt([]);
+			if (!hasKanjiInSelection(next)) setJlpt([]);
 			return next;
 		});
 	}
@@ -398,11 +402,8 @@ export function usePraticarViewModel() {
 				toggle: () => setJlpt((prev) => (prev.includes(level) ? prev.filter((j) => j !== level) : [...prev, level])),
 			})),
 			jlptEnabled,
-			noneSelected: !categories.length && !jlpt.length,
-			clearFilters: () => {
-				setCategories([]);
-				setJlpt([]);
-			},
+			noneSelected: !categories.length,
+			clearFilters: () => setCategories([]),
 			lists: lists.map((l: PracticeList) => ({ id: l.id, name: l.name, count: l.chars.length, selected: listId === l.id, select: () => setListId(l.id) })),
 			listId,
 			poolCount: pool.length,

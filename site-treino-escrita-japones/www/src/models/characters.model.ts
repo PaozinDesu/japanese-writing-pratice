@@ -57,16 +57,13 @@ export interface CharacterFilters {
 	jlpt: Jlpt[];
 }
 
-/** Porte de `poolOf` (practice.js): sem JLPT selecionado, filtra só por categoria; com JLPT, kana só entra se a categoria também estiver marcada. */
+/** Filtra por sistema de escrita (sem seleção = todos) e, só para kanji, por nível JLPT — hiragana e katakana nunca são afetados pelo nível. */
 export function filterCharacters(db: CharacterDatabase, filters: CharacterFilters): Character[] {
 	const { categories, jlpt } = filters;
 	return db.characters.filter((c) => {
-		if (jlpt.length) {
-			return c.category === "kanji"
-				? jlpt.includes(c.jlpt as Jlpt) && (!categories.length || categories.includes("kanji"))
-				: categories.includes(c.category);
-		}
-		return !categories.length || categories.includes(c.category);
+		if (categories.length && !categories.includes(c.category)) return false;
+		if (c.category === "kanji" && jlpt.length) return jlpt.includes(c.jlpt as Jlpt);
+		return true;
 	});
 }
 
@@ -82,7 +79,7 @@ export function poolLabel(source: PoolLabelSource): string {
 	);
 	const jlptSorted = [...source.jlpt].sort().reverse();
 	if (!catLabels.length && !jlptSorted.length) return "Todos os caracteres";
-	if (!catLabels.length) return "Kanji · " + jlptSorted.join(" + ");
+	if (!catLabels.length) return "Todos · Kanji " + jlptSorted.join(" + ");
 	return (
 		catLabels.join(" + ") +
 		(jlptSorted.length && source.categories.includes("kanji") ? " · " + jlptSorted.join(" + ") : "")

@@ -85,7 +85,7 @@ export function SetupView({ setup }: SetupViewProps) {
 							<div className="flex items-baseline gap-2">
 								<Typography role="overline">Nível JLPT</Typography>
 								<span className="text-xs text-text-muted">
-									{setup.jlptEnabled ? "· vale para os kanji" : "· selecione Kanji para filtrar por nível"}
+									{setup.jlptEnabled ? "· vale para os kanji" : "· selecione Todos ou Kanji para filtrar por nível"}
 								</span>
 							</div>
 							<div className="flex flex-wrap gap-2">
