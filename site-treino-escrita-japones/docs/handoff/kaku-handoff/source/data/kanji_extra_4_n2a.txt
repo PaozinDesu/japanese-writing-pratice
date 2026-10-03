@@ -1,0 +1,215 @@
+査|investigar|investigate|サ|—|N2|0|9|調査:ちょうさ:pesquisa; investigação:investigation|||木|木 且|
+軍|exército|army|グン|—|N2|0|9|軍隊:ぐんたい:exército:army|||車|冖 車|
+島|ilha|island|トウ|しま|N2|0|10|島:しま:ilha:island|||山|鳥! 山|F;山=s,鳥=f:チョウ;
+捜|procurar|search|ソウ|さが.す|N2|0|10|捜査:そうさ:investigação policial:criminal investigation|||扌|扌 叟|
+兵|soldado|soldier|ヘイ,ヒョウ|—|N2|0|7|兵士:へいし:soldado:soldier|||八|斤 廾|
+準|padrão; preparar|standard; prepare|ジュン|—|N2|0|13|準備:じゅんび:preparação:preparation|||氵|氵 隹 十|
+再|de novo|again|サイ,サ|ふたた.び|N2|0|6|再来年:さらいねん:daqui a dois anos:the year after next|||冂|-|
+設|estabelecer|establish|セツ|もう.ける|N2|0|11|設計:せっけい:projeto (planta):design|||言|言 殳|
+協|cooperar|cooperate|キョウ|—|N2|0|8|協力:きょうりょく:cooperação:cooperation|||十|十 劦|
+団|grupo|group|ダン,トン|—|N2|0|6|団体:だんたい:grupo; organização:group|||囗|囗 寸|
+技|técnica; habilidade|skill|ギ|わざ|N2|0|7|技術:ぎじゅつ:tecnologia:technology|||扌|扌 支|F;扌=s,支=f:シ;
+領|território; governar|territory; govern|リョウ|—|N2|0|14|領収書:りょうしゅうしょ:recibo:receipt|||頁|令 頁|F;頁=s,令=f:レイ;
+血|sangue|blood|ケツ|ち|N2|0|6|血:ち:sangue:blood|||血|-|P;;Desenho de um recipiente com sangue (oferenda).
+線|linha|line|セン|—|N2|0|15|新幹線:しんかんせん:trem-bala:bullet train|||糹|糹 泉|F;糹=s,泉=f:セン;
+武|militar; guerreiro|military; warrior|ブ,ム|—|N2|0|8|武士:ぶし:samurai; guerreiro:samurai|||止|一 弋 止|
+勢|força; ímpeto|force; momentum|セイ|いきお.い|N2|0|13|大勢:おおぜい:muita gente:many people|||力|埶 力|
+復|voltar; repetir|return; repeat|フク|—|N2|0|12|復習:ふくしゅう:revisão (de estudos):review|||彳|彳 复|F;彳=s,复=f:フク;
+装|vestir; equipar|attire; equip|ソウ,ショウ|よそお.う|N2|0|12|服装:ふくそう:vestimenta:attire|||衣|壮 衣|F;衣=s,壮=f:ソウ;
+星|estrela|star|セイ,ショウ|ほし|N2|0|9|星:ほし:estrela:star|||日|日 生|F;日=s,生=f:セイ;
+仲|relação; intermediário|relationship|チュウ|なか|N2|0|6|仲間:なかま:companheiro:companion|||亻|亻 中|F;亻=s,中=f:チュウ;
+移|mover; transferir|move; shift|イ|うつ.る,うつ.す|N2|0|11|移動:いどう:deslocamento:movement|||禾|禾 多|
+減|diminuir|decrease|ゲン|へ.る,へ.らす|N2|0|12|減る:へる:diminuir:to decrease|||氵|氵 咸|F;氵=s,咸=f:カン;
+丈|comprimento; robusto|length; sturdy|ジョウ|たけ|N2|0|3|大丈夫:だいじょうぶ:tudo bem:all right|||一|-|
+況|situação|condition|キョウ|—|N2|0|8|状況:じょうきょう:situação:situation|||氵|氵 兄|F;氵=s,兄=f:キョウ;
+造|fabricar|create; make|ゾウ|つく.る|N2|0|10|製造:せいぞう:fabricação:manufacture|||辶|辶 告|F;辶=s,告=f:コク;
+爆|explodir|explode|バク|—|N2|0|19|爆発:ばくはつ:explosão:explosion|||火|火 暴|F;火=s,暴=f:ボウ;
+州|estado; província|state; province|シュウ|す|N2|0|6|九州:きゅうしゅう:Kyushu:Kyushu|||川|-|P;;Desenho de ilhotas de terra no meio de um rio.
+了|concluir|complete|リョウ|—|N2|0|2|終了:しゅうりょう:término:end|||亅|-|
+総|total; geral|total; general|ソウ|—|N2|0|14|総理大臣:そうりだいじん:primeiro-ministro:prime minister|||糹|糹 公 心|
+接|contato; tocar|contact; touch|セツ|つ.ぐ|N2|0|11|直接:ちょくせつ:diretamente:directly|||扌|扌 妾|F;扌=s,妾=f:ショウ;
+絡|enroscar; contato|entwine; contact|ラク|から.む|N2|0|12|連絡:れんらく:contato:contact|||糹|糹 各|F;糹=s,各=f:カク;
+防|defender|defend|ボウ|ふせ.ぐ|N2|0|7|防ぐ:ふせぐ:prevenir:to prevent|||阝|阝 方|F;阝=s,方=f:ホウ;
+久|longo tempo|long time|キュウ,ク|ひさ.しい|N2|0|3|久しぶり:ひさしぶり:há quanto tempo:long time no see|||丿|-|
+谷|vale|valley|コク|たに|N2|0|7|谷:たに:vale:valley|||谷|-|P;;Desenho da abertura de um vale entre montanhas.
+練|treinar|practice|レン|ね.る|N2|0|14|練習:れんしゅう:treino:practice|||糹|糹 東!|F;糹=s,柬=f:カン;
+低|baixo|low|テイ|ひく.い|N2|0|7|低い:ひくい:baixo:low|||亻|亻 氐|F;亻=s,氐=f:テイ;
+帯|faixa; cinto; zona|belt; zone|タイ|お.びる,おび|N2|0|10|時間帯:じかんたい:faixa horária:time slot|||巾|-|
+裏|verso; parte de trás|back side|リ|うら|N2|0|13|裏:うら:verso; fundos:back|||衣|衣 里|F;衣=s,里=f:リ;
+暴|violento|violent|ボウ,バク|あば.れる|N2|0|15|暴力:ぼうりょく:violência:violence|||日|日 共! 氺|
+補|complementar|supplement|ホ|おぎな.う|N2|0|12|補う:おぎなう:complementar:to supplement|||衤|衤 甫|F;衤=s,甫=f:ホ;
+録|registrar; gravar|record|ロク|—|N2|0|16|記録:きろく:registro; recorde:record|||釒|釒 录|F;釒=s,录=f:ロク;
+効|efeito|effect|コウ|き.く|N2|0|8|効果:こうか:efeito:effect|||力|交 力|F;力=s,交=f:コウ;
+改|reformar|reform|カイ|あらた.める|N2|0|7|改札:かいさつ:catraca (estação):ticket gate|||攵|己 攵|
+普|comum; geral|ordinary|フ|—|N2|0|12|普通:ふつう:normal:ordinary|||日|並! 日|
+将|general; futuro|general; future|ショウ|—|N2|0|10|将来:しょうらい:futuro:future|||寸|丬 ⺤ 寸|
+導|guiar|guide|ドウ|みちび.く|N2|0|15|指導:しどう:orientação:guidance|||寸|道 寸|F;寸=s,道=f:ドウ;
+個|individual; unidade|individual|コ|—|N2|0|10|個人:こじん:indivíduo:individual|||亻|亻 固|F;亻=s,固=f:コ;
+超|superar|exceed|チョウ|こ.える,こ.す|N2|0|12|超える:こえる:ultrapassar:to exceed|||走|走 召|F;走=s,召=f:ショウ;
+被|sofrer; cobrir|suffer; cover|ヒ|こうむ.る|N2|0|10|被害:ひがい:dano:damage|||衤|衤 皮|F;衤=s,皮=f:ヒ;
+丸|redondo|round|ガン|まる,まる.い|N2|0|3|丸い:まるい:redondo:round|||丶|-|
+担|carregar; encarregar-se|carry; take charge|タン|かつ.ぐ,にな.う|N2|0|8|担当:たんとう:encarregado:in charge|||扌|扌 旦|F;扌=s,旦=f:タン;
+量|quantidade; medir|quantity; measure|リョウ|はか.る|N2|0|12|量:りょう:quantidade:amount|||里|日 一 里|
+療|tratar (doença)|treat; heal|リョウ|—|N2|0|17|治療:ちりょう:tratamento médico:medical treatment|||疒|疒 尞|F;疒=s,尞=f:リョウ;
+辺|arredores|vicinity|ヘン|あた.り,べ|N2|0|5|この辺:このへん:por aqui:around here|||辶|辶 刀|
+像|imagem; estátua|image; statue|ゾウ|—|N2|0|14|想像:そうぞう:imaginação:imagination|||亻|亻 象|F;亻=s,象=f:ショウ;
+令|ordem|order|レイ|—|N2|0|5|命令:めいれい:ordem:command|||人|𠆢 一 卩|
+階|andar; degrau|floor; story|カイ|—|N2|0|12|二階:にかい:segundo andar:second floor|||阝|阝 皆|F;阝=s,皆=f:カイ;
+極|extremo; polo|extreme; pole|キョク,ゴク|きわ.める|N2|0|12|北極:ほっきょく:Polo Norte:North Pole|||木|木 亟|
+細|fino; detalhado|thin; detailed|サイ|ほそ.い,こま.かい|N2|0|11|細い:ほそい:fino:thin|||糹|糹 田!|
+周|volta; em torno|circumference; around|シュウ|まわ.り|N2|0|8|周り:まわり:arredores:surroundings|||口|冂 土 口|
+管|tubo; administrar|pipe; manage|カン|くだ|N2|0|14|管理:かんり:administração:management|||⺮|⺮ 官|F;⺮=s,官=f:カン;
+乱|desordem|disorder|ラン|みだ.れる,みだ.す|N2|0|7|混乱:こんらん:confusão:confusion|||乙|舌! 乚|
+府|governo; prefeitura|government office|フ|—|N2|0|8|政府:せいふ:governo:government|||广|广 付|F;广=s,付=f:フ;
+根|raiz|root|コン|ね|N2|0|10|屋根:やね:telhado:roof|||木|木 艮|F;木=s,艮=f:コン;
+城|castelo|castle|ジョウ|しろ|N2|0|9|城:しろ:castelo:castle|||土|土 成|F;土=s,成=f:セイ;
+狙|mirar|aim|ソ|ねら.う|N2|0|8|狙う:ねらう:mirar:to aim at|||犭|犭 且|
+香|perfume|fragrance|コウ,キョウ|か,かお.り|N2|0|9|香り:かおり:aroma:fragrance|||香|禾 日|
+史|história|history|シ|—|N2|0|5|歴史:れきし:história:history|||口|-|
+触|tocar|touch|ショク|ふ.れる,さわ.る|N2|0|13|触る:さわる:tocar:to touch|||角|角 虫|
+逆|inverso|reverse|ギャク|さか,さか.らう|N2|0|9|逆:ぎゃく:o contrário:reverse|||辶|辶 屰|F;辶=s,屰=f:ギャク;
+材|material|material|ザイ|—|N2|0|7|材料:ざいりょう:ingredientes:ingredients|||木|木 才|F;木=s,才=f:サイ;
+脳|cérebro|brain|ノウ|—|N2|0|11|脳:のう:cérebro:brain|||月|月~ 㐫|
+禁|proibir|prohibit|キン|—|N2|0|13|禁止:きんし:proibição:prohibition|||示|林 示|F;示=s,林=f:リン;
+象|elefante; fenômeno|elephant; phenomenon|ショウ,ゾウ|—|N2|0|12|印象:いんしょう:impressão:impression|||豕|-|P;;Desenho de um elefante.
+恋|amor (romântico)|romantic love|レン|こい,こ.い|N2|0|10|恋人:こいびと:namorado(a):sweetheart|||心|亦 心|
+希|esperança; raro|hope; rare|キ,ケ|—|N2|0|7|希望:きぼう:esperança:hope|||巾|㐅 布|
+境|fronteira|boundary|キョウ,ケイ|さかい|N2|0|14|環境:かんきょう:meio ambiente:environment|||土|土 竟|F;土=s,竟=f:キョウ;
+営|administrar|manage; run|エイ|いとな.む|N2|0|12|営業:えいぎょう:funcionamento; vendas:business|||口|⺍ 冖 呂!|
+宇|universo; telhado|universe; eaves|ウ|—|N2|0|6|宇宙:うちゅう:universo:universe|||宀|宀 于|F;宀=s,于=f:ウ;
+戸|porta|door|コ|と|N2|0|4|戸:と:porta:door|||戸|-|P;;Desenho de uma porta de uma folha.
+歴|história; passar|history; pass|レキ|—|N2|0|14|歴史:れきし:história:history|||止|厂 林 止|
+賞|prêmio|prize|ショウ|—|N2|0|15|賞:しょう:prêmio:prize|||貝|⺍ 冖 口 貝|F;貝=s,尚=f:ショウ;
+奥|interior; fundo|interior; inner|オウ|おく|N2|0|12|奥さん:おくさん:esposa (de outro):wife|||大|-|
+党|partido|party (political)|トウ|—|N2|0|10|政党:せいとう:partido político:political party|||儿|⺍ 冖 兄|
+型|modelo; tipo|model; type|ケイ|かた|N2|0|9|大型:おおがた:grande porte:large-sized|||土|刑 土|F;土=s,刑=f:ケイ;
+波|onda|wave|ハ|なみ|N2|0|8|波:なみ:onda:wave|||氵|氵 皮|F;氵=s,皮=f:ヒ;
+簡|simples|simple|カン|—|N2|0|18|簡単:かんたん:fácil:easy|||⺮|⺮ 間|F;⺮=s,間=f:カン;
+課|seção; lição|section; lesson|カ|—|N2|0|15|課長:かちょう:chefe de seção:section chief|||言|言 果|F;言=s,果=f:カ;
+届|entregar; chegar|deliver; reach|—|とど.ける,とど.く|N2|0|8|届ける:とどける:entregar:to deliver|||尸|尸 由|
+区|distrito|ward; district|ク|—|N2|0|4|区役所:くやくしょ:subprefeitura:ward office|||匚|匚 㐅|
+専|exclusivo|exclusive|セン|もっぱ.ら|N2|0|9|専門:せんもん:especialidade:specialty|||寸|-|
+副|vice; secundário|vice; secondary|フク|—|N2|0|11|副作用:ふくさよう:efeito colateral:side effect|||刂|畐 刂|F;刂=s,畐=f:フク;
+捨|jogar fora|throw away|シャ|す.てる|N2|0|11|捨てる:すてる:jogar fora:to throw away|||扌|扌 舎|F;扌=s,舎=f:シャ;
+圧|pressão|pressure|アツ|—|N2|0|5|血圧:けつあつ:pressão arterial:blood pressure|||土|厂 土|
+跡|marca; vestígio|trace; ruins|セキ|あと|N2|0|13|足跡:あしあと:pegada:footprint|||𧾷|𧾷 亦|F;𧾷=s,亦=f:エキ;
+域|área; região|region|イキ|—|N2|0|11|地域:ちいき:região:area|||土|土 或|F;土=s,或=f:ワク;
+巻|enrolar; volume|roll; volume|カン|ま.く,まき|N2|0|9|巻く:まく:enrolar:to wind|||己|龹 己|
+里|vila; terra natal|village; hometown|リ|さと|N2|0|7|里帰り:さとがえり:volta à terra natal:homecoming|||里|田 土|
+児|criança|child|ジ,ニ|—|N2|0|7|児童:じどう:criança (escolar):child|||儿|旧! 儿|
+算|calcular|calculate|サン|—|N2|0|14|計算:けいさん:cálculo:calculation|||⺮|⺮ 目 廾|
+囲|cercar|surround|イ|かこ.む|N2|0|7|周囲:しゅうい:arredores:surroundings|||囗|囗 井|
+順|ordem|order; sequence|ジュン|—|N2|0|12|順番:じゅんばん:ordem; vez:order|||頁|川 頁|F;頁=s,川=f:セン;
+骨|osso|bone|コツ|ほね|N2|0|10|骨:ほね:osso:bone|||骨|-|P;;Desenho de ossos com carne (月).
+汚|sujo|dirty|オ|きたな.い,よご.れる|N2|0|6|汚い:きたない:sujo:dirty|||氵|氵 亏|F;氵=s,亏=f:ウ;
+玉|joia; bola|jewel; ball|ギョク|たま|N2|0|5|玉:たま:bola; joia:ball|||玉|王 丶|P;;Desenho de contas de jade enfiadas num fio.
+比|comparar|compare|ヒ|くら.べる|N2|0|4|比べる:くらべる:comparar:to compare|||比|-|C;;Duas pessoas lado a lado.
+片|pedaço; um lado|piece; one side|ヘン|かた|N2|0|4|片付ける:かたづける:arrumar:to tidy up|||片|-|
+患|doença; afligir|illness; afflict|カン|わずら.う|N2|0|11|患者:かんじゃ:paciente:patient|||心|串 心|F;心=s,串=f:カン;
+永|eterno|eternal|エイ|なが.い|N2|0|5|永遠:えいえん:eternidade:eternity|||水|-|
+換|trocar|exchange|カン|か.える|N2|0|12|交換:こうかん:troca:exchange|||扌|扌 奐|F;扌=s,奐=f:カン;
+蔵|armazém; possuir|storehouse|ゾウ|くら|N2|0|15|冷蔵庫:れいぞうこ:geladeira:refrigerator|||艹|艹 臧!|
+額|testa; quantia; quadro|forehead; amount; frame|ガク|ひたい|N2|0|18|金額:きんがく:quantia:amount of money|||頁|客 頁|F;頁=s,客=f:カク;
+輪|anel; roda|ring; wheel|リン|わ|N2|0|15|指輪:ゆびわ:anel:ring|||車|車 侖|F;車=s,侖=f:リン;
+衣|roupa|clothing|イ|ころも|N2|0|6|衣服:いふく:vestuário:clothing|||衣|-|P;;Desenho da gola de uma túnica.
+混|misturar|mix|コン|ま.ぜる,ま.ざる,こ.む|N2|0|11|混ぜる:まぜる:misturar:to mix|||氵|氵 昆|F;氵=s,昆=f:コン;
+刺|espetar|stab|シ|さ.す|N2|0|8|刺身:さしみ:sashimi:sashimi|||刂|朿 刂|
+栄|prosperar|prosper|エイ|さか.える|N2|0|9|栄養:えいよう:nutrição:nutrition|||木|⺍ 冖 木|
+軽|leve|light (weight)|ケイ|かる.い|N2|0|12|軽い:かるい:leve:light|||車|車 圣|F;車=s,巠=f:ケイ;
+替|trocar|replace|タイ|か.える,か.わる|N2|0|12|着替える:きがえる:trocar de roupa:to change clothes|||曰|夫 夫 日!|
+委|confiar; comitê|entrust; committee|イ|ゆだ.ねる|N2|0|8|委員:いいん:membro de comitê:committee member|||女|禾 女|
+芸|arte|art|ゲイ|—|N2|0|7|芸術:げいじゅつ:arte:art|||艹|艹 云|
+印|marca; carimbo|mark; seal|イン|しるし|N2|0|6|印:しるし:marca:mark|||卩|-|
+腕|braço|arm|ワン|うで|N2|0|12|腕:うで:braço:arm|||月|月~ 宛|F;肉=s,宛=f:エン;
+署|repartição; assinar|office; sign|ショ|—|N2|0|13|消防署:しょうぼうしょ:quartel dos bombeiros:fire station|||罒|罒 者|F;罒=s,者=f:シャ;
+並|enfileirar; comum|line up; ordinary|ヘイ|なら.べる,なら.ぶ,なみ|N2|0|8|並ぶ:ならぶ:fazer fila:to line up|||一|-|
+庫|depósito|storehouse|コ,ク|—|N2|0|10|車庫:しゃこ:garagem:garage|||广|广 車|C;广=s,車=s;
+羽|pena; asa|feather; wing|ウ|は,はね|N2|0|6|羽:はね:pena; asa:feather|||羽|-|P;;Desenho de duas asas.
+陸|terra firme|land|リク|—|N2|0|11|大陸:たいりく:continente:continent|||阝|阝 坴|F;阝=s,坴=f:リク;
+各|cada|each|カク|おのおの|N2|0|6|各地:かくち:cada região:various places|||口|夂 口|
+角|chifre; canto; ângulo|horn; corner; angle|カク|かど,つの|N2|0|7|角:かど:esquina:corner|||角|-|P;;Desenho de um chifre.
+胸|peito|chest|キョウ|むね|N2|0|10|胸:むね:peito:chest|||月|月~ 匈|F;肉=s,匈=f:キョウ;
+農|agricultura|agriculture|ノウ|—|N2|0|13|農業:のうぎょう:agricultura:agriculture|||辰|曲! 辰|
+殿|palácio; senhor|palace; lord|デン,テン|との,どの|N2|0|13|御殿:ごてん:palácio:palace|||殳|-|
+臓|víscera|internal organs|ゾウ|—|N2|0|19|心臓:しんぞう:coração (órgão):heart|||月|月~ 蔵|F;肉=s,蔵=f:ゾウ;
+固|duro; firme|hard; firm|コ|かた.い,かた.める|N2|0|8|固い:かたい:duro:hard|||囗|囗 古|F;囗=s,古=f:コ;
+劇|drama|drama|ゲキ|—|N2|0|15|劇場:げきじょう:teatro:theater|||刂|豦 刂|
+競|competir|compete|キョウ,ケイ|きそ.う|N2|0|20|競争:きょうそう:competição:competition|||立|立 兄 立 兄|
+承|consentir|consent|ショウ|うけたまわ.る|N2|0|8|承知:しょうち:ciente; de acordo:consent|||手|-|
+韓|Coreia|Korea|カン|—|N2|0|18|韓国:かんこく:Coreia do Sul:South Korea|||韋|龺! 韋|
+荒|áspero; selvagem|rough; wild|コウ|あら.い,あ.れる|N2|0|9|荒れる:あれる:ficar agitado:to be stormy|||艹|艹 亡 川!|
+清|limpo; puro|pure; clean|セイ,ショウ|きよ.い|N2|0|11|清潔:せいけつ:limpo:clean|||氵|氵 青|F;氵=s,青=f:セイ;
+毒|veneno|poison|ドク|—|N2|0|8|毒:どく:veneno:poison|||毋|龶 毋|
+編|tecer; editar|knit; edit|ヘン|あ.む|N2|0|15|編集:へんしゅう:edição:editing|||糹|糹 扁|F;糹=s,扁=f:ヘン;
+巨|gigante|gigantic|キョ|—|N2|0|5|巨大:きょだい:enorme:huge|||工|-|
+宝|tesouro|treasure|ホウ|たから|N2|0|8|宝物:たからもの:tesouro:treasure|||宀|宀 玉|C;宀=s,玉=s;
+油|óleo|oil|ユ|あぶら|N2|0|8|石油:せきゆ:petróleo:oil|||氵|氵 由|F;氵=s,由=f:ユ;
+坂|ladeira|slope|ハン|さか|N2|0|7|坂:さか:ladeira:slope|||土|土 反|F;土=s,反=f:ハン;
+革|couro; reforma|leather; reform|カク|かわ|N2|0|9|革命:かくめい:revolução:revolution|||革|-|P;;Desenho de uma pele de animal esticada.
+停|parar|stop|テイ|—|N2|0|11|停電:ていでん:falta de energia:power outage|||亻|亻 亭|F;亻=s,亭=f:テイ;
+祝|celebrar|celebrate|シュク,シュウ|いわ.う|N2|0|9|お祝い:おいわい:comemoração; presente:celebration|||礻|礻 兄|
+甘|doce|sweet|カン|あま.い|N2|0|5|甘い:あまい:doce:sweet|||甘|-|
+依|depender|depend|イ,エ|—|N2|0|8|依頼:いらい:solicitação:request|||亻|亻 衣|F;亻=s,衣=f:イ;
+詰|encher; apertar|pack; cram|キツ|つ.める,つ.まる|N2|0|13|缶詰:かんづめ:enlatado:canned food|||言|言 吉|F;言=s,吉=f:キチ;
+省|ministério; omitir|ministry; omit|ショウ,セイ|はぶ.く,かえり.みる|N2|0|9|反省:はんせい:reflexão:reflection|||目|少 目|
+底|fundo|bottom|テイ|そこ|N2|0|8|底:そこ:fundo:bottom|||广|广 氐|F;广=s,氐=f:テイ;
+荷|carga|load|カ|に|N2|0|10|荷物:にもつ:bagagem:luggage|||艹|艹 何|F;艹=s,何=f:カ;
+損|prejuízo|loss|ソン|そこ.なう|N2|0|13|損:そん:prejuízo:loss|||扌|扌 員|
+卒|formar-se|graduate|ソツ|—|N2|0|8|卒業:そつぎょう:formatura:graduation|||十|-|
+泉|fonte (de água)|spring|セン|いずみ|N2|0|9|温泉:おんせん:fonte termal:hot spring|||水|白 水|P;;Água que brota de uma nascente.
+億|cem milhões|hundred million|オク|—|N2|0|15|一億:いちおく:cem milhões:hundred million|||亻|亻 意|F;亻=s,意=f:イ;
+布|pano|cloth|フ|ぬの|N2|0|5|布:ぬの:pano:cloth|||巾|𠂇 巾|
+毛|pelo|fur; hair|モウ|け|N2|0|4|毛:け:pelo:hair|||毛|-|P;;Desenho de pelos.
+枚|contador de objetos planos|counter for flat things|マイ|—|N2|0|8|一枚:いちまい:uma folha:one sheet|||木|木 攵|
+延|prolongar|extend|エン|の.びる,の.ばす|N2|0|8|延期:えんき:adiamento:postponement|||廴|廴 㢟!|
+伸|esticar|stretch|シン|の.びる,の.ばす|N2|0|7|伸びる:のびる:crescer; esticar:to grow; to stretch|||亻|亻 申|F;亻=s,申=f:シン;
+勇|coragem|courage|ユウ|いさ.む|N2|0|9|勇気:ゆうき:coragem:courage|||力|甬! 力|
+測|medir|measure|ソク|はか.る|N2|0|12|予測:よそく:previsão:prediction|||氵|氵 則|F;氵=s,則=f:ソク;
+倍|dobro; vezes|double; times|バイ|—|N2|0|10|二倍:にばい:o dobro:twice|||亻|亻 咅|F;亻=s,咅=f:ホウ;
+雇|contratar|hire|コ|やと.う|N2|0|12|雇う:やとう:contratar:to hire|||隹|戸 隹|F;隹=s,戸=f:コ;
+輸|transportar|transport|ユ|—|N2|0|16|輸入:ゆにゅう:importação:import|||車|車 俞|F;車=s,俞=f:ユ;
+岸|margem; costa|shore|ガン|きし|N2|0|8|海岸:かいがん:litoral:coast|||山|山 厂 干|F;山=s,干=f:カン;
+略|abreviar|abbreviate|リャク|—|N2|0|11|省略:しょうりゃく:abreviação:omission|||田|田 各|F;田=s,各=f:カク;
+純|puro|pure|ジュン|—|N2|0|10|単純:たんじゅん:simples:simple|||糹|糹 屯|F;糹=s,屯=f:トン;
+採|colher; adotar|pick; adopt|サイ|と.る|N2|0|11|採用:さいよう:contratação; adoção:adoption|||扌|扌 采|F;扌=s,采=f:サイ;
+央|centro|center|オウ|—|N2|0|5|中央:ちゅうおう:centro:center|||大|-|
+占|ocupar; adivinhar|occupy; divine|セン|し.める,うらな.う|N2|0|5|占う:うらなう:ler a sorte:to tell fortunes|||卜|卜 口|
+航|navegar|navigate|コウ|—|N2|0|10|航空:こうくう:aviação:aviation|||舟|舟 亢|F;舟=s,亢=f:コウ;
+悩|preocupar-se|worry|ノウ|なや.む|N2|0|10|悩む:なやむ:preocupar-se:to worry|||忄|忄 㐫|
+頃|época; por volta de|time; about|—|ころ|N2|0|11|この頃:このごろ:ultimamente:these days|||頁|匕 頁|
+針|agulha|needle|シン|はり|N2|0|10|針:はり:agulha:needle|||釒|釒 十|
+賢|sábio|wise|ケン|かしこ.い|N2|0|16|賢い:かしこい:inteligente:wise|||貝|臣 又 貝|
+則|regra|rule|ソク|—|N2|0|9|規則:きそく:regra:rule|||刂|貝 刂|
+踊|dançar|dance|ヨウ|おど.る|N2|0|14|踊る:おどる:dançar:to dance|||𧾷|𧾷 甬|F;𧾷=s,甬=f:ヨウ;
+乾|secar|dry|カン|かわ.く,かわ.かす|N2|0|11|乾く:かわく:secar:to dry|||乙|-|
+含|conter|include|ガン|ふく.む,ふく.める|N2|0|7|含む:ふくむ:incluir:to include|||口|今 口|F;口=s,今=f:キン;
+複|duplo; complexo|duplicate; complex|フク|—|N2|0|14|複雑:ふくざつ:complicado:complicated|||衤|衤 复|F;衤=s,复=f:フク;
+税|imposto|tax|ゼイ|—|N2|0|12|税金:ぜいきん:imposto:tax|||禾|禾 兑|F;禾=s,兌=f:エツ;
+皮|pele; casca|skin; peel|ヒ|かわ|N2|0|5|皮:かわ:pele; casca:skin|||皮|-|
+照|iluminar|illuminate|ショウ|て.る,て.らす|N2|0|13|照明:しょうめい:iluminação:lighting|||灬|昭 灬|F;灬=s,昭=f:ショウ;
+築|construir|build|チク|きず.く|N2|0|16|建築:けんちく:arquitetura:architecture|||⺮|⺮ 筑! 木|
+祭|festival|festival|サイ|まつ.り,まつ.る|N2|0|11|お祭り:おまつり:festival:festival|||示|月! 又 示|C;;Mão (又) oferecendo carne (月) no altar (示).
+敬|respeitar|respect|ケイ|うやま.う|N2|0|12|敬語:けいご:linguagem honorífica:honorific language|||攵|苟 攵|
+包|embrulhar|wrap|ホウ|つつ.む|N2|0|5|包む:つつむ:embrulhar:to wrap|||勹|勹 己|
+昇|subir|rise|ショウ|のぼ.る|N2|0|8|昇進:しょうしん:promoção:promotion|||日|日 升|F;日=s,升=f:ショウ;
+預|depositar|deposit|ヨ|あず.ける,あず.かる|N2|0|13|預ける:あずける:deixar aos cuidados:to leave in someone's care|||頁|予 頁|F;頁=s,予=f:ヨ;
+泊|pernoitar|stay overnight|ハク|と.まる,と.める|N2|0|8|泊まる:とまる:hospedar-se:to stay overnight|||氵|氵 白|F;氵=s,白=f:ハク;
+板|tábua; placa|board; plank|ハン,バン|いた|N2|0|8|黒板:こくばん:quadro-negro:blackboard|||木|木 反|F;木=s,反=f:ハン;
+袋|saco|bag|タイ|ふくろ|N2|0|11|袋:ふくろ:saco:bag|||衣|代 衣|F;衣=s,代=f:タイ;
+訓|ensinar; leitura kun|instruction; native reading|クン|—|N2|0|10|訓練:くんれん:treinamento:training|||言|言 川|F;言=s,川=f:セン;
+諸|diversos|various|ショ|—|N2|0|15|諸国:しょこく:diversos países:various countries|||言|言 者|F;言=s,者=f:シャ;
+誌|revista; registro|magazine; record|シ|—|N2|0|14|雑誌:ざっし:revista:magazine|||言|言 志|F;言=s,志=f:シ;
+黄|amarelo|yellow|コウ,オウ|き|N2|0|11|黄色:きいろ:amarelo:yellow|||黄|-|
+快|agradável|pleasant|カイ|こころよ.い|N2|0|7|快適:かいてき:confortável:comfortable|||忄|忄 夬|F;忄=s,夬=f:ケツ;
+贈|presentear|give (a gift)|ゾウ,ソウ|おく.る|N2|0|18|贈り物:おくりもの:presente:gift|||貝|貝 曽|F;貝=s,曽=f:ソウ;
+講|palestra|lecture|コウ|—|N2|0|17|講義:こうぎ:aula (universitária):lecture|||言|言 冓|F;言=s,冓=f:コウ;
+祈|rezar; desejar|pray; wish|キ|いの.る|N2|0|8|祈る:いのる:rezar:to pray|||礻|礻 斤|F;礻=s,斤=f:キン;
+律|lei; ritmo|law; rhythm|リツ,リチ|—|N2|0|9|法律:ほうりつ:lei:law|||彳|彳 聿|
+掃|varrer|sweep|ソウ|は.く|N2|0|11|掃除:そうじ:limpeza:cleaning|||扌|扌 帚|C;扌=s,帚=s;
+幼|pequeno; infantil|infancy|ヨウ|おさな.い|N2|0|5|幼稚園:ようちえん:jardim de infância:kindergarten|||幺|幺 力|
+群|grupo; bando|group; flock|グン|む.れる,むれ|N2|0|13|群れ:むれ:bando:flock|||羊|君 羊|F;羊=s,君=f:クン;
+叫|gritar|shout|キョウ|さけ.ぶ|N2|0|6|叫ぶ:さけぶ:gritar:to shout|||口|口 丩|
+震|tremer|shake|シン|ふる.える,ふる.う|N2|0|15|地震:じしん:terremoto:earthquake|||雨|雨 辰|F;雨=s,辰=f:シン;
+豊|abundante|abundant|ホウ|ゆた.か|N2|0|13|豊か:ゆたか:abundante; rico:rich|||豆|曲! 豆|
+乳|leite; seio|milk; breast|ニュウ|ちち|N2|0|8|牛乳:ぎゅうにゅう:leite:milk|||乙|爫 子 乚|
+埋|enterrar|bury|マイ|う.める,う.まる|N2|0|10|埋める:うめる:enterrar; preencher:to bury; to fill in|||土|土 里|F;土=s,里=f:リ;

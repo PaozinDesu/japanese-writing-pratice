@@ -1,0 +1,124 @@
+績|resultado; realização|achievement|セキ|—|N2|0|17|成績:せいせき:notas; desempenho:grades|||糹|糹 責|F;糹=s,責=f:セキ;
+章|capítulo; emblema|chapter; badge|ショウ|—|N2|0|11|文章:ぶんしょう:texto:writing|||立|立 早|
+卵|ovo|egg|ラン|たまご|N2|0|7|卵:たまご:ovo:egg|||卩|-|P;;Desenho de ovos.
+封|selar|seal|フウ,ホウ|—|N2|0|9|封筒:ふうとう:envelope:envelope|||寸|圭 寸|
+尊|respeitar; nobre|respect; noble|ソン|たっと.い,とうと.ぶ|N2|0|12|尊敬:そんけい:respeito:respect|||寸|酋 寸|
+層|camada|layer|ソウ|—|N2|0|14|高層:こうそう:de muitos andares:high-rise|||尸|尸 曽|F;尸=s,曽=f:ソウ;
+述|declarar|state|ジュツ|の.べる|N2|0|8|述べる:のべる:declarar:to state|||辶|辶 朮|F;辶=s,朮=f:ジュツ;
+般|geral|general|ハン|—|N2|0|10|一般:いっぱん:geral:general|||舟|舟 殳|
+薄|fino; claro|thin; light|ハク|うす.い|N2|0|16|薄い:うすい:fino; fraco:thin; weak|||艹|艹 溥|F;艹=s,溥=f:ハク;
+坊|monge; menino|monk; boy|ボウ,ボッ|—|N2|0|7|赤ん坊:あかんぼう:bebê:baby|||土|土 方|F;土=s,方=f:ホウ;
+厚|grosso; cordial|thick; cordial|コウ|あつ.い|N2|0|9|厚い:あつい:grosso:thick|||厂|厂 日 子|
+孫|neto|grandchild|ソン|まご|N2|0|10|孫:まご:neto:grandchild|||子|子 系|C;子=s,系=s;
+床|chão; cama|floor; bed|ショウ|とこ,ゆか|N2|0|7|床:ゆか:chão:floor|||广|广 木|
+販|vender|sell|ハン|—|N2|0|11|自動販売機:じどうはんばいき:máquina de venda automática:vending machine|||貝|貝 反|F;貝=s,反=f:ハン;
+液|líquido|liquid|エキ|—|N2|0|11|液体:えきたい:líquido:liquid|||氵|氵 夜|F;氵=s,夜=f:ヤ;
+札|placa; cédula|tag; bill|サツ|ふだ|N2|0|5|お札:おさつ:cédula:bill|||木|木 乚|
+版|edição; impressão|edition; printing|ハン|—|N2|0|8|出版:しゅっぱん:publicação:publishing|||片|片 反|F;片=s,反=f:ハン;
+紅|vermelho vivo|crimson|コウ,ク|べに,くれない|N2|0|9|紅茶:こうちゃ:chá preto:black tea|||糹|糹 工|F;糹=s,工=f:コウ;
+齢|idade|age|レイ|—|N2|0|17|年齢:ねんれい:idade:age|||歯|歯 令|F;歯=s,令=f:レイ;
+雲|nuvem|cloud|ウン|くも|N2|0|12|雲:くも:nuvem:cloud|||雨|雨 云|F;雨=s,云=f:ウン;
+浴|banhar-se|bathe|ヨク|あ.びる|N2|0|10|浴びる:あびる:tomar (banho):to bathe|||氵|氵 谷|F;氵=s,谷=f:コク;
+塩|sal|salt|エン|しお|N2|0|13|塩:しお:sal:salt|||土|土 𠂉 口 皿|
+鼻|nariz|nose|ビ|はな|N2|0|14|鼻:はな:nariz:nose|||鼻|自 畀|F;自=s,畀=f:ヒ;
+双|par|pair|ソウ|ふた|N2|0|4|双子:ふたご:gêmeos:twins|||又|又 又|
+旧|antigo|old; former|キュウ|—|N2|0|5|旧正月:きゅうしょうがつ:Ano-Novo lunar:Lunar New Year|||日|丨 日|
+肩|ombro|shoulder|ケン|かた|N2|0|8|肩:かた:ombro:shoulder|||月|戸 月~|
+尻|nádegas|buttocks|—|しり|N2|0|5|尻:しり:nádegas:buttocks|||尸|尸 九|
+塗|pintar; passar (algo)|paint; smear|ト|ぬ.る|N2|0|13|塗る:ぬる:pintar; passar:to paint|||土|氵 余 土|
+沈|afundar|sink|チン|しず.む,しず.める|N2|0|7|沈む:しずむ:afundar; pôr-se (o sol):to sink|||氵|氵 冘|F;氵=s,冘=f:チン;
+緑|verde|green|リョク,ロク|みどり|N2|0|14|緑:みどり:verde:green|||糹|糹 录|F;糹=s,录=f:ロク;
+咲|florescer|bloom|—|さ.く|N2|0|9|咲く:さく:florescer:to bloom|||口|口 关|
+臣|vassalo; ministro|retainer; minister|シン,ジン|—|N2|0|7|大臣:だいじん:ministro:minister|||臣|-|P;;Desenho de um olho voltado para baixo (servo que se curva).
+腰|quadril; lombar|waist; lower back|ヨウ|こし|N2|0|13|腰:こし:quadril; lombar:lower back|||月|月~ 要|F;肉=s,要=f:ヨウ;
+貨|mercadoria; moeda|goods; currency|カ|—|N2|0|11|硬貨:こうか:moeda:coin|||貝|化 貝|F;貝=s,化=f:カ;
+掘|cavar|dig|クツ|ほ.る|N2|0|11|掘る:ほる:cavar:to dig|||扌|扌 屈|F;扌=s,屈=f:クツ;
+駐|estacionar|park; reside|チュウ|—|N2|0|15|駐車場:ちゅうしゃじょう:estacionamento:parking lot|||馬|馬 主|F;馬=s,主=f:シュ;
+珍|raro|rare|チン|めずら.しい|N2|0|9|珍しい:めずらしい:raro:rare|||王|王~ 㐱|
+凍|congelar|freeze|トウ|こお.る,こご.える|N2|0|10|冷凍:れいとう:congelamento:freezing|||冫|冫 東|F;冫=s,東=f:トウ;
+募|recrutar|recruit|ボ|つの.る|N2|0|12|募集:ぼしゅう:recrutamento:recruitment|||力|莫 力|F;力=s,莫=f:ボ;
+湾|baía|bay|ワン|—|N2|0|12|東京湾:とうきょうわん:Baía de Tóquio:Tokyo Bay|||氵|氵 亦 弓|
+涙|lágrima|tear|ルイ|なみだ|N2|0|10|涙:なみだ:lágrima:tear|||氵|氵 戻|
+泥|lama|mud|デイ|どろ|N2|0|8|泥:どろ:lama:mud|||氵|氵 尼|F;氵=s,尼=f:ジ;
+童|criança|child|ドウ|わらべ|N2|0|12|童話:どうわ:conto infantil:children's story|||立|立 里|
+欧|Europa|Europe|オウ|—|N2|0|8|欧米:おうべい:Europa e EUA:the West|||欠|区 欠|F;欠=s,区=f:ク;
+柔|macio; flexível|soft; flexible|ジュウ,ニュウ|やわ.らかい|N2|0|9|柔道:じゅうどう:judô:judo|||木|矛 木|
+庁|repartição pública|government office|チョウ|—|N2|0|5|県庁:けんちょう:governo provincial:prefectural office|||广|广 丁|F;广=s,丁=f:テイ;
+匹|contador de animais|counter for animals|ヒツ|ひき|N2|0|4|一匹:いっぴき:um (animal):one (animal)|||匚|-|
+干|secar|dry|カン|ほ.す,ひ.る|N2|0|3|干す:ほす:secar (ao sol):to dry|||干|-|
+阪|ladeira (Osaka)|slope|ハン|さか|N2|0|7|大阪:おおさか:Osaka:Osaka|||阝|阝 反|F;阝=s,反=f:ハン;
+仏|Buda|Buddha|ブツ|ほとけ|N2|0|4|仏教:ぶっきょう:budismo:Buddhism|||亻|亻 厶|
+辛|picante; penoso|spicy; bitter|シン|から.い,つら.い|N2|0|7|辛い:からい:picante:spicy|||辛|-|
+械|máquina|machine|カイ|—|N2|0|11|機械:きかい:máquina:machine|||木|木 戒|F;木=s,戒=f:カイ;
+均|igual|equal|キン|—|N2|0|7|平均:へいきん:média:average|||土|土 匀|F;土=s,匀=f:キン;
+拾|pegar do chão|pick up|シュウ,ジュウ|ひろ.う|N2|0|9|拾う:ひろう:apanhar:to pick up|||扌|扌 合|
+幅|largura|width|フク|はば|N2|0|12|幅:はば:largura:width|||巾|巾 畐|F;巾=s,畐=f:フク;
+寿|longevidade|longevity|ジュ|ことぶき|N2|0|7|寿司:すし:sushi:sushi|||寸|-|
+硬|duro|hard|コウ|かた.い|N2|0|12|硬い:かたい:duro:hard|||石|石 更|F;石=s,更=f:コウ;
+湯|água quente|hot water|トウ|ゆ|N2|0|12|お湯:おゆ:água quente:hot water|||氵|氵 昜|F;氵=s,昜=f:ヨウ;
+溶|dissolver|dissolve|ヨウ|と.ける,と.かす|N2|0|13|溶ける:とける:derreter:to melt|||氵|氵 容|F;氵=s,容=f:ヨウ;
+著|autor; notável|author; notable|チョ|あらわ.す,いちじる.しい|N2|0|11|著者:ちょしゃ:autor:author|||艹|艹 者|F;艹=s,者=f:シャ;
+筆|pincel; escrever|brush; writing|ヒツ|ふで|N2|0|12|筆:ふで:pincel:writing brush|||⺮|⺮ 聿|C;⺮=s,聿=s;Bambu (⺮) + pincel (聿).
+翌|seguinte|following|ヨク|—|N2|0|11|翌日:よくじつ:dia seguinte:next day|||羽|羽 立|F;羽=s,立=f:リュウ;
+傾|inclinar|lean|ケイ|かたむ.く|N2|0|13|傾く:かたむく:inclinar-se:to lean|||亻|亻 頃|F;亻=s,頃=f:ケイ;
+濃|denso; escuro|thick; dark|ノウ|こ.い|N2|0|16|濃い:こい:forte; escuro:thick; dark|||氵|氵 農|F;氵=s,農=f:ノウ;
+召|chamar; vestir (respeitoso)|summon|ショウ|め.す|N2|0|5|召し上がる:めしあがる:comer (respeitoso):to eat (honorific)|||口|刀 口|F;口=s,刀=f:トウ;
+闇|escuridão|darkness|アン|やみ|N2|0|17|闇:やみ:escuridão:darkness|||門|門 音|F;門=s,音=f:オン;
+憎|odiar|hate|ゾウ|にく.む,にく.い|N2|0|14|憎む:にくむ:odiar:to hate|||忄|忄 曽|F;忄=s,曽=f:ソウ;
+拝|venerar; ver (humilde)|worship|ハイ|おが.む|N2|0|8|拝見:はいけん:ver (humilde):to see (humble)|||扌|扌 手!|
+肌|pele|skin|—|はだ|N2|0|6|肌:はだ:pele:skin|||月|月~ 几|
+漁|pesca|fishing|ギョ,リョウ|—|N2|0|14|漁業:ぎょぎょう:pesca:fishing industry|||氵|氵 魚|C;氵=s,魚=s;
+菓|doce; guloseima|sweets|カ|—|N2|0|11|お菓子:おかし:doce:sweets|||艹|艹 果|F;艹=s,果=f:カ;
+籍|registro|register|セキ|—|N2|0|20|国籍:こくせき:nacionalidade:nationality|||⺮|⺮ 耒 昔|F;⺮=s,耤=f:セキ;
+帽|chapéu|hat|ボウ|—|N2|0|12|帽子:ぼうし:chapéu:hat|||巾|巾 冒|F;巾=s,冒=f:ボウ;
+柱|pilar|pillar|チュウ|はしら|N2|0|9|柱:はしら:pilar:pillar|||木|木 主|F;木=s,主=f:シュ;
+鋭|afiado|sharp|エイ|するど.い|N2|0|15|鋭い:するどい:afiado:sharp|||釒|釒 兑|F;釒=s,兌=f:エツ;
+磨|polir; escovar|polish; brush|マ|みが.く|N2|0|16|磨く:みがく:escovar; polir:to brush; to polish|||石|麻 石|F;石=s,麻=f:マ;
+麦|trigo; cevada|wheat; barley|バク|むぎ|N2|0|7|小麦:こむぎ:trigo:wheat|||麦|-|
+灰|cinza|ash|カイ|はい|N2|0|6|灰色:はいいろ:cinza (cor):gray|||火|𠂇 火|C;𠂇=s,火=s;
+斬|decapitar; cortar|behead; slash|ザン|き.る|N2|0|11|斬新:ざんしん:inovador:novel|||斤|車 斤|
+兆|trilhão; sinal|trillion; omen|チョウ|きざ.し|N2|0|6|一兆:いっちょう:um trilhão:one trillion|||儿|-|P;;Desenho das rachaduras num casco usado para adivinhação.
+軟|macio|soft|ナン|やわ.らかい|N2|0|11|柔軟:じゅうなん:flexível:flexible|||車|車 欠|
+灯|lâmpada; luz|lamp|トウ|ひ|N2|0|6|電灯:でんとう:lâmpada:electric light|||火|火 丁|F;火=s,丁=f:テイ;
+鉱|minério|ore|コウ|—|N2|0|13|鉱物:こうぶつ:mineral:mineral|||釒|釒 広|F;釒=s,広=f:コウ;
+脂|gordura|fat|シ|あぶら|N2|0|10|脂肪:しぼう:gordura:fat|||月|月~ 旨|F;肉=s,旨=f:シ;
+瓶|garrafa|bottle|ビン|—|N2|0|11|花瓶:かびん:vaso de flores:vase|||瓦|并 瓦|F;瓦=s,并=f:ヘイ;
+詞|palavra; letra|word; lyrics|シ|—|N2|0|12|歌詞:かし:letra de música:lyrics|||言|言 司|F;言=s,司=f:シ;
+刊|publicar|publish|カン|—|N2|0|5|朝刊:ちょうかん:jornal da manhã:morning paper|||刂|干 刂|F;刂=s,干=f:カン;
+塔|torre|tower|トウ|—|N2|0|12|五重塔:ごじゅうのとう:pagode de cinco andares:five-story pagoda|||土|土 荅|
+濯|lavar|wash|タク|—|N2|0|17|洗濯:せんたく:lavar roupa:laundry|||氵|氵 翟|F;氵=s,翟=f:テキ;
+缶|lata|can|カン|—|N2|0|6|缶:かん:lata:can|||缶|-|P;;Desenho de um jarro de barro.
+蒸|vapor|steam|ジョウ|む.す,む.れる|N2|0|13|蒸し暑い:むしあつい:abafado:hot and humid|||艹|艹 丞 灬|F;艹=s,烝=f:ジョウ;
+胃|estômago|stomach|イ|—|N2|0|9|胃:い:estômago:stomach|||月|田! 月~|
+喫|beber; fumar|consume|キツ|—|N2|0|12|喫茶店:きっさてん:café (estabelecimento):coffee shop|||口|口 契|F;口=s,契=f:ケイ;
+粒|grão|grain|リュウ|つぶ|N2|0|11|粒:つぶ:grão:grain|||米|米 立|F;米=s,立=f:リツ;
+涼|fresco|cool|リョウ|すず.しい|N2|0|11|涼しい:すずしい:fresco:cool|||氵|氵 京|F;氵=s,京=f:キョウ;
+机|mesa (de estudo)|desk|キ|つくえ|N2|0|6|机:つくえ:escrivaninha:desk|||木|木 几|F;木=s,几=f:キ;
+鈍|lento; cego (lâmina)|dull|ドン|にぶ.い|N2|0|12|鈍い:にぶい:lento; embotado:dull|||釒|釒 屯|F;釒=s,屯=f:トン;
+軒|contador de casas; beiral|counter for houses; eaves|ケン|のき|N2|0|10|一軒:いっけん:uma casa:one house|||車|車 干|F;車=s,干=f:カン;
+零|zero|zero|レイ|—|N2|0|13|零下:れいか:abaixo de zero:below zero|||雨|雨 令|F;雨=s,令=f:レイ;
+湿|úmido|humid|シツ|しめ.る|N2|0|12|湿度:しつど:umidade:humidity|||氵|氵 日 业|
+貿|comércio|trade|ボウ|—|N2|0|12|貿易:ぼうえき:comércio exterior:foreign trade|||貝|卯! 貝|F;貝=s,卯=f:ボウ;
+挟|prender entre|pinch|キョウ|はさ.む,はさ.まる|N2|0|9|挟む:はさむ:prender entre:to sandwich|||扌|扌 夹|F;扌=s,夾=f:キョウ;
+筒|tubo|cylinder|トウ|つつ|N2|0|12|封筒:ふうとう:envelope:envelope|||⺮|⺮ 同|F;⺮=s,同=f:ドウ;
+隅|canto|corner|グウ|すみ|N2|0|12|隅:すみ:canto:corner|||阝|阝 禺|F;阝=s,禺=f:グウ;
+冊|contador de livros|counter for books|サツ,サク|—|N2|0|5|一冊:いっさつ:um livro:one book|||冂|-|P;;Desenho de tiras de bambu amarradas (um livro antigo).
+郊|subúrbio|suburbs|コウ|—|N2|0|9|郊外:こうがい:subúrbio:suburbs|||阝|交 阝|F;阝=s,交=f:コウ;
+刷|imprimir|print|サツ|す.る|N2|0|8|印刷:いんさつ:impressão:printing|||刂|尸 巾 刂|
+脇|lado; axila|side; armpit|キョウ|わき|N2|0|10|脇:わき:lado; axila:side|||月|月~ 劦|
+膚|pele|skin|フ|—|N2|0|15|皮膚:ひふ:pele:skin|||月|虍 胃|
+滴|gota|drop|テキ|しずく,したた.る|N2|0|14|水滴:すいてき:gota d'água:water drop|||氵|氵 啇|F;氵=s,啇=f:テキ;
+隻|contador de navios|counter for ships|セキ|—|N2|0|10|一隻:いっせき:um navio:one ship|||隹|隹 又|C;隹=s,又=s;Uma mão (又) segurando um pássaro (隹).
+符|sinal; bilhete|mark; ticket|フ|—|N2|0|11|切符:きっぷ:bilhete:ticket|||⺮|⺮ 付|F;⺮=s,付=f:フ;
+伺|visitar; perguntar (humilde)|visit; ask (humble)|シ|うかが.う|N2|0|7|伺う:うかがう:visitar; perguntar (humilde):to visit; to ask (humble)|||亻|亻 司|F;亻=s,司=f:シ;
+沸|ferver|boil|フツ|わ.く,わ.かす|N2|0|8|沸く:わく:ferver:to boil|||氵|氵 弗|F;氵=s,弗=f:フツ;
+畜|animais domésticos|livestock|チク|—|N2|0|10|家畜:かちく:gado:livestock|||田|玄 田|
+舟|barco|boat|シュウ|ふね|N2|0|6|小舟:こぶね:barquinho:small boat|||舟|-|P;;Desenho de um barco.
+枯|murchar|wither|コ|か.れる,か.らす|N2|0|9|枯れる:かれる:murchar:to wither|||木|木 古|F;木=s,古=f:コ;
+姓|sobrenome|surname|セイ,ショウ|—|N2|0|8|姓名:せいめい:nome completo:full name|||女|女 生|F;女=s,生=f:セイ;
+畳|tatame; dobrar|tatami; fold|ジョウ|たた.む,たたみ|N2|0|12|畳:たたみ:tatame:tatami|||田|田 冖 且|
+燥|seco|dry|ソウ|—|N2|0|17|乾燥:かんそう:seco:dry|||火|火 喿|F;火=s,喿=f:ソウ;
+耕|arar|plow|コウ|たがや.す|N2|0|10|耕す:たがやす:arar:to plow|||耒|耒 井|F;耒=s,井=f:セイ;
+膝|joelho|knee|シツ|ひざ|N2|0|15|膝:ひざ:joelho:knee|||月|月~ 桼|
+曇|nublado|cloudy|ドン|くも.る|N2|0|16|曇り:くもり:tempo nublado:cloudy weather|||日|日 雲|C;日=s,雲=s;
+肯|consentir|agree|コウ|—|N2|0|8|肯定:こうてい:afirmação:affirmation|||月|止 月~|

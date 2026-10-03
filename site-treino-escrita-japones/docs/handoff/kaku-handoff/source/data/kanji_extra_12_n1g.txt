@@ -1,0 +1,141 @@
+袖|manga (de roupa)|sleeve|シュウ|そで|N1|0|10|半袖:はんそで:manga curta:short sleeves||||衤|衤 由|F;衤=s,由=f:ユウ;
+埼|cabo; promontório|cape|—|さい|N1|0|11|埼玉:さいたま:Saitama:Saitama||||土|土 奇|
+汰|selecionar; lavar|select; wash|タ|—|N1|0|7|淘汰:とうた:seleção (natural):selection||||氵|氵 太|F;氵=s,太=f:タイ;
+胴|tronco (corpo)|torso|ドウ|—|N1|0|10|胴体:どうたい:tronco:torso||||月|月~ 同|F;肉=s,同=f:ドウ;
+酵|fermentar|ferment|コウ|—|N1|0|14|発酵:はっこう:fermentação:fermentation||||酉|酉 孝|F;酉=s,孝=f:コウ;
+該|dito; correspondente|said; applicable|ガイ|—|N1|0|13|該当:がいとう:corresponder:applicable||||言|言 亥|F;言=s,亥=f:ガイ;
+搾|espremer|squeeze|サク|しぼ.る|N1|0|13|搾る:しぼる:espremer:to squeeze||||扌|扌 窄|F;扌=s,窄=f:サク;
+娯|diversão|amusement|ゴ|—|N1|0|10|娯楽:ごらく:entretenimento:entertainment||||女|女 呉|F;女=s,呉=f:ゴ;
+欄|coluna; grade|column; railing|ラン|—|N1|0|20|欄:らん:coluna; campo (formulário):column||||木|木 闌|F;木=s,闌=f:ラン;
+郭|muralha; contorno|enclosure; outline|カク|—|N1|0|11|輪郭:りんかく:contorno:outline||||阝|享 阝|F;阝=s,享=f:カク;
+盆|bandeja; Obon|tray; Bon festival|ボン|—|N1|0|9|お盆:おぼん:Obon; bandeja:Bon festival; tray||||皿|分 皿|F;皿=s,分=f:フン;
+謹|respeitoso|respectful|キン|つつし.む|N1|0|17|謹慎:きんしん:suspensão (disciplinar):suspension||||言|言 堇|F;言=s,堇=f:キン;
+詠|recitar; compor (poema)|recite; compose|エイ|よ.む|N1|0|12|詠む:よむ:compor (poema):to compose (a poem)||||言|言 永|F;言=s,永=f:エイ;
+蚊|mosquito|mosquito|—|か|N1|0|10|蚊:か:mosquito:mosquito||||虫|虫 文|F;虫=s,文=f:ブン;
+穀|cereal|grain|コク|—|N1|0|14|穀物:こくもつ:cereais:grain||||禾|殻! 禾|
+蜜|mel|honey|ミツ|—|N1|0|14|蜂蜜:はちみつ:mel:honey||||虫|宓 虫|F;虫=s,宓=f:ヒツ;
+帥|comandante|commander|スイ|—|N1|0|9|元帥:げんすい:marechal:marshal||||巾|𠂤 巾|
+羨|invejar|envy|セン|うらや.む,うらや.ましい|N1|0|13|羨ましい:うらやましい:invejável:envious||||羊|羊! 次!|
+宛|endereçado a|addressed to|—|あ.てる|N1|0|8|宛先:あてさき:destinatário:address||||宀|宀 夗|
+藍|anil|indigo|ラン|あい|N1|0|18|藍色:あいいろ:azul-anil:indigo||||艹|艹 監|F;艹=s,監=f:カン;
+稽|pensar; treinar|consider; practice|ケイ|—|N1|0|15|稽古:けいこ:treino:practice||||禾|禾 尤 旨|
+礁|recife|reef|ショウ|—|N1|0|17|環礁:かんしょう:atol:atoll||||石|石 焦|F;石=s,焦=f:ショウ;
+朴|simples; ingênuo|simple; naive|ボク|—|N1|0|6|素朴:そぼく:simples:simple||||木|木 卜|F;木=s,卜=f:ボク;
+洪|inundação|flood|コウ|—|N1|0|9|洪水:こうずい:inundação:flood||||氵|氵 共|F;氵=s,共=f:キョウ;
+詮|examinar; afinal|inquire; after all|セン|—|N1|0|13|所詮:しょせん:afinal de contas:after all||||言|言 全|F;言=s,全=f:ゼン;
+呈|apresentar|present|テイ|—|N1|0|7|贈呈:ぞうてい:oferta:presentation||||口|口 王!|
+訂|corrigir|revise|テイ|—|N1|0|9|訂正:ていせい:correção:correction||||言|言 丁|F;言=s,丁=f:テイ;
+堤|dique|embankment|テイ|つつみ|N1|0|12|堤防:ていぼう:dique:embankment||||土|土 是|F;土=s,是=f:シ;
+循|seguir; circular|follow; circulate|ジュン|—|N1|0|12|循環:じゅんかん:circulação:circulation||||彳|彳 盾|F;彳=s,盾=f:ジュン;
+淑|gracioso|graceful|シュク|—|N1|0|11|淑女:しゅくじょ:dama:lady||||氵|氵 叔|F;氵=s,叔=f:シュク;
+骸|esqueleto; restos|skeleton; remains|ガイ|—|N1|0|16|残骸:ざんがい:destroços:wreckage||||骨|骨 亥|F;骨=s,亥=f:ガイ;
+媒|intermediário|mediator|バイ|—|N1|0|12|媒体:ばいたい:mídia; meio:medium||||女|女 某|F;女=s,某=f:ボウ;
+栓|tampa; rolha|plug; stopper|セン|—|N1|0|10|消火栓:しょうかせん:hidrante:fire hydrant||||木|木 全|F;木=s,全=f:ゼン;
+餓|faminto|starve|ガ|—|N1|0|15|餓死:がし:morte por fome:starvation||||飠|飠 我|F;飠=s,我=f:ガ;
+壌|solo; terra|soil|ジョウ|—|N1|0|16|土壌:どじょう:solo:soil||||土|土 襄!|
+崖|penhasco|cliff|ガイ|がけ|N1|0|11|崖:がけ:penhasco:cliff||||山|山 厓|F;山=s,厓=f:ガイ;
+慕|ansiar; amar|yearn|ボ|した.う|N1|0|14|慕う:したう:adorar; ter saudade:to adore||||㣺|莫 㣺|F;心=s,莫=f:ボ;
+篤|sério; grave|serious; cordial|トク|—|N1|0|16|危篤:きとく:estado crítico:critical condition||||⺮|⺮ 馬|F;馬=s,竹=f:チク;
+蓋|tampa|lid|ガイ|ふた|N1|0|13|蓋:ふた:tampa:lid||||艹|艹 去 皿|
+膳|bandeja de refeição|meal tray|ゼン|—|N1|0|16|配膳:はいぜん:servir a mesa:serving||||月|月~ 善|F;肉=s,善=f:ゼン;
+藻|alga|seaweed|ソウ|も|N1|0|19|海藻:かいそう:alga marinha:seaweed||||艹|艹 澡!|
+凄|terrível; incrível|awful; amazing|セイ|すご.い|N1|0|10|凄い:すごい:incrível:amazing||||冫|冫 妻|F;冫=s,妻=f:サイ;
+矯|corrigir|rectify|キョウ|た.める|N1|0|17|矯正:きょうせい:correção:correction||||矢|矢 喬|F;矢=s,喬=f:キョウ;
+廉|barato; honesto|cheap; honest|レン|—|N1|0|13|廉価:れんか:preço baixo:low price||||广|广 兼|F;广=s,兼=f:ケン;
+弊|mal; nosso (humilde)|evil; our (humble)|ヘイ|—|N1|0|15|弊社:へいしゃ:nossa empresa (humilde):our company||||廾|敝 廾|
+漆|laca|lacquer|シツ|うるし|N1|0|14|漆:うるし:laca:lacquer||||氵|氵 桼|F;氵=s,桼=f:シツ;
+姻|casamento|marriage|イン|—|N1|0|9|婚姻:こんいん:casamento:marriage||||女|女 因|F;女=s,因=f:イン;
+尼|monja|nun|ニ|あま|N1|0|5|尼僧:にそう:monja:nun||||尸|尸 匕|
+弔|condolências|condolence|チョウ|とむら.う|N1|0|4|弔う:とむらう:prestar condolências:to mourn||||弓|-|
+濁|turvo|muddy|ダク|にご.る|N1|0|16|濁る:にごる:ficar turvo:to become muddy||||氵|氵 蜀|F;氵=s,蜀=f:ショク;
+擬|imitar|imitate|ギ|—|N1|0|17|擬音語:ぎおんご:onomatopeia:onomatopoeia||||扌|扌 疑|F;扌=s,疑=f:ギ;
+酪|laticínio|dairy|ラク|—|N1|0|13|酪農:らくのう:pecuária leiteira:dairy farming||||酉|酉 各|F;酉=s,各=f:カク;
+卸|atacado|wholesale|—|おろ.す,おろし|N1|0|9|卸売:おろしうり:atacado:wholesale||||卩|午 止 卩|
+渓|vale; riacho|valley; stream|ケイ|—|N1|0|11|渓谷:けいこく:desfiladeiro:gorge||||氵|氵 奚|F;氵=s,奚=f:ケイ;
+謡|canção (nô)|song|ヨウ|うた.う|N1|0|16|童謡:どうよう:cantiga infantil:children's song||||言|言 䍃|F;言=s,䍃=f:ヨウ;
+勃|súbito; surgir|sudden; rise|ボツ|—|N1|0|9|勃発:ぼっぱつ:eclosão:outbreak||||力|孛 力|F;力=s,孛=f:ハイ;
+滋|nutritivo|nourishing|ジ|—|N1|0|12|滋賀:しが:Shiga:Shiga||||氵|氵 兹|F;氵=s,茲=f:ジ;
+煩|incômodo|annoy|ハン,ボン|わずら.う,わずら.わしい|N1|0|13|煩わしい:わずらわしい:incômodo:troublesome||||火|火 頁|C;火=s,頁=s;Fogo (火) na cabeça (頁): dor de cabeça, incômodo.
+憤|indignar-se|resent|フン|いきどお.る|N1|0|15|憤慨:ふんがい:indignação:indignation||||忄|忄 賁|F;忄=s,賁=f:フン;
+幣|dinheiro; oferenda|money; offering|ヘイ|—|N1|0|15|紙幣:しへい:cédula:paper money||||巾|敝 巾|F;巾=s,敝=f:ヘイ;
+拉|arrastar|drag|ラ|—|N1|0|8|拉致:らち:sequestro:abduction||||扌|扌 立|F;扌=s,立=f:リュウ;
+禅|zen|Zen|ゼン|—|N1|0|13|座禅:ざぜん:meditação zen:zazen||||礻|礻 単|F;礻=s,単=f:タン;
+肖|semelhança|resemblance|ショウ|—|N1|0|7|肖像画:しょうぞうが:retrato:portrait||||月|⺌ 月~|
+塀|muro|wall; fence|ヘイ|—|N1|0|12|塀:へい:muro:wall||||土|土 屏|K;;Kanji criado no Japão.
+賓|convidado|guest|ヒン|—|N1|0|15|来賓:らいひん:convidado de honra:guest of honor||||貝|宀 少! 貝|
+瑠|lápis-lazúli|lapis lazuli|ル|—|N1|0|14|瑠璃:るり:lápis-lazúli:lapis lazuli||||王|王~ 留|F;玉=s,留=f:リュウ;
+俵|saco de palha|straw bag|ヒョウ|たわら|N1|0|10|土俵:どひょう:ringue de sumô:sumo ring||||亻|亻 表|F;亻=s,表=f:ヒョウ;
+脊|coluna|spine|セキ|—|N1|0|10|脊髄:せきずい:medula espinhal:spinal cord||||月|𠂉! 月~|
+閲|examinar|review|エツ|—|N1|0|15|閲覧:えつらん:consulta (leitura):browsing||||門|門 兑|F;門=s,兌=f:エツ;
+硫|enxofre|sulfur|リュウ|—|N1|0|12|硫黄:いおう:enxofre:sulfur||||石|石 㐬|F;石=s,㐬=f:リュウ;
+譜|partitura; registro|score; genealogy|フ|—|N1|0|19|楽譜:がくふ:partitura:sheet music||||言|言 普|F;言=s,普=f:フ;
+痢|diarreia|diarrhea|リ|—|N1|0|12|下痢:げり:diarreia:diarrhea||||疒|疒 利|F;疒=s,利=f:リ;
+紺|azul-marinho|navy blue|コン|—|N1|0|11|紺色:こんいろ:azul-marinho:navy blue||||糹|糹 甘|F;糹=s,甘=f:カン;
+雌|fêmea|female|シ|め,めす|N1|0|14|雌:めす:fêmea:female||||隹|此 隹|F;隹=s,此=f:シ;
+爽|refrescante|refreshing|ソウ|さわ.やか|N1|0|11|爽やか:さわやか:refrescante:refreshing||||爻|-|
+醒|despertar|awaken|セイ|—|N1|0|16|覚醒:かくせい:despertar:awakening||||酉|酉 星|F;酉=s,星=f:セイ;
+潟|laguna|lagoon|—|かた|N1|0|15|新潟:にいがた:Niigata:Niigata||||氵|氵 舄|
+茨|espinheiro|thorn|—|いばら|N1|0|9|茨城:いばらき:Ibaraki:Ibaraki||||艹|艹 次|
+串|espeto|skewer|—|くし|N1|0|7|串:くし:espeto:skewer||||丨|-|P;;Desenho de pedaços espetados numa vareta.
+茎|caule|stem|ケイ|くき|N1|0|8|茎:くき:caule:stem||||艹|艹 圣|F;艹=s,巠=f:ケイ;
+衡|equilíbrio|balance|コウ|—|N1|0|16|均衡:きんこう:equilíbrio:balance||||行|行 角 大|
+乞|mendigar|beg|—|こ.う|N1|0|3|命乞い:いのちごい:implorar pela vida:begging for one's life||||乙|-|
+賂|suborno|bribe|ロ|—|N1|0|13|賄賂:わいろ:suborno:bribe||||貝|貝 各|F;貝=s,各=f:カク;
+戴|receber (humilde); coroar|receive; crown|タイ|—|N1|0|17|頂戴:ちょうだい:receber; por favor (informal):receive; please||||戈|-|
+殉|morrer por (uma causa)|martyrdom|ジュン|—|N1|0|10|殉職:じゅんしょく:morte em serviço:death in the line of duty||||歹|歹 旬|F;歹=s,旬=f:ジュン;
+碑|monumento de pedra|monument|ヒ|—|N1|0|14|記念碑:きねんひ:monumento:monument||||石|石 卑|F;石=s,卑=f:ヒ;
+坪|tsubo (medida de área)|tsubo (area unit)|—|つぼ|N1|0|8|坪:つぼ:tsubo (≈3,3 m²):tsubo||||土|土 平|F;土=s,平=f:ヘイ;
+峡|desfiladeiro|gorge|キョウ|—|N1|0|9|海峡:かいきょう:estreito:strait||||山|山 夹|F;山=s,夾=f:キョウ;
+岬|cabo; promontório|cape|—|みさき|N1|0|8|岬:みさき:cabo:cape||||山|山 甲|F;山=s,甲=f:コウ;
+侶|companheiro|companion|リョ|—|N1|0|9|伴侶:はんりょ:companheiro(a):partner||||亻|亻 呂|F;亻=s,呂=f:リョ;
+籠|cesto; gaiola|basket; cage|ロウ|かご,こ.もる|N1|0|22|籠:かご:cesto; gaiola:basket||||⺮|⺮ 龍|F;⺮=s,龍=f:リュウ;
+刹|templo; instante|temple; instant|サツ,セツ|—|N1|0|8|刹那:せつな:instante:moment||||刂|杀 刂|
+宵|início da noite|early evening|ショウ|よい|N1|0|10|今宵:こよい:esta noite:tonight||||宀|宀 肖|F;宀=s,肖=f:ショウ;
+怨|rancor|grudge|エン,オン|—|N1|0|9|怨念:おんねん:rancor:grudge||||心|夗 心|F;心=s,夗=f:エン;
+芋|batata; inhame|potato; taro|—|いも|N1|0|6|芋:いも:batata; inhame:potato||||艹|艹 于|F;艹=s,于=f:ウ;
+繕|consertar|mend|ゼン|つくろ.う|N1|0|18|修繕:しゅうぜん:reparo:repair||||糹|糹 善|F;糹=s,善=f:ゼン;
+屯|guarnição|barracks|トン|—|N1|0|4|駐屯:ちゅうとん:estacionamento de tropas:stationing||||屮|-|
+甚|extremo|extreme|ジン|はなは.だ|N1|0|9|甚大:じんだい:enorme:enormous||||甘|-|
+瓦|telha|tile|—|かわら|N1|0|5|瓦:かわら:telha:roof tile||||瓦|-|P;;Desenho de telhas de barro encaixadas.
+吟|recitar|recite|ギン|—|N1|0|7|吟味:ぎんみ:exame cuidadoso:scrutiny||||口|口 今|F;口=s,今=f:キン;
+醸|fermentar; produzir (bebida)|brew|ジョウ|かも.す|N1|0|20|醸造:じょうぞう:fermentação (produção):brewing||||酉|酉 襄!|
+藩|feudo|feudal domain|ハン|—|N1|0|18|藩:はん:feudo (han):domain||||艹|艹 潘|F;艹=s,潘=f:ハン;
+僅|pouco; mero|slight; mere|キン|わず.か|N1|0|13|僅か:わずか:pouquinho:only a little||||亻|亻 堇|F;亻=s,堇=f:キン;
+酎|shōchū|distilled liquor|チュウ|—|N1|0|10|焼酎:しょうちゅう:shōchū:shochu||||酉|酉 寸|
+薪|lenha|firewood|シン|たきぎ|N1|0|16|薪:まき:lenha:firewood||||艹|艹 新|F;艹=s,新=f:シン;
+斑|mancha|spot|ハン|—|N1|0|12|斑点:はんてん:mancha:spot||||文|王 文 王|
+遍|em toda parte|everywhere|ヘン|—|N1|0|12|普遍:ふへん:universal:universal||||辶|辶 扁|F;辶=s,扁=f:ヘン;
+奔|correr|run|ホン|—|N1|0|8|奔放:ほんぽう:livre; desenfreado:unrestrained||||大|大 卉|
+尺|medida (shaku)|shaku (unit)|シャク|—|N1|0|4|縮尺:しゅくしゃく:escala:scale||||尸|-|
+侯|marquês; senhor feudal|marquis; lord|コウ|—|N1|0|9|王侯:おうこう:reis e nobres:royalty||||亻|亻 𠃌 矢|
+嚇|ameaçar|threaten|カク|—|N1|0|17|威嚇:いかく:intimidação:intimidation||||口|口 赫|F;口=s,赫=f:カク;
+腺|glândula|gland|セン|—|N1|0|13|前立腺:ぜんりつせん:próstata:prostate||||月|月~ 泉|F;肉=s,泉=f:セン;
+罵|xingar|abuse verbally|バ|ののし.る|N1|0|15|罵倒:ばとう:insulto:verbal abuse||||罒|罒 馬|F;罒=s,馬=f:バ;
+泌|secretar|secrete|ヒツ,ヒ|—|N1|0|8|分泌:ぶんぴつ:secreção:secretion||||氵|氵 必|F;氵=s,必=f:ヒツ;
+傲|arrogante|arrogant|ゴウ|—|N1|0|13|傲慢:ごうまん:arrogante:arrogant||||亻|亻 敖|F;亻=s,敖=f:ゴウ;
+韻|rima; ressonância|rhyme; resonance|イン|—|N1|0|19|余韻:よいん:ressonância; resquício:lingering note||||音|音 員|F;音=s,員=f:イン;
+媛|princesa; bela moça|princess|エン|ひめ|N1|0|12|愛媛:えひめ:Ehime:Ehime||||女|女 爰|F;女=s,爰=f:エン;
+唾|saliva|saliva|ダ|つば|N1|0|11|唾:つば:saliva:saliva||||口|口 垂|F;口=s,垂=f:スイ;
+楼|torre; edifício alto|tower|ロウ|—|N1|0|13|鐘楼:しょうろう:campanário:bell tower||||木|木 娄!|
+襟|gola|collar|キン|えり|N1|0|18|襟:えり:gola:collar||||衤|衤 禁|F;衤=s,禁=f:キン;
+巾|pano|cloth|キン|—|N1|0|3|雑巾:ぞうきん:pano de chão:floor cloth||||巾|-|P;;Desenho de um pano pendurado.
+臼|pilão|mortar|キュウ|うす|N1|0|6|臼歯:きゅうし:molar:molar||||臼|-|P;;Desenho de um pilão.
+璃|vidro; lápis-lazúli|glass; lapis lazuli|リ|—|N1|0|15|瑠璃:るり:lápis-lazúli:lapis lazuli||||王|王~ 离|F;玉=s,离=f:リ;
+逐|perseguir; um a um|pursue; one by one|チク|—|N1|0|10|逐一:ちくいち:um por um:one by one||||辶|辶 豕|
+貌|aparência|appearance|ボウ|—|N1|0|14|容貌:ようぼう:aparência:looks||||豸|豸 皃|
+蔽|cobrir|cover|ヘイ|—|N1|0|15|隠蔽:いんぺい:acobertamento:cover-up||||艹|艹 敝|F;艹=s,敝=f:ヘイ;
+坑|poço de mina|pit|コウ|—|N1|0|7|炭坑:たんこう:mina de carvão:coal mine||||土|土 亢|F;土=s,亢=f:コウ;
+賜|conceder|grant|シ|たまわ.る|N1|0|15|賜る:たまわる:receber (de um superior):to be granted||||貝|貝 易|F;貝=s,易=f:エキ;
+桁|dígito; viga|digit; beam|—|けた|N1|0|10|桁:けた:dígito; casa decimal:digit||||木|木 行|
+慨|lamentar; indignar-se|deplore|ガイ|—|N1|0|13|感慨:かんがい:emoção profunda:deep emotion||||忄|忄 既|F;忄=s,既=f:キ;
+舷|costado (de navio)|gunwale|ゲン|—|N1|0|11|右舷:うげん:estibordo:starboard||||舟|舟 玄|F;舟=s,玄=f:ゲン;
+蔑|desprezar|despise|ベツ|さげす.む|N1|0|14|軽蔑:けいべつ:desprezo:contempt||||艹|-|
+昧|escuro; obscuro|dark; obscure|マイ|—|N1|0|9|曖昧:あいまい:vago:vague||||日|日 未|F;日=s,未=f:ミ;
+耗|desgastar|wear down|モウ,コウ|—|N1|0|10|消耗:しょうもう:desgaste:consumption||||耒|耒 毛|F;耒=s,毛=f:モウ;
+芯|núcleo; pavio|core; wick|シン|—|N1|0|7|芯:しん:núcleo; grafite:core||||艹|艹 心|F;艹=s,心=f:シン;
+柵|cerca|fence|サク|—|N1|0|9|柵:さく:cerca:fence||||木|木 冊|F;木=s,冊=f:サツ;
+嗣|herdeiro|heir|シ|—|N1|0|13|後嗣:こうし:herdeiro:heir||||口|口 冊 司|F;口=s,司=f:シ;
+硝|salitre|nitrate|ショウ|—|N1|0|12|硝子:ガラス:vidro:glass||||石|石 肖|F;石=s,肖=f:ショウ;
+弄|brincar com|toy with|ロウ|もてあそ.ぶ|N1|0|7|翻弄:ほんろう:manipulação:toying with||||廾|王 廾|C;玉=s,廾=s;
+享|desfrutar|enjoy|キョウ|—|N1|0|8|享受:きょうじゅ:usufruto:enjoyment||||亠|亠 口 子|
+繭|casulo|cocoon|ケン|まゆ|N1|0|18|繭:まゆ:casulo:cocoon||||糸|-|

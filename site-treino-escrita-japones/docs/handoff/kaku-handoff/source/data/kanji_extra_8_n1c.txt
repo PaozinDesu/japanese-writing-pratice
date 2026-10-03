@@ -1,0 +1,141 @@
+潜|mergulhar; esconder-se|dive; lurk|セン|ひそ.む,もぐ.る|N1|0|15|潜る:もぐる:mergulhar:to dive||||氵|氵 朁|F;氵=s,朁=f:セン;
+撤|retirar|withdraw|テツ|—|N1|0|15|撤退:てったい:retirada:withdrawal||||扌|扌 育 攵|
+献|oferecer|offer|ケン,コン|—|N1|0|13|貢献:こうけん:contribuição:contribution||||犬|南! 犬|
+称|nome; elogiar|name; praise|ショウ|—|N1|0|10|名称:めいしょう:nome:name||||禾|禾 尔|F;禾=s,爾=f:ジ;
+琴|koto (instrumento)|koto|キン|こと|N1|0|12|琴:こと:koto:koto||||王|王 王 今|F;珡=s,今=f:キン;
+躍|saltar|leap|ヤク|おど.る|N1|0|21|活躍:かつやく:atuação destacada:active role||||𧾷|𧾷 翟|F;𧾷=s,翟=f:テキ;
+削|raspar; cortar|shave; cut|サク|けず.る|N1|0|9|削除:さくじょ:exclusão:deletion||||刂|肖 刂|F;刂=s,肖=f:ショウ;
+魂|alma|soul|コン|たましい|N1|0|14|魂:たましい:alma:soul||||鬼|云 鬼|F;鬼=s,云=f:ウン;
+析|dividir; analisar|analyze|セキ|—|N1|0|8|分析:ぶんせき:análise:analysis||||木|木 斤|C;木=s,斤=s;Um machado (斤) partindo madeira (木).
+酸|ácido|acid|サン|す.い|N1|0|14|酸素:さんそ:oxigênio:oxygen||||酉|酉 夋|F;酉=s,夋=f:シュン;
+敷|estender|spread|フ|し.く|N1|0|15|敷く:しく:estender:to spread out||||攵|甫 方 攵|
+臨|comparecer; diante de|attend; face|リン|のぞ.む|N1|0|18|臨時:りんじ:temporário:temporary||||臣|臣 𠂉 品|
+仙|eremita imortal|hermit; immortal|セン|—|N1|0|5|仙人:せんにん:eremita imortal:hermit||||亻|亻 山|C;亻=s,山=s;
+災|desastre|disaster|サイ|わざわ.い|N1|0|7|災害:さいがい:desastre:disaster||||火|巛 火|C;巛=s,火=s;Inundação (巛) e fogo (火).
+却|retroceder; devolver|retreat; reject|キャク|—|N1|0|7|返却:へんきゃく:devolução:return||||卩|去 卩|
+巡|percorrer|patrol; tour|ジュン|めぐ.る|N1|0|6|巡る:めぐる:dar a volta:to go around||||巛|巛 辶|
+縮|encolher|shrink|シュク|ちぢ.む,ちぢ.める|N1|0|17|短縮:たんしゅく:redução:shortening||||糹|糹 宿|F;糹=s,宿=f:シュク;
+摘|colher; apontar|pick; point out|テキ|つ.む|N1|0|14|指摘:してき:apontamento:pointing out||||扌|扌 啇|F;扌=s,啇=f:テキ;
+唯|único|only|ユイ,イ|—|N1|0|11|唯一:ゆいいつ:único:only||||口|口 隹|F;口=s,隹=f:スイ;
+雷|trovão|thunder|ライ|かみなり|N1|0|13|雷:かみなり:trovão:thunder||||雨|雨 田|
+沙|areia|sand|サ,シャ|—|N1|0|7|沙汰:さた:notícia; assunto:affair||||氵|氵 少|
+陰|sombra|shade|イン|かげ|N1|0|11|日陰:ひかげ:sombra:shade||||阝|阝 今 云|
+趣|gosto; charme|taste; charm|シュ|おもむき|N1|0|15|趣味:しゅみ:hobby:hobby||||走|走 取|F;走=s,取=f:シュ;
+拡|ampliar|expand|カク|—|N1|0|8|拡大:かくだい:ampliação:enlargement||||扌|扌 広|F;扌=s,広=f:コウ;
+妖|sobrenatural|bewitching|ヨウ|あや.しい|N1|0|7|妖怪:ようかい:yōkai (criatura folclórica):yokai||||女|女 夭|F;女=s,夭=f:ヨウ;
+銭|moeda|coin|セン|ぜに|N1|0|14|銭湯:せんとう:casa de banho pública:public bath||||釒|釒 戋|F;釒=s,戋=f:セン;
+透|transparente|transparent|トウ|す.ける,す.かす|N1|0|10|透明:とうめい:transparente:transparent||||辶|辶 秀|
+誓|jurar|vow|セイ|ちか.う|N1|0|14|誓う:ちかう:jurar:to swear||||言|折 言|F;言=s,折=f:セツ;
+盟|aliança|alliance|メイ|—|N1|0|13|同盟:どうめい:aliança:alliance||||皿|明 皿|F;皿=s,明=f:メイ;
+顧|olhar para trás; cliente|look back; client|コ|かえり.みる|N1|0|21|顧客:こきゃく:cliente:customer||||頁|雇 頁|F;頁=s,雇=f:コ;
+腐|apodrecer|rot|フ|くさ.る|N1|0|14|豆腐:とうふ:tofu:tofu||||肉|府 肉|F;肉=s,府=f:フ;
+豪|luxuoso; forte|luxurious; mighty|ゴウ|—|N1|0|14|豪華:ごうか:luxuoso:luxurious||||豕|高! 豕|
+寂|solitário|lonely|ジャク,セキ|さび.しい|N1|0|11|寂しい:さびしい:solitário:lonely||||宀|宀 叔|F;宀=s,叔=f:シュク;
+浦|enseada|bay; inlet|ホ|うら|N1|0|10|浦:うら:enseada:inlet||||氵|氵 甫|F;氵=s,甫=f:ホ;
+棄|abandonar|abandon|キ|—|N1|0|13|放棄:ほうき:renúncia:abandonment||||木|-|
+抵|resistir|resist|テイ|—|N1|0|8|抵抗:ていこう:resistência:resistance||||扌|扌 氐|F;扌=s,氐=f:テイ;
+鎖|corrente|chain|サ|くさり|N1|0|18|閉鎖:へいさ:fechamento:closure||||釒|釒 貨!|
+吐|vomitar; expirar|vomit; exhale|ト|は.く|N1|0|6|吐く:はく:vomitar; soltar (ar):to vomit; to breathe out||||口|口 土|F;口=s,土=f:ト;
+閣|gabinete; torre|cabinet; tower|カク|—|N1|0|14|内閣:ないかく:gabinete (governo):cabinet||||門|門 各|F;門=s,各=f:カク;
+豆|feijão|bean|トウ,ズ|まめ|N1|0|7|豆腐:とうふ:tofu:tofu||||豆|-|P;;Desenho de um recipiente alto com tampa.
+孤|órfão; solitário|orphan; alone|コ|—|N1|0|8|孤独:こどく:solidão:loneliness||||子|子 瓜|F;子=s,瓜=f:カ;
+既|já|already|キ|すで.に|N1|0|10|既に:すでに:já:already||||无|-|
+冒|arriscar|risk|ボウ|おか.す|N1|0|9|冒険:ぼうけん:aventura:adventure||||冂|曰! 目|
+典|código; clássico|code; classic|テン|—|N1|0|8|辞典:じてん:dicionário:dictionary||||八|曲! 八|
+喪|luto|mourning|ソウ|も|N1|0|12|喪服:もふく:roupa de luto:mourning clothes||||口|-|
+芝|grama|lawn grass|—|しば|N1|0|6|芝生:しばふ:gramado:lawn||||艹|艹 之|
+伏|curvar-se|lie prostrate|フク|ふ.せる,ふ.す|N1|0|6|伏せる:ふせる:virar para baixo:to lay face down||||亻|亻 犬|C;亻=s,犬=s;Um cão (犬) deitado ao lado de uma pessoa (亻).
+舎|alojamento|lodging|シャ|—|N1|0|8|田舎:いなか:interior; campo:countryside||||人|𠆢 舌!|
+遭|encontrar (infortúnio)|encounter|ソウ|あ.う|N1|0|14|遭難:そうなん:desastre; naufrágio:accident||||辶|辶 曹|F;辶=s,曹=f:ソウ;
+還|retornar|return|カン|—|N1|0|16|返還:へんかん:devolução:return||||辶|辶 睘|F;辶=s,睘=f:カン;
+盤|prato; base; tabuleiro|tray; base; board|バン|—|N1|0|15|基盤:きばん:base:foundation||||皿|般 皿|F;皿=s,般=f:ハン;
+肝|fígado; essencial|liver; vital|カン|きも|N1|0|7|肝心:かんじん:essencial:essential||||月|月~ 干|F;肉=s,干=f:カン;
+戒|advertir|warn|カイ|いまし.める|N1|0|7|警戒:けいかい:vigilância:caution||||戈|戈 廾|C;戈=s,廾=s;Duas mãos (廾) segurando uma arma (戈): estar alerta.
+滑|escorregar|slide|カツ|すべ.る,なめ.らか|N1|0|13|滑る:すべる:escorregar:to slip||||氵|氵 骨|F;氵=s,骨=f:コツ;
+誉|honra|honor|ヨ|ほま.れ|N1|0|13|名誉:めいよ:honra:honor||||言|⺍ 一! 八 言|
+鏡|espelho|mirror|キョウ|かがみ|N1|0|19|眼鏡:めがね:óculos:glasses||||釒|釒 竟|F;釒=s,竟=f:キョウ;
+脈|pulso; veia|pulse; vein|ミャク|—|N1|0|10|山脈:さんみゃく:cordilheira:mountain range||||月|月~ 𠂢|
+梨|pera japonesa|pear|—|なし|N1|0|11|梨:なし:pera japonesa:Japanese pear||||木|利 木|F;木=s,利=f:リ;
+那|que; aquele|what; that|ナ|—|N1|0|7|旦那:だんな:marido; patrão:husband||||阝|-|
+杉|cedro japonês|cedar|—|すぎ|N1|0|7|杉:すぎ:cedro japonês:Japanese cedar||||木|木 彡|
+賀|celebrar|congratulate|ガ|—|N1|0|12|年賀状:ねんがじょう:cartão de Ano-Novo:New Year's card||||貝|加 貝|F;貝=s,加=f:カ;
+丁|quarteirão; educado|block; polite|チョウ,テイ|—|N1|0|2|丁寧:ていねい:educado:polite||||一|-|P;;Desenho de um prego visto de lado.
+伴|acompanhar|accompany|ハン,バン|ともな.う|N1|0|7|伴う:ともなう:acompanhar:to accompany||||亻|亻 半|F;亻=s,半=f:ハン;
+控|conter; anotar|refrain; note down|コウ|ひか.える|N1|0|11|控える:ひかえる:abster-se:to refrain||||扌|扌 空|F;扌=s,空=f:クウ;
+充|encher; suficiente|fill; sufficient|ジュウ|あ.てる|N1|0|6|充電:じゅうでん:carregar (bateria):charging||||儿|亠 厶 儿|
+賃|aluguel; salário|rent; wages|チン|—|N1|0|13|家賃:やちん:aluguel:rent||||貝|任 貝|F;貝=s,任=f:ニン;
+排|excluir; expelir|exclude; expel|ハイ|—|N1|0|11|排気ガス:はいきガス:gás de escape:exhaust||||扌|扌 非|F;扌=s,非=f:ヒ;
+臭|fedorento|smelly|シュウ|くさ.い,にお.う|N1|0|9|臭い:くさい:fedorento:smelly||||自|自 大!|
+飼|criar (animal)|keep (animal)|シ|か.う|N1|0|13|飼う:かう:criar (animal):to keep (a pet)||||飠|飠 司|F;飠=s,司=f:シ;
+鹿|cervo|deer|ロク|しか,か|N1|0|11|鹿:しか:cervo:deer||||鹿|-|P;;Desenho de um cervo com chifres.
+須|necessário|necessary|ス|—|N1|0|12|必須:ひっす:obrigatório:essential||||頁|彡 頁|
+微|minúsculo; leve|minute; slight|ビ|—|N1|0|13|微笑む:ほほえむ:sorrir:to smile||||彳|彳 山! 一 几 攵|
+墓|túmulo|grave|ボ|はか|N1|0|13|お墓:おはか:túmulo:grave||||土|莫 土|F;土=s,莫=f:ボ;
+沖|mar aberto|offshore|チュウ|おき|N1|0|7|沖縄:おきなわ:Okinawa:Okinawa||||氵|氵 中|F;氵=s,中=f:チュウ;
+漏|vazar|leak|ロウ|も.れる,も.る|N1|0|14|漏れる:もれる:vazar:to leak||||氵|氵 屚!|
+鍵|chave|key|ケン|かぎ|N1|0|17|鍵:かぎ:chave:key||||釒|釒 建|F;釒=s,建=f:ケン;
+甲|casco; primeiro|shell; first|コウ,カン|—|N1|0|5|甲羅:こうら:casco:shell||||田|-|
+奮|animar-se|stir up|フン|ふる.う|N1|0|16|興奮:こうふん:excitação:excitement||||大|大 隹 田|
+忍|suportar; ninja|endure; stealth|ニン|しの.ぶ|N1|0|7|忍者:にんじゃ:ninja:ninja||||心|刃 心|F;心=s,刃=f:ジン;
+尋|perguntar|inquire|ジン|たず.ねる|N1|0|12|尋ねる:たずねる:perguntar:to ask||||寸|彐 工 口 寸|
+桃|pêssego|peach|トウ|もも|N1|0|10|桃:もも:pêssego:peach||||木|木 兆|F;木=s,兆=f:チョウ;
+謀|tramar|plot|ボウ,ム|はか.る|N1|0|16|陰謀:いんぼう:conspiração:conspiracy||||言|言 某|F;言=s,某=f:ボウ;
+勧|recomendar|recommend|カン|すす.める|N1|0|13|勧める:すすめる:recomendar:to recommend||||力|隹! 力|
+即|imediatamente|immediately|ソク|—|N1|0|7|即座:そくざ:imediatamente:at once||||卩|艮! 卩|
+釣|pescar|fish (angling)|チョウ|つ.る|N1|0|11|釣り:つり:pescaria:fishing||||釒|釒 勺|F;釒=s,勺=f:シャク;
+揚|erguer; fritar|raise; deep-fry|ヨウ|あ.げる|N1|0|12|唐揚げ:からあげ:frango frito:fried chicken||||扌|扌 昜|F;扌=s,昜=f:ヨウ;
+堅|firme; duro|firm; hard|ケン|かた.い|N1|0|12|中堅:ちゅうけん:intermediário (sólido):mainstay||||土|臣 又 土|
+幻|ilusão|illusion|ゲン|まぼろし|N1|0|4|幻想:げんそう:fantasia:illusion||||幺|幺 𠃌!|
+郡|distrito rural|county|グン|—|N1|0|10|郡:ぐん:distrito:district||||阝|君 阝|F;阝=s,君=f:クン;
+菊|crisântemo|chrysanthemum|キク|—|N1|0|11|菊:きく:crisântemo:chrysanthemum||||艹|艹 匊|F;艹=s,匊=f:キク;
+滞|estagnar; permanecer|stagnate; stay|タイ|とどこお.る|N1|0|13|滞在:たいざい:estadia:stay||||氵|氵 帯|F;氵=s,帯=f:タイ;
+貫|atravessar|pierce|カン|つらぬ.く|N1|0|11|貫く:つらぬく:atravessar; persistir:to pierce||||貝|毌 貝|
+愚|tolo|foolish|グ|おろ.か|N1|0|13|愚か:おろか:tolo:foolish||||心|禺 心|F;心=s,禺=f:グウ;
+仁|benevolência|benevolence|ジン,ニ|—|N1|0|4|仁義:じんぎ:código de honra:humanity and justice||||亻|亻 二|C;亻=s,二=s;
+拐|raptar|kidnap|カイ|—|N1|0|8|誘拐:ゆうかい:sequestro:kidnapping||||扌|扌 口 力|
+遂|realizar|accomplish|スイ|と.げる|N1|0|12|遂げる:とげる:realizar:to accomplish||||辶|辶 㒸|
+胞|célula|cell|ホウ|—|N1|0|9|細胞:さいぼう:célula:cell||||月|月~ 包|F;肉=s,包=f:ホウ;
+騎|montar a cavalo|ride (horse)|キ|—|N1|0|18|騎士:きし:cavaleiro:knight||||馬|馬 奇|F;馬=s,奇=f:キ;
+嫁|noiva; nora|bride; daughter-in-law|カ|よめ,とつ.ぐ|N1|0|13|花嫁:はなよめ:noiva:bride||||女|女 家|F;女=s,家=f:カ;
+紫|roxo|purple|シ|むらさき|N1|0|12|紫:むらさき:roxo:purple||||糸|此 糸|F;糸=s,此=f:シ;
+嬢|moça; senhorita|young lady|ジョウ|—|N1|0|16|お嬢さん:おじょうさん:(sua) filha; mocinha:young lady||||女|女 襄!|
+斎|purificação; estúdio|purification; study room|サイ|—|N1|0|11|書斎:しょさい:escritório (em casa):study||||斉|斉! 示|
+懐|nostálgico; peito|nostalgic; bosom|カイ|なつ.かしい,ふところ|N1|0|16|懐かしい:なつかしい:saudoso:nostalgic||||忄|忄 褱!|
+範|modelo; limite|model; limit|ハン|—|N1|0|15|範囲:はんい:âmbito:range||||⺮|⺮ 車 㔾|
+弥|cada vez mais|increasingly|ヤ,ミ|や|N1|0|8|弥生:やよい:março (antigo):third lunar month||||弓|弓 尔|
+憲|constituição|constitution|ケン|—|N1|0|16|憲法:けんぽう:constituição:constitution||||心|宀 龶! 罒 心|
+添|acrescentar|append|テン|そ.える,そ.う|N1|0|11|添付:てんぷ:anexo:attachment||||氵|氵 忝|F;氵=s,忝=f:テン;
+亀|tartaruga|turtle|キ|かめ|N1|0|11|亀:かめ:tartaruga:turtle||||亀|-|P;;Desenho de uma tartaruga.
+暑|calor (clima)|hot (weather)|ショ|あつ.い|N1|0|12|暑い:あつい:quente (clima):hot||||日|日 者|F;日=s,者=f:シャ;
+惨|miserável|miserable|サン,ザン|みじ.め|N1|0|11|惨め:みじめ:miserável:miserable||||忄|忄 参|F;忄=s,参=f:サン;
+娠|gravidez|pregnancy|シン|—|N1|0|10|妊娠:にんしん:gravidez:pregnancy||||女|女 辰|F;女=s,辰=f:シン;
+獣|fera|beast|ジュウ|けもの|N1|0|16|怪獣:かいじゅう:monstro:monster||||犬|単! 犬|
+陥|cair (em armadilha)|fall into|カン|おちい.る|N1|0|10|欠陥:けっかん:defeito:defect||||阝|阝 臽|F;阝=s,臽=f:カン;
+狂|louco|crazy|キョウ|くる.う|N1|0|7|熱狂:ねっきょう:entusiasmo:enthusiasm||||犭|犭 王|F;犭=s,王=f:オウ;
+潮|maré|tide|チョウ|しお|N1|0|15|潮:しお:maré:tide||||氵|氵 朝|F;氵=s,朝=f:チョウ;
+紛|confundir-se|confuse|フン|まぎ.れる|N1|0|10|紛失:ふんしつ:extravio:loss||||糹|糹 分|F;糹=s,分=f:フン;
+縄|corda|rope|ジョウ|なわ|N1|0|15|沖縄:おきなわ:Okinawa:Okinawa||||糹|糹 黽!|
+畑|campo (cultivado)|field|—|はた,はたけ|N1|0|9|畑:はたけ:horta; campo:field||||田|火 田|K;火=s,田=s;Kanji criado no Japão: fogo (火) + campo (田), o campo aberto por queimada.
+絞|espremer; apertar|squeeze|コウ|しぼ.る,し.める|N1|0|12|絞る:しぼる:espremer:to squeeze||||糹|糹 交|F;糹=s,交=f:コウ;
+随|seguir; conforme|follow|ズイ|—|N1|0|12|随分:ずいぶん:bastante:quite||||阝|阝 辶 有!|
+班|grupo|squad|ハン|—|N1|0|10|班:はん:grupo:group||||王|王 刂 王|
+雰|atmosfera|atmosphere|フン|—|N1|0|12|雰囲気:ふんいき:atmosfera:atmosphere||||雨|雨 分|F;雨=s,分=f:フン;
+斉|igual; simultâneo|equal; simultaneous|セイ|—|N1|0|8|一斉:いっせい:simultaneamente:all at once||||斉|-|
+幽|obscuro; espírito|faint; ghost|ユウ|—|N1|0|9|幽霊:ゆうれい:fantasma:ghost||||幺|山 幺 幺|
+俳|ator; haicai|actor; haiku|ハイ|—|N1|0|10|俳優:はいゆう:ator:actor||||亻|亻 非|F;亻=s,非=f:ヒ;
+紋|brasão; padrão|crest; pattern|モン|—|N1|0|10|指紋:しもん:impressão digital:fingerprint||||糹|糹 文|F;糹=s,文=f:ブン;
+覆|cobrir; virar|cover; overturn|フク|おお.う,くつがえ.す|N1|0|18|覆う:おおう:cobrir:to cover||||覀|覀 復|F;覀=s,復=f:フク;
+虎|tigre|tiger|コ|とら|N1|0|8|虎:とら:tigre:tiger||||虍|虍 儿|P;;Desenho de um tigre.
+狩|caçar|hunt|シュ|か.る,か.り|N1|0|9|紅葉狩り:もみじがり:passeio para ver as folhas de outono:autumn leaf viewing||||犭|犭 守|F;犭=s,守=f:シュ;
+託|confiar|entrust|タク|—|N1|0|10|託す:たくす:confiar:to entrust||||言|言 乇|F;言=s,乇=f:タク;
+廷|corte|court|テイ|—|N1|0|7|法廷:ほうてい:tribunal:courtroom||||廴|廴 壬!|
+狭|estreito|narrow|キョウ|せま.い|N1|0|9|狭い:せまい:estreito:narrow||||犭|犭 夹|F;犭=s,夾=f:キョウ;
+穂|espiga|ear (of grain)|スイ|ほ|N1|0|15|稲穂:いなほ:espiga de arroz:ear of rice||||禾|禾 恵|F;禾=s,恵=f:ケイ;
+諦|desistir|give up|テイ|あきら.める|N1|0|16|諦める:あきらめる:desistir:to give up||||言|言 帝|F;言=s,帝=f:テイ;
+賊|ladrão|bandit|ゾク|—|N1|0|13|海賊:かいぞく:pirata:pirate||||貝|貝 戎|
+翼|asa|wing|ヨク|つばさ|N1|0|17|翼:つばさ:asa:wing||||羽|羽 異|F;羽=s,異=f:イ;
+酷|cruel|cruel|コク|ひど.い|N1|0|14|残酷:ざんこく:cruel:cruel||||酉|酉 告|F;酉=s,告=f:コク;
+覧|ver|view|ラン|—|N1|0|17|ご覧:ごらん:ver (respeitoso):look (honorific)||||見|臣 𠂉! 見|
+敏|ágil|nimble|ビン|—|N1|0|10|敏感:びんかん:sensível:sensitive||||攵|毎 攵|F;攵=s,毎=f:マイ;
+拘|prender|seize|コウ|—|N1|0|8|拘束:こうそく:detenção; restrição:restraint||||扌|扌 句|F;扌=s,句=f:ク;
+慰|consolar|console|イ|なぐさ.める|N1|0|15|慰める:なぐさめる:consolar:to comfort||||心|尉 心|F;心=s,尉=f:イ;

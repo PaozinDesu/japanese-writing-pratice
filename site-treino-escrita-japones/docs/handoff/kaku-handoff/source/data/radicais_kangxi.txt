@@ -1,0 +1,215 @@
+# número|radical|significado PT|significado EN
+1|一|um|one
+2|丨|traço vertical|line
+3|丶|ponto|dot
+4|丿|traço diagonal|slash
+5|乙|segundo; anzol|second
+6|亅|gancho|hook
+7|二|dois|two
+8|亠|tampa|lid
+9|人|pessoa|person
+10|儿|pernas|legs
+11|入|entrar|enter
+12|八|oito; divisão|eight
+13|冂|moldura|upside-down box
+14|冖|cobertura|cover
+15|冫|gelo|ice
+16|几|mesa|table
+17|凵|recipiente aberto|open box
+18|刀|faca|knife
+19|力|força|power
+20|勹|envolver|wrap
+21|匕|colher|spoon
+22|匚|caixa|box
+23|匸|esconder|hiding enclosure
+24|十|dez|ten
+25|卜|adivinhação|divination
+26|卩|selo; joelho|seal
+27|厂|penhasco|cliff
+28|厶|privado|private
+29|又|mão; de novo|again
+30|口|boca|mouth
+31|囗|cercado|enclosure
+32|土|terra|earth
+33|士|guerreiro; erudito|scholar
+34|夂|pé que segue|go
+35|夊|andar devagar|go slowly
+36|夕|entardecer|evening
+37|大|grande|big
+38|女|mulher|woman
+39|子|criança|child
+40|宀|telhado|roof
+41|寸|polegada; mão|inch
+42|小|pequeno|small
+43|尢|manco|lame
+44|尸|corpo|corpse
+45|屮|broto|sprout
+46|山|montanha|mountain
+47|巛|rio|river
+48|工|trabalho; ferramenta|work
+49|己|si mesmo|oneself
+50|巾|pano|cloth
+51|干|seco; escudo|dry
+52|幺|pequeno; fino|short thread
+53|广|telhado inclinado|dotted cliff
+54|廴|passo largo|long stride
+55|廾|duas mãos|two hands
+56|弋|estaca|shoot
+57|弓|arco|bow
+58|彐|focinho|snout
+59|彡|cabelo; enfeite|bristle
+60|彳|passo|step
+61|心|coração|heart
+62|戈|alabarda|halberd
+63|戸|porta|door
+64|手|mão|hand
+65|支|ramo|branch
+66|攴|bater; ação|rap
+67|文|escrita|script
+68|斗|medida|dipper
+69|斤|machado|axe
+70|方|direção|square
+71|无|não|not
+72|日|sol; dia|sun
+73|曰|dizer|say
+74|月|lua; mês|moon
+75|木|árvore|tree
+76|欠|bocejo; faltar|lack
+77|止|parar; pé|stop
+78|歹|morte; ossos|death
+79|殳|lança|weapon
+80|毋|não; mãe|do not
+81|比|comparar|compare
+82|毛|pelo|fur
+83|氏|clã|clan
+84|气|vapor|steam
+85|水|água|water
+86|火|fogo|fire
+87|爪|garra|claw
+88|父|pai|father
+89|爻|cruzes|trigrams
+90|爿|tábua dividida|split wood
+91|片|pedaço|slice
+92|牙|presa|fang
+93|牛|vaca|cow
+94|犬|cão|dog
+95|玄|misterioso; escuro|profound
+96|玉|joia|jade
+97|瓜|melão|melon
+98|瓦|telha|tile
+99|甘|doce|sweet
+100|生|vida|life
+101|用|usar|use
+102|田|arrozal|field
+103|疋|rolo de tecido; pé|bolt of cloth
+104|疒|doença|sickness
+105|癶|passos|footsteps
+106|白|branco|white
+107|皮|pele|skin
+108|皿|prato|dish
+109|目|olho|eye
+110|矛|lança|spear
+111|矢|flecha|arrow
+112|石|pedra|stone
+113|示|altar; divindade|spirit
+114|禸|pegada|track
+115|禾|cereal|grain
+116|穴|buraco|cave
+117|立|ficar de pé|stand
+118|竹|bambu|bamboo
+119|米|arroz|rice
+120|糸|fio|silk
+121|缶|jarro|jar
+122|网|rede|net
+123|羊|ovelha|sheep
+124|羽|pena; asa|feather
+125|老|velho|old
+126|而|e; além disso|and
+127|耒|arado|plow
+128|耳|orelha|ear
+129|聿|pincel|brush
+130|肉|carne|meat
+131|臣|vassalo|minister
+132|自|si mesmo|self
+133|至|chegar|arrive
+134|臼|pilão|mortar
+135|舌|língua|tongue
+136|舛|contrário|oppose
+137|舟|barco|boat
+138|艮|parar|stopping
+139|色|cor|color
+140|艸|planta; grama|grass
+141|虍|tigre|tiger
+142|虫|inseto|insect
+143|血|sangue|blood
+144|行|ir; cruzamento|walk enclosure
+145|衣|roupa|clothes
+146|襾|cobrir|cover
+147|見|ver|see
+148|角|chifre|horn
+149|言|palavra; dizer|speech
+150|谷|vale|valley
+151|豆|feijão|bean
+152|豕|porco|pig
+153|豸|felino; bicho|badger
+154|貝|concha; dinheiro|shell
+155|赤|vermelho|red
+156|走|correr|run
+157|足|pé|foot
+158|身|corpo|body
+159|車|veículo|cart
+160|辛|amargo; picante|bitter
+161|辰|manhã; dragão (zodíaco)|morning
+162|辵|caminhar|walk
+163|邑|vila|city
+164|酉|jarra de bebida|wine
+165|釆|distinguir|distinguish
+166|里|vila; légua|village
+167|金|metal; ouro|gold
+168|長|longo|long
+169|門|portão|gate
+170|阜|colina|mound
+171|隶|alcançar|slave
+172|隹|pássaro|short-tailed bird
+173|雨|chuva|rain
+174|青|azul|blue
+175|非|errado; não|wrong
+176|面|rosto|face
+177|革|couro|leather
+178|韋|couro curtido|tanned leather
+179|韭|alho-poró|leek
+180|音|som|sound
+181|頁|cabeça|leaf
+182|風|vento|wind
+183|飛|voar|fly
+184|食|comer|eat
+185|首|cabeça|head
+186|香|perfume|fragrant
+187|馬|cavalo|horse
+188|骨|osso|bone
+189|高|alto|tall
+190|髟|cabelo|hair
+191|鬥|lutar|fight
+192|鬯|licor ritual|sacrificial wine
+193|鬲|caldeirão|cauldron
+194|鬼|fantasma; demônio|ghost
+195|魚|peixe|fish
+196|鳥|pássaro|bird
+197|鹵|sal|salt
+198|鹿|cervo|deer
+199|麦|trigo|wheat
+200|麻|cânhamo|hemp
+201|黄|amarelo|yellow
+202|黍|milhete|millet
+203|黒|preto|black
+204|黹|bordado|embroidery
+205|黽|sapo|frog
+206|鼎|trípode|tripod
+207|鼓|tambor|drum
+208|鼠|rato|rat
+209|鼻|nariz|nose
+210|斉|igual; uniforme|even
+211|歯|dente|tooth
+212|竜|dragão|dragon
+213|亀|tartaruga|turtle
+214|龠|flauta|flute
